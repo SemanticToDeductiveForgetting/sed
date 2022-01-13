@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+}
+
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    implementation 'junit:junit:4.12'
+    compile name: 'context_2.11-0.4.1'
+    compile name: 'fastring_2.11-0.2.4'
+    compile name: 'guava-23.0'
+    compile name: 'lethe_2.11-0.026'
+    compile name: 'org.semanticweb.HermiT'
+    compile name: 'owlapi-distribution-3.5.2'
+    compile name: 'scala-library-2.11.6'
+    compile name: 'scala-parser-combinators-2.11.0-M4'
+    compile name: 'scala-swing-2.10.5'
+    compile name: 'trove-3.0.0'
+    compile name: 'zero-log_2.11-0.3.6'
+    compile name: 'json-20190722'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+//create a single Jar with all dependencies
+task letheJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'lethe jar',
+                'Implementation-Version': version,
+                'Main-Class': 'uk.ac.man.Main'
+    }
+    baseName = project.name + '-dep'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

@@ -1,0 +1,2180 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment1/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment1/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment1/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- derives_from -->
+
+
+    <owl:ObjectProperty rdf:about="derives_from"/>
+    
+
+
+    <!-- gene_product_encoded_by_gene -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- gene_product_has_associated_anatomy -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_has_associated_anatomy"/>
+    
+
+
+    <!-- gene_product_has_structural_domain_or_motif -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_has_structural_domain_or_motif"/>
+    
+
+
+    <!-- gene_product_plays_role_in_biological_process -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- has-function -->
+
+
+    <owl:ObjectProperty rdf:about="has-function"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-parent-hydride -->
+
+
+    <owl:ObjectProperty rdf:about="has-parent-hydride"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-pharmacological-action -->
+
+
+    <owl:ObjectProperty rdf:about="has-pharmacological-action"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- is-function-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-function-of"/>
+    
+
+
+    <!-- lacks_part -->
+
+
+    <owl:ObjectProperty rdf:about="lacks_part"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- procedure_has_partially_excised_anatomy -->
+
+
+    <owl:ObjectProperty rdf:about="procedure_has_partially_excised_anatomy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- abnormality-of-metabolismhomeostasis -->
+
+
+    <owl:Class rdf:about="abnormality-of-metabolismhomeostasis"/>
+    
+
+
+    <!-- abnormality-of-urine-homeostasis -->
+
+
+    <owl:Class rdf:about="abnormality-of-urine-homeostasis"/>
+    
+
+
+    <!-- acetic-acid -->
+
+
+    <owl:Class rdf:about="acetic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="acetic-acids"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- acetic-acids -->
+
+
+    <owl:Class rdf:about="acetic-acids">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- aleurone-layer -->
+
+
+    <owl:Class rdf:about="aleurone-layer">
+        <rdfs:subClassOf rdf:resource="endosperm"/>
+        <rdfs:subClassOf rdf:resource="seed"/>
+    </owl:Class>
+    
+
+
+    <!-- aliivibrio-infections -->
+
+
+    <owl:Class rdf:about="aliivibrio-infections">
+        <rdfs:subClassOf rdf:resource="aliivibrio-infections"/>
+        <rdfs:subClassOf rdf:resource="bacterial-infection--disease-"/>
+        <rdfs:subClassOf rdf:resource="gram-negative-bacterial-infections"/>
+    </owl:Class>
+    
+
+
+    <!-- amide-hydrolase -->
+
+
+    <owl:Class rdf:about="amide-hydrolase"/>
+    
+
+
+    <!-- aminoaciduria -->
+
+
+    <owl:Class rdf:about="aminoaciduria"/>
+    
+
+
+    <!-- amonafide -->
+
+
+    <owl:Class rdf:about="amonafide">
+        <rdfs:subClassOf rdf:resource="dna-intercalating-agent"/>
+        <rdfs:subClassOf rdf:resource="naphthalimides"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="topoisomerase-ii-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- ansamycin -->
+
+
+    <owl:Class rdf:about="ansamycin"/>
+    
+
+
+    <!-- antibiotics -->
+
+
+    <owl:Class rdf:about="antibiotics"/>
+    
+
+
+    <!-- antimetabolites-antineoplastic -->
+
+
+    <owl:Class rdf:about="antimetabolites-antineoplastic"/>
+    
+
+
+    <!-- aspidiaceae -->
+
+
+    <owl:Class rdf:about="aspidiaceae"/>
+    
+
+
+    <!-- astroviridae -->
+
+
+    <owl:Class rdf:about="astroviridae"/>
+    
+
+
+    <!-- avastrovirus -->
+
+
+    <owl:Class rdf:about="avastrovirus">
+        <rdfs:subClassOf rdf:resource="astroviridae"/>
+        <rdfs:subClassOf rdf:resource="avastrovirus"/>
+    </owl:Class>
+    
+
+
+    <!-- avastrovirus-1 -->
+
+
+    <owl:Class rdf:about="avastrovirus-1">
+        <rdfs:subClassOf rdf:resource="avastrovirus"/>
+    </owl:Class>
+    
+
+
+    <!-- bacterial-infection&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="bacterial-infection--disease-"/>
+    
+
+
+    <!-- bay-62863 -->
+
+
+    <owl:Class rdf:about="bay-62863">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="substance-related-to-pesticide"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="carbamate-insecticide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bhc80-protein-mouse -->
+
+
+    <owl:Class rdf:about="bhc80-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- biological-phenomenon-process-and-state -->
+
+
+    <owl:Class rdf:about="biological-phenomenon-process-and-state"/>
+    
+
+
+    <!-- bone -->
+
+
+    <owl:Class rdf:about="bone"/>
+    
+
+
+    <!-- bromodeoxyuridine -->
+
+
+    <owl:Class rdf:about="bromodeoxyuridine">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="bromodeoxyuridine"/>
+        <rdfs:subClassOf rdf:resource="deoxyribonucleoside"/>
+        <rdfs:subClassOf rdf:resource="deoxyuridine"/>
+        <rdfs:subClassOf rdf:resource="pyrimidine-nucleoside"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antimetabolites-antineoplastic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="mutagen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bromodeoxyuridine&#45;&#45;brdu- -->
+
+
+    <owl:Class rdf:about="bromodeoxyuridine--brdu-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="bromodeoxyuridine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- carbamate-insecticide -->
+
+
+    <owl:Class rdf:about="carbamate-insecticide"/>
+    
+
+
+    <!-- carbamates -->
+
+
+    <owl:Class rdf:about="carbamates"/>
+    
+
+
+    <!-- chromosome-positioning -->
+
+
+    <owl:Class rdf:about="chromosome-positioning">
+        <rdfs:subClassOf rdf:resource="biological-phenomenon-process-and-state"/>
+        <rdfs:subClassOf rdf:resource="chromosome-positioning"/>
+    </owl:Class>
+    
+
+
+    <!-- contrast-media -->
+
+
+    <owl:Class rdf:about="contrast-media"/>
+    
+
+
+    <!-- decarbofuran -->
+
+
+    <owl:Class rdf:about="decarbofuran">
+        <rdfs:subClassOf rdf:resource="carbamates"/>
+    </owl:Class>
+    
+
+
+    <!-- deoxyribonucleoside -->
+
+
+    <owl:Class rdf:about="deoxyribonucleoside"/>
+    
+
+
+    <!-- deoxyuridine -->
+
+
+    <owl:Class rdf:about="deoxyuridine"/>
+    
+
+
+    <!-- disease -->
+
+
+    <owl:Class rdf:about="disease"/>
+    
+
+
+    <!-- diseasespathologysymptoms&#45;&#45;knapsack- -->
+
+
+    <owl:Class rdf:about="diseasespathologysymptoms--knapsack-"/>
+    
+
+
+    <!-- dna-intercalating-agent -->
+
+
+    <owl:Class rdf:about="dna-intercalating-agent"/>
+    
+
+
+    <!-- dryopteridaceae -->
+
+
+    <owl:Class rdf:about="dryopteridaceae"/>
+    
+
+
+    <!-- dryopteridoideae -->
+
+
+    <owl:Class rdf:about="dryopteridoideae"/>
+    
+
+
+    <!-- dryopteris -->
+
+
+    <owl:Class rdf:about="dryopteris">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="aspidiaceae"/>
+        <rdfs:subClassOf rdf:resource="dryopteridaceae"/>
+        <rdfs:subClassOf rdf:resource="dryopteridoideae"/>
+        <rdfs:subClassOf rdf:resource="dryopteris"/>
+    </owl:Class>
+    
+
+
+    <!-- dryopteris-crassirhizoma -->
+
+
+    <owl:Class rdf:about="dryopteris-crassirhizoma">
+        <rdfs:subClassOf rdf:resource="dryopteris"/>
+    </owl:Class>
+    
+
+
+    <!-- elafin -->
+
+
+    <owl:Class rdf:about="elafin">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="serine-proteinase-inhibitor-protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="pi3-gene"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="gene_product_has_associated_anatomy"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="extracellular-matrix"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="gene_product_has_structural_domain_or_motif"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="wap-domain"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="regulation-of-proteolysis"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="enzyme-inhibition"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                        <owl:someValuesFrom rdf:resource="protein-degradation-inhibition"/>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="elafin"/>
+        <rdfs:subClassOf rdf:resource="peptide"/>
+        <rdfs:subClassOf rdf:resource="protein"/>
+        <rdfs:subClassOf rdf:resource="proteins"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="protease-inhibitors"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- elafin-full-length-form -->
+
+
+    <owl:Class rdf:about="elafin-full-length-form">
+        <rdfs:subClassOf rdf:resource="elafin"/>
+    </owl:Class>
+    
+
+
+    <!-- elafin-proteolytic-cleavage-product -->
+
+
+    <owl:Class rdf:about="elafin-proteolytic-cleavage-product">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="proteolytic-cleavage-product"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="derives_from"/>
+                        <owl:someValuesFrom rdf:resource="elafin"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- elafin-signal-peptide-removed-form -->
+
+
+    <owl:Class rdf:about="elafin-signal-peptide-removed-form">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="elafin"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="lacks_part"/>
+                        <owl:someValuesFrom rdf:resource="signal_peptide"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- endosperm -->
+
+
+    <owl:Class rdf:about="endosperm"/>
+    
+
+
+    <!-- enzyme-inhibition -->
+
+
+    <owl:Class rdf:about="enzyme-inhibition"/>
+    
+
+
+    <!-- epinephelus -->
+
+
+    <owl:Class rdf:about="epinephelus"/>
+    
+
+
+    <!-- epinephelus-bruneus -->
+
+
+    <owl:Class rdf:about="epinephelus-bruneus">
+        <rdfs:subClassOf rdf:resource="epinephelus"/>
+        <rdfs:subClassOf rdf:resource="serranidae"/>
+    </owl:Class>
+    
+
+
+    <!-- ethers -->
+
+
+    <owl:Class rdf:about="ethers"/>
+    
+
+
+    <!-- euglena -->
+
+
+    <owl:Class rdf:about="euglena">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="euglena"/>
+        <rdfs:subClassOf rdf:resource="euglenaceae"/>
+        <rdfs:subClassOf rdf:resource="euglenida"/>
+    </owl:Class>
+    
+
+
+    <!-- euglena-Concept -->
+
+
+    <owl:Class rdf:about="euglena-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="euglena"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- euglena-gracilis -->
+
+
+    <owl:Class rdf:about="euglena-gracilis">
+        <rdfs:subClassOf rdf:resource="euglena"/>
+    </owl:Class>
+    
+
+
+    <!-- euglena-longa -->
+
+
+    <owl:Class rdf:about="euglena-longa">
+        <rdfs:subClassOf rdf:resource="euglena"/>
+    </owl:Class>
+    
+
+
+    <!-- euglenaceae -->
+
+
+    <owl:Class rdf:about="euglenaceae"/>
+    
+
+
+    <!-- euglenida -->
+
+
+    <owl:Class rdf:about="euglenida"/>
+    
+
+
+    <!-- excision -->
+
+
+    <owl:Class rdf:about="excision"/>
+    
+
+
+    <!-- extracellular-matrix -->
+
+
+    <owl:Class rdf:about="extracellular-matrix"/>
+    
+
+
+    <!-- flowering-locus-d-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="flowering-locus-d-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- gene-expression -->
+
+
+    <owl:Class rdf:about="gene-expression">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-function-of"/>
+                <owl:someValuesFrom rdf:resource="histone-deacetylases"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- glycine -->
+
+
+    <owl:Class rdf:about="glycine"/>
+    
+
+
+    <!-- goniodomin-a -->
+
+
+    <owl:Class rdf:about="goniodomin-a">
+        <rdfs:subClassOf rdf:resource="ethers"/>
+        <rdfs:subClassOf rdf:resource="macrolides"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- gram-negative-bacterial-infections -->
+
+
+    <owl:Class rdf:about="gram-negative-bacterial-infections"/>
+    
+
+
+    <!-- group-iii-histone-deacetylases -->
+
+
+    <owl:Class rdf:about="group-iii-histone-deacetylases">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hd1-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hd1-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hd2c-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hd2c-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda-1-protein-c-elegans -->
+
+
+    <owl:Class rdf:about="hda-1-protein-c-elegans">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda-4-protein-c-elegans -->
+
+
+    <owl:Class rdf:about="hda-4-protein-c-elegans">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda1-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="hda1-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda15-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hda15-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda18-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hda18-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda19-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hda19-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda6-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hda6-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hda9-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hda9-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac10-protein-human -->
+
+
+    <owl:Class rdf:about="hdac10-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac11-protein-drosophila -->
+
+
+    <owl:Class rdf:about="hdac11-protein-drosophila">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac11-protein-human -->
+
+
+    <owl:Class rdf:about="hdac11-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac11-protein-mouse -->
+
+
+    <owl:Class rdf:about="hdac11-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac3-protein-drosophila -->
+
+
+    <owl:Class rdf:about="hdac3-protein-drosophila">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac4-protein-drosophila -->
+
+
+    <owl:Class rdf:about="hdac4-protein-drosophila">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac4-protein-human -->
+
+
+    <owl:Class rdf:about="hdac4-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac4-protein-rat -->
+
+
+    <owl:Class rdf:about="hdac4-protein-rat">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac4-protein-zebrafish -->
+
+
+    <owl:Class rdf:about="hdac4-protein-zebrafish">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac5 -->
+
+
+    <owl:Class rdf:about="hdac5">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac5-protein-human -->
+
+
+    <owl:Class rdf:about="hdac5-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac5-protein-mouse -->
+
+
+    <owl:Class rdf:about="hdac5-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac5-protein-rat -->
+
+
+    <owl:Class rdf:about="hdac5-protein-rat">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac5-protein-zebrafish -->
+
+
+    <owl:Class rdf:about="hdac5-protein-zebrafish">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac6-protein-drosophila -->
+
+
+    <owl:Class rdf:about="hdac6-protein-drosophila">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac6-protein-human -->
+
+
+    <owl:Class rdf:about="hdac6-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac6-protein-mouse -->
+
+
+    <owl:Class rdf:about="hdac6-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac6-protein-rat -->
+
+
+    <owl:Class rdf:about="hdac6-protein-rat">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac6-protein-zebrafish -->
+
+
+    <owl:Class rdf:about="hdac6-protein-zebrafish">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac7-protein-human -->
+
+
+    <owl:Class rdf:about="hdac7-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac7-protein-mouse -->
+
+
+    <owl:Class rdf:about="hdac7-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac8-protein-human -->
+
+
+    <owl:Class rdf:about="hdac8-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac9-a-protein-xenopus -->
+
+
+    <owl:Class rdf:about="hdac9-a-protein-xenopus">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac9-protein-human -->
+
+
+    <owl:Class rdf:about="hdac9-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac9-protein-mouse -->
+
+
+    <owl:Class rdf:about="hdac9-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac9-protein-rat -->
+
+
+    <owl:Class rdf:about="hdac9-protein-rat">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdf1-protein-fusarium-graminearum -->
+
+
+    <owl:Class rdf:about="hdf1-protein-fusarium-graminearum">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdt1-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hdt1-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hdt2-protein-arabidopsis -->
+
+
+    <owl:Class rdf:about="hdt2-protein-arabidopsis">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylase-1 -->
+
+
+    <owl:Class rdf:about="histone-deacetylase-1">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylase-2 -->
+
+
+    <owl:Class rdf:about="histone-deacetylase-2">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylase-3 -->
+
+
+    <owl:Class rdf:about="histone-deacetylase-3">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylase-4 -->
+
+
+    <owl:Class rdf:about="histone-deacetylase-4">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylase-6 -->
+
+
+    <owl:Class rdf:about="histone-deacetylase-6">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylase-8 -->
+
+
+    <owl:Class rdf:about="histone-deacetylase-8">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- histone-deacetylases -->
+
+
+    <owl:Class rdf:about="histone-deacetylases">
+        <rdfs:subClassOf rdf:resource="amide-hydrolase"/>
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-function"/>
+                <owl:someValuesFrom rdf:resource="gene-expression"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hos2-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="hos2-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hst3-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="hst3-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hst4-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="hst4-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hst4-protein-s-pombe -->
+
+
+    <owl:Class rdf:about="hst4-protein-s-pombe">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- hydromorphone -->
+
+
+    <owl:Class rdf:about="hydromorphone">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="hydromorphone"/>
+        <rdfs:subClassOf rdf:resource="molecular-entity"/>
+        <rdfs:subClassOf rdf:resource="morphinane-alkaloid"/>
+        <rdfs:subClassOf rdf:resource="morphine-derivatives"/>
+        <rdfs:subClassOf rdf:resource="opioid"/>
+        <rdfs:subClassOf rdf:resource="opioid-receptor-agonist"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="organic-heteropentacyclic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-parent-hydride"/>
+                <owl:someValuesFrom rdf:resource="morphinan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="mu-opioid-receptor-agonist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="narcotic-analgesic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="opioid-analgesic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hydromorphone-Concept -->
+
+
+    <owl:Class rdf:about="hydromorphone-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="hydromorphone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hyperglycinuria -->
+
+
+    <owl:Class rdf:about="hyperglycinuria">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="glycine"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="urine"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="abnormality-of-metabolismhomeostasis"/>
+        <rdfs:subClassOf rdf:resource="abnormality-of-urine-homeostasis"/>
+        <rdfs:subClassOf rdf:resource="aminoaciduria"/>
+        <rdfs:subClassOf rdf:resource="disease"/>
+        <rdfs:subClassOf rdf:resource="increased-glycine-level"/>
+        <rdfs:subClassOf rdf:resource="metabolic-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- increased-amount -->
+
+
+    <owl:Class rdf:about="increased-amount"/>
+    
+
+
+    <!-- increased-glycine-level -->
+
+
+    <owl:Class rdf:about="increased-glycine-level"/>
+    
+
+
+    <!-- iodinated-contrast-agent -->
+
+
+    <owl:Class rdf:about="iodinated-contrast-agent"/>
+    
+
+
+    <!-- iohexol -->
+
+
+    <owl:Class rdf:about="iohexol"/>
+    
+
+
+    <!-- iopromide -->
+
+
+    <owl:Class rdf:about="iopromide">
+        <rdfs:subClassOf rdf:resource="iodinated-contrast-agent"/>
+        <rdfs:subClassOf rdf:resource="iohexol"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="contrast-media"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lactams-macrocyclic -->
+
+
+    <owl:Class rdf:about="lactams-macrocyclic"/>
+    
+
+
+    <!-- macrolide-antibiotic -->
+
+
+    <owl:Class rdf:about="macrolide-antibiotic"/>
+    
+
+
+    <!-- macrolides -->
+
+
+    <owl:Class rdf:about="macrolides"/>
+    
+
+
+    <!-- male-fern -->
+
+
+    <owl:Class rdf:about="male-fern">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="dryopteris"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mecp1-histone-deacetylase-complex-human -->
+
+
+    <owl:Class rdf:about="mecp1-histone-deacetylase-complex-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- mecp1-histone-deacetylase-complex-mouse -->
+
+
+    <owl:Class rdf:about="mecp1-histone-deacetylase-complex-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- mecp1-histone-deacetylase-complex-rat -->
+
+
+    <owl:Class rdf:about="mecp1-histone-deacetylase-complex-rat">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- medical-science -->
+
+
+    <owl:Class rdf:about="medical-science"/>
+    
+
+
+    <!-- medicine -->
+
+
+    <owl:Class rdf:about="medicine"/>
+    
+
+
+    <!-- metabolic-disease -->
+
+
+    <owl:Class rdf:about="metabolic-disease"/>
+    
+
+
+    <!-- mi-2-nucleosome-remodeling-and-deacetylase-complex -->
+
+
+    <owl:Class rdf:about="mi-2-nucleosome-remodeling-and-deacetylase-complex">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-entity -->
+
+
+    <owl:Class rdf:about="molecular-entity"/>
+    
+
+
+    <!-- morphinan -->
+
+
+    <owl:Class rdf:about="morphinan"/>
+    
+
+
+    <!-- morphinane-alkaloid -->
+
+
+    <owl:Class rdf:about="morphinane-alkaloid"/>
+    
+
+
+    <!-- morphine-derivatives -->
+
+
+    <owl:Class rdf:about="morphine-derivatives"/>
+    
+
+
+    <!-- mta1-protein-human -->
+
+
+    <owl:Class rdf:about="mta1-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- mta2-protein-human -->
+
+
+    <owl:Class rdf:about="mta2-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- mu-opioid-receptor-agonist -->
+
+
+    <owl:Class rdf:about="mu-opioid-receptor-agonist"/>
+    
+
+
+    <!-- mutagen -->
+
+
+    <owl:Class rdf:about="mutagen"/>
+    
+
+
+    <!-- naphthalimides -->
+
+
+    <owl:Class rdf:about="naphthalimides"/>
+    
+
+
+    <!-- naphthofuran -->
+
+
+    <owl:Class rdf:about="naphthofuran"/>
+    
+
+
+    <!-- narcotic-analgesic -->
+
+
+    <owl:Class rdf:about="narcotic-analgesic"/>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- opioid -->
+
+
+    <owl:Class rdf:about="opioid"/>
+    
+
+
+    <!-- opioid-analgesic -->
+
+
+    <owl:Class rdf:about="opioid-analgesic"/>
+    
+
+
+    <!-- opioid-receptor-agonist -->
+
+
+    <owl:Class rdf:about="opioid-receptor-agonist"/>
+    
+
+
+    <!-- oral-surgery -->
+
+
+    <owl:Class rdf:about="oral-surgery"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organic-heteropentacyclic-compound -->
+
+
+    <owl:Class rdf:about="organic-heteropentacyclic-compound"/>
+    
+
+
+    <!-- orthopedic-surgical-procedure -->
+
+
+    <owl:Class rdf:about="orthopedic-surgical-procedure"/>
+    
+
+
+    <!-- peptide -->
+
+
+    <owl:Class rdf:about="peptide"/>
+    
+
+
+    <!-- phf21a-protein-human -->
+
+
+    <owl:Class rdf:about="phf21a-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- pi3-gene -->
+
+
+    <owl:Class rdf:about="pi3-gene"/>
+    
+
+
+    <!-- pi3-protein-human -->
+
+
+    <owl:Class rdf:about="pi3-protein-human">
+        <rdfs:subClassOf rdf:resource="elafin"/>
+    </owl:Class>
+    
+
+
+    <!-- protease-inhibitors -->
+
+
+    <owl:Class rdf:about="protease-inhibitors"/>
+    
+
+
+    <!-- protein -->
+
+
+    <owl:Class rdf:about="protein"/>
+    
+
+
+    <!-- protein-degradation-inhibition -->
+
+
+    <owl:Class rdf:about="protein-degradation-inhibition"/>
+    
+
+
+    <!-- proteins -->
+
+
+    <owl:Class rdf:about="proteins"/>
+    
+
+
+    <!-- proteolytic-cleavage-product -->
+
+
+    <owl:Class rdf:about="proteolytic-cleavage-product"/>
+    
+
+
+    <!-- pyrimidine-nucleoside -->
+
+
+    <owl:Class rdf:about="pyrimidine-nucleoside"/>
+    
+
+
+    <!-- raf60-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="raf60-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- regulation-of-proteolysis -->
+
+
+    <owl:Class rdf:about="regulation-of-proteolysis"/>
+    
+
+
+    <!-- reproductive-medicine -->
+
+
+    <owl:Class rdf:about="reproductive-medicine">
+        <rdfs:subClassOf rdf:resource="medical-science"/>
+        <rdfs:subClassOf rdf:resource="medicine"/>
+        <rdfs:subClassOf rdf:resource="reproductive-medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- reproductive-medicine-Concept -->
+
+
+    <owl:Class rdf:about="reproductive-medicine-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="reproductive-medicine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- retinoblastoma-binding-protein-2 -->
+
+
+    <owl:Class rdf:about="retinoblastoma-binding-protein-2">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- retinoblastoma-binding-protein-4 -->
+
+
+    <owl:Class rdf:about="retinoblastoma-binding-protein-4">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- retinoblastoma-binding-protein-7 -->
+
+
+    <owl:Class rdf:about="retinoblastoma-binding-protein-7">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- retired-concept-2014 -->
+
+
+    <owl:Class rdf:about="retired-concept-2014"/>
+    
+
+
+    <!-- rheumatics -->
+
+
+    <owl:Class rdf:about="rheumatics"/>
+    
+
+
+    <!-- rheumatism -->
+
+
+    <owl:Class rdf:about="rheumatism">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="diseasespathologysymptoms--knapsack-"/>
+        <rdfs:subClassOf rdf:resource="retired-concept-2014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="rheumatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rifabutin -->
+
+
+    <owl:Class rdf:about="rifabutin">
+        <rdfs:subClassOf rdf:resource="rifamycins"/>
+    </owl:Class>
+    
+
+
+    <!-- rifampin -->
+
+
+    <owl:Class rdf:about="rifampin">
+        <rdfs:subClassOf rdf:resource="rifamycins"/>
+    </owl:Class>
+    
+
+
+    <!-- rifamycin -->
+
+
+    <owl:Class rdf:about="rifamycin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="rifamycins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rifamycins -->
+
+
+    <owl:Class rdf:about="rifamycins">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="ansamycin"/>
+        <rdfs:subClassOf rdf:resource="antibiotics"/>
+        <rdfs:subClassOf rdf:resource="lactams-macrocyclic"/>
+        <rdfs:subClassOf rdf:resource="naphthofuran"/>
+        <rdfs:subClassOf rdf:resource="rifamycins"/>
+    </owl:Class>
+    
+
+
+    <!-- rifapentine -->
+
+
+    <owl:Class rdf:about="rifapentine">
+        <rdfs:subClassOf rdf:resource="rifamycins"/>
+    </owl:Class>
+    
+
+
+    <!-- rpd3 -->
+
+
+    <owl:Class rdf:about="rpd3">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- rpd3-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="rpd3-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sap18-protein-mouse -->
+
+
+    <owl:Class rdf:about="sap18-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sap25-protein-mouse -->
+
+
+    <owl:Class rdf:about="sap25-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sap30-protein-human -->
+
+
+    <owl:Class rdf:about="sap30-protein-human">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sap30-protein-mouse -->
+
+
+    <owl:Class rdf:about="sap30-protein-mouse">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sap30-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="sap30-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sds3-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="sds3-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- seed -->
+
+
+    <owl:Class rdf:about="seed"/>
+    
+
+
+    <!-- sequestrectomy -->
+
+
+    <owl:Class rdf:about="sequestrectomy">
+        <rdfs:subClassOf rdf:resource="excision"/>
+        <rdfs:subClassOf rdf:resource="oral-surgery"/>
+        <rdfs:subClassOf rdf:resource="orthopedic-surgical-procedure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="procedure_has_partially_excised_anatomy"/>
+                <owl:someValuesFrom rdf:resource="bone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- serine-proteinase-inhibitor-protein -->
+
+
+    <owl:Class rdf:about="serine-proteinase-inhibitor-protein"/>
+    
+
+
+    <!-- serranidae -->
+
+
+    <owl:Class rdf:about="serranidae"/>
+    
+
+
+    <!-- set3-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="set3-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sif2-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="sif2-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- signal_peptide -->
+
+
+    <owl:Class rdf:about="signal_peptide"/>
+    
+
+
+    <!-- sin3-histone-deacetylase-and-corepressor-complex -->
+
+
+    <owl:Class rdf:about="sin3-histone-deacetylase-and-corepressor-complex">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sin3-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="sin3-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sir2 -->
+
+
+    <owl:Class rdf:about="sir2">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sir2-protein-drosophila -->
+
+
+    <owl:Class rdf:about="sir2-protein-drosophila">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sirtuin-1 -->
+
+
+    <owl:Class rdf:about="sirtuin-1">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sirtuin-2 -->
+
+
+    <owl:Class rdf:about="sirtuin-2">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sirtuin-3 -->
+
+
+    <owl:Class rdf:about="sirtuin-3">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sirtuin-5 -->
+
+
+    <owl:Class rdf:about="sirtuin-5">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sirtuin-6 -->
+
+
+    <owl:Class rdf:about="sirtuin-6">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- sirtuins -->
+
+
+    <owl:Class rdf:about="sirtuins">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- snt1-protein-s-cerevisiae -->
+
+
+    <owl:Class rdf:about="snt1-protein-s-cerevisiae">
+        <rdfs:subClassOf rdf:resource="histone-deacetylases"/>
+    </owl:Class>
+    
+
+
+    <!-- substance-related-to-pesticide -->
+
+
+    <owl:Class rdf:about="substance-related-to-pesticide"/>
+    
+
+
+    <!-- tetrahydrocortisone -->
+
+
+    <owl:Class rdf:about="tetrahydrocortisone">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="tetrahydrocortisone"/>
+        <rdfs:subClassOf rdf:resource="17-hydroxycorticosteroids"/>
+    </owl:Class>
+    
+
+
+    <!-- tilmicosin -->
+
+
+    <owl:Class rdf:about="tilmicosin">
+        <rdfs:subClassOf rdf:resource="macrolide-antibiotic"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="tylosin"/>
+    </owl:Class>
+    
+
+
+    <!-- topoisomerase-ii-inhibitor -->
+
+
+    <owl:Class rdf:about="topoisomerase-ii-inhibitor"/>
+    
+
+
+    <!-- trappin-2-a62l -->
+
+
+    <owl:Class rdf:about="trappin-2-a62l">
+        <rdfs:subClassOf rdf:resource="elafin"/>
+    </owl:Class>
+    
+
+
+    <!-- tylosin -->
+
+
+    <owl:Class rdf:about="tylosin"/>
+    
+
+
+    <!-- urine -->
+
+
+    <owl:Class rdf:about="urine"/>
+    
+
+
+    <!-- wap-domain -->
+
+
+    <owl:Class rdf:about="wap-domain"/>
+    
+
+
+    <!-- 17-hydroxycorticosteroids -->
+
+
+    <owl:Class rdf:about="17-hydroxycorticosteroids"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

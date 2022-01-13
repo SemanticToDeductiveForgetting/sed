@@ -1,0 +1,2021 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment22/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment22/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment22/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- exports -->
+
+
+    <owl:ObjectProperty rdf:about="exports"/>
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-output"/>
+    
+
+
+    <!-- has-participant -->
+
+
+    <owl:ObjectProperty rdf:about="has-participant"/>
+    
+
+
+    <!-- has-primary-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input"/>
+    
+
+
+    <!-- has-primary-input-or-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input-or-output"/>
+    
+
+
+    <!-- has-primary-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-output"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_disease_location -->
+
+
+    <owl:ObjectProperty rdf:about="has_disease_location"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- imports -->
+
+
+    <owl:ObjectProperty rdf:about="imports"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- regulates-levels-of -->
+
+
+    <owl:ObjectProperty rdf:about="regulates-levels-of"/>
+    
+
+
+    <!-- transports-or-maintains-localization-of -->
+
+
+    <owl:ObjectProperty rdf:about="transports-or-maintains-localization-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- acetates -->
+
+
+    <owl:Class rdf:about="acetates"/>
+    
+
+
+    <!-- ache -->
+
+
+    <owl:Class rdf:about="ache"/>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- acute-anaphylaxis -->
+
+
+    <owl:Class rdf:about="acute-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- adafenoxate -->
+
+
+    <owl:Class rdf:about="adafenoxate">
+        <rdfs:subClassOf rdf:resource="antidepressant-agent"/>
+        <rdfs:subClassOf rdf:resource="meclofenoxate"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- adolescent-health -->
+
+
+    <owl:Class rdf:about="adolescent-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- agaricus -->
+
+
+    <owl:Class rdf:about="agaricus"/>
+    
+
+
+    <!-- agaricus-bisporus -->
+
+
+    <owl:Class rdf:about="agaricus-bisporus">
+        <rdfs:subClassOf rdf:resource="agaricus"/>
+        <rdfs:subClassOf rdf:resource="agaricus-campestris"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="agaricus-bisporus-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- agaricus-bisporus-Concept -->
+
+
+    <owl:Class rdf:about="agaricus-bisporus-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- agaricus-bisporus-var-burnettii -->
+
+
+    <owl:Class rdf:about="agaricus-bisporus-var-burnettii">
+        <rdfs:subClassOf rdf:resource="agaricus-bisporus"/>
+    </owl:Class>
+    
+
+
+    <!-- agaricus-campestris -->
+
+
+    <owl:Class rdf:about="agaricus-campestris"/>
+    
+
+
+    <!-- agricultural-fungicide -->
+
+
+    <owl:Class rdf:about="agricultural-fungicide"/>
+    
+
+
+    <!-- allergen -->
+
+
+    <owl:Class rdf:about="allergen"/>
+    
+
+
+    <!-- allergic-shock -->
+
+
+    <owl:Class rdf:about="allergic-shock">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="anaphylaxis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- anaphylaxis -->
+
+
+    <owl:Class rdf:about="anaphylaxis">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+        <rdfs:subClassOf rdf:resource="hypersensitivity"/>
+        <rdfs:subClassOf rdf:resource="hypersensitivity-immediate"/>
+        <rdfs:subClassOf rdf:resource="idiosyncrasy"/>
+        <rdfs:subClassOf rdf:resource="immunological-reaction"/>
+    </owl:Class>
+    
+
+
+    <!-- animal-disease -->
+
+
+    <owl:Class rdf:about="animal-disease"/>
+    
+
+
+    <!-- animal-health -->
+
+
+    <owl:Class rdf:about="animal-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- antidepressant-agent -->
+
+
+    <owl:Class rdf:about="antidepressant-agent"/>
+    
+
+
+    <!-- antiemetic-agent -->
+
+
+    <owl:Class rdf:about="antiemetic-agent"/>
+    
+
+
+    <!-- aromatic-ether -->
+
+
+    <owl:Class rdf:about="aromatic-ether"/>
+    
+
+
+    <!-- artemisinins -->
+
+
+    <owl:Class rdf:about="artemisinins"/>
+    
+
+
+    <!-- aspergillus-metabolite -->
+
+
+    <owl:Class rdf:about="aspergillus-metabolite"/>
+    
+
+
+    <!-- benzenetriol -->
+
+
+    <owl:Class rdf:about="benzenetriol"/>
+    
+
+
+    <!-- benzodiazepine -->
+
+
+    <owl:Class rdf:about="benzodiazepine"/>
+    
+
+
+    <!-- benzodiazepinones -->
+
+
+    <owl:Class rdf:about="benzodiazepinones"/>
+    
+
+
+    <!-- beta-adrenergic-antagonist -->
+
+
+    <owl:Class rdf:about="beta-adrenergic-antagonist"/>
+    
+
+
+    <!-- blood-pressure-management -->
+
+
+    <owl:Class rdf:about="blood-pressure-management">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- body-weight-control -->
+
+
+    <owl:Class rdf:about="body-weight-control">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- brain -->
+
+
+    <owl:Class rdf:about="brain"/>
+    
+
+
+    <!-- burkitt-lymphoma -->
+
+
+    <owl:Class rdf:about="burkitt-lymphoma">
+        <rdfs:subClassOf rdf:resource="epstein-barr-virus-infections"/>
+    </owl:Class>
+    
+
+
+    <!-- care-health -->
+
+
+    <owl:Class rdf:about="care-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- central-nervous-system-disease -->
+
+
+    <owl:Class rdf:about="central-nervous-system-disease"/>
+    
+
+
+    <!-- chlorobutanol&#45;&#45;pyrogallol-topical-ointment -->
+
+
+    <owl:Class rdf:about="chlorobutanol--pyrogallol-topical-ointment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pyrogallol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cicloprolol -->
+
+
+    <owl:Class rdf:about="cicloprolol">
+        <rdfs:subClassOf rdf:resource="beta-adrenergic-antagonist"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="propanolamines"/>
+    </owl:Class>
+    
+
+
+    <!-- clinical-or-research-activity -->
+
+
+    <owl:Class rdf:about="clinical-or-research-activity"/>
+    
+
+
+    <!-- cns-stimulant -->
+
+
+    <owl:Class rdf:about="cns-stimulant"/>
+    
+
+
+    <!-- community-health-planning -->
+
+
+    <owl:Class rdf:about="community-health-planning">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- constitutional-improvement -->
+
+
+    <owl:Class rdf:about="constitutional-improvement">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- culturally-competent-care -->
+
+
+    <owl:Class rdf:about="culturally-competent-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- delivery-of-health-care -->
+
+
+    <owl:Class rdf:about="delivery-of-health-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- dental-health-behavior -->
+
+
+    <owl:Class rdf:about="dental-health-behavior">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- dental-health-services -->
+
+
+    <owl:Class rdf:about="dental-health-services">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- dietary-habit-support -->
+
+
+    <owl:Class rdf:about="dietary-habit-support">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- dihydroartemisinin -->
+
+
+    <owl:Class rdf:about="dihydroartemisinin">
+        <rdfs:subClassOf rdf:resource="artemisinins"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- disease-prevention -->
+
+
+    <owl:Class rdf:about="disease-prevention">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- eosinophilic-chemotactic-factor-anaphylaxis -->
+
+
+    <owl:Class rdf:about="eosinophilic-chemotactic-factor-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- epstein-barr-virus-infections -->
+
+
+    <owl:Class rdf:about="epstein-barr-virus-infections">
+        <rdfs:subClassOf rdf:resource="epstein-barr-virus-infections"/>
+        <rdfs:subClassOf rdf:resource="herpesvirus-infection"/>
+        <rdfs:subClassOf rdf:resource="tumor-virus-infections"/>
+    </owl:Class>
+    
+
+
+    <!-- evidence-based-health-care -->
+
+
+    <owl:Class rdf:about="evidence-based-health-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- exercise-adherence -->
+
+
+    <owl:Class rdf:about="exercise-adherence">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- exercise-classroom -->
+
+
+    <owl:Class rdf:about="exercise-classroom">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- exercise-induced-anaphylaxis -->
+
+
+    <owl:Class rdf:about="exercise-induced-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- follow-up -->
+
+
+    <owl:Class rdf:about="follow-up">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- food-anaphylaxis -->
+
+
+    <owl:Class rdf:about="food-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- food-and-health -->
+
+
+    <owl:Class rdf:about="food-and-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- food-dependent-exercise-induced-anaphylaxis -->
+
+
+    <owl:Class rdf:about="food-dependent-exercise-induced-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- forssmans-shock -->
+
+
+    <owl:Class rdf:about="forssmans-shock">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- gargle -->
+
+
+    <owl:Class rdf:about="gargle">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- generalized-anaphylaxis -->
+
+
+    <owl:Class rdf:about="generalized-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- health-care -->
+
+
+    <owl:Class rdf:about="health-care">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="clinical-or-research-activity"/>
+        <rdfs:subClassOf rdf:resource="management--life-science-"/>
+        <rdfs:subClassOf rdf:resource="process"/>
+        <rdfs:subClassOf rdf:resource="public-health"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="health-care-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- health-care-Concept -->
+
+
+    <owl:Class rdf:about="health-care-Concept"/>
+    
+
+
+    <!-- health-care-quality-access-and-evaluation -->
+
+
+    <owl:Class rdf:about="health-care-quality-access-and-evaluation">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-care-support-program -->
+
+
+    <owl:Class rdf:about="health-care-support-program">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-crisis-management -->
+
+
+    <owl:Class rdf:about="health-crisis-management">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-knowledge-attitudes-practice -->
+
+
+    <owl:Class rdf:about="health-knowledge-attitudes-practice">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-maintenance -->
+
+
+    <owl:Class rdf:about="health-maintenance">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-maintenance-behaviors -->
+
+
+    <owl:Class rdf:about="health-maintenance-behaviors">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-making -->
+
+
+    <owl:Class rdf:about="health-making">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-plan -->
+
+
+    <owl:Class rdf:about="health-plan">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-planning-support -->
+
+
+    <owl:Class rdf:about="health-planning-support">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-promotion -->
+
+
+    <owl:Class rdf:about="health-promotion">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-promotion-program -->
+
+
+    <owl:Class rdf:about="health-promotion-program">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- health-support -->
+
+
+    <owl:Class rdf:about="health-support">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- healthy-japan-21 -->
+
+
+    <owl:Class rdf:about="healthy-japan-21">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- healthy-parent-and-child-21 -->
+
+
+    <owl:Class rdf:about="healthy-parent-and-child-21">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- healthy-people-programs -->
+
+
+    <owl:Class rdf:about="healthy-people-programs">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- herpesvirus-infection -->
+
+
+    <owl:Class rdf:about="herpesvirus-infection"/>
+    
+
+
+    <!-- highland -->
+
+
+    <owl:Class rdf:about="highland">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="terms-related-to-urban-engineering"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- holistic-health -->
+
+
+    <owl:Class rdf:about="holistic-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- home-health-monitoring -->
+
+
+    <owl:Class rdf:about="home-health-monitoring">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- hospitalization -->
+
+
+    <owl:Class rdf:about="hospitalization">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- human-health -->
+
+
+    <owl:Class rdf:about="human-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- human-xenobiotic-metabolite -->
+
+
+    <owl:Class rdf:about="human-xenobiotic-metabolite"/>
+    
+
+
+    <!-- hypersensitivity -->
+
+
+    <owl:Class rdf:about="hypersensitivity"/>
+    
+
+
+    <!-- hypersensitivity-immediate -->
+
+
+    <owl:Class rdf:about="hypersensitivity-immediate"/>
+    
+
+
+    <!-- idiosyncrasy -->
+
+
+    <owl:Class rdf:about="idiosyncrasy"/>
+    
+
+
+    <!-- immunological-reaction -->
+
+
+    <owl:Class rdf:about="immunological-reaction"/>
+    
+
+
+    <!-- improvement-of-living -->
+
+
+    <owl:Class rdf:about="improvement-of-living">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- indenes -->
+
+
+    <owl:Class rdf:about="indenes"/>
+    
+
+
+    <!-- industrial-aid -->
+
+
+    <owl:Class rdf:about="industrial-aid"/>
+    
+
+
+    <!-- inflammation -->
+
+
+    <owl:Class rdf:about="inflammation"/>
+    
+
+
+    <!-- inflammatory-pain -->
+
+
+    <owl:Class rdf:about="inflammatory-pain">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="ache"/>
+        <rdfs:subClassOf rdf:resource="inflammation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- inverse-anaphylaxis -->
+
+
+    <owl:Class rdf:about="inverse-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- kounis-syndrome -->
+
+
+    <owl:Class rdf:about="kounis-syndrome">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- lentivirus-infections -->
+
+
+    <owl:Class rdf:about="lentivirus-infections"/>
+    
+
+
+    <!-- life-style-improvement -->
+
+
+    <owl:Class rdf:about="life-style-improvement">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- lipid-management -->
+
+
+    <owl:Class rdf:about="lipid-management">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- local-anaphylaxis -->
+
+
+    <owl:Class rdf:about="local-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- lorazepam -->
+
+
+    <owl:Class rdf:about="lorazepam">
+        <rdfs:subClassOf rdf:resource="antiemetic-agent"/>
+        <rdfs:subClassOf rdf:resource="benzodiazepine"/>
+        <rdfs:subClassOf rdf:resource="benzodiazepinones"/>
+        <rdfs:subClassOf rdf:resource="lorazepam"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="lorazepam-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lorazepam-Concept -->
+
+
+    <owl:Class rdf:about="lorazepam-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- management&#45;&#45;life-science- -->
+
+
+    <owl:Class rdf:about="management--life-science-"/>
+    
+
+
+    <!-- meclofenoxate -->
+
+
+    <owl:Class rdf:about="meclofenoxate"/>
+    
+
+
+    <!-- medicaid -->
+
+
+    <owl:Class rdf:about="medicaid">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- medical-guidance -->
+
+
+    <owl:Class rdf:about="medical-guidance">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- medical-neglect -->
+
+
+    <owl:Class rdf:about="medical-neglect">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- mens-health -->
+
+
+    <owl:Class rdf:about="mens-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- minority-health -->
+
+
+    <owl:Class rdf:about="minority-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- monocarboxylic-acid -->
+
+
+    <owl:Class rdf:about="monocarboxylic-acid"/>
+    
+
+
+    <!-- motivation-support -->
+
+
+    <owl:Class rdf:about="motivation-support">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- mr-vaccine -->
+
+
+    <owl:Class rdf:about="mr-vaccine">
+        <rdfs:subClassOf rdf:resource="virus-vaccine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="mr-vaccine-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mr-vaccine-Concept -->
+
+
+    <owl:Class rdf:about="mr-vaccine-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- nervous-system-disease -->
+
+
+    <owl:Class rdf:about="nervous-system-disease"/>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nursing-care-prevention-physical-exercises -->
+
+
+    <owl:Class rdf:about="nursing-care-prevention-physical-exercises">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- oral-health -->
+
+
+    <owl:Class rdf:about="oral-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- passive-smoking-policy -->
+
+
+    <owl:Class rdf:about="passive-smoking-policy">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- patient-care -->
+
+
+    <owl:Class rdf:about="patient-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- patient-observation -->
+
+
+    <owl:Class rdf:about="patient-observation">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- personal-hygiene -->
+
+
+    <owl:Class rdf:about="personal-hygiene">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- pervasive-healthcare -->
+
+
+    <owl:Class rdf:about="pervasive-healthcare">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- pharmaceutical-care -->
+
+
+    <owl:Class rdf:about="pharmaceutical-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- phenols -->
+
+
+    <owl:Class rdf:about="phenols"/>
+    
+
+
+    <!-- phenoxy-herbicide -->
+
+
+    <owl:Class rdf:about="phenoxy-herbicide"/>
+    
+
+
+    <!-- phenoxyacetate -->
+
+
+    <owl:Class rdf:about="phenoxyacetate"/>
+    
+
+
+    <!-- phenoxyacetic-acid -->
+
+
+    <owl:Class rdf:about="phenoxyacetic-acid">
+        <rdfs:subClassOf rdf:resource="acetates"/>
+        <rdfs:subClassOf rdf:resource="aromatic-ether"/>
+        <rdfs:subClassOf rdf:resource="industrial-aid"/>
+        <rdfs:subClassOf rdf:resource="monocarboxylic-acid"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="substance-with-allergen-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-aspergillus-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-human-xenobiotic-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-plant-growth-retardant-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="agricultural-fungicide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="allergen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="aspergillus-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="human-xenobiotic-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="phenoxy-herbicide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="plant-growth-regulator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="plant-growth-retardant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- plant-growth-regulator -->
+
+
+    <owl:Class rdf:about="plant-growth-regulator"/>
+    
+
+
+    <!-- plant-growth-retardant -->
+
+
+    <owl:Class rdf:about="plant-growth-retardant"/>
+    
+
+
+    <!-- plant-metabolite -->
+
+
+    <owl:Class rdf:about="plant-metabolite"/>
+    
+
+
+    <!-- population-approach -->
+
+
+    <owl:Class rdf:about="population-approach">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- primary-prevention -->
+
+
+    <owl:Class rdf:about="primary-prevention">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- process -->
+
+
+    <owl:Class rdf:about="process"/>
+    
+
+
+    <!-- processed-material -->
+
+
+    <owl:Class rdf:about="processed-material"/>
+    
+
+
+    <!-- propanolamines -->
+
+
+    <owl:Class rdf:about="propanolamines"/>
+    
+
+
+    <!-- public-health -->
+
+
+    <owl:Class rdf:about="public-health"/>
+    
+
+
+    <!-- pyrogallol -->
+
+
+    <owl:Class rdf:about="pyrogallol">
+        <rdfs:subClassOf rdf:resource="benzenetriol"/>
+        <rdfs:subClassOf rdf:resource="industrial-aid"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="phenols"/>
+        <rdfs:subClassOf rdf:resource="pyrogallol"/>
+        <rdfs:subClassOf rdf:resource="substance-with-plant-metabolite-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="plant-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pyrogallol-topical-ointment -->
+
+
+    <owl:Class rdf:about="pyrogallol-topical-ointment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pyrogallol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- radio-exercise -->
+
+
+    <owl:Class rdf:about="radio-exercise">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- ramelteon -->
+
+
+    <owl:Class rdf:about="ramelteon">
+        <rdfs:subClassOf rdf:resource="cns-stimulant"/>
+        <rdfs:subClassOf rdf:resource="indenes"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+    </owl:Class>
+    
+
+
+    <!-- ramelteon-oral-tablet -->
+
+
+    <owl:Class rdf:about="ramelteon-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="ramelteon"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- recreation-Concept -->
+
+
+    <owl:Class rdf:about="recreation-Concept">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- regional-health-care-activity -->
+
+
+    <owl:Class rdf:about="regional-health-care-activity">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- regional-health-planning -->
+
+
+    <owl:Class rdf:about="regional-health-planning">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- regional-health-promotion-plan -->
+
+
+    <owl:Class rdf:about="regional-health-promotion-plan">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- remedial-action -->
+
+
+    <owl:Class rdf:about="remedial-action">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- reproductive-health -->
+
+
+    <owl:Class rdf:about="reproductive-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- reverse-passive-anaphylaxis -->
+
+
+    <owl:Class rdf:about="reverse-passive-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- reverse-passive-cutaneous-anaphylaxis -->
+
+
+    <owl:Class rdf:about="reverse-passive-cutaneous-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-3-end-processing -->
+
+
+    <owl:Class rdf:about="rna-3-end-processing">
+        <rdfs:subClassOf rdf:resource="rna-3-end-processing"/>
+        <rdfs:subClassOf rdf:resource="rna-processing"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-processing -->
+
+
+    <owl:Class rdf:about="rna-processing"/>
+    
+
+
+    <!-- rural-health -->
+
+
+    <owl:Class rdf:about="rural-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- school-dental-health -->
+
+
+    <owl:Class rdf:about="school-dental-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- self-care -->
+
+
+    <owl:Class rdf:about="self-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- sexual-health -->
+
+
+    <owl:Class rdf:about="sexual-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- sheep-disease -->
+
+
+    <owl:Class rdf:about="sheep-disease"/>
+    
+
+
+    <!-- sleep-hygiene -->
+
+
+    <owl:Class rdf:about="sleep-hygiene">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- smart-health-care -->
+
+
+    <owl:Class rdf:about="smart-health-care">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- social-determinants-of-health -->
+
+
+    <owl:Class rdf:about="social-determinants-of-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- social-health -->
+
+
+    <owl:Class rdf:about="social-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- state-health-plans -->
+
+
+    <owl:Class rdf:about="state-health-plans">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- substance-with-allergen-role -->
+
+
+    <owl:Class rdf:about="substance-with-allergen-role"/>
+    
+
+
+    <!-- substance-with-aspergillus-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-aspergillus-metabolite-role"/>
+    
+
+
+    <!-- substance-with-human-xenobiotic-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-human-xenobiotic-metabolite-role"/>
+    
+
+
+    <!-- substance-with-plant-growth-retardant-role -->
+
+
+    <owl:Class rdf:about="substance-with-plant-growth-retardant-role"/>
+    
+
+
+    <!-- substance-with-plant-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-plant-metabolite-role"/>
+    
+
+
+    <!-- terms-related-to-urban-engineering -->
+
+
+    <owl:Class rdf:about="terms-related-to-urban-engineering"/>
+    
+
+
+    <!-- tumor-virus-infections -->
+
+
+    <owl:Class rdf:about="tumor-virus-infections"/>
+    
+
+
+    <!-- u-healthcare -->
+
+
+    <owl:Class rdf:about="u-healthcare">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- veterans-health -->
+
+
+    <owl:Class rdf:about="veterans-health">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- viral-disease -->
+
+
+    <owl:Class rdf:about="viral-disease"/>
+    
+
+
+    <!-- virus-vaccine -->
+
+
+    <owl:Class rdf:about="virus-vaccine"/>
+    
+
+
+    <!-- visna -->
+
+
+    <owl:Class rdf:about="visna">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="animal-disease"/>
+        <rdfs:subClassOf rdf:resource="central-nervous-system-disease"/>
+        <rdfs:subClassOf rdf:resource="lentivirus-infections"/>
+        <rdfs:subClassOf rdf:resource="nervous-system-disease"/>
+        <rdfs:subClassOf rdf:resource="sheep-disease"/>
+        <rdfs:subClassOf rdf:resource="viral-disease"/>
+        <rdfs:subClassOf rdf:resource="visna"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="brain"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom rdf:resource="brain"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="brain"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom rdf:resource="brain"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- visna-Concept -->
+
+
+    <owl:Class rdf:about="visna-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="visna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- weight-reduction-program -->
+
+
+    <owl:Class rdf:about="weight-reduction-program">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- wheat-dependent-exercise-induced-anaphylaxis -->
+
+
+    <owl:Class rdf:about="wheat-dependent-exercise-induced-anaphylaxis">
+        <rdfs:subClassOf rdf:resource="anaphylaxis"/>
+    </owl:Class>
+    
+
+
+    <!-- with-staging -->
+
+
+    <owl:Class rdf:about="with-staging">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- 8020-campaign -->
+
+
+    <owl:Class rdf:about="8020-campaign">
+        <rdfs:subClassOf rdf:resource="health-care"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="phenoxyacetate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="phenoxyacetic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

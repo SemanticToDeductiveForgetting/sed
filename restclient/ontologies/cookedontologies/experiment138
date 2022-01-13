@@ -1,0 +1,2732 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment138#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment138"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment138"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene_plays_role_in_process -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene_plays_role_in_process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene_product_encoded_by_gene -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_associated_anatomy -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_associated_anatomy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_organism_source -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_organism_source"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/has-granular-part -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/has-pharmacological-action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/has-pharmacological-action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/has-role"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/lacks_part -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment138/lacks_part"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/ace-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/ace-gene-mutations-tested-forpridptbldtissnommolgen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-gene-mutations-tested-forpridptbldtissnommolgen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/ace-gene-targeted-mutation-analysispridptbldtissnommolgen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-gene-targeted-mutation-analysispridptbldtissnommolgen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/ace-wt-allele -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-wt-allele"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/active-ingredient -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/adolescentology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/adolescentology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/agricultural-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/agricultural-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme-2-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme-2-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/anthropology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/anthropology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/anti-arrhythmia-agents -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/anti-arrhythmia-agents"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/anti-arrhythmia-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/anti-arrhythmia-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/antiarrhythmic-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/antiarrhythmic-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/antiarrhythmic-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/antiarrhythmic-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/antiarrythmic-drugs -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/antiarrythmic-drugs"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/applied-health-sciences -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/applied-health-sciences"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/behavioral-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/behavioral-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/bioengineering -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/bioengineering"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/biogeosciences -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/biogeosciences"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/biology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/biology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/biomedical-equipment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/biomedical-equipment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/blood-gas-analysis-equipment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/blood-gas-analysis-equipment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/body-movement-study -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/body-movement-study"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/brain-cognitive-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/brain-cognitive-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/carbohydrate-metabolic-process -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/carbohydrate-metabolic-process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/cation-channel-blocker -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cation-channel-blocker"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/cell-free-life-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cell-free-life-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/chagas-disease-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/chagas-disease-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/chemical-entity -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/chemical-entity"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/cognitive-brain-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cognitive-brain-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/cookery-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cookery-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/cystic-fibrosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cystic-fibrosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/cytobiology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cytobiology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-capsule -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-capsule"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-oral-capsule -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-oral-capsule"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-oral-tablet -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-oral-tablet"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-tablet -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-tablet"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-injectable-solution -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-injectable-solution"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-oral-capsule -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-oral-capsule"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-oral-tablet -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-oral-tablet"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-body-fluid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-body-fluid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-gastric-fluid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-gastric-fluid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-urine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-urine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/disopyramidemassptdoseqn -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramidemassptdoseqn"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/eating-habits-studies -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/eating-habits-studies"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/fermentation-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/fermentation-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/food-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/food-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/forestry&#45;&#45;science- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/forestry--science-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gas-analyzer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gas-analyzer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/genes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/genes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/gerontology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gerontology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/glycoscience -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/glycoscience"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/health-and-sports-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/health-and-sports-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/health-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/health-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/human -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/human"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/hydrolase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/hydrolase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/hydrolase-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/hydrolase-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/hypertrophic-cardiomyopathy-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/hypertrophic-cardiomyopathy-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/initiator-methionine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/initiator-methionine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/institute -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/institute"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/isopropyl-disopyramide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/isopropyl-disopyramide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/life-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/lipid-binding -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/lipid-binding"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/lipid-transport -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/lipid-transport"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/medical-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/medical-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/methodology-of-physical-education -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/methodology-of-physical-education"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/monocarboxylic-acid-amide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/monocarboxylic-acid-amide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/myelin-basic-protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-basic-protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein-initiator-methionine-removed-form -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein-initiator-methionine-removed-form"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/myelin-proteins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-proteins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/myelin-sheath -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-sheath"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/neuroinformatics -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/neuroinformatics"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/nutrition-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/nutrition-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/pancreas-cyst -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pancreas-cyst"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/pedagogy-of-physical-education -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pedagogy-of-physical-education"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/pharmaceutical-sciences -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pharmaceutical-sciences"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/pmp2-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pmp2-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/polycystic-disease-of-pancreas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/polycystic-disease-of-pancreas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/protein-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/protein-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/proteolysis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/proteolysis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/psychology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/psychology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/pyridine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pyridine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/pyridines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pyridines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/renin-angiotensin-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/renin-angiotensin-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/respiratory-gas-analyzer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/respiratory-gas-analyzer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/risk-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/risk-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-of-physical-fitness -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-of-physical-fitness"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-agriculture-forestry-and-fisheries -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-agriculture-forestry-and-fisheries"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-animal-physiology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-animal-physiology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biochemistry -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biochemistry"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biological-constituents -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biological-constituents"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-blood-physiology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-blood-physiology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-dental-prophylaxis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-dental-prophylaxis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-developmental-biology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-developmental-biology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-diseases-pathology-and-symptoms -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-diseases-pathology-and-symptoms"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-ecology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-ecology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-experimental-methods-techniques-and-equipments-in-biological-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-experimental-methods-techniques-and-equipments-in-biological-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-fisheries-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-fisheries-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-food-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-food-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-genetics -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-genetics"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-hygiene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-hygiene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-immunology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-immunology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-malpractice -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-malpractice"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-medicine-and-medical-cares -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-medicine-and-medical-cares"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-organism -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-organism"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-physiology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-physiology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-public-health -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-public-health"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-soil-and-fertilizers -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-soil-and-fertilizers"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-related-to-tissue-and-organ -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-tissue-and-organ"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/science-to-related-to-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/science-to-related-to-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/sciences -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/sciences"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/speech-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/speech-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/sports-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/sports-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/study-of-physical-growth-and-development -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/study-of-physical-growth-and-development"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/terms-related-to-analytical-chemistry -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/terms-related-to-analytical-chemistry"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/tertiary-amine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/tertiary-amine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/tertiary-amino-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/tertiary-amino-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/thanatology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/thanatology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/tissue-mechanics -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/tissue-mechanics"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/transport-protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/transport-protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/vasodilation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/vasodilation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/vision-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/vision-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/voltage-gated-sodium-channel-blockers -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/voltage-gated-sodium-channel-blockers"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment138/4&#45;&#45;isopropylamino&#45;&#45;2&#45;&#45;2-pyridyl&#45;&#45;2-phenylbutyramide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment138/4--isopropylamino--2--2-pyridyl--2-phenylbutyramide"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-tissue-and-organ"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/speech-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-medicine-and-medical-cares"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/pharmaceutical-sciences"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/hydrolase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_encoded_by_gene"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_organism_source"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/human"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme-2-pathway"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/renin-angiotensin-pathway"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                    <owl:Class>
+                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/hypertrophic-cardiomyopathy-pathway"/>
+                                                                                                    </owl:Class>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                                                                                                        <owl:allValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                    <owl:Class>
+                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/chagas-disease-pathway"/>
+                                                                                                                    </owl:Class>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                                                                                                                        <owl:allValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                    <owl:Class>
+                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/carbohydrate-metabolic-process"/>
+                                                                                                                                    </owl:Class>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                    <owl:Class>
+                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/proteolysis"/>
+                                                                                                                                                    </owl:Class>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                            <owl:Class>
+                                                                                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/vasodilation"/>
+                                                                                                                                                            </owl:Class>
+                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:unionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:unionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:allValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:unionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:allValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:unionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/medical-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/transport-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biochemistry"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/risk-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/glycoscience"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gene"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-urine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/lipid-binding"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/tertiary-amine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pyridines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/methodology-of-physical-education"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gerontology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/lipid-transport"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-diseases-pathology-and-symptoms"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/bioengineering"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/antiarrhythmic-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-immunology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/nutrition-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/adolescentology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-malpractice"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/brain-cognitive-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-organism"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene-targeted-mutation-analysispridptbldtissnommolgen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramidemassptdoseqn"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pyridine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-to-related-to-drug"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein-initiator-methionine-removed-form"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/lacks_part"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/initiator-methionine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/sports-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/neuroinformatics"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene-mutations-tested-forpridptbldtissnommolgen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/agricultural-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/cell-free-life-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/biomedical-equipment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gas-analyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/hydrolase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-public-health"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gas-analyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/respiratory-gas-analyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-physiology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/genes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/food-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/sciences"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/anti-arrhythmia-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/biology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme-2-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-experimental-methods-techniques-and-equipments-in-biological-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/tissue-mechanics"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/carbohydrate-metabolic-process"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/terms-related-to-analytical-chemistry"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gas-analyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/gas-analyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/blood-gas-analysis-equipment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-of-physical-fitness"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-food-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/anti-arrhythmia-agents"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cystic-fibrosis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/polycystic-disease-of-pancreas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-fisheries-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-hygiene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_associated_anatomy"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-sheath"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/chemical-entity"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/biogeosciences"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-agriculture-forestry-and-fisheries"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_plays_role_in_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/vasodilation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/tertiary-amino-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/body-movement-study"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/psychology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-animal-physiology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-capsule"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-gastric-fluid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/monocarboxylic-acid-amide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-oral-capsule"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/pancreas-cyst"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/polycystic-disease-of-pancreas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-biological-constituents"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/cation-channel-blocker"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/fermentation-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/hypertrophic-cardiomyopathy-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/hydrolase-gene"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/antiarrythmic-drugs"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_organism_source"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/human"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/study-of-physical-growth-and-development"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-ecology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/pedagogy-of-physical-education"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/vision-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_plays_role_in_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/proteolysis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/cognitive-brain-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-oral-tablet"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_plays_role_in_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/carbohydrate-metabolic-process"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/thanatology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-dental-prophylaxis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/pmp2-gene"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-blood-physiology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/cytobiology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/health-and-sports-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/antiarrhythmic-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/health-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-basic-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/voltage-gated-sodium-channel-blockers"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein-initiator-methionine-removed-form"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-soil-and-fertilizers"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/applied-health-sciences"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-oral-capsule"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-developmental-biology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/institute"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/eating-habits-studies"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein-initiator-methionine-removed-form"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/lacks_part"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/initiator-methionine"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/transport-protein"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_encoded_by_gene"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/pmp2-gene"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_has_associated_anatomy"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-sheath"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/lipid-binding"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/lipid-transport"/>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/4--isopropylamino--2--2-pyridyl--2-phenylbutyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-wt-allele"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/anthropology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/vasodilation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/science-related-to-genetics"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-x7c-body-fluid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-extended-release-tablet"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-injectable-solution"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/forestry--science-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/isopropyl-disopyramide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/cookery-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/disopyramide-oral-tablet"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/scattered-molecular-aggregate"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/has-granular-part"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/disopyramide"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/is-bearer-of"/>
+                                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/active-ingredient"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/international-council-of-nurses"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/behavioral-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/protein-science"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment138/myelin-proteins"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/myelin-p2-protein"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/ace-gene"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/proteolysis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/chagas-disease-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/angiotensin-converting-enzyme"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment138/renin-angiotensin-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

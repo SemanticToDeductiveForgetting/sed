@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment84#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment84"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment84"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/has-function -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment84/has-function"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/has-pharmacological-action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment84/has-pharmacological-action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment84/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/is-function-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment84/is-function-of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/is_about -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment84/is_about"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/J395 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/J395"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/J41 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/J41"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/J7 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/J7"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/actin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/actin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/aminoglycosides -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/aminoglycosides"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/antacid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/antacids -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/antacids"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/antifungal-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/antifungal-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/aps-15e -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/aps-15e"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/art-therapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/art-therapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/artificial-kidney -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/artificial-kidney"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/automated-peritoneal-dialyzer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/automated-peritoneal-dialyzer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/centrally-acting-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/centrally-acting-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/chrysomycin-a -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/chrysomycin-a"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/cyprenorphine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/cyprenorphine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/dialyzer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/dialyzer-with-enhanced-internal-filtration -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer-with-enhanced-internal-filtration"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/dialyzers -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzers"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/dihydromuscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dihydromuscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/gaba-a-receptor-agonists -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/gaba-a-receptor-agonists"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/gamma-actin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/gamma-actin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/gastrointestinal-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/gastrointestinal-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/hdf -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/hdf"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/hemodialysis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/hemodialysis-filter -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis-filter"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/hemodialysis-machine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis-machine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/imidazoles -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/imidazoles"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/isomuscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/isomuscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/isoxazole -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/isoxazole"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/laminated-dialyzer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/laminated-dialyzer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/medical-equipment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/medical-equipment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/morphinans -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/morphinans"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/muscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/n-methylmuscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/n-methylmuscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/neticonazole -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/neticonazole"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/nitrogen-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nitrogen-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/nn-dimethylmuscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nn-dimethylmuscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/nn-dimethylthiomuscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nn-dimethylthiomuscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/opioid-receptor-agonist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/opioid-receptor-agonist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/pes-s-alfa -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/pes-s-alfa"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/role&#45;&#45;knapsack- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/role--knapsack-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/sensory-art-therapies -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/sensory-art-therapies"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/single-patient-hemodialysis-machine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/single-patient-hemodialysis-machine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/sodium-bicarbonate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/sodium-bicarbonate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/thiomuscimol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/thiomuscimol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/uric-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/uric-acid-measurement -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/uric-acid-measurement"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/vitamin-e-immobilized-dialyzer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/vitamin-e-immobilized-dialyzer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment84/xanthines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment84/xanthines"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/J395"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/J41"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/J7"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/aps-15e"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/J41"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/laminated-dialyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/J7"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/vitamin-e-immobilized-dialyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/J395"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/xanthines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/has-function"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/opioid-receptor-agonist"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/cyprenorphine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer-with-enhanced-internal-filtration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/role--knapsack-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/gaba-a-receptor-agonists"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/centrally-acting-drug"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis-filter"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/gamma-actin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/nn-dimethylthiomuscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/sensory-art-therapies"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/sensory-art-therapies"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/neticonazole"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/art-therapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/sensory-art-therapies"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/gastrointestinal-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/actin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/gamma-actin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/isoxazole"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/isomuscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/thiomuscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/gamma-actin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/gamma-actin"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/antifungal-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/neticonazole"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/drug"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/morphinans"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/cyprenorphine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/cyprenorphine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/automated-peritoneal-dialyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/is-function-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/nn-dimethylmuscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/antacids"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/single-patient-hemodialysis-machine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/hemodialysis-machine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid-measurement"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/is_about"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dihydromuscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/nitrogen-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/pes-s-alfa"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/aminoglycosides"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/chrysomycin-a"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/hdf"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/artificial-kidney"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/medical-equipment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzer"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/dialyzers"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/chrysomycin-a"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/antacid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/sodium-bicarbonate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/imidazoles"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/neticonazole"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/muscimol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/n-methylmuscimol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment84/uric-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

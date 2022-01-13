@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment105#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment105"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment105"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/disease_has_finding -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment105/disease_has_finding"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/Cell-Signaling -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/Cell-Signaling"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/acanthomatous-ameloblastoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/acanthomatous-ameloblastoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/allied-health-profession -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/allied-health-profession"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/ameloblastoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/ameloblastoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/bioethical-issues -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/bioethical-issues"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/c-s-lyase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/c-s-lyase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/co-imagination-method -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/co-imagination-method"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/communication -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/communication"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/follicular-ameloblastoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/follicular-ameloblastoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/leukotriene-c4-synthase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/leukotriene-c4-synthase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/medical-worker -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/medical-worker"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/physical-therapist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/physical-therapist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/social-problem -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/social-problem"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/speech -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/speech-recognition -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech-recognition"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/squamoid-differentiation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/squamoid-differentiation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/syntax -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/syntax"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/verbal-behavior -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/verbal-behavior"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment105/voice -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment105/voice"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/Cell-Signaling"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/c-s-lyase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/leukotriene-c4-synthase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/allied-health-profession"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/physical-therapist"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/acanthomatous-ameloblastoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/follicular-ameloblastoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/disease_has_finding"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/squamoid-differentiation"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/social-problem"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/bioethical-issues"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/ameloblastoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/acanthomatous-ameloblastoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/verbal-behavior"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/voice"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/co-imagination-method"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/acanthomatous-ameloblastoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/disease_has_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/squamoid-differentiation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/medical-worker"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/physical-therapist"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/follicular-ameloblastoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/acanthomatous-ameloblastoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/communication"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/bioethical-issues"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/bioethical-issues"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/speech-recognition"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment105/speech"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment105/syntax"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

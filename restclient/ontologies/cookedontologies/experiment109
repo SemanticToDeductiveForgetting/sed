@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment109#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment109"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment109"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/adenosine-a2-receptor-antagonists -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/adenosine-a2-receptor-antagonists"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/adenosine-antagonist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/adenosine-antagonist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/cell-physiology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/cell-physiology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/diencephalon -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/diencephalon"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza-uralensis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza-uralensis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/hypothalamo-hypophyseal-system -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/hypothalamo-hypophyseal-system"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/median-eminence -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/median-eminence"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/medical-plant -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/medical-plant"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/neurohypophysis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/neurohypophysis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/perciformes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/perciformes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/rachycentron-canadum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/rachycentron-canadum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/retired-concept-2005 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/retired-concept-2005"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/supportive-therapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/supportive-therapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/therapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/therapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment109/virus-uncoating -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment109/virus-uncoating"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/virus-uncoating"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/virus-uncoating"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/adenosine-antagonist"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/adenosine-a2-receptor-antagonists"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/adenosine-a2-receptor-antagonists"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/adenosine-a2-receptor-antagonists"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/hypothalamo-hypophyseal-system"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/median-eminence"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/diencephalon"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/median-eminence"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/retired-concept-2005"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/supportive-therapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/median-eminence"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/median-eminence"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/cell-physiology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/virus-uncoating"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza-uralensis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/neurohypophysis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/median-eminence"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/medical-plant"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza-uralensis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/perciformes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/rachycentron-canadum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza-uralensis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/glycyrrhiza-uralensis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment109/therapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment109/supportive-therapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

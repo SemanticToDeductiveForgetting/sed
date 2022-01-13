@@ -1,0 +1,2214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment12/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment12/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment12/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- disease_may_have_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_associated_disease"/>
+    
+
+
+    <!-- frequentSignOf -->
+
+
+    <owl:ObjectProperty rdf:about="frequentSignOf"/>
+    
+
+
+    <!-- gene-as-virulence-factor-in-pathogen -->
+
+
+    <owl:ObjectProperty rdf:about="gene-as-virulence-factor-in-pathogen"/>
+    
+
+
+    <!-- gene-mutant-attenuated-in-host -->
+
+
+    <owl:ObjectProperty rdf:about="gene-mutant-attenuated-in-host"/>
+    
+
+
+    <!-- has-microbe-mutated-gene -->
+
+
+    <owl:ObjectProperty rdf:about="has-microbe-mutated-gene"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_age_of_onset -->
+
+
+    <owl:ObjectProperty rdf:about="has_age_of_onset"/>
+    
+
+
+    <!-- has_disease_location -->
+
+
+    <owl:ObjectProperty rdf:about="has_disease_location"/>
+    
+
+
+    <!-- has_inheritance -->
+
+
+    <owl:ObjectProperty rdf:about="has_inheritance"/>
+    
+
+
+    <!-- has_point_prevalence_range -->
+
+
+    <owl:ObjectProperty rdf:about="has_point_prevalence_range"/>
+    
+
+
+    <!-- is-role-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-role-of"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- present_in -->
+
+
+    <owl:ObjectProperty rdf:about="present_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- RID15546 -->
+
+
+    <owl:Class rdf:about="RID15546"/>
+    
+
+
+    <!-- RID15548 -->
+
+
+    <owl:Class rdf:about="RID15548">
+        <rdfs:subClassOf rdf:resource="RID15546"/>
+    </owl:Class>
+    
+
+
+    <!-- RID16782 -->
+
+
+    <owl:Class rdf:about="RID16782"/>
+    
+
+
+    <!-- RID16783 -->
+
+
+    <owl:Class rdf:about="RID16783">
+        <rdfs:subClassOf rdf:resource="RID16782"/>
+    </owl:Class>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- acadesine -->
+
+
+    <owl:Class rdf:about="acadesine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- acetylsalicylic-acid -->
+
+
+    <owl:Class rdf:about="acetylsalicylic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ache -->
+
+
+    <owl:Class rdf:about="ache"/>
+    
+
+
+    <!-- acute-hepatic-failure -->
+
+
+    <owl:Class rdf:about="acute-hepatic-failure"/>
+    
+
+
+    <!-- agra -->
+
+
+    <owl:Class rdf:about="agra">
+        <rdfs:subClassOf rdf:resource="ache"/>
+        <rdfs:subClassOf rdf:resource="gout"/>
+        <rdfs:subClassOf rdf:resource="protein-coding-gene-of-listeria-monocytogenes-serotype-4b-str-f2365"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene-as-virulence-factor-in-pathogen"/>
+                <owl:someValuesFrom rdf:resource="listeria-monocytogenes-serotype-4b-str-f2365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene-mutant-attenuated-in-host"/>
+                <owl:someValuesFrom rdf:resource="mus-musculus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="virulence-factor-gene-role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- alkaloids -->
+
+
+    <owl:Class rdf:about="alkaloids"/>
+    
+
+
+    <!-- all-ages -->
+
+
+    <owl:Class rdf:about="all-ages"/>
+    
+
+
+    <!-- angiotensin-ii-receptor-antagonist -->
+
+
+    <owl:Class rdf:about="angiotensin-ii-receptor-antagonist"/>
+    
+
+
+    <!-- anticoagulant -->
+
+
+    <owl:Class rdf:about="anticoagulant"/>
+    
+
+
+    <!-- antimuscarinic-agent -->
+
+
+    <owl:Class rdf:about="antimuscarinic-agent"/>
+    
+
+
+    <!-- argatroban -->
+
+
+    <owl:Class rdf:about="argatroban">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aromatic-amine -->
+
+
+    <owl:Class rdf:about="aromatic-amine"/>
+    
+
+
+    <!-- aromatic-carboxylic-acid -->
+
+
+    <owl:Class rdf:about="aromatic-carboxylic-acid"/>
+    
+
+
+    <!-- aspirin -->
+
+
+    <owl:Class rdf:about="aspirin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aspirin-dipyridamole-drug-combination -->
+
+
+    <owl:Class rdf:about="aspirin-dipyridamole-drug-combination">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aspirindialuminate -->
+
+
+    <owl:Class rdf:about="aspirindialuminate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- atrophy&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="atrophy--disease-"/>
+    
+
+
+    <!-- beraprost -->
+
+
+    <owl:Class rdf:about="beraprost">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- beraprost-sodium -->
+
+
+    <owl:Class rdf:about="beraprost-sodium">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bm-13177 -->
+
+
+    <owl:Class rdf:about="bm-13177">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bm-13505 -->
+
+
+    <owl:Class rdf:about="bm-13505">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bronchial-disease -->
+
+
+    <owl:Class rdf:about="bronchial-disease"/>
+    
+
+
+    <!-- bronchial-diseases -->
+
+
+    <owl:Class rdf:about="bronchial-diseases"/>
+    
+
+
+    <!-- bronchogenic-cyst -->
+
+
+    <owl:Class rdf:about="bronchogenic-cyst">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="bronchial-disease"/>
+        <rdfs:subClassOf rdf:resource="bronchial-diseases"/>
+        <rdfs:subClassOf rdf:resource="bronchogenic-cyst"/>
+        <rdfs:subClassOf rdf:resource="cyst"/>
+        <rdfs:subClassOf rdf:resource="functional-anomalies-of-the-respiratory-system-and-diaphragm"/>
+        <rdfs:subClassOf rdf:resource="morphological-anomaly"/>
+        <rdfs:subClassOf rdf:resource="pulmonary-cyst"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="hashimoto-pritzker-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="proteus-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_age_of_onset"/>
+                <owl:someValuesFrom rdf:resource="all-ages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_inheritance"/>
+                <owl:someValuesFrom rdf:resource="unknown-inheritance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_point_prevalence_range"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="unknown_epidemiological_range"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="present_in"/>
+                                <owl:someValuesFrom rdf:resource="worldwide"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="non-syndromic-respiratory-or-mediastinal-malformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="respiratory-malformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bronchogenic-cyst-Concept -->
+
+
+    <owl:Class rdf:about="bronchogenic-cyst-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="bronchogenic-cyst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- buflomedil -->
+
+
+    <owl:Class rdf:about="buflomedil">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cangrelor -->
+
+
+    <owl:Class rdf:about="cangrelor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- carboxylate&#45;&#45;ester- -->
+
+
+    <owl:Class rdf:about="carboxylate--ester-"/>
+    
+
+
+    <!-- carotenoids -->
+
+
+    <owl:Class rdf:about="carotenoids"/>
+    
+
+
+    <!-- celecoxib -->
+
+
+    <owl:Class rdf:about="celecoxib">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chemical-entity -->
+
+
+    <owl:Class rdf:about="chemical-entity"/>
+    
+
+
+    <!-- cholinolytic-drug -->
+
+
+    <owl:Class rdf:about="cholinolytic-drug"/>
+    
+
+
+    <!-- cicaprost -->
+
+
+    <owl:Class rdf:about="cicaprost">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cilostazol -->
+
+
+    <owl:Class rdf:about="cilostazol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- clopidogrel -->
+
+
+    <owl:Class rdf:about="clopidogrel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- clopidogrel-sulfate -->
+
+
+    <owl:Class rdf:about="clopidogrel-sulfate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coagulation-therapy -->
+
+
+    <owl:Class rdf:about="coagulation-therapy">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="therapy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- community-health-planning -->
+
+
+    <owl:Class rdf:about="community-health-planning">
+        <rdfs:subClassOf rdf:resource="community-health-planning"/>
+        <rdfs:subClassOf rdf:resource="health-care"/>
+        <rdfs:subClassOf rdf:resource="regional-medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- community-health-planning-Concept -->
+
+
+    <owl:Class rdf:about="community-health-planning-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="community-health-planning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cs-747 -->
+
+
+    <owl:Class rdf:about="cs-747">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cutaneous-precancerous-condition -->
+
+
+    <owl:Class rdf:about="cutaneous-precancerous-condition"/>
+    
+
+
+    <!-- cv-3988 -->
+
+
+    <owl:Class rdf:about="cv-3988">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cv-4151 -->
+
+
+    <owl:Class rdf:about="cv-4151">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cyst -->
+
+
+    <owl:Class rdf:about="cyst"/>
+    
+
+
+    <!-- cytochalasin-b -->
+
+
+    <owl:Class rdf:about="cytochalasin-b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dalteparin -->
+
+
+    <owl:Class rdf:about="dalteparin">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- defibrotide -->
+
+
+    <owl:Class rdf:about="defibrotide">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- delta-guaiene -->
+
+
+    <owl:Class rdf:about="delta-guaiene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dihydropyridines -->
+
+
+    <owl:Class rdf:about="dihydropyridines"/>
+    
+
+
+    <!-- dilazep-hydrochloride -->
+
+
+    <owl:Class rdf:about="dilazep-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- diltiazem -->
+
+
+    <owl:Class rdf:about="diltiazem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- diltiazem-hydrochloride -->
+
+
+    <owl:Class rdf:about="diltiazem-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dipyridamole -->
+
+
+    <owl:Class rdf:about="dipyridamole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- droxicam -->
+
+
+    <owl:Class rdf:about="droxicam">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dyshepatia -->
+
+
+    <owl:Class rdf:about="dyshepatia"/>
+    
+
+
+    <!-- e-5510 -->
+
+
+    <owl:Class rdf:about="e-5510">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- eet -->
+
+
+    <owl:Class rdf:about="eet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- embusartan -->
+
+
+    <owl:Class rdf:about="embusartan">
+        <rdfs:subClassOf rdf:resource="angiotensin-ii-receptor-antagonist"/>
+        <rdfs:subClassOf rdf:resource="dihydropyridines"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="tetrazoles"/>
+    </owl:Class>
+    
+
+
+    <!-- enoxaparin-sodium -->
+
+
+    <owl:Class rdf:about="enoxaparin-sodium">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- epoprostenol -->
+
+
+    <owl:Class rdf:about="epoprostenol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ethyl-icosapentate -->
+
+
+    <owl:Class rdf:about="ethyl-icosapentate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- female-reproductive-system-precancerous-condition -->
+
+
+    <owl:Class rdf:about="female-reproductive-system-precancerous-condition"/>
+    
+
+
+    <!-- forskolin -->
+
+
+    <owl:Class rdf:about="forskolin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fulminant-hepatic-failure -->
+
+
+    <owl:Class rdf:about="fulminant-hepatic-failure">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="acute-hepatic-failure"/>
+        <rdfs:subClassOf rdf:resource="dyshepatia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fulminant-hepatitis -->
+
+
+    <owl:Class rdf:about="fulminant-hepatitis">
+        <rdfs:subClassOf rdf:resource="fulminant-hepatic-failure"/>
+    </owl:Class>
+    
+
+
+    <!-- functional-anomalies-of-the-respiratory-system-and-diaphragm -->
+
+
+    <owl:Class rdf:about="functional-anomalies-of-the-respiratory-system-and-diaphragm"/>
+    
+
+
+    <!-- gabexate -->
+
+
+    <owl:Class rdf:about="gabexate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- gabexate-mesylate -->
+
+
+    <owl:Class rdf:about="gabexate-mesylate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ginkgolide-b -->
+
+
+    <owl:Class rdf:about="ginkgolide-b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- glycoprotein-iibiiia-inhibitors -->
+
+
+    <owl:Class rdf:about="glycoprotein-iibiiia-inhibitors">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- gout -->
+
+
+    <owl:Class rdf:about="gout"/>
+    
+
+
+    <!-- gpiibiiia-antagonist -->
+
+
+    <owl:Class rdf:about="gpiibiiia-antagonist">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- gr-32191 -->
+
+
+    <owl:Class rdf:about="gr-32191">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- guanidines -->
+
+
+    <owl:Class rdf:about="guanidines"/>
+    
+
+
+    <!-- hashimoto-pritzker-syndrome -->
+
+
+    <owl:Class rdf:about="hashimoto-pritzker-syndrome"/>
+    
+
+
+    <!-- health-care -->
+
+
+    <owl:Class rdf:about="health-care"/>
+    
+
+
+    <!-- hematologic-agent -->
+
+
+    <owl:Class rdf:about="hematologic-agent"/>
+    
+
+
+    <!-- heparin-sodium -->
+
+
+    <owl:Class rdf:about="heparin-sodium">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- huperzine-b -->
+
+
+    <owl:Class rdf:about="huperzine-b">
+        <rdfs:subClassOf rdf:resource="alkaloids"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- ifenprodil -->
+
+
+    <owl:Class rdf:about="ifenprodil">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- intercostal-nerve-block -->
+
+
+    <owl:Class rdf:about="intercostal-nerve-block">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="nerve-block"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ketanserin-tartrate -->
+
+
+    <owl:Class rdf:about="ketanserin-tartrate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- l-monocytogenes-agra-mutant-interaction-with-mouse -->
+
+
+    <owl:Class rdf:about="l-monocytogenes-agra-mutant-interaction-with-mouse">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-microbe-mutated-gene"/>
+                <owl:someValuesFrom rdf:resource="agra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lichen -->
+
+
+    <owl:Class rdf:about="lichen"/>
+    
+
+
+    <!-- lichen-sclerosus-et-atrophicus -->
+
+
+    <owl:Class rdf:about="lichen-sclerosus-et-atrophicus"/>
+    
+
+
+    <!-- limaprost-alfadex -->
+
+
+    <owl:Class rdf:about="limaprost-alfadex">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- listeria-monocytogenes-serotype-4b-str-f2365 -->
+
+
+    <owl:Class rdf:about="listeria-monocytogenes-serotype-4b-str-f2365"/>
+    
+
+
+    <!-- lisuride -->
+
+
+    <owl:Class rdf:about="lisuride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lisuride-maleate -->
+
+
+    <owl:Class rdf:about="lisuride-maleate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- low-dose-aspirin -->
+
+
+    <owl:Class rdf:about="low-dose-aspirin">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- mammalian-vulva -->
+
+
+    <owl:Class rdf:about="mammalian-vulva"/>
+    
+
+
+    <!-- mental-disorder -->
+
+
+    <owl:Class rdf:about="mental-disorder"/>
+    
+
+
+    <!-- milrinone -->
+
+
+    <owl:Class rdf:about="milrinone">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- morphological-anomaly -->
+
+
+    <owl:Class rdf:about="morphological-anomaly"/>
+    
+
+
+    <!-- moxisylyte-hydrochloride -->
+
+
+    <owl:Class rdf:about="moxisylyte-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mus-musculus -->
+
+
+    <owl:Class rdf:about="mus-musculus"/>
+    
+
+
+    <!-- nafamostat -->
+
+
+    <owl:Class rdf:about="nafamostat">
+        <rdfs:subClassOf rdf:resource="aromatic-amine"/>
+        <rdfs:subClassOf rdf:resource="aromatic-carboxylic-acid"/>
+        <rdfs:subClassOf rdf:resource="carboxylate--ester-"/>
+        <rdfs:subClassOf rdf:resource="guanidines"/>
+        <rdfs:subClassOf rdf:resource="nonsteroidal-antiinflammatory-drug"/>
+        <rdfs:subClassOf rdf:resource="phenolic-compound"/>
+        <rdfs:subClassOf rdf:resource="polynuclear-aromatic-compound"/>
+        <rdfs:subClassOf rdf:resource="protease-inhibitor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="pancreatic-active-agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="proteinase-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nafamostat-mesilate -->
+
+
+    <owl:Class rdf:about="nafamostat-mesilate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nerve-block -->
+
+
+    <owl:Class rdf:about="nerve-block"/>
+    
+
+
+    <!-- niceritrol -->
+
+
+    <owl:Class rdf:about="niceritrol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nicomol -->
+
+
+    <owl:Class rdf:about="nicomol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nocturnal-paroxysmal-dystonia -->
+
+
+    <owl:Class rdf:about="nocturnal-paroxysmal-dystonia">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="mental-disorder"/>
+        <rdfs:subClassOf rdf:resource="nocturnal-paroxysmal-dystonia"/>
+        <rdfs:subClassOf rdf:resource="parasomnias"/>
+        <rdfs:subClassOf rdf:resource="paroxysmal-dystonia"/>
+        <rdfs:subClassOf rdf:resource="sleep-disorder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="nocturnal-paroxysmal-dystonia-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nocturnal-paroxysmal-dystonia-Concept -->
+
+
+    <owl:Class rdf:about="nocturnal-paroxysmal-dystonia-Concept"/>
+    
+
+
+    <!-- non-syndromic-respiratory-or-mediastinal-malformation -->
+
+
+    <owl:Class rdf:about="non-syndromic-respiratory-or-mediastinal-malformation"/>
+    
+
+
+    <!-- nonsteroidal-antiinflammatory-drug -->
+
+
+    <owl:Class rdf:about="nonsteroidal-antiinflammatory-drug"/>
+    
+
+
+    <!-- op-41483 -->
+
+
+    <owl:Class rdf:about="op-41483">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- ozagrel -->
+
+
+    <owl:Class rdf:about="ozagrel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pancreatic-active-agent -->
+
+
+    <owl:Class rdf:about="pancreatic-active-agent"/>
+    
+
+
+    <!-- parasomnias -->
+
+
+    <owl:Class rdf:about="parasomnias"/>
+    
+
+
+    <!-- paroxysmal-dystonia -->
+
+
+    <owl:Class rdf:about="paroxysmal-dystonia"/>
+    
+
+
+    <!-- partial-prostacyclin-agonist -->
+
+
+    <owl:Class rdf:about="partial-prostacyclin-agonist">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- pentoxifylline -->
+
+
+    <owl:Class rdf:about="pentoxifylline">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- phenolic-compound -->
+
+
+    <owl:Class rdf:about="phenolic-compound"/>
+    
+
+
+    <!-- phthalazinol -->
+
+
+    <owl:Class rdf:about="phthalazinol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- platelet-aggregation-inhibitor -->
+
+
+    <owl:Class rdf:about="platelet-aggregation-inhibitor">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="anticoagulant"/>
+        <rdfs:subClassOf rdf:resource="hematologic-agent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitors"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-role-of"/>
+                <owl:someValuesFrom rdf:resource="thromboxane-antagonist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- platelet-aggregation-inhibitors -->
+
+
+    <owl:Class rdf:about="platelet-aggregation-inhibitors"/>
+    
+
+
+    <!-- platelet-glycoprotein-iibiiia-receptor-antagonist -->
+
+
+    <owl:Class rdf:about="platelet-glycoprotein-iibiiia-receptor-antagonist">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- polynuclear-aromatic-compound -->
+
+
+    <owl:Class rdf:about="polynuclear-aromatic-compound"/>
+    
+
+
+    <!-- prasugrel-hydrochloride -->
+
+
+    <owl:Class rdf:about="prasugrel-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- procainamide -->
+
+
+    <owl:Class rdf:about="procainamide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prostaglandin-e1 -->
+
+
+    <owl:Class rdf:about="prostaglandin-e1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- protease-inhibitor -->
+
+
+    <owl:Class rdf:about="protease-inhibitor"/>
+    
+
+
+    <!-- protein-coding-gene-of-listeria-monocytogenes-serotype-4b-str-f2365 -->
+
+
+    <owl:Class rdf:about="protein-coding-gene-of-listeria-monocytogenes-serotype-4b-str-f2365"/>
+    
+
+
+    <!-- proteinase-inhibitor -->
+
+
+    <owl:Class rdf:about="proteinase-inhibitor"/>
+    
+
+
+    <!-- proteus-syndrome -->
+
+
+    <owl:Class rdf:about="proteus-syndrome"/>
+    
+
+
+    <!-- pulmonary-cyst -->
+
+
+    <owl:Class rdf:about="pulmonary-cyst"/>
+    
+
+
+    <!-- regional-medicine -->
+
+
+    <owl:Class rdf:about="regional-medicine"/>
+    
+
+
+    <!-- respiratory-malformation -->
+
+
+    <owl:Class rdf:about="respiratory-malformation"/>
+    
+
+
+    <!-- riboflavin-butyrate -->
+
+
+    <owl:Class rdf:about="riboflavin-butyrate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- s-145 -->
+
+
+    <owl:Class rdf:about="s-145">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- s-nitrosoglutathione -->
+
+
+    <owl:Class rdf:about="s-nitrosoglutathione">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sarpogrelate -->
+
+
+    <owl:Class rdf:about="sarpogrelate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sarpogrelate-hydrochloride -->
+
+
+    <owl:Class rdf:about="sarpogrelate-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sleep-disorder -->
+
+
+    <owl:Class rdf:about="sleep-disorder"/>
+    
+
+
+    <!-- sophoraflavanone-b -->
+
+
+    <owl:Class rdf:about="sophoraflavanone-b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- substance-related-to-drugs -->
+
+
+    <owl:Class rdf:about="substance-related-to-drugs"/>
+    
+
+
+    <!-- substance-with-platelet-aggregation-inhibitor-role -->
+
+
+    <owl:Class rdf:about="substance-with-platelet-aggregation-inhibitor-role">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="chemical-entity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-role"/>
+                        <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- syringetin -->
+
+
+    <owl:Class rdf:about="syringetin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetrazoles -->
+
+
+    <owl:Class rdf:about="tetrazoles"/>
+    
+
+
+    <!-- therapy -->
+
+
+    <owl:Class rdf:about="therapy"/>
+    
+
+
+    <!-- thienopyridine -->
+
+
+    <owl:Class rdf:about="thienopyridine">
+        <rdfs:subClassOf rdf:resource="platelet-aggregation-inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- thromboxane-antagonist -->
+
+
+    <owl:Class rdf:about="thromboxane-antagonist">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ticagrelor -->
+
+
+    <owl:Class rdf:about="ticagrelor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ticlopidine -->
+
+
+    <owl:Class rdf:about="ticlopidine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ticlopidine-hydrochloride -->
+
+
+    <owl:Class rdf:about="ticlopidine-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolterodine-tartrate -->
+
+
+    <owl:Class rdf:about="tolterodine-tartrate">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="antimuscarinic-agent"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="substance-related-to-drugs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="tolterodine-tartrate-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="cholinolytic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="urologic-active-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolterodine-tartrate-Concept -->
+
+
+    <owl:Class rdf:about="tolterodine-tartrate-Concept"/>
+    
+
+
+    <!-- trapidil -->
+
+
+    <owl:Class rdf:about="trapidil">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- treprostinil -->
+
+
+    <owl:Class rdf:about="treprostinil">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- troglitazone -->
+
+
+    <owl:Class rdf:about="troglitazone">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- u-46619 -->
+
+
+    <owl:Class rdf:about="u-46619">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- unknown-inheritance -->
+
+
+    <owl:Class rdf:about="unknown-inheritance"/>
+    
+
+
+    <!-- unknown_epidemiological_range -->
+
+
+    <owl:Class rdf:about="unknown_epidemiological_range"/>
+    
+
+
+    <!-- urologic-active-drug -->
+
+
+    <owl:Class rdf:about="urologic-active-drug"/>
+    
+
+
+    <!-- virulence-factor-gene-role -->
+
+
+    <owl:Class rdf:about="virulence-factor-gene-role"/>
+    
+
+
+    <!-- vitexin -->
+
+
+    <owl:Class rdf:about="vitexin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- vulva -->
+
+
+    <owl:Class rdf:about="vulva"/>
+    
+
+
+    <!-- vulvar-disease -->
+
+
+    <owl:Class rdf:about="vulvar-disease"/>
+    
+
+
+    <!-- vulvar-dystrophy -->
+
+
+    <owl:Class rdf:about="vulvar-dystrophy"/>
+    
+
+
+    <!-- vulvar-intraepithelial-neoplasia -->
+
+
+    <owl:Class rdf:about="vulvar-intraepithelial-neoplasia"/>
+    
+
+
+    <!-- vulvar-intraepithelial-neoplasia-differentiated-type -->
+
+
+    <owl:Class rdf:about="vulvar-intraepithelial-neoplasia-differentiated-type">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="vulvar-intraepithelial-neoplasia"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                        <owl:someValuesFrom rdf:resource="vulvar-lichen-sclerosus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- vulvar-lichen-sclerosus -->
+
+
+    <owl:Class rdf:about="vulvar-lichen-sclerosus">
+        <rdfs:subClassOf rdf:resource="atrophy--disease-"/>
+        <rdfs:subClassOf rdf:resource="cutaneous-precancerous-condition"/>
+        <rdfs:subClassOf rdf:resource="female-reproductive-system-precancerous-condition"/>
+        <rdfs:subClassOf rdf:resource="lichen"/>
+        <rdfs:subClassOf rdf:resource="lichen-sclerosus-et-atrophicus"/>
+        <rdfs:subClassOf rdf:resource="vulvar-disease"/>
+        <rdfs:subClassOf rdf:resource="vulvar-dystrophy"/>
+        <rdfs:subClassOf rdf:resource="vulvar-lichen-sclerosus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="mammalian-vulva"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom rdf:resource="mammalian-vulva"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="vulva"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom rdf:resource="vulva"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- web-2170 -->
+
+
+    <owl:Class rdf:about="web-2170">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- worldwide -->
+
+
+    <owl:Class rdf:about="worldwide"/>
+    
+
+
+    <!-- zeta-carotene -->
+
+
+    <owl:Class rdf:about="zeta-carotene">
+        <rdfs:subClassOf rdf:resource="carotenoids"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="zeta-carotene"/>
+    </owl:Class>
+    
+
+
+    <!-- -s&#45;&#45;glaucine -->
+
+
+    <owl:Class rdf:about="-s--glaucine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 12-hpepe -->
+
+
+    <owl:Class rdf:about="12-hpepe">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 12-hpepe-1&#45;&#45; -->
+
+
+    <owl:Class rdf:about="12-hpepe-1--">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="platelet-aggregation-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

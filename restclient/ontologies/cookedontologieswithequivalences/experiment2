@@ -1,0 +1,3016 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment2/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment2/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment2/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- anatomic_structure_is_physical_part_of -->
+
+
+    <owl:ObjectProperty rdf:about="anatomic_structure_is_physical_part_of"/>
+    
+
+
+    <!-- binds-molecular-entity -->
+
+
+    <owl:ObjectProperty rdf:about="binds-molecular-entity"/>
+    
+
+
+    <!-- candidate-gene-tested-in -->
+
+
+    <owl:ObjectProperty rdf:about="candidate-gene-tested-in"/>
+    
+
+
+    <!-- develops-from -->
+
+
+    <owl:ObjectProperty rdf:about="develops-from"/>
+    
+
+
+    <!-- develops_from -->
+
+
+    <owl:ObjectProperty rdf:about="develops_from"/>
+    
+
+
+    <!-- disease-causing-germline-mutation-s&#45;&#45;in -->
+
+
+    <owl:ObjectProperty rdf:about="disease-causing-germline-mutation-s--in"/>
+    
+
+
+    <!-- disease_has_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_associated_disease"/>
+    
+
+
+    <!-- disease_has_molecular_abnormality -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_molecular_abnormality"/>
+    
+
+
+    <!-- disease_may_have_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_associated_disease"/>
+    
+
+
+    <!-- exports -->
+
+
+    <owl:ObjectProperty rdf:about="exports"/>
+    
+
+
+    <!-- geneOf -->
+
+
+    <owl:ObjectProperty rdf:about="geneOf"/>
+    
+
+
+    <!-- has-associated-disease-with-at-least-weak-evidence-from-diseases -->
+
+
+    <owl:ObjectProperty rdf:about="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+    
+
+
+    <!-- has-associated-disease-with-strong-evidence-from-diseases -->
+
+
+    <owl:ObjectProperty rdf:about="has-associated-disease-with-strong-evidence-from-diseases"/>
+    
+
+
+    <!-- has-functional-parent -->
+
+
+    <owl:ObjectProperty rdf:about="has-functional-parent"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-material-basis-in -->
+
+
+    <owl:ObjectProperty rdf:about="has-material-basis-in"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-output"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-participant -->
+
+
+    <owl:ObjectProperty rdf:about="has-participant"/>
+    
+
+
+    <!-- has-primary-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input"/>
+    
+
+
+    <!-- has-primary-input-or-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input-or-output"/>
+    
+
+
+    <!-- has-primary-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-output"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- hasSubtype -->
+
+
+    <owl:ObjectProperty rdf:about="hasSubtype"/>
+    
+
+
+    <!-- has_age_of_onset -->
+
+
+    <owl:ObjectProperty rdf:about="has_age_of_onset"/>
+    
+
+
+    <!-- has_inheritance -->
+
+
+    <owl:ObjectProperty rdf:about="has_inheritance"/>
+    
+
+
+    <!-- has_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_part"/>
+    
+
+
+    <!-- has_point_prevalence_range -->
+
+
+    <owl:ObjectProperty rdf:about="has_point_prevalence_range"/>
+    
+
+
+    <!-- imports -->
+
+
+    <owl:ObjectProperty rdf:about="imports"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- is-conjugate-acid-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-conjugate-acid-of"/>
+    
+
+
+    <!-- is-conjugate-base-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-conjugate-base-of"/>
+    
+
+
+    <!-- is-disease-model-for -->
+
+
+    <owl:ObjectProperty rdf:about="is-disease-model-for"/>
+    
+
+
+    <!-- is-part-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-part-of"/>
+    
+
+
+    <!-- is_about -->
+
+
+    <owl:ObjectProperty rdf:about="is_about"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- present_in -->
+
+
+    <owl:ObjectProperty rdf:about="present_in"/>
+    
+
+
+    <!-- regulates-levels-of -->
+
+
+    <owl:ObjectProperty rdf:about="regulates-levels-of"/>
+    
+
+
+    <!-- results-in-development-of -->
+
+
+    <owl:ObjectProperty rdf:about="results-in-development-of"/>
+    
+
+
+    <!-- results-in-morphogenesis-of -->
+
+
+    <owl:ObjectProperty rdf:about="results-in-morphogenesis-of"/>
+    
+
+
+    <!-- transports-or-maintains-localization-of -->
+
+
+    <owl:ObjectProperty rdf:about="transports-or-maintains-localization-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- addition-fee-for-inpatient-pharmaceutical-service -->
+
+
+    <owl:Class rdf:about="addition-fee-for-inpatient-pharmaceutical-service">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- addition-of-nutritional-management -->
+
+
+    <owl:Class rdf:about="addition-of-nutritional-management">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- addition-to-infection-control -->
+
+
+    <owl:Class rdf:about="addition-to-infection-control">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- adrenal-carcinoma -->
+
+
+    <owl:Class rdf:about="adrenal-carcinoma"/>
+    
+
+
+    <!-- adrenal-gland-disease -->
+
+
+    <owl:Class rdf:about="adrenal-gland-disease"/>
+    
+
+
+    <!-- adrenal-gland-pheochromocytoma -->
+
+
+    <owl:Class rdf:about="adrenal-gland-pheochromocytoma"/>
+    
+
+
+    <!-- all-ages -->
+
+
+    <owl:Class rdf:about="all-ages"/>
+    
+
+
+    <!-- all-cis-docosa-4710131619-hexaenoic-acid -->
+
+
+    <owl:Class rdf:about="all-cis-docosa-4710131619-hexaenoic-acid">
+        <rdfs:subClassOf rdf:resource="docosahexaenoic-acid"/>
+    </owl:Class>
+    
+
+
+    <!-- anatomical-structure-development -->
+
+
+    <owl:Class rdf:about="anatomical-structure-development"/>
+    
+
+
+    <!-- anatomical-structure-morphogenesis -->
+
+
+    <owl:Class rdf:about="anatomical-structure-morphogenesis"/>
+    
+
+
+    <!-- antianxiety-agent -->
+
+
+    <owl:Class rdf:about="antianxiety-agent"/>
+    
+
+
+    <!-- anticachexia-agent -->
+
+
+    <owl:Class rdf:about="anticachexia-agent"/>
+    
+
+
+    <!-- autoimmune-thrombocytopenia -->
+
+
+    <owl:Class rdf:about="autoimmune-thrombocytopenia"/>
+    
+
+
+    <!-- autosomal-dominant -->
+
+
+    <owl:Class rdf:about="autosomal-dominant"/>
+    
+
+
+    <!-- autosomal-dominant-disease -->
+
+
+    <owl:Class rdf:about="autosomal-dominant-disease"/>
+    
+
+
+    <!-- autosomal-dominant-inheritance -->
+
+
+    <owl:Class rdf:about="autosomal-dominant-inheritance"/>
+    
+
+
+    <!-- azane -->
+
+
+    <owl:Class rdf:about="azane"/>
+    
+
+
+    <!-- benzamides -->
+
+
+    <owl:Class rdf:about="benzamides"/>
+    
+
+
+    <!-- brain -->
+
+
+    <owl:Class rdf:about="brain"/>
+    
+
+
+    <!-- burden-of-disease -->
+
+
+    <owl:Class rdf:about="burden-of-disease">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- calluna-vulgaris -->
+
+
+    <owl:Class rdf:about="calluna-vulgaris">
+        <rdfs:subClassOf rdf:resource="ericaceae"/>
+        <rdfs:subClassOf rdf:resource="vascular-plant"/>
+        <rdfs:subClassOf rdf:resource="viridiplantae"/>
+    </owl:Class>
+    
+
+
+    <!-- caproates -->
+
+
+    <owl:Class rdf:about="caproates"/>
+    
+
+
+    <!-- caproic-acid -->
+
+
+    <owl:Class rdf:about="caproic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- carboxylic-acid -->
+
+
+    <owl:Class rdf:about="carboxylic-acid"/>
+    
+
+
+    <!-- care-reward -->
+
+
+    <owl:Class rdf:about="care-reward">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- catecholamine-producing-tumor -->
+
+
+    <owl:Class rdf:about="catecholamine-producing-tumor"/>
+    
+
+
+    <!-- cell-cycle-proteins -->
+
+
+    <owl:Class rdf:about="cell-cycle-proteins"/>
+    
+
+
+    <!-- cellular-response-to-chemical-stimulus -->
+
+
+    <owl:Class rdf:about="cellular-response-to-chemical-stimulus"/>
+    
+
+
+    <!-- cellular-response-to-lipoic-acid -->
+
+
+    <owl:Class rdf:about="cellular-response-to-lipoic-acid">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cellular-response-to-chemical-stimulus"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-input"/>
+                        <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- childhood -->
+
+
+    <owl:Class rdf:about="childhood"/>
+    
+
+
+    <!-- chlorimuron-ethyl -->
+
+
+    <owl:Class rdf:about="chlorimuron-ethyl">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="pyrimidines"/>
+        <rdfs:subClassOf rdf:resource="sulfonylurea-compounds"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="urea-herbicide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- clinical-subtype -->
+
+
+    <owl:Class rdf:about="clinical-subtype"/>
+    
+
+
+    <!-- clinical-trial-costs -->
+
+
+    <owl:Class rdf:about="clinical-trial-costs">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- cost -->
+
+
+    <owl:Class rdf:about="cost"/>
+    
+
+
+    <!-- cost-of-illness -->
+
+
+    <owl:Class rdf:about="cost-of-illness">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon -->
+
+
+    <owl:Class rdf:about="cotyledon">
+        <rdfs:subClassOf rdf:resource="cotyledon"/>
+        <rdfs:subClassOf rdf:resource="embryonal-organ"/>
+        <rdfs:subClassOf rdf:resource="leaf"/>
+        <rdfs:subClassOf rdf:resource="other-embryologic-structure"/>
+        <rdfs:subClassOf rdf:resource="plant-shoots"/>
+        <rdfs:subClassOf rdf:resource="vascular-leaf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="anatomic_structure_is_physical_part_of"/>
+                <owl:someValuesFrom rdf:resource="placenta"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="develops-from"/>
+                <owl:someValuesFrom rdf:resource="cotyledon-primordium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="develops_from"/>
+                <owl:someValuesFrom rdf:resource="cotyledon-primordium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-part-of"/>
+                <owl:someValuesFrom rdf:resource="seed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon-Concept -->
+
+
+    <owl:Class rdf:about="cotyledon-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="cotyledon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon-abaxial-epidermis -->
+
+
+    <owl:Class rdf:about="cotyledon-abaxial-epidermis">
+        <rdfs:subClassOf rdf:resource="cotyledon"/>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon-adaxial-epidermis -->
+
+
+    <owl:Class rdf:about="cotyledon-adaxial-epidermis">
+        <rdfs:subClassOf rdf:resource="cotyledon"/>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon-development -->
+
+
+    <owl:Class rdf:about="cotyledon-development">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="anatomical-structure-development"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="results-in-development-of"/>
+                        <owl:someValuesFrom rdf:resource="cotyledon"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="results-in-development-of"/>
+                <owl:someValuesFrom rdf:resource="cotyledon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon-morphogenesis -->
+
+
+    <owl:Class rdf:about="cotyledon-morphogenesis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="anatomical-structure-morphogenesis"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="results-in-morphogenesis-of"/>
+                        <owl:someValuesFrom rdf:resource="cotyledon"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="results-in-morphogenesis-of"/>
+                <owl:someValuesFrom rdf:resource="cotyledon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cotyledon-primordium -->
+
+
+    <owl:Class rdf:about="cotyledon-primordium"/>
+    
+
+
+    <!-- cotyledon-size -->
+
+
+    <owl:Class rdf:about="cotyledon-size">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="size"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="inheres-in"/>
+                        <owl:someValuesFrom rdf:resource="cotyledon"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="inheres-in"/>
+                <owl:someValuesFrom rdf:resource="cotyledon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- decreased-amount -->
+
+
+    <owl:Class rdf:about="decreased-amount"/>
+    
+
+
+    <!-- diabetes-dialysis-prevention-instruction-management-fee -->
+
+
+    <owl:Class rdf:about="diabetes-dialysis-prevention-instruction-management-fee">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- diagnosis-related-groupprospective-payment-system -->
+
+
+    <owl:Class rdf:about="diagnosis-related-groupprospective-payment-system">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- disease -->
+
+
+    <owl:Class rdf:about="disease"/>
+    
+
+
+    <!-- dithiolanes -->
+
+
+    <owl:Class rdf:about="dithiolanes"/>
+    
+
+
+    <!-- doconexent -->
+
+
+    <owl:Class rdf:about="doconexent">
+        <rdfs:subClassOf rdf:resource="docosahexaenoic-acid"/>
+    </owl:Class>
+    
+
+
+    <!-- docosa-4710131619-hexaenoic-acid -->
+
+
+    <owl:Class rdf:about="docosa-4710131619-hexaenoic-acid">
+        <rdfs:subClassOf rdf:resource="docosahexaenoic-acid"/>
+    </owl:Class>
+    
+
+
+    <!-- docosahexaenoate -->
+
+
+    <owl:Class rdf:about="docosahexaenoate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-base-of"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- docosahexaenoic-acid -->
+
+
+    <owl:Class rdf:about="docosahexaenoic-acid">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="fatty-acid-226"/>
+        <rdfs:subClassOf rdf:resource="fish-derived-omega-3-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="lipid"/>
+        <rdfs:subClassOf rdf:resource="long-chain-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="olefinic-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="polyunsaturated-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="substance-with-human-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="very-long-chain-fatty-acid"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="gpcr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="human-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-acid-of"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- docosahexaenoic-acid-brain-decreased-amount-abnormal -->
+
+
+    <owl:Class rdf:about="docosahexaenoic-acid-brain-decreased-amount-abnormal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="docosahexaenoic-acid"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="brain"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="docosahexaenoic-acid"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="brain"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- docosahexaenoic-acid-measurement -->
+
+
+    <owl:Class rdf:about="docosahexaenoic-acid-measurement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is_about"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- docosahexaenoic-acid-whole-organism-decreased-amount-abnormal -->
+
+
+    <owl:Class rdf:about="docosahexaenoic-acid-whole-organism-decreased-amount-abnormal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="docosahexaenoic-acid"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="whole-organism"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="docosahexaenoic-acid"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="whole-organism"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- drug-costs -->
+
+
+    <owl:Class rdf:about="drug-costs">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- ec-43110&#45;&#45;serine-sulfate-ammonia-lyase&#45;&#45;inhibitor -->
+
+
+    <owl:Class rdf:about="ec-43110--serine-sulfate-ammonia-lyase--inhibitor"/>
+    
+
+
+    <!-- embryonal-organ -->
+
+
+    <owl:Class rdf:about="embryonal-organ"/>
+    
+
+
+    <!-- employer-health-costs -->
+
+
+    <owl:Class rdf:about="employer-health-costs">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- enciprazine -->
+
+
+    <owl:Class rdf:about="enciprazine">
+        <rdfs:subClassOf rdf:resource="antianxiety-agent"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="piperazines"/>
+    </owl:Class>
+    
+
+
+    <!-- endocrine-gland-neoplasm -->
+
+
+    <owl:Class rdf:about="endocrine-gland-neoplasm"/>
+    
+
+
+    <!-- endothelin-b-receptor -->
+
+
+    <owl:Class rdf:about="endothelin-b-receptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ericaceae -->
+
+
+    <owl:Class rdf:about="ericaceae"/>
+    
+
+
+    <!-- face&#45;&#45;body-region- -->
+
+
+    <owl:Class rdf:about="face--body-region-"/>
+    
+
+
+    <!-- fatty-acid -->
+
+
+    <owl:Class rdf:about="fatty-acid"/>
+    
+
+
+    <!-- fatty-acid-226 -->
+
+
+    <owl:Class rdf:about="fatty-acid-226"/>
+    
+
+
+    <!-- fc-fragment-of-igg-receptor-iic&#45;&#45;genepseudogene- -->
+
+
+    <owl:Class rdf:about="fc-fragment-of-igg-receptor-iic--genepseudogene-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="candidate-gene-tested-in"/>
+                <owl:someValuesFrom rdf:resource="immune-thrombocytopenic-purpura"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fees-dental -->
+
+
+    <owl:Class rdf:about="fees-dental">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- fees-medical -->
+
+
+    <owl:Class rdf:about="fees-medical">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- fees-pharmaceutical -->
+
+
+    <owl:Class rdf:about="fees-pharmaceutical">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- fish-derived-omega-3-fatty-acid -->
+
+
+    <owl:Class rdf:about="fish-derived-omega-3-fatty-acid"/>
+    
+
+
+    <!-- flavivirus-infections -->
+
+
+    <owl:Class rdf:about="flavivirus-infections">
+        <rdfs:subClassOf rdf:resource="flavivirus-infections"/>
+        <rdfs:subClassOf rdf:resource="viral-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- fluopicolide -->
+
+
+    <owl:Class rdf:about="fluopicolide">
+        <rdfs:subClassOf rdf:resource="benzamides"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- free-fatty-acid-receptor-1 -->
+
+
+    <owl:Class rdf:about="free-fatty-acid-receptor-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fundamental-metabolite -->
+
+
+    <owl:Class rdf:about="fundamental-metabolite"/>
+    
+
+
+    <!-- gm11629-cell -->
+
+
+    <owl:Class rdf:about="gm11629-cell">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-disease-model-for"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- gpcr -->
+
+
+    <owl:Class rdf:about="gpcr"/>
+    
+
+
+    <!-- health-care-costs -->
+
+
+    <owl:Class rdf:about="health-care-costs">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- health-expenditure -->
+
+
+    <owl:Class rdf:about="health-expenditure">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="cost"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="health-expenditures"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- health-expenditures -->
+
+
+    <owl:Class rdf:about="health-expenditures"/>
+    
+
+
+    <!-- hereditary-disease -->
+
+
+    <owl:Class rdf:about="hereditary-disease"/>
+    
+
+
+    <!-- hereditary-malignant-neoplasm -->
+
+
+    <owl:Class rdf:about="hereditary-malignant-neoplasm"/>
+    
+
+
+    <!-- hereditary-thyroid-gland-medullary-carcinoma -->
+
+
+    <owl:Class rdf:about="hereditary-thyroid-gland-medullary-carcinoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="hereditary-malignant-neoplasm"/>
+                    <rdf:Description rdf:about="thyroid-gland-medullary-carcinoma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_associated_disease"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="neoplastic-c-cell-hyperplasia"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_molecular_abnormality"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="ret-gene-mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="multiple-endocrine-neoplasia-type-2a"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                                                        <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heterocyclic-fatty-acid -->
+
+
+    <owl:Class rdf:about="heterocyclic-fatty-acid"/>
+    
+
+
+    <!-- hexanoate -->
+
+
+    <owl:Class rdf:about="hexanoate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-base-of"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hexanoic-acid -->
+
+
+    <owl:Class rdf:about="hexanoic-acid">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="caproates"/>
+        <rdfs:subClassOf rdf:resource="medium-chain-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="straight-chain-saturated-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="substance-with-human-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-plant-metabolite-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="human-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="plant-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-acid-of"/>
+                <owl:someValuesFrom rdf:resource="hexanoate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- high-resolution-x-ray-diffraction -->
+
+
+    <owl:Class rdf:about="high-resolution-x-ray-diffraction">
+        <rdfs:subClassOf rdf:resource="x-ray-diffraction"/>
+    </owl:Class>
+    
+
+
+    <!-- hospital-charge -->
+
+
+    <owl:Class rdf:about="hospital-charge">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- hospital-charges -->
+
+
+    <owl:Class rdf:about="hospital-charges">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- hospital-fee-of-diabetes-complication -->
+
+
+    <owl:Class rdf:about="hospital-fee-of-diabetes-complication">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- hospital-fee-of-transfusion-management -->
+
+
+    <owl:Class rdf:about="hospital-fee-of-transfusion-management">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- human-metabolite -->
+
+
+    <owl:Class rdf:about="human-metabolite"/>
+    
+
+
+    <!-- hydrazine -->
+
+
+    <owl:Class rdf:about="hydrazine">
+        <rdfs:subClassOf rdf:resource="anticachexia-agent"/>
+        <rdfs:subClassOf rdf:resource="azane"/>
+        <rdfs:subClassOf rdf:resource="hydrazines"/>
+        <rdfs:subClassOf rdf:resource="inorganic-compounds"/>
+        <rdfs:subClassOf rdf:resource="monoamine-oxidase-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="substance-with-ec-43110--serine-sulfate-ammonia-lyase--inhibitor-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="ec-43110--serine-sulfate-ammonia-lyase--inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hydrazine-Concept -->
+
+
+    <owl:Class rdf:about="hydrazine-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="hydrazine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hydrazines -->
+
+
+    <owl:Class rdf:about="hydrazines"/>
+    
+
+
+    <!-- hydrazinide -->
+
+
+    <owl:Class rdf:about="hydrazinide"/>
+    
+
+
+    <!-- hydrazinium-1- -->
+
+
+    <owl:Class rdf:about="hydrazinium-1-"/>
+    
+
+
+    <!-- immune-thrombocytopenia -->
+
+
+    <owl:Class rdf:about="immune-thrombocytopenia">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="immunologic-disease"/>
+        <rdfs:subClassOf rdf:resource="thrombocytopenia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- immune-thrombocytopenic-purpura -->
+
+
+    <owl:Class rdf:about="immune-thrombocytopenic-purpura">
+        <rdfs:subClassOf rdf:resource="disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_age_of_onset"/>
+                <owl:someValuesFrom rdf:resource="all-ages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_inheritance"/>
+                <owl:someValuesFrom rdf:resource="not-genetically-inherited"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="autoimmune-thrombocytopenia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- immunologic-disease -->
+
+
+    <owl:Class rdf:about="immunologic-disease"/>
+    
+
+
+    <!-- inorganic-compounds -->
+
+
+    <owl:Class rdf:about="inorganic-compounds"/>
+    
+
+
+    <!-- iodide-peroxidase -->
+
+
+    <owl:Class rdf:about="iodide-peroxidase">
+        <rdfs:subClassOf rdf:resource="iodide-peroxidase"/>
+        <rdfs:subClassOf rdf:resource="peroxidase"/>
+        <rdfs:subClassOf rdf:resource="peroxidases"/>
+    </owl:Class>
+    
+
+
+    <!-- leaf -->
+
+
+    <owl:Class rdf:about="leaf"/>
+    
+
+
+    <!-- lifetime-health-care-cost -->
+
+
+    <owl:Class rdf:about="lifetime-health-care-cost">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- lipid -->
+
+
+    <owl:Class rdf:about="lipid"/>
+    
+
+
+    <!-- lipoate -->
+
+
+    <owl:Class rdf:about="lipoate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-base-of"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lipoic-acid -->
+
+
+    <owl:Class rdf:about="lipoic-acid">
+        <rdfs:subClassOf rdf:resource="carboxylic-acid"/>
+        <rdfs:subClassOf rdf:resource="dithiolanes"/>
+        <rdfs:subClassOf rdf:resource="heterocyclic-fatty-acid"/>
+        <rdfs:subClassOf rdf:resource="substance-with-fundamental-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="sulfur-heterocyclic-compound"/>
+        <rdfs:subClassOf rdf:resource="thia-fatty-acid"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="octanoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="fundamental-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="metabolic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-acid-of"/>
+                <owl:someValuesFrom rdf:resource="lipoate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- long-chain-fatty-acid -->
+
+
+    <owl:Class rdf:about="long-chain-fatty-acid"/>
+    
+
+
+    <!-- lysine -->
+
+
+    <owl:Class rdf:about="lysine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- malignant-urinary-system-neoplasm -->
+
+
+    <owl:Class rdf:about="malignant-urinary-system-neoplasm"/>
+    
+
+
+    <!-- marmota -->
+
+
+    <owl:Class rdf:about="marmota">
+        <rdfs:subClassOf rdf:resource="marmota"/>
+        <rdfs:subClassOf rdf:resource="marmotini"/>
+        <rdfs:subClassOf rdf:resource="sciuromorpha"/>
+    </owl:Class>
+    
+
+
+    <!-- marmota-monax -->
+
+
+    <owl:Class rdf:about="marmota-monax">
+        <rdfs:subClassOf rdf:resource="marmota"/>
+    </owl:Class>
+    
+
+
+    <!-- marmotini -->
+
+
+    <owl:Class rdf:about="marmotini"/>
+    
+
+
+    <!-- medium-chain-fatty-acid -->
+
+
+    <owl:Class rdf:about="medium-chain-fatty-acid"/>
+    
+
+
+    <!-- metabolic-drug -->
+
+
+    <owl:Class rdf:about="metabolic-drug"/>
+    
+
+
+    <!-- monoamine-oxidase-inhibitor -->
+
+
+    <owl:Class rdf:about="monoamine-oxidase-inhibitor"/>
+    
+
+
+    <!-- multiple-endocrine-neoplasia -->
+
+
+    <owl:Class rdf:about="multiple-endocrine-neoplasia"/>
+    
+
+
+    <!-- multiple-endocrine-neoplasia-type-2 -->
+
+
+    <owl:Class rdf:about="multiple-endocrine-neoplasia-type-2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="hasSubtype"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- multiple-endocrine-neoplasia-type-2a -->
+
+
+    <owl:Class rdf:about="multiple-endocrine-neoplasia-type-2a">
+        <rdfs:subClassOf rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+    </owl:Class>
+    
+
+
+    <!-- multiple-endocrine-neoplasia-type-2b -->
+
+
+    <owl:Class rdf:about="multiple-endocrine-neoplasia-type-2b">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="multiple-endocrine-neoplasia-type-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="neuroma"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                        <owl:someValuesFrom rdf:resource="adrenal-gland-pheochromocytoma"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="adrenal-carcinoma"/>
+        <rdfs:subClassOf rdf:resource="adrenal-gland-disease"/>
+        <rdfs:subClassOf rdf:resource="autosomal-dominant-disease"/>
+        <rdfs:subClassOf rdf:resource="catecholamine-producing-tumor"/>
+        <rdfs:subClassOf rdf:resource="clinical-subtype"/>
+        <rdfs:subClassOf rdf:resource="endocrine-gland-neoplasm"/>
+        <rdfs:subClassOf rdf:resource="hereditary-disease"/>
+        <rdfs:subClassOf rdf:resource="malignant-urinary-system-neoplasm"/>
+        <rdfs:subClassOf rdf:resource="multiple-endocrine-neoplasia"/>
+        <rdfs:subClassOf rdf:resource="multiple-endocrine-neoplasia-type-2"/>
+        <rdfs:subClassOf rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+        <rdfs:subClassOf rdf:resource="multiple-primary-cancer"/>
+        <rdfs:subClassOf rdf:resource="polyglandular-activity-in-multiple-endocrine-adenomatosis"/>
+        <rdfs:subClassOf rdf:resource="renal-carcinoma"/>
+        <rdfs:subClassOf rdf:resource="thyroid-gland-disease"/>
+        <rdfs:subClassOf rdf:resource="vascular-cancer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-material-basis-in"/>
+                <owl:someValuesFrom rdf:resource="autosomal-dominant-inheritance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_age_of_onset"/>
+                <owl:someValuesFrom rdf:resource="childhood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_inheritance"/>
+                <owl:someValuesFrom rdf:resource="autosomal-dominant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_point_prevalence_range"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="unknown_epidemiological_range"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="present_in"/>
+                                <owl:someValuesFrom rdf:resource="worldwide"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="catecholamine-producing-tumor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- multiple-primary-cancer -->
+
+
+    <owl:Class rdf:about="multiple-primary-cancer"/>
+    
+
+
+    <!-- neoplastic-c-cell-hyperplasia -->
+
+
+    <owl:Class rdf:about="neoplastic-c-cell-hyperplasia"/>
+    
+
+
+    <!-- neuroma -->
+
+
+    <owl:Class rdf:about="neuroma"/>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- not-genetically-inherited -->
+
+
+    <owl:Class rdf:about="not-genetically-inherited"/>
+    
+
+
+    <!-- nuclear-proteins -->
+
+
+    <owl:Class rdf:about="nuclear-proteins"/>
+    
+
+
+    <!-- octanoic-acid -->
+
+
+    <owl:Class rdf:about="octanoic-acid"/>
+    
+
+
+    <!-- olefinic-fatty-acid -->
+
+
+    <owl:Class rdf:about="olefinic-fatty-acid"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- other-embryologic-structure -->
+
+
+    <owl:Class rdf:about="other-embryologic-structure"/>
+    
+
+
+    <!-- parotid-region -->
+
+
+    <owl:Class rdf:about="parotid-region">
+        <rdfs:subClassOf rdf:resource="face--body-region-"/>
+        <rdfs:subClassOf rdf:resource="parotid-region"/>
+    </owl:Class>
+    
+
+
+    <!-- peroxidase -->
+
+
+    <owl:Class rdf:about="peroxidase"/>
+    
+
+
+    <!-- peroxidases -->
+
+
+    <owl:Class rdf:about="peroxidases"/>
+    
+
+
+    <!-- phosphoproteins -->
+
+
+    <owl:Class rdf:about="phosphoproteins"/>
+    
+
+
+    <!-- photosynthetic-bacteria -->
+
+
+    <owl:Class rdf:about="photosynthetic-bacteria"/>
+    
+
+
+    <!-- piperazines -->
+
+
+    <owl:Class rdf:about="piperazines"/>
+    
+
+
+    <!-- placenta -->
+
+
+    <owl:Class rdf:about="placenta"/>
+    
+
+
+    <!-- plant-metabolite -->
+
+
+    <owl:Class rdf:about="plant-metabolite"/>
+    
+
+
+    <!-- plant-shoots -->
+
+
+    <owl:Class rdf:about="plant-shoots"/>
+    
+
+
+    <!-- polyglandular-activity-in-multiple-endocrine-adenomatosis -->
+
+
+    <owl:Class rdf:about="polyglandular-activity-in-multiple-endocrine-adenomatosis"/>
+    
+
+
+    <!-- polyunsaturated-fatty-acid -->
+
+
+    <owl:Class rdf:about="polyunsaturated-fatty-acid"/>
+    
+
+
+    <!-- prescription-fees -->
+
+
+    <owl:Class rdf:about="prescription-fees">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- proto-oncogene-tyrosine-protein-kinase-receptor-ret -->
+
+
+    <owl:Class rdf:about="proto-oncogene-tyrosine-protein-kinase-receptor-ret">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-strong-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pyrimidines -->
+
+
+    <owl:Class rdf:about="pyrimidines"/>
+    
+
+
+    <!-- remuneration-for-medical-services -->
+
+
+    <owl:Class rdf:about="remuneration-for-medical-services">
+        <rdfs:subClassOf rdf:resource="health-expenditure"/>
+    </owl:Class>
+    
+
+
+    <!-- renal-carcinoma -->
+
+
+    <owl:Class rdf:about="renal-carcinoma"/>
+    
+
+
+    <!-- response-to-lipoic-acid -->
+
+
+    <owl:Class rdf:about="response-to-lipoic-acid">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="response-to-stimulus"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-input"/>
+                        <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- response-to-stimulus -->
+
+
+    <owl:Class rdf:about="response-to-stimulus"/>
+    
+
+
+    <!-- ret-gene-mutation -->
+
+
+    <owl:Class rdf:about="ret-gene-mutation"/>
+    
+
+
+    <!-- ret-proto-oncogene -->
+
+
+    <owl:Class rdf:about="ret-proto-oncogene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="multiple-endocrine-neoplasia-type-2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- reticulin -->
+
+
+    <owl:Class rdf:about="reticulin">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="reticulin"/>
+        <rdfs:subClassOf rdf:resource="scleroprotein"/>
+    </owl:Class>
+    
+
+
+    <!-- reticulin-Concept -->
+
+
+    <owl:Class rdf:about="reticulin-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="reticulin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- retinoblastoma-like-protein-p130 -->
+
+
+    <owl:Class rdf:about="retinoblastoma-like-protein-p130">
+        <rdfs:subClassOf rdf:resource="nuclear-proteins"/>
+        <rdfs:subClassOf rdf:resource="phosphoproteins"/>
+        <rdfs:subClassOf rdf:resource="retinoblastoma-like-protein-p130"/>
+        <rdfs:subClassOf rdf:resource="tumor-suppressor-protein"/>
+    </owl:Class>
+    
+
+
+    <!-- rhodovulum -->
+
+
+    <owl:Class rdf:about="rhodovulum"/>
+    
+
+
+    <!-- rhodovulum-sulfidophilum -->
+
+
+    <owl:Class rdf:about="rhodovulum-sulfidophilum">
+        <rdfs:subClassOf rdf:resource="photosynthetic-bacteria"/>
+        <rdfs:subClassOf rdf:resource="rhodovulum"/>
+    </owl:Class>
+    
+
+
+    <!-- sciuromorpha -->
+
+
+    <owl:Class rdf:about="sciuromorpha"/>
+    
+
+
+    <!-- scleroprotein -->
+
+
+    <owl:Class rdf:about="scleroprotein"/>
+    
+
+
+    <!-- seed -->
+
+
+    <owl:Class rdf:about="seed">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom rdf:resource="cotyledon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- size -->
+
+
+    <owl:Class rdf:about="size"/>
+    
+
+
+    <!-- straight-chain-saturated-fatty-acid -->
+
+
+    <owl:Class rdf:about="straight-chain-saturated-fatty-acid"/>
+    
+
+
+    <!-- substance-with-ec-43110&#45;&#45;serine-sulfate-ammonia-lyase&#45;&#45;inhibitor-role -->
+
+
+    <owl:Class rdf:about="substance-with-ec-43110--serine-sulfate-ammonia-lyase--inhibitor-role"/>
+    
+
+
+    <!-- substance-with-fundamental-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-fundamental-metabolite-role"/>
+    
+
+
+    <!-- substance-with-human-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-human-metabolite-role"/>
+    
+
+
+    <!-- substance-with-plant-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-plant-metabolite-role"/>
+    
+
+
+    <!-- sulfonylurea-compounds -->
+
+
+    <owl:Class rdf:about="sulfonylurea-compounds"/>
+    
+
+
+    <!-- sulfur-heterocyclic-compound -->
+
+
+    <owl:Class rdf:about="sulfur-heterocyclic-compound"/>
+    
+
+
+    <!-- thia-fatty-acid -->
+
+
+    <owl:Class rdf:about="thia-fatty-acid"/>
+    
+
+
+    <!-- thrombocytopenia -->
+
+
+    <owl:Class rdf:about="thrombocytopenia"/>
+    
+
+
+    <!-- thyroid-gland-disease -->
+
+
+    <owl:Class rdf:about="thyroid-gland-disease"/>
+    
+
+
+    <!-- thyroid-gland-medullary-carcinoma -->
+
+
+    <owl:Class rdf:about="thyroid-gland-medullary-carcinoma"/>
+    
+
+
+    <!-- tumor-suppressor-protein -->
+
+
+    <owl:Class rdf:about="tumor-suppressor-protein"/>
+    
+
+
+    <!-- tumor-suppressor-protein-p14arf -->
+
+
+    <owl:Class rdf:about="tumor-suppressor-protein-p14arf">
+        <rdfs:subClassOf rdf:resource="cell-cycle-proteins"/>
+        <rdfs:subClassOf rdf:resource="tumor-suppressor-protein"/>
+        <rdfs:subClassOf rdf:resource="tumor-suppressor-protein-p14arf"/>
+    </owl:Class>
+    
+
+
+    <!-- unknown_epidemiological_range -->
+
+
+    <owl:Class rdf:about="unknown_epidemiological_range"/>
+    
+
+
+    <!-- urea-herbicide -->
+
+
+    <owl:Class rdf:about="urea-herbicide"/>
+    
+
+
+    <!-- vascular-cancer -->
+
+
+    <owl:Class rdf:about="vascular-cancer"/>
+    
+
+
+    <!-- vascular-leaf -->
+
+
+    <owl:Class rdf:about="vascular-leaf"/>
+    
+
+
+    <!-- vascular-plant -->
+
+
+    <owl:Class rdf:about="vascular-plant"/>
+    
+
+
+    <!-- very-long-chain-fatty-acid -->
+
+
+    <owl:Class rdf:about="very-long-chain-fatty-acid"/>
+    
+
+
+    <!-- viral-disease -->
+
+
+    <owl:Class rdf:about="viral-disease"/>
+    
+
+
+    <!-- viridiplantae -->
+
+
+    <owl:Class rdf:about="viridiplantae"/>
+    
+
+
+    <!-- vitamins-transported-by-smvt -->
+
+
+    <owl:Class rdf:about="vitamins-transported-by-smvt">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- whole-organism -->
+
+
+    <owl:Class rdf:about="whole-organism"/>
+    
+
+
+    <!-- worldwide -->
+
+
+    <owl:Class rdf:about="worldwide"/>
+    
+
+
+    <!-- x-ray-diffraction -->
+
+
+    <owl:Class rdf:about="x-ray-diffraction"/>
+    
+
+
+    <!-- -r&#45;&#45;lipoic-acid -->
+
+
+    <owl:Class rdf:about="-r--lipoic-acid">
+        <rdfs:subClassOf rdf:resource="lipoic-acid"/>
+    </owl:Class>
+    
+
+
+    <!-- -s&#45;&#45;lipoic-acid -->
+
+
+    <owl:Class rdf:about="-s--lipoic-acid">
+        <rdfs:subClassOf rdf:resource="lipoic-acid"/>
+    </owl:Class>
+    
+
+
+    <!-- 3-oxohexanoic-acid -->
+
+
+    <owl:Class rdf:about="3-oxohexanoic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="docosahexaenoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="docosahexaenoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="hexanoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="hexanoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="hydrazinide"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="hydrazine"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="hydrazinium-1-"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="lipoate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="lipoic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="size"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="inheres-in"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="part-of"/>
+                        <owl:someValuesFrom rdf:resource="cotyledon"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part-of"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="size"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="inheres-in"/>
+                                <owl:someValuesFrom rdf:resource="cotyledon"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

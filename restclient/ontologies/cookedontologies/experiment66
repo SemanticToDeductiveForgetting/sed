@@ -1,0 +1,2512 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment66#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment66"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment66"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_abnormal_cell -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_abnormal_cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_cell_origin -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_cell_origin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_tissue_origin -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_tissue_origin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_has_finding -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_has_finding"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_has_normal_tissue_origin -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_has_normal_tissue_origin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_abnormal_cell -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_abnormal_cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/has-part -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/has-part"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/J152 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/J152"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/abdominal-pain -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/abdominal-pain"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/adenoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/adenoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/agnosia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/agnosia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/agnosia-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/agnosia-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/auditory-deprivation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/auditory-deprivation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-epithelial-skin-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-epithelial-skin-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-eyelid-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-eyelid-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-kidney-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-kidney-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-eyelid-including-canthus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-eyelid-including-canthus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-other-specified-skin-sites -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-other-specified-skin-sites"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-scalp-and-skin-of-neck -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-scalp-and-skin-of-neck"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-sebaceous-gland -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-sebaceous-gland"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-ear-and-external-auditory-meatus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-ear-and-external-auditory-meatus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-face-nec -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-face-nec"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-hip-and-lower-limb -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-hip-and-lower-limb"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-lip -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-lip"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-trunk-excluding-scrotum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-trunk-excluding-scrotum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-upper-limb-and-shoulder -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-upper-limb-and-shoulder"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-sweat-gland -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-sweat-gland"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasms -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasms"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/benign-tumor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-tumor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/birt-hogg-dube-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/birt-hogg-dube-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/braf-v600e-mutation-present -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/braf-v600e-mutation-present"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/cold-injury -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/cold-injury"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/cystic-kidney-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/cystic-kidney-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/cytosine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/cytosine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/danio-rerio -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/danio-rerio"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/daphne -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/daphne"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/dna-binding-protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/dna-binding-protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2&#45;&#45;human- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--human-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2&#45;&#45;mouse- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--mouse-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2&#45;&#45;rat- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--rat-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2b&#45;&#45;zebrafish- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2b--zebrafish-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/edgeworthia-chrysantha -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/edgeworthia-chrysantha"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-human -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-human"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-mouse -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-mouse"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-rat -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-rat"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/ehrlichia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canisewingii-groel-gene-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canisewingii-groel-gene-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-sp -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-sp"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/encephalocraniocutaneous-lipomatosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/encephalocraniocutaneous-lipomatosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/euphorbia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/euphorbia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/euphorbia-esula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/euphorbia-esula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/euphorbia-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/euphorbia-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/flank-pain -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/flank-pain"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/gain-of-chromosome-7 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/gain-of-chromosome-7"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/hematuria -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/hematuria"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/homo-sapiens -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/homo-sapiens"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/immature-alpha-beta-t-cell -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/immature-alpha-beta-t-cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/immature-nk-t-cell -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/immature-nk-t-cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/increased-cellularity-present -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/increased-cellularity-present"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/infantile-myofibromatosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/infantile-myofibromatosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/injury -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/injury"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/injury&#45;&#45;disease- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/injury--disease-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/integumentary-system-benign-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/integumentary-system-benign-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/kidney-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/kidney-vascular-disorder -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-vascular-disorder"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/krox-20-protein-xenopus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/krox-20-protein-xenopus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/laryngeal-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/laryngeal-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/lentigo -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/lentigo"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/loss-of-chromosome-y -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/loss-of-chromosome-y"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/melanocytic-naevi-of-skin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/melanocytic-naevi-of-skin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/melanocytic-nevus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/melanocytic-nevus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/metanephric-tumor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/metanephric-tumor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/multiple-self-healing-epithelioma-of-ferguson-smith -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/multiple-self-healing-epithelioma-of-ferguson-smith"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/mus-musculus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/mus-musculus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/myrtales -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/myrtales"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/naevoxanthoendothelioma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/naevoxanthoendothelioma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/neoplastic-oncocyte -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/neoplastic-oncocyte"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/neoplastic-transitional-cell -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/neoplastic-transitional-cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/nervinum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/nervinum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx-and-trachea -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx-and-trachea"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/papillary-adenoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/papillary-adenoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/papillary-pattern -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/papillary-pattern"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/perception -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/perception"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/peripheral-nervous-system-agents -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/peripheral-nervous-system-agents"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/polycythemia-vera -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/polycythemia-vera"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia-hereditary -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia-hereditary"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/psammoma-body-formation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/psammoma-body-formation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/rare-non-neoplastic-disorder -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rare-non-neoplastic-disorder"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/rattus-norvegicus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rattus-norvegicus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/renal-cortex -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/renal-cortex"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelial-cell -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelial-cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/reticulohistiocytoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/reticulohistiocytoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/rhodamine-110 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rhodamine-110"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/rhodamines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rhodamines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/rickettsiaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rickettsiaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/sense -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/sense"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/skin-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/skin-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/stellera -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/stellera"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/subjective-visual-disturbances -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/subjective-visual-disturbances"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/transcription-factor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/transcription-factor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/trisomy-17 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/trisomy-17"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/trisomy-7 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/trisomy-7"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/tubular-pattern -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/tubular-pattern"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/viridiplantae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/viridiplantae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/visual-deprivation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/visual-deprivation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/wikstroemia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/wikstroemia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/xanthogranuloma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/xanthogranuloma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment66/5-azacytosine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment66/5-azacytosine"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/daphne"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/visual-deprivation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/reticulohistiocytoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/subjective-visual-disturbances"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/rhodamine-110"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rhodamines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/rhodamine-110"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/5-azacytosine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/J152"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_tissue_origin"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelium"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/skin-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/hematuria"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/polycythemia-vera"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rare-non-neoplastic-disorder"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-kidney-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/euphorbia-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/euphorbia-esula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/melanocytic-nevus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/loss-of-chromosome-y"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/gain-of-chromosome-7"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/abdominal-pain"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-mouse"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-tumor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-lip"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-other-specified-skin-sites"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-epithelial-skin-neoplasm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/peripheral-nervous-system-agents"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/peripheral-nervous-system-agents"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--rat-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/rattus-norvegicus"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/cytosine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/5-azacytosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/auditory-deprivation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/trisomy-17"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--human-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/homo-sapiens"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-trunk-excluding-scrotum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx-and-trachea"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/laryngeal-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-tumor"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_has_finding"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/increased-cellularity-present"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/polycythemia-vera"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/abdominal-pain"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/psammoma-body-formation"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                    <owl:Class>
+                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/hematuria"/>
+                                                                                                    </owl:Class>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                                                                                                        <owl:allValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                    <owl:Class>
+                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/flank-pain"/>
+                                                                                                                    </owl:Class>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                                                                                                                        <owl:allValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/braf-v600e-mutation-present"/>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:allValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:unionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:allValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:unionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/cold-injury"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-eyelid-including-canthus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/cold-injury"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/nervinum"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/peripheral-nervous-system-agents"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/trisomy-7"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/tubular-pattern"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-sp"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-vascular-disorder"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_has_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/increased-cellularity-present"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/injury"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/cold-injury"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/encephalocraniocutaneous-lipomatosis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--mouse-"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/mus-musculus"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_cell_origin"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelial-cell"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_has_finding"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/papillary-pattern"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_abnormal_cell"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/neoplastic-oncocyte"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/cystic-kidney-disease"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-vascular-disorder"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                    <owl:Class>
+                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/gain-of-chromosome-7"/>
+                                                                                                    </owl:Class>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                                                                                                        <owl:allValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                    <owl:Class>
+                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/trisomy-7"/>
+                                                                                                                    </owl:Class>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                                                                                                                        <owl:allValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                    <owl:Class>
+                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/loss-of-chromosome-y"/>
+                                                                                                                                    </owl:Class>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_cytogenetic_abnormality"/>
+                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                    <owl:Class>
+                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/trisomy-17"/>
+                                                                                                                                                    </owl:Class>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                            <owl:Class>
+                                                                                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/tubular-pattern"/>
+                                                                                                                                                            </owl:Class>
+                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:unionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:unionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:allValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:unionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:allValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:unionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/immature-nk-t-cell"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/immature-alpha-beta-t-cell"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-part"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/edgeworthia-chrysantha"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_abnormal_cell"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/neoplastic-transitional-cell"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/J152"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/5-azacytosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/injury--disease-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/open-wound-of-larynx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/braf-v600e-mutation-present"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/adenoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-kidney-neoplasm"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_abnormal_cell"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/neoplastic-transitional-cell"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_cell_origin"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelial-cell"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_excludes_normal_tissue_origin"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-pelvis-urothelium"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_has_normal_tissue_origin"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-cortex"/>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/injury--disease-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/cold-injury"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--human-"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/homo-sapiens"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2b--zebrafish-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/birt-hogg-dube-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/multiple-self-healing-epithelioma-of-ferguson-smith"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--human-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2b--zebrafish-"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/danio-rerio"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/melanocytic-naevi-of-skin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/stellera"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/naevoxanthoendothelioma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/infantile-myofibromatosis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-face-nec"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/euphorbia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/euphorbia-esula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2b--zebrafish-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/danio-rerio"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/viridiplantae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/euphorbia-esula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-upper-limb-and-shoulder"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/transcription-factor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/krox-20-protein-xenopus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-ear-and-external-auditory-meatus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/metanephric-tumor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_has_normal_tissue_origin"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-cortex"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/5-azacytosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/xanthogranuloma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/rickettsiaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canisewingii-groel-gene-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/papillary-adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-nos"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasms"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--rat-"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-human"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/perception"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/lentigo"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/wikstroemia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_associated_disease"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/cystic-kidney-disease"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/psammoma-body-formation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/myrtales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/thymelaeaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/immature-alpha-beta-t-cell"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/immature-nk-t-cell"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-sebaceous-gland"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/sense"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-sweat-gland"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/immature-nk-t-cell"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-part"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin-of-hip-and-lower-limb"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/dna-binding-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--mouse-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/only-in-taxon"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/mus-musculus"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-scalp-and-skin-of-neck"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/ehrlichia-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/agnosia-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/egr2-protein-rat"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--mouse-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-eyelid-neoplasm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/integumentary-system-benign-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/benign-neoplasm-of-skin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/kidney-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/metanephric-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/flank-pain"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_has_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/papillary-pattern"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/kidney-adenoma"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia-hereditary"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/renal-papillary-adenoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/disease_may_have_abnormal_cell"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/neoplastic-oncocyte"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/early-growth-response-protein-2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/e3-sumo-protein-ligase-egr2--rat-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/sensory-deprivation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment66/agnosia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment66/prosopagnosia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

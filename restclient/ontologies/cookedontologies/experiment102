@@ -1,0 +1,919 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment102#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment102"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment102"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/gene_product_encoded_by_gene -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/gene_product_has_biochemical_function -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gene_product_has_biochemical_function"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/gene_product_is_element_in_pathway -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gene_product_is_element_in_pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/gene_product_plays_role_in_biological_process -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/has-part -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/has-part"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/is-gene-of-organism -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/is-gene-of-organism"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/is-genome-of-organism -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment102/is-genome-of-organism"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ambystoma-maculatum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ambystoma-maculatum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/carrier-proteins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/carrier-proteins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/caudata -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/caudata"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/chordopoxvirinae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/chordopoxvirinae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/cynops-pyrrhogaster -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/cynops-pyrrhogaster"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/cytokine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/cytokine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/cytokines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/cytokines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/dermatitis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/dermatitis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/dna-tumor-viruses -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/dna-tumor-viruses"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/fibroma-virus-rabbit -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/fibroma-virus-rabbit"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ganglioside -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2-x7c-cerebral-spinal-fluid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2-x7c-cerebral-spinal-fluid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/gangliosides -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gangliosides"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/gene-of-leporipoxvirus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gene-of-leporipoxvirus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/genome-of-leporipoxvirus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/genome-of-leporipoxvirus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/growth-factor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/growth-factor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/heparin-binding-neurotrophic-factor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/heparin-binding-neurotrophic-factor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/intercellular-communication-process -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/intercellular-communication-process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/intestinal-atresia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/intestinal-atresia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/large-bowel-obstruction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/large-bowel-obstruction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/marbled-salamander -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/marbled-salamander"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/myxoma-virus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/myxoma-virus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/neural-development -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/neural-development"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/operative-surgery -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/operative-surgery"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ophthalmus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ophthalmus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ophthalmus-viridescens -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ophthalmus-viridescens"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/pleurodeles -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/pleurodeles"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/pleurodeles-waltl -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/pleurodeles-waltl"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/poxviridae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/poxviridae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/proteidae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/proteidae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ptn-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ptn-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/rabbit-fibroma-virus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/rabbit-fibroma-virus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/reconstructive-surgical-procedures -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/reconstructive-surgical-procedures"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/salamandra -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandra"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/salamandridae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/sex-reassignment-surgery -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/sex-reassignment-surgery"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/skin-ulceration -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/skin-ulceration"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/syndecan-3-mediated-signaling-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/syndecan-3-mediated-signaling-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/triturus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/triturus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/tumor-antigen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/tumor-antigen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/tumor-virus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/tumor-virus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/ulcer-skin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ulcer-skin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment102/urodela -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment102/urodela"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/intercellular-communication-process"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ulcer-skin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/skin-ulceration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/poxviridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/dermatitis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/skin-ulceration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/proteidae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/has-part"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/genome-of-leporipoxvirus"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/syndecan-3-mediated-signaling-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/sex-reassignment-surgery"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/sex-reassignment-surgery"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2-x7c-cerebral-spinal-fluid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/caudata"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/tumor-virus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ganglioside"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/carrier-proteins"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/marbled-salamander"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/fibroma-virus-rabbit"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/dna-tumor-viruses"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ambystoma-maculatum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/salamandra"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/cytokines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/urodela"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/cytokine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/triturus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/genome-of-leporipoxvirus"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/is-genome-of-organism"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleurodeles"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ophthalmus"/>
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/neural-development"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/ophthalmus-viridescens"/>
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleurodeles-waltl"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/heparin-binding-neurotrophic-factor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/tumor-antigen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/chordopoxvirinae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene-of-leporipoxvirus"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/is-gene-of-organism"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/rabbit-fibroma-virus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/leporipoxvirus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/myxoma-virus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/heparin-binding-neurotrophic-factor"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_encoded_by_gene"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ptn-gene"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_has_biochemical_function"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/growth-factor"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_is_element_in_pathway"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/syndecan-3-mediated-signaling-pathway"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_plays_role_in_biological_process"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/intercellular-communication-process"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_plays_role_in_biological_process"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/neural-development"/>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/operative-surgery"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/sex-reassignment-surgery"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ptn-gene"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/growth-factor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/reconstructive-surgical-procedures"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/sex-reassignment-surgery"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/gangliosides"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/ganglioside-gm2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/salamandridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/cynops-pyrrhogaster"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/pleiotrophin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/gene_product_has_biochemical_function"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/growth-factor"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment102/intestinal-atresia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment102/large-bowel-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

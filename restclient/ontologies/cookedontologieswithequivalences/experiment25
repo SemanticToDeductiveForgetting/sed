@@ -1,0 +1,1832 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment25/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment25/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment25/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- disease-causing-germline-mutation-s&#45;&#45;-loss-of-function&#45;&#45;in -->
+
+
+    <owl:ObjectProperty rdf:about="disease-causing-germline-mutation-s---loss-of-function--in"/>
+    
+
+
+    <!-- disease-causing-germline-mutation-s&#45;&#45;in -->
+
+
+    <owl:ObjectProperty rdf:about="disease-causing-germline-mutation-s--in"/>
+    
+
+
+    <!-- geneOf -->
+
+
+    <owl:ObjectProperty rdf:about="geneOf"/>
+    
+
+
+    <!-- has-material-basis-in -->
+
+
+    <owl:ObjectProperty rdf:about="has-material-basis-in"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_age_of_onset -->
+
+
+    <owl:ObjectProperty rdf:about="has_age_of_onset"/>
+    
+
+
+    <!-- has_inheritance -->
+
+
+    <owl:ObjectProperty rdf:about="has_inheritance"/>
+    
+
+
+    <!-- has_point_prevalence_range -->
+
+
+    <owl:ObjectProperty rdf:about="has_point_prevalence_range"/>
+    
+
+
+    <!-- is_about -->
+
+
+    <owl:ObjectProperty rdf:about="is_about"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- present_in -->
+
+
+    <owl:ObjectProperty rdf:about="present_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abnormal-blood-zinc-concentration -->
+
+
+    <owl:Class rdf:about="abnormal-blood-zinc-concentration"/>
+    
+
+
+    <!-- abnormality-of-zinc-homeostasis -->
+
+
+    <owl:Class rdf:about="abnormality-of-zinc-homeostasis"/>
+    
+
+
+    <!-- acetyl-coa-acetyltransferase-1 -->
+
+
+    <owl:Class rdf:about="acetyl-coa-acetyltransferase-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="beta-ketothiolase-deficiency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- al-3152 -->
+
+
+    <owl:Class rdf:about="al-3152">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- al-4114 -->
+
+
+    <owl:Class rdf:about="al-4114">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- alconil -->
+
+
+    <owl:Class rdf:about="alconil">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- amino-acid-metabolic-disorder -->
+
+
+    <owl:Class rdf:about="amino-acid-metabolic-disorder"/>
+    
+
+
+    <!-- antipyretic-analgesic -->
+
+
+    <owl:Class rdf:about="antipyretic-analgesic"/>
+    
+
+
+    <!-- autosomal-dominant-charcot-marie-tooth-disease-type-2a2 -->
+
+
+    <owl:Class rdf:about="autosomal-dominant-charcot-marie-tooth-disease-type-2a2"/>
+    
+
+
+    <!-- autosomal-dominant-optic-atrophy-plus-syndrome -->
+
+
+    <owl:Class rdf:about="autosomal-dominant-optic-atrophy-plus-syndrome"/>
+    
+
+
+    <!-- autosomal-recessive -->
+
+
+    <owl:Class rdf:about="autosomal-recessive"/>
+    
+
+
+    <!-- autosomal-recessive-disease -->
+
+
+    <owl:Class rdf:about="autosomal-recessive-disease"/>
+    
+
+
+    <!-- autosomal-recessive-inheritance -->
+
+
+    <owl:Class rdf:about="autosomal-recessive-inheritance"/>
+    
+
+
+    <!-- azd6605 -->
+
+
+    <owl:Class rdf:about="azd6605">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- beta-ketothiolase-deficiency -->
+
+
+    <owl:Class rdf:about="beta-ketothiolase-deficiency">
+        <rdfs:subClassOf rdf:resource="amino-acid-metabolic-disorder"/>
+        <rdfs:subClassOf rdf:resource="autosomal-recessive-disease"/>
+        <rdfs:subClassOf rdf:resource="classic-organic-aciduria"/>
+        <rdfs:subClassOf rdf:resource="disease"/>
+        <rdfs:subClassOf rdf:resource="disorder-of-ketone-body-metabolism"/>
+        <rdfs:subClassOf rdf:resource="enzymoprivicness"/>
+        <rdfs:subClassOf rdf:resource="inborn-errors-of-metabolism"/>
+        <rdfs:subClassOf rdf:resource="organic-acid-metabolism-disorder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-material-basis-in"/>
+                <owl:someValuesFrom rdf:resource="autosomal-recessive-inheritance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_age_of_onset"/>
+                <owl:someValuesFrom rdf:resource="infancy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_inheritance"/>
+                <owl:someValuesFrom rdf:resource="autosomal-recessive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_point_prevalence_range"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="1--1-000-000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="present_in"/>
+                                <owl:someValuesFrom rdf:resource="worldwide"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="classic-organic-aciduria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="disorder-of-ketolysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- betaine -->
+
+
+    <owl:Class rdf:about="betaine">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="betaine"/>
+        <rdfs:subClassOf rdf:resource="dietary-supplement"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="trimethyl-ammonium-compounds"/>
+    </owl:Class>
+    
+
+
+    <!-- betaine-Concept -->
+
+
+    <owl:Class rdf:about="betaine-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="betaine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bis-5-ethyl-5-phenylhydantoin-bispyridine-cu-ii- -->
+
+
+    <owl:Class rdf:about="bis-5-ethyl-5-phenylhydantoin-bispyridine-cu-ii-">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- blood-group -->
+
+
+    <owl:Class rdf:about="blood-group"/>
+    
+
+
+    <!-- blood-group-antigens -->
+
+
+    <owl:Class rdf:about="blood-group-antigens"/>
+    
+
+
+    <!-- bw-245c -->
+
+
+    <owl:Class rdf:about="bw-245c">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- bw-a868c -->
+
+
+    <owl:Class rdf:about="bw-a868c">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- c-2-thioxo-hydantocidin -->
+
+
+    <owl:Class rdf:about="c-2-thioxo-hydantocidin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- camphor-2-spirohydantoin -->
+
+
+    <owl:Class rdf:about="camphor-2-spirohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- chlordantoin -->
+
+
+    <owl:Class rdf:about="chlordantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- circulatory-drug -->
+
+
+    <owl:Class rdf:about="circulatory-drug"/>
+    
+
+
+    <!-- classic-organic-aciduria -->
+
+
+    <owl:Class rdf:about="classic-organic-aciduria"/>
+    
+
+
+    <!-- cottidae -->
+
+
+    <owl:Class rdf:about="cottidae"/>
+    
+
+
+    <!-- cypenhymustine -->
+
+
+    <owl:Class rdf:about="cypenhymustine">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- dehydroguanidinohydantoin -->
+
+
+    <owl:Class rdf:about="dehydroguanidinohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- di-halo -->
+
+
+    <owl:Class rdf:about="di-halo">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- dibromodulcitol -->
+
+
+    <owl:Class rdf:about="dibromodulcitol">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="mitolactol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dietary-supplement -->
+
+
+    <owl:Class rdf:about="dietary-supplement"/>
+    
+
+
+    <!-- dimethoxyhydantoin -->
+
+
+    <owl:Class rdf:about="dimethoxyhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- dimethylhydantoin-formaldehyde-resin -->
+
+
+    <owl:Class rdf:about="dimethylhydantoin-formaldehyde-resin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- disease -->
+
+
+    <owl:Class rdf:about="disease"/>
+    
+
+
+    <!-- diseasespathologysymptoms&#45;&#45;knapsack- -->
+
+
+    <owl:Class rdf:about="diseasespathologysymptoms--knapsack-"/>
+    
+
+
+    <!-- disorder-of-ketolysis -->
+
+
+    <owl:Class rdf:about="disorder-of-ketolysis"/>
+    
+
+
+    <!-- disorder-of-ketone-body-metabolism -->
+
+
+    <owl:Class rdf:about="disorder-of-ketone-body-metabolism"/>
+    
+
+
+    <!-- disorder-of-zinc-metabolism -->
+
+
+    <owl:Class rdf:about="disorder-of-zinc-metabolism"/>
+    
+
+
+    <!-- dominant-inheritance -->
+
+
+    <owl:Class rdf:about="dominant-inheritance">
+        <rdfs:subClassOf rdf:resource="heredity"/>
+    </owl:Class>
+    
+
+
+    <!-- dominant-inheritance-Concept -->
+
+
+    <owl:Class rdf:about="dominant-inheritance-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="dominant-inheritance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dota-1&#45;&#45;4-aminobutyl&#45;&#45;5&#45;&#45;4-bromobenzyl&#45;&#45;3&#45;&#45;35-dichlorophenyl&#45;&#45;5-methylimidazolidine-24-dione -->
+
+
+    <owl:Class rdf:about="dota-1--4-aminobutyl--5--4-bromobenzyl--3--35-dichlorophenyl--5-methylimidazolidine-24-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- enzymoprivicness -->
+
+
+    <owl:Class rdf:about="enzymoprivicness"/>
+    
+
+
+    <!-- ethotoin -->
+
+
+    <owl:Class rdf:about="ethotoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- fatty-acids-omega-3 -->
+
+
+    <owl:Class rdf:about="fatty-acids-omega-3"/>
+    
+
+
+    <!-- fce-22716 -->
+
+
+    <owl:Class rdf:about="fce-22716">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- fce-24220 -->
+
+
+    <owl:Class rdf:about="fce-24220">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- gene -->
+
+
+    <owl:Class rdf:about="gene"/>
+    
+
+
+    <!-- gene-of-homo-sapiens-with-unknown-gene-disposition -->
+
+
+    <owl:Class rdf:about="gene-of-homo-sapiens-with-unknown-gene-disposition"/>
+    
+
+
+    <!-- gene-with-protein-product -->
+
+
+    <owl:Class rdf:about="gene-with-protein-product"/>
+    
+
+
+    <!-- glucopyranose-spirohydantoin -->
+
+
+    <owl:Class rdf:about="glucopyranose-spirohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- glucopyranosylidene-spiro-hydantoin -->
+
+
+    <owl:Class rdf:about="glucopyranosylidene-spiro-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- grade-1-rotator-cuff-injury -->
+
+
+    <owl:Class rdf:about="grade-1-rotator-cuff-injury">
+        <rdfs:subClassOf rdf:resource="rotator-cuff-injury"/>
+    </owl:Class>
+    
+
+
+    <!-- grade-2-rotator-cuff-injury -->
+
+
+    <owl:Class rdf:about="grade-2-rotator-cuff-injury">
+        <rdfs:subClassOf rdf:resource="rotator-cuff-injury"/>
+    </owl:Class>
+    
+
+
+    <!-- grade-3-rotator-cuff-injury -->
+
+
+    <owl:Class rdf:about="grade-3-rotator-cuff-injury">
+        <rdfs:subClassOf rdf:resource="rotator-cuff-injury"/>
+    </owl:Class>
+    
+
+
+    <!-- granatane-3-spiro-5-hydantoin -->
+
+
+    <owl:Class rdf:about="granatane-3-spiro-5-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- guanidinohydantoin -->
+
+
+    <owl:Class rdf:about="guanidinohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- guanidinohydantoin-2-deoxynucleoside-5-triphosphate -->
+
+
+    <owl:Class rdf:about="guanidinohydantoin-2-deoxynucleoside-5-triphosphate">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- hereditary-motor-and-sensory-neuropathy-type-5 -->
+
+
+    <owl:Class rdf:about="hereditary-motor-and-sensory-neuropathy-type-5"/>
+    
+
+
+    <!-- hereditary-motor-and-sensory-neuropathy-type-6 -->
+
+
+    <owl:Class rdf:about="hereditary-motor-and-sensory-neuropathy-type-6"/>
+    
+
+
+    <!-- heredity -->
+
+
+    <owl:Class rdf:about="heredity"/>
+    
+
+
+    <!-- histidine-hydantoin -->
+
+
+    <owl:Class rdf:about="histidine-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- htl -->
+
+
+    <owl:Class rdf:about="htl">
+        <rdfs:subClassOf rdf:resource="gene-of-homo-sapiens-with-unknown-gene-disposition"/>
+        <rdfs:subClassOf rdf:resource="t-cell-leukemia"/>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- hydantocidin -->
+
+
+    <owl:Class rdf:about="hydantocidin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- hydantoin -->
+
+
+    <owl:Class rdf:about="hydantoin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="hydantoins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hydantoin-454c77 -->
+
+
+    <owl:Class rdf:about="hydantoin-454c77">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- hydantoin-5-propionic-acid -->
+
+
+    <owl:Class rdf:about="hydantoin-5-propionic-acid">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- hydantoins -->
+
+
+    <owl:Class rdf:about="hydantoins">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- imirestat -->
+
+
+    <owl:Class rdf:about="imirestat">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- inborn-errors-of-metabolism -->
+
+
+    <owl:Class rdf:about="inborn-errors-of-metabolism"/>
+    
+
+
+    <!-- indomethacin -->
+
+
+    <owl:Class rdf:about="indomethacin"/>
+    
+
+
+    <!-- indomethacin-farnesil -->
+
+
+    <owl:Class rdf:about="indomethacin-farnesil">
+        <rdfs:subClassOf rdf:resource="indomethacin"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antipyretic-analgesic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="circulatory-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="non-steroidal-anti-inflammatory-agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="ophthalmic-remedy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="prodrug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- infancy -->
+
+
+    <owl:Class rdf:about="infancy"/>
+    
+
+
+    <!-- iprodione -->
+
+
+    <owl:Class rdf:about="iprodione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- joint-disease -->
+
+
+    <owl:Class rdf:about="joint-disease"/>
+    
+
+
+    <!-- kidd-blood-group-system -->
+
+
+    <owl:Class rdf:about="kidd-blood-group-system">
+        <rdfs:subClassOf rdf:resource="blood-group"/>
+        <rdfs:subClassOf rdf:resource="blood-group-antigens"/>
+        <rdfs:subClassOf rdf:resource="kidd-blood-group-system"/>
+    </owl:Class>
+    
+
+
+    <!-- kidney-disease -->
+
+
+    <owl:Class rdf:about="kidney-disease"/>
+    
+
+
+    <!-- liver-disease -->
+
+
+    <owl:Class rdf:about="liver-disease"/>
+    
+
+
+    <!-- m-16209 -->
+
+
+    <owl:Class rdf:about="m-16209">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- m-16287 -->
+
+
+    <owl:Class rdf:about="m-16287">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- mitofusin-2 -->
+
+
+    <owl:Class rdf:about="mitofusin-2">
+        <rdfs:subClassOf rdf:resource="gene"/>
+        <rdfs:subClassOf rdf:resource="gene-with-protein-product"/>
+        <rdfs:subClassOf rdf:resource="proteins"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s---loss-of-function--in"/>
+                <owl:someValuesFrom rdf:resource="multiple-symmetric-lipomatosis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="autosomal-dominant-charcot-marie-tooth-disease-type-2a2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="hereditary-motor-and-sensory-neuropathy-type-5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="hereditary-motor-and-sensory-neuropathy-type-6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="severe-early-onset-axonal-neuropathy-due-to-mfn2-deficiency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="autosomal-dominant-charcot-marie-tooth-disease-type-2a2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="autosomal-dominant-optic-atrophy-plus-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="hereditary-motor-and-sensory-neuropathy-type-5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="hereditary-motor-and-sensory-neuropathy-type-6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="severe-early-onset-axonal-neuropathy-due-to-mfn2-deficiency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mitolactol -->
+
+
+    <owl:Class rdf:about="mitolactol"/>
+    
+
+
+    <!-- multiple-symmetric-lipomatosis -->
+
+
+    <owl:Class rdf:about="multiple-symmetric-lipomatosis"/>
+    
+
+
+    <!-- musculoskeletal-and-connective-tissue-disorders -->
+
+
+    <owl:Class rdf:about="musculoskeletal-and-connective-tissue-disorders"/>
+    
+
+
+    <!-- n-acetyl-5-phosphohydantocidin -->
+
+
+    <owl:Class rdf:about="n-acetyl-5-phosphohydantocidin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- naloxone-6-spirohydantoin -->
+
+
+    <owl:Class rdf:about="naloxone-6-spirohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- nifurmazole -->
+
+
+    <owl:Class rdf:about="nifurmazole">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- non-steroidal-anti-inflammatory-agent -->
+
+
+    <owl:Class rdf:about="non-steroidal-anti-inflammatory-agent"/>
+    
+
+
+    <!-- nutrition-disorder -->
+
+
+    <owl:Class rdf:about="nutrition-disorder"/>
+    
+
+
+    <!-- ophthalmic-remedy -->
+
+
+    <owl:Class rdf:about="ophthalmic-remedy"/>
+    
+
+
+    <!-- organic-acid-metabolism-disorder -->
+
+
+    <owl:Class rdf:about="organic-acid-metabolism-disorder"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- oxymorphone-6-spirohydantoin -->
+
+
+    <owl:Class rdf:about="oxymorphone-6-spirohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- parabanic-acid -->
+
+
+    <owl:Class rdf:about="parabanic-acid">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- prodrug -->
+
+
+    <owl:Class rdf:about="prodrug"/>
+    
+
+
+    <!-- proteins -->
+
+
+    <owl:Class rdf:about="proteins"/>
+    
+
+
+    <!-- restenosis -->
+
+
+    <owl:Class rdf:about="restenosis">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="diseasespathologysymptoms--knapsack-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rotator-cuff-injury -->
+
+
+    <owl:Class rdf:about="rotator-cuff-injury">
+        <rdfs:subClassOf rdf:resource="joint-disease"/>
+        <rdfs:subClassOf rdf:resource="musculoskeletal-and-connective-tissue-disorders"/>
+        <rdfs:subClassOf rdf:resource="tendon-injury"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="rotator-cuff-injury-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rotator-cuff-injury-Concept -->
+
+
+    <owl:Class rdf:about="rotator-cuff-injury-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- ru-58642 -->
+
+
+    <owl:Class rdf:about="ru-58642">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- s-3429 -->
+
+
+    <owl:Class rdf:about="s-3429">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- serum-zinc-measurement -->
+
+
+    <owl:Class rdf:about="serum-zinc-measurement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is_about"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="liver-disease"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="is_about"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="kidney-disease"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is_about"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:unionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="zinc-deficiency"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="is_about"/>
+                                                                <owl:someValuesFrom rdf:resource="disorder-of-zinc-metabolism"/>
+                                                            </owl:Restriction>
+                                                        </owl:unionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- severe-early-onset-axonal-neuropathy-due-to-mfn2-deficiency -->
+
+
+    <owl:Class rdf:about="severe-early-onset-axonal-neuropathy-due-to-mfn2-deficiency"/>
+    
+
+
+    <!-- spirodihydantoin -->
+
+
+    <owl:Class rdf:about="spirodihydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- spiroiminodihydantoin-2-deoxynucleoside-5-triphosphate -->
+
+
+    <owl:Class rdf:about="spiroiminodihydantoin-2-deoxynucleoside-5-triphosphate">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- spiroiminodihydantoin-nucleoside -->
+
+
+    <owl:Class rdf:about="spiroiminodihydantoin-nucleoside">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- spiromustine -->
+
+
+    <owl:Class rdf:about="spiromustine">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- stearidonic-acid -->
+
+
+    <owl:Class rdf:about="stearidonic-acid">
+        <rdfs:subClassOf rdf:resource="fatty-acids-omega-3"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- sulfochloranthine -->
+
+
+    <owl:Class rdf:about="sulfochloranthine">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-leukemia -->
+
+
+    <owl:Class rdf:about="t-cell-leukemia"/>
+    
+
+
+    <!-- tendon-injury -->
+
+
+    <owl:Class rdf:about="tendon-injury"/>
+    
+
+
+    <!-- trachidermus -->
+
+
+    <owl:Class rdf:about="trachidermus"/>
+    
+
+
+    <!-- trachidermus-fasciatus -->
+
+
+    <owl:Class rdf:about="trachidermus-fasciatus">
+        <rdfs:subClassOf rdf:resource="cottidae"/>
+        <rdfs:subClassOf rdf:resource="trachidermus"/>
+    </owl:Class>
+    
+
+
+    <!-- trimethyl-ammonium-compounds -->
+
+
+    <owl:Class rdf:about="trimethyl-ammonium-compounds"/>
+    
+
+
+    <!-- upr1024 -->
+
+
+    <owl:Class rdf:about="upr1024">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- valine-methylhydantoin -->
+
+
+    <owl:Class rdf:about="valine-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- worldwide -->
+
+
+    <owl:Class rdf:about="worldwide"/>
+    
+
+
+    <!-- zinc-deficiency -->
+
+
+    <owl:Class rdf:about="zinc-deficiency">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="abnormal-blood-zinc-concentration"/>
+        <rdfs:subClassOf rdf:resource="abnormality-of-zinc-homeostasis"/>
+        <rdfs:subClassOf rdf:resource="nutrition-disorder"/>
+        <rdfs:subClassOf rdf:resource="zinc-deficiency-Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- zinc-deficiency-Concept -->
+
+
+    <owl:Class rdf:about="zinc-deficiency-Concept"/>
+    
+
+
+    <!-- 1-aminohydantoin -->
+
+
+    <owl:Class rdf:about="1-aminohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 1-methylhydantoin -->
+
+
+    <owl:Class rdf:about="1-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 1-monomethylol-55-dimethylhydantoin -->
+
+
+    <owl:Class rdf:about="1-monomethylol-55-dimethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 1&#45;&#45;-4-bromophenyl-sulfonyl-hydantoin -->
+
+
+    <owl:Class rdf:about="1---4-bromophenyl-sulfonyl-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 1&#45;&#45;1-000-000 -->
+
+
+    <owl:Class rdf:about="1--1-000-000"/>
+    
+
+
+    <!-- 1&#45;&#45;2-deoxypentofuranosyl&#45;&#45;5-hydroxyhydantoin -->
+
+
+    <owl:Class rdf:about="1--2-deoxypentofuranosyl--5-hydroxyhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 1&#45;&#45;5&#45;&#45;carboxyphenylthio&#45;&#45;2-thenylideneamino-hydantoin -->
+
+
+    <owl:Class rdf:about="1--5--carboxyphenylthio--2-thenylideneamino-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 13-dibromo-55-dimethylhydantoin -->
+
+
+    <owl:Class rdf:about="13-dibromo-55-dimethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 13-dichloro-55-dimethylhydantoin -->
+
+
+    <owl:Class rdf:about="13-dichloro-55-dimethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 13-dimethylol-55-dimethylhydantoin -->
+
+
+    <owl:Class rdf:about="13-dimethylol-55-dimethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 2-spirohydantoin-67-dimethoxytetrahydronaphthalene -->
+
+
+    <owl:Class rdf:about="2-spirohydantoin-67-dimethoxytetrahydronaphthalene">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 2&#45;&#45;4&#45;&#45;-2&#45;&#45;2-ethoxyphenoxy-ethyl-amino-butyl-tetrahydro-1h-pyrrolo-12-c-imidazole-13-2h&#45;&#45;dione -->
+
+
+    <owl:Class rdf:about="2--4---2--2-ethoxyphenoxy-ethyl-amino-butyl-tetrahydro-1h-pyrrolo-12-c-imidazole-13-2h--dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3-amino-5-methyl-5-phenylhydantoin -->
+
+
+    <owl:Class rdf:about="3-amino-5-methyl-5-phenylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3-aminocyclohexanespiro-5-hydantoin -->
+
+
+    <owl:Class rdf:about="3-aminocyclohexanespiro-5-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3-cyclopropyl-1&#45;&#45;4&#45;&#45;6&#45;&#45;11-dioxo-1gamma6-thiomorpholin-4-ylmethyl&#45;&#45;5-fluoro-pyridin-2-yl-benzyl-imidazolidine-24-dione -->
+
+
+    <owl:Class rdf:about="3-cyclopropyl-1--4--6--11-dioxo-1gamma6-thiomorpholin-4-ylmethyl--5-fluoro-pyridin-2-yl-benzyl-imidazolidine-24-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3-methyl-5-isopropylhydantoin -->
+
+
+    <owl:Class rdf:about="3-methyl-5-isopropylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;-2-cyclohexyl-2-hydroxyethylidene-amino&#45;&#45;25-dioxo-4-imidazolidineheptanoic-acid -->
+
+
+    <owl:Class rdf:about="3---2-cyclohexyl-2-hydroxyethylidene-amino--25-dioxo-4-imidazolidineheptanoic-acid">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;2&#45;&#45;3&#45;&#45;2-chloroethyl&#45;&#45;3-nitrosouriedo-ethyl-spiro-59-fluorenyl-imidazolidiine-24-dione -->
+
+
+    <owl:Class rdf:about="3--2--3--2-chloroethyl--3-nitrosouriedo-ethyl-spiro-59-fluorenyl-imidazolidiine-24-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;26-xylyl&#45;&#45;5-methylhydantoin -->
+
+
+    <owl:Class rdf:about="3--26-xylyl--5-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;3&#45;&#45;nn-dimethyl-aminopropyl-spiro&#45;&#45;dihydroimidazo-24-dione&#45;&#45;53&#45;&#45;23-dihydrothieno-23-b-naphtho-49-dione&#45;&#45; -->
+
+
+    <owl:Class rdf:about="3--3--nn-dimethyl-aminopropyl-spiro--dihydroimidazo-24-dione--53--23-dihydrothieno-23-b-naphtho-49-dione--">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;4-chlorobenzyl&#45;&#45;5&#45;&#45;4-nitrobenzylidene-imidazolidine-24-dione -->
+
+
+    <owl:Class rdf:about="3--4-chlorobenzyl--5--4-nitrobenzylidene-imidazolidine-24-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;5-methyl-5-hydantoinyl-acetanilide -->
+
+
+    <owl:Class rdf:about="3--5-methyl-5-hydantoinyl-acetanilide">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;5-nitrofurfurylideneamino-hydantoic-acid -->
+
+
+    <owl:Class rdf:about="3--5-nitrofurfurylideneamino-hydantoic-acid">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 4-hydroxyphenylmethylene-hydantoin -->
+
+
+    <owl:Class rdf:about="4-hydroxyphenylmethylene-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 4&#45;&#45;34-dimethyl-25-dioxo-4&#45;&#45;4-hydroxyphenyl-imidazolidin-1-yl&#45;&#45;2&#45;&#45;trifluoromethyl-benzonitrile -->
+
+
+    <owl:Class rdf:about="4--34-dimethyl-25-dioxo-4--4-hydroxyphenyl-imidazolidin-1-yl--2--trifluoromethyl-benzonitrile">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 4&#45;&#45;4&#45;&#45;hydroxymethyl&#45;&#45;3-methyl-25-dioxo-4-phenylimidazolidin-1-yl&#45;&#45;2&#45;&#45;trifluoromethyl-benzonitrile -->
+
+
+    <owl:Class rdf:about="4--4--hydroxymethyl--3-methyl-25-dioxo-4-phenylimidazolidin-1-yl--2--trifluoromethyl-benzonitrile">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-benzylhydantoin -->
+
+
+    <owl:Class rdf:about="5-benzylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-carboxamido-5-formamido-2-iminohydantoin -->
+
+
+    <owl:Class rdf:about="5-carboxamido-5-formamido-2-iminohydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-hydroxy-1&#45;&#45;2-deoxyribofuranosyl-hydantoin -->
+
+
+    <owl:Class rdf:about="5-hydroxy-1--2-deoxyribofuranosyl-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-hydroxy-1-methylhydantoin -->
+
+
+    <owl:Class rdf:about="5-hydroxy-1-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-hydroxy-5-methylhydantoin -->
+
+
+    <owl:Class rdf:about="5-hydroxy-5-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-indolylmethylhydantoin -->
+
+
+    <owl:Class rdf:about="5-indolylmethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-methyl-5-4-pyridyl-hydantoin -->
+
+
+    <owl:Class rdf:about="5-methyl-5-4-pyridyl-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-methyl-5-phenylhydantoin -->
+
+
+    <owl:Class rdf:about="5-methyl-5-phenylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-methyl-5-phenylhydantoin-pt-ii- -->
+
+
+    <owl:Class rdf:about="5-methyl-5-phenylhydantoin-pt-ii-">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-methylhydantoin -->
+
+
+    <owl:Class rdf:about="5-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-phenylhydantoin -->
+
+
+    <owl:Class rdf:about="5-phenylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-phenylmethylenehydantoin -->
+
+
+    <owl:Class rdf:about="5-phenylmethylenehydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-phosphohydantocidin -->
+
+
+    <owl:Class rdf:about="5-phosphohydantocidin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;methoxymethylene&#45;&#45;24-imidazolidinedione -->
+
+
+    <owl:Class rdf:about="5--methoxymethylene--24-imidazolidinedione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;2-methoxyphenyl-methylenehydantoin -->
+
+
+    <owl:Class rdf:about="5--2-methoxyphenyl-methylenehydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;2-methylthioethyl-hydantoin -->
+
+
+    <owl:Class rdf:about="5--2-methylthioethyl-hydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;3-indolylmethyl&#45;&#45;3-n-methylhydantoin -->
+
+
+    <owl:Class rdf:about="5--3-indolylmethyl--3-n-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;3&#45;&#45;4-fluorophenyl&#45;&#45;1-phenyl-1h-pyrazol-4-yl&#45;&#45;24-imidazolidinedione -->
+
+
+    <owl:Class rdf:about="5--3--4-fluorophenyl--1-phenyl-1h-pyrazol-4-yl--24-imidazolidinedione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;34-dichlorophenyl-methylhydantoin -->
+
+
+    <owl:Class rdf:about="5--34-dichlorophenyl-methylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 5&#45;&#45;35-diiodo-4&#45;&#45;3-isopropyl-4-hydroxyphenoxy-benzyl-imidazolidine-24-dione -->
+
+
+    <owl:Class rdf:about="5--35-diiodo-4--3-isopropyl-4-hydroxyphenoxy-benzyl-imidazolidine-24-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 55-diethylhydantoin -->
+
+
+    <owl:Class rdf:about="55-diethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 55-dimethylhydantoin -->
+
+
+    <owl:Class rdf:about="55-dimethylhydantoin">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 55-ethylenebis-5-methyl-3&#45;&#45;3-triethoxysilylpropyl-hydantoin- -->
+
+
+    <owl:Class rdf:about="55-ethylenebis-5-methyl-3--3-triethoxysilylpropyl-hydantoin-">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 7-hydroxy-23-dihydro-1h2h5h-spiro-imidazolidine-44-quinoline&#45;&#45;25-dione -->
+
+
+    <owl:Class rdf:about="7-hydroxy-23-dihydro-1h2h5h-spiro-imidazolidine-44-quinoline--25-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+    
+
+
+    <!-- 78-benzo-13-diazaspiro&#45;&#45;45&#45;&#45;decane-24-dione -->
+
+
+    <owl:Class rdf:about="78-benzo-13-diazaspiro--45--decane-24-dione">
+        <rdfs:subClassOf rdf:resource="hydantoins"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

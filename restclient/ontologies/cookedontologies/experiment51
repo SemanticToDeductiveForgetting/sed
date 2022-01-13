@@ -1,0 +1,2227 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment51#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment51"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment51"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/has-part -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment51/has-part"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment51/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment51/has-role"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/has_disease_location -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment51/has_disease_location"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/material -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment51/material"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/part-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment51/part-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Chemical -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Chemical"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/J523 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/J523"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Metal-Atom -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal-Atom"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Na-Substance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Na-Substance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Substance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Substance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/Sodium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Sodium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/alkali-metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/alkali-metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/alkaline-earth-metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/alkaline-earth-metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/aluminum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/aluminum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/anomalous-branching-of-bronchial-tree -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/anomalous-branching-of-bronchial-tree"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/antibacterial-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/antibacterial-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/antibiotics -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/antibiotics"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/antigens-cd -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/antigens-cd"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/antivirals -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/antivirals"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/asthma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/asthma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/asthmatic-wheezing -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/asthmatic-wheezing"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/aurodox -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/beryllium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/beryllium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bismuth -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bismuth"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-artery-aneurysm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-artery-aneurysm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-atresia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-atresia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-calculus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-calculus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-crisis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-crisis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-edema -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-edema"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-fistula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-fistula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-foreign-body -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-foreign-body"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-injury -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-injury"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-neoplasm&#45;&#45;disease- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-neoplasm--disease-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-obstruction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-obstruction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-spasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-spasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-stump-fistula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-stump-fistula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchial-ulcer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-ulcer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchiectasis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchiectasis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchioloalveolar-carcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchioloalveolar-carcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchitis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchitis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/broncho-esophageal-fistula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/broncho-esophageal-fistula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchoblennorrhea -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchoblennorrhea"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchogenic-cyst -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchogenic-cyst"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchomalacia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchomalacia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchopleural-fistula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchopleural-fistula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchopneumonia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchopneumonia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchopulmonary-dysplasia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchopulmonary-dysplasia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchopulmonary-foregut-malformation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchopulmonary-foregut-malformation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchorrhea -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchorrhea"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchostenosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchostenosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/bronchus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/cadmium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/cadmium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/calliphora-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/calliphora-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/calliphoridae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/calliphoridae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/castellanis-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/castellanis-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/cell-adhesion-molecule -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/cell-adhesion-molecule"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/chromium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/chromium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/chronic-sputum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/chronic-sputum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/congenital-bronchoesophageal-fistula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/congenital-bronchoesophageal-fistula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/congenital-bronchomalacia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/congenital-bronchomalacia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/copper -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/copper"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/crepitant-rale -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/crepitant-rale"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/deoxycytidine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/deoxycytidine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/dipeptidyl-peptidase-4-inhibitor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/dipeptidyl-peptidase-4-inhibitor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/egobronchophony -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/egobronchophony"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/element -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/element"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/emergency-tracheotomy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emergency-tracheotomy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/emergency-treatment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emergency-treatment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/emtricitabine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/emtricitabinesuscptisolateordqnge -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emtricitabinesuscptisolateordqnge"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/emtricitabinesuscptisolateordqnphe -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emtricitabinesuscptisolateordqnphe"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/endobronchial-tuberculosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/endobronchial-tuberculosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/esophagobronchial-fistula -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/esophagobronchial-fistula"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/gadolinium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/gadolinium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/gallium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/gallium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/germanium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/germanium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/gold -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/gold"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/hafnium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/hafnium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/heavy-metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/heavy-metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/hypoglycemic-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/hypoglycemic-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/indium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/indium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/iron -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/iron"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/lead-metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/lead-metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/lithium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/lithium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/lower-respiratory-tract-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/lower-respiratory-tract-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/manganese -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/manganese"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/membrane-glycoprotein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/membrane-glycoprotein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/mercury -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/mercury"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/metallic-material -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/metallic-material"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/metals -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/metals"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/molybdenum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/molybdenum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/mucocele-of-bronchus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/mucocele-of-bronchus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/mucoid-impaction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/mucoid-impaction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/mucoid-impaction-of-bronchi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/mucoid-impaction-of-bronchi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/mucus-impaction-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/mucus-impaction-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/neonatal-bronchopulmonary-dysplasia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/neonatal-bronchopulmonary-dysplasia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/nickel -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/nickel"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/nucleoside-reverse-transcriptase-inhibitor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/nucleoside-reverse-transcriptase-inhibitor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/osteochondroplastic-tracheobronchopathy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/osteochondroplastic-tracheobronchopathy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/phormia-regina -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/phormia-regina"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/platinum-group-metal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/platinum-group-metal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/polyenes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/polyenes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/proteinase-inhibitor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/proteinase-inhibitor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/pyrimidine-antagonist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/pyrimidine-antagonist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/respiratory-tract-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/respiratory-tract-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/rubidium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/rubidium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/silver -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/silver"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/sinobronchial-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/sinobronchial-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/sinobronchitis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/sinobronchitis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/strontium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/strontium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/substance-related-to-drugs -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/substance-related-to-drugs"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/thallium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/thallium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/thoracic-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/thoracic-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/tin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/tin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/titanium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/titanium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/tracheobronchial-secretion-excessive -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/tracheobronchial-secretion-excessive"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/tracheobronchomalacia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/tracheobronchomalacia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/tracheobronchomegaly -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/tracheobronchomegaly"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/tracheotomy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/tracheotomy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/transmembrane-protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/transmembrane-protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/underdeveloped-bronchus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/underdeveloped-bronchus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/wheezing-aggravated -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/wheezing-aggravated"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/yttrium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/yttrium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment51/zinc -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment51/zinc"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/J523"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/underdeveloped-bronchus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/iron"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/heavy-metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/mercury"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabinesuscptisolateordqnphe"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/sinobronchial-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/tracheobronchomalacia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alkaline-earth-metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/transmembrane-protein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/asthma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/calliphora-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/phormia-regina"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/endobronchial-tuberculosis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/beryllium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/deoxycytidine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-ulcer"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/congenital-bronchoesophageal-fistula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-spasm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Na-Substance"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-part"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Sodium"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchoblennorrhea"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/wheezing-aggravated"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/lower-respiratory-tract-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/element"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/neonatal-bronchopulmonary-dysplasia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchopulmonary-dysplasia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/chronic-sputum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/indium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/germanium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-foreign-body"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/gold"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/polyenes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/mucoid-impaction-of-bronchi"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/mucoid-impaction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/osteochondroplastic-tracheobronchopathy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/yttrium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/chromium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/anomalous-branching-of-bronchial-tree"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/rubidium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/dipeptidyl-peptidase-4-inhibitor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchitis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchopleural-fistula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchomalacia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/nickel"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/respiratory-tract-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bismuth"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/tin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/tracheobronchomegaly"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-neoplasm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/platinum-group-metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-calculus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/cadmium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/sinobronchitis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/pyrimidine-antagonist"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-injury"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchiectasis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchopneumonia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/disease"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has_disease_location"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchus"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/part-of"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchus"/>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/copper"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/antigens-cd"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Substance"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/egobronchophony"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has_disease_location"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchus"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/lead-metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/manganese"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/metallic-material"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/congenital-bronchomalacia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/gallium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/lithium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/broncho-esophageal-fistula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alkali-metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/metals"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/strontium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/molybdenum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/antivirals"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/nucleoside-reverse-transcriptase-inhibitor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/thallium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/tracheobronchial-secretion-excessive"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/thoracic-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabinesuscptisolateordqnge"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/cell-adhesion-molecule"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has_disease_location"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchus"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/part-of"/>
+                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchus"/>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/esophagobronchial-fistula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchioloalveolar-carcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-fistula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-artery-aneurysm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-atresia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/J523"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Chemical"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/silver"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/gadolinium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-part"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal-Atom"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emergency-tracheotomy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/titanium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/aluminum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/hafnium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/hypoglycemic-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/asthmatic-wheezing"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emergency-tracheotomy"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchorrhea"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/substance-related-to-drugs"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchostenosis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/castellanis-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emtricitabine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/crepitant-rale"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Piece-of-Metal"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/material"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/mucus-impaction-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/Na-Substance"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-edema"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchopulmonary-foregut-malformation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-stump-fistula"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-neoplasm--disease-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/calliphoridae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/phormia-regina"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/alogliptin-benzoate"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/proteinase-inhibitor"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/emergency-treatment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emergency-tracheotomy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/mucocele-of-bronchus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/antibiotics"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/tracheotomy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/emergency-tracheotomy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/membrane-glycoprotein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/activated-leukocyte-cell-adhesion-molecule"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchial-crisis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/Metal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/zinc"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment51/bronchial-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/bronchogenic-cyst"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/aurodox"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment51/antibacterial-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,6444 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment28/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment28/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment28/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- chemical_or_drug_is_metabolized_by_enzyme -->
+
+
+    <owl:ObjectProperty rdf:about="chemical_or_drug_is_metabolized_by_enzyme"/>
+    
+
+
+    <!-- chemotherapy_regimen_has_component -->
+
+
+    <owl:ObjectProperty rdf:about="chemotherapy_regimen_has_component"/>
+    
+
+
+    <!-- derives_from -->
+
+
+    <owl:ObjectProperty rdf:about="derives_from"/>
+    
+
+
+    <!-- gene_product_has_organism_source -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_has_organism_source"/>
+    
+
+
+    <!-- has-attribute -->
+
+
+    <owl:ObjectProperty rdf:about="has-attribute"/>
+    
+
+
+    <!-- has-attribute-value -->
+
+
+    <owl:ObjectProperty rdf:about="has-attribute-value"/>
+    
+
+
+    <!-- has-functional-parent -->
+
+
+    <owl:ObjectProperty rdf:about="has-functional-parent"/>
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-output"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-primary-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input"/>
+    
+
+
+    <!-- has-primary-input-or-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input-or-output"/>
+    
+
+
+    <!-- has-primary-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-output"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_part"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- in-taxon -->
+
+
+    <owl:ObjectProperty rdf:about="in-taxon"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- isDefinedInTaxon -->
+
+
+    <owl:ObjectProperty rdf:about="isDefinedInTaxon"/>
+    
+
+
+    <!-- only-in-taxon -->
+
+
+    <owl:ObjectProperty rdf:about="only-in-taxon"/>
+    
+
+
+    <!-- only_in_taxon -->
+
+
+    <owl:ObjectProperty rdf:about="only_in_taxon"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- preceded-by -->
+
+
+    <owl:ObjectProperty rdf:about="preceded-by"/>
+    
+
+
+    <!-- transmitted-by -->
+
+
+    <owl:ObjectProperty rdf:about="transmitted-by"/>
+    
+
+
+    <!-- transports-or-maintains-localization-of -->
+
+
+    <owl:ObjectProperty rdf:about="transports-or-maintains-localization-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- RID14709 -->
+
+
+    <owl:Class rdf:about="RID14709"/>
+    
+
+
+    <!-- RID14711 -->
+
+
+    <owl:Class rdf:about="RID14711">
+        <rdfs:subClassOf rdf:resource="RID14709"/>
+    </owl:Class>
+    
+
+
+    <!-- RnorDv_0000010 -->
+
+
+    <owl:Class rdf:about="RnorDv_0000010"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- a4galt&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="a4galt--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- abnormality&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="abnormality--disease-"/>
+    
+
+
+    <!-- acardia -->
+
+
+    <owl:Class rdf:about="acardia">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="abnormality--disease-"/>
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+        <rdfs:subClassOf rdf:resource="other-specified-anomalies-nos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- acp5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="acp5--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- adenine -->
+
+
+    <owl:Class rdf:about="adenine"/>
+    
+
+
+    <!-- adgre1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="adgre1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- adhesion-g-protein-coupled-receptor-e1 -->
+
+
+    <owl:Class rdf:about="adhesion-g-protein-coupled-receptor-e1"/>
+    
+
+
+    <!-- adhesion-g-protein-coupled-receptor-e2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="adhesion-g-protein-coupled-receptor-e2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="adhesion-g-protein-coupled-receptor-e1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- adp-ribosyl-cyclasecyclic-adp-ribose-hydrolase-1 -->
+
+
+    <owl:Class rdf:about="adp-ribosyl-cyclasecyclic-adp-ribose-hydrolase-1"/>
+    
+
+
+    <!-- adp-ribosyl-cyclasecyclic-adp-ribose-hydrolase-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="adp-ribosyl-cyclasecyclic-adp-ribose-hydrolase-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="adp-ribosyl-cyclasecyclic-adp-ribose-hydrolase-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- adrenal-gland -->
+
+
+    <owl:Class rdf:about="adrenal-gland"/>
+    
+
+
+    <!-- adrenal-medulla-chromaffin-cell -->
+
+
+    <owl:Class rdf:about="adrenal-medulla-chromaffin-cell"/>
+    
+
+
+    <!-- adrenodoxin -->
+
+
+    <owl:Class rdf:about="adrenodoxin">
+        <rdfs:subClassOf rdf:resource="adrenodoxin"/>
+        <rdfs:subClassOf rdf:resource="animal-protein"/>
+        <rdfs:subClassOf rdf:resource="iron-sulfur-protein"/>
+        <rdfs:subClassOf rdf:resource="iron-sulfur-proteins"/>
+    </owl:Class>
+    
+
+
+    <!-- alpha&#45;&#45;13&#45;&#45;fucosyltransferase-4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="alpha--13--fucosyltransferase-4--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="alpha--13--fucosyltransferase-fut4"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- alpha&#45;&#45;13&#45;&#45;fucosyltransferase-fut4 -->
+
+
+    <owl:Class rdf:about="alpha--13--fucosyltransferase-fut4"/>
+    
+
+
+    <!-- aminopeptidase-n -->
+
+
+    <owl:Class rdf:about="aminopeptidase-n"/>
+    
+
+
+    <!-- aminopeptidase-n&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="aminopeptidase-n--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="aminopeptidase-n"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- androgen-antagonist -->
+
+
+    <owl:Class rdf:about="androgen-antagonist"/>
+    
+
+
+    <!-- androgen-receptor-inhibitor -->
+
+
+    <owl:Class rdf:about="androgen-receptor-inhibitor"/>
+    
+
+
+    <!-- animal-protein -->
+
+
+    <owl:Class rdf:about="animal-protein"/>
+    
+
+
+    <!-- anpep&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="anpep--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- antibiotics -->
+
+
+    <owl:Class rdf:about="antibiotics"/>
+    
+
+
+    <!-- antineoplastic-agent -->
+
+
+    <owl:Class rdf:about="antineoplastic-agent"/>
+    
+
+
+    <!-- antipyretic -->
+
+
+    <owl:Class rdf:about="antipyretic"/>
+    
+
+
+    <!-- arg1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="arg1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- arginase-1 -->
+
+
+    <owl:Class rdf:about="arginase-1"/>
+    
+
+
+    <!-- arginase-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="arginase-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="arginase-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- artificial-heart -->
+
+
+    <owl:Class rdf:about="artificial-heart">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="artificial-implant"/>
+        <rdfs:subClassOf rdf:resource="artificial-organ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- artificial-implant -->
+
+
+    <owl:Class rdf:about="artificial-implant"/>
+    
+
+
+    <!-- artificial-organ -->
+
+
+    <owl:Class rdf:about="artificial-organ"/>
+    
+
+
+    <!-- axin-1-isoform-2 -->
+
+
+    <owl:Class rdf:about="axin-1-isoform-2"/>
+    
+
+
+    <!-- axin-1-isoform-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="axin-1-isoform-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="axin-1-isoform-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bcl2-antagonist-of-cell-death-isoform-1-phosphorylated-3 -->
+
+
+    <owl:Class rdf:about="bcl2-antagonist-of-cell-death-isoform-1-phosphorylated-3"/>
+    
+
+
+    <!-- bcl2-antagonist-of-cell-death-isoform-1-phosphorylated-3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="bcl2-antagonist-of-cell-death-isoform-1-phosphorylated-3--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="bcl2-antagonist-of-cell-death-isoform-1-phosphorylated-3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- biosynthetic-process -->
+
+
+    <owl:Class rdf:about="biosynthetic-process"/>
+    
+
+
+    <!-- biphasic-positive-airway-pressure -->
+
+
+    <owl:Class rdf:about="biphasic-positive-airway-pressure">
+        <rdfs:subClassOf rdf:resource="continuous-positive-airway-pressure"/>
+    </owl:Class>
+    
+
+
+    <!-- bone-marrow-proteoglycan -->
+
+
+    <owl:Class rdf:about="bone-marrow-proteoglycan"/>
+    
+
+
+    <!-- bone-marrow-proteoglycan&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="bone-marrow-proteoglycan--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="bone-marrow-proteoglycan"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- brown-norway -->
+
+
+    <owl:Class rdf:about="brown-norway">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- buserelinnilutamide -->
+
+
+    <owl:Class rdf:about="buserelinnilutamide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="nilutamide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-2 -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-2"/>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-c-chemokine-receptor-type-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-3 -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-3"/>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-3--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-c-chemokine-receptor-type-3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-5 -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-5"/>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-5--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-c-chemokine-receptor-type-5"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- c-nitro-compound -->
+
+
+    <owl:Class rdf:about="c-nitro-compound"/>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-2 -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-2"/>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-x-c-chemokine-receptor-type-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-3 -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-3"/>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-3--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-x-c-chemokine-receptor-type-3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-4 -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-4"/>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-4--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-x-c-chemokine-receptor-type-4"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-5 -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-5"/>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-5--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="c-x-c-chemokine-receptor-type-5"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- cadherin-1 -->
+
+
+    <owl:Class rdf:about="cadherin-1"/>
+    
+
+
+    <!-- cadherin-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cadherin-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cadherin-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- carcinomatous-ascites -->
+
+
+    <owl:Class rdf:about="carcinomatous-ascites">
+        <rdfs:subClassOf rdf:resource="malignant-ascites"/>
+        <rdfs:subClassOf rdf:resource="tumor"/>
+    </owl:Class>
+    
+
+
+    <!-- catabolic-process -->
+
+
+    <owl:Class rdf:about="catabolic-process"/>
+    
+
+
+    <!-- cathepsin-k -->
+
+
+    <owl:Class rdf:about="cathepsin-k"/>
+    
+
+
+    <!-- cathepsin-k&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cathepsin-k--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cathepsin-k"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ccaatenhancer-binding-protein-alpha -->
+
+
+    <owl:Class rdf:about="ccaatenhancer-binding-protein-alpha"/>
+    
+
+
+    <!-- ccaatenhancer-binding-protein-alpha&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ccaatenhancer-binding-protein-alpha--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ccaatenhancer-binding-protein-alpha"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ccaatenhancer-binding-protein-epsilon -->
+
+
+    <owl:Class rdf:about="ccaatenhancer-binding-protein-epsilon"/>
+    
+
+
+    <!-- ccaatenhancer-binding-protein-epsilon&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ccaatenhancer-binding-protein-epsilon--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ccaatenhancer-binding-protein-epsilon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ccr2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ccr2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ccr3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ccr3--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ccr5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ccr5--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd14&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd14--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd14-molecule -->
+
+
+    <owl:Class rdf:about="cd14-molecule"/>
+    
+
+
+    <!-- cd2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd2-molecule -->
+
+
+    <owl:Class rdf:about="cd2-molecule"/>
+    
+
+
+    <!-- cd24&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd24--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd244&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd244--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd28&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd28--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd38&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd38--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd4--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd4-molecule -->
+
+
+    <owl:Class rdf:about="cd4-molecule"/>
+    
+
+
+    <!-- cd40-ligand&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd40-ligand--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="tumor-necrosis-factor-ligand-superfamily-member-5"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- cd40lg&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd40lg--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd44&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd44--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd44-antigen&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd44-antigen--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cd44-molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- cd44-molecule -->
+
+
+    <owl:Class rdf:about="cd44-molecule"/>
+    
+
+
+    <!-- cd48&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd48--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd48-antigen&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd48-antigen--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cd48-molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- cd48-molecule -->
+
+
+    <owl:Class rdf:about="cd48-molecule"/>
+    
+
+
+    <!-- cd5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd5--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd8a&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd8a--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd8b&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd8b--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd9&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd9--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cd9-antigen&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cd9-antigen--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cd9-molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- cd9-molecule -->
+
+
+    <owl:Class rdf:about="cd9-molecule"/>
+    
+
+
+    <!-- cdh1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cdh1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cebpa&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cebpa--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cebpe&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cebpe--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cell-type -->
+
+
+    <owl:Class rdf:about="cell-type"/>
+    
+
+
+    <!-- cellular-metabolic-compound-salvage -->
+
+
+    <owl:Class rdf:about="cellular-metabolic-compound-salvage"/>
+    
+
+
+    <!-- chemical-entity -->
+
+
+    <owl:Class rdf:about="chemical-entity"/>
+    
+
+
+    <!-- cholagogue -->
+
+
+    <owl:Class rdf:about="cholagogue"/>
+    
+
+
+    <!-- cholagogues-or-choleretic-agents -->
+
+
+    <owl:Class rdf:about="cholagogues-or-choleretic-agents"/>
+    
+
+
+    <!-- cleavage-of-hypoxanthine-by-mpg-glycosylase -->
+
+
+    <owl:Class rdf:about="cleavage-of-hypoxanthine-by-mpg-glycosylase">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- colonic-pseudo-obstruction -->
+
+
+    <owl:Class rdf:about="colonic-pseudo-obstruction"/>
+    
+
+
+    <!-- common-rattus-norvegicus-strains -->
+
+
+    <owl:Class rdf:about="common-rattus-norvegicus-strains">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- continuous-positive-airway-pressure -->
+
+
+    <owl:Class rdf:about="continuous-positive-airway-pressure">
+        <rdfs:subClassOf rdf:resource="continuous-positive-airway-pressure"/>
+        <rdfs:subClassOf rdf:resource="medical-procedure"/>
+        <rdfs:subClassOf rdf:resource="positive-pressure-respiration"/>
+        <rdfs:subClassOf rdf:resource="therapeutic-procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- copenhagen -->
+
+
+    <owl:Class rdf:about="copenhagen">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- corneal-disease -->
+
+
+    <owl:Class rdf:about="corneal-disease"/>
+    
+
+
+    <!-- corneal-laceration -->
+
+
+    <owl:Class rdf:about="corneal-laceration">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="corneal-disease"/>
+        <rdfs:subClassOf rdf:resource="lacerated-wound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- csf1r&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="csf1r--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ctsk&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ctsk--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cx3c-chemokine-receptor-1 -->
+
+
+    <owl:Class rdf:about="cx3c-chemokine-receptor-1"/>
+    
+
+
+    <!-- cx3c-chemokine-receptor-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cx3c-chemokine-receptor-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cx3c-chemokine-receptor-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- cx3cr1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cx3cr1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cxcr2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cxcr2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cxcr3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cxcr3--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cxcr4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cxcr4--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cxcr5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="cxcr5--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cyclooxygenase-1-inhibitor -->
+
+
+    <owl:Class rdf:about="cyclooxygenase-1-inhibitor"/>
+    
+
+
+    <!-- cyclooxygenase-2-inhibitor -->
+
+
+    <owl:Class rdf:about="cyclooxygenase-2-inhibitor"/>
+    
+
+
+    <!-- cyclooxygenase-inhibitor -->
+
+
+    <owl:Class rdf:about="cyclooxygenase-inhibitor"/>
+    
+
+
+    <!-- cytochrome-p450-2c19 -->
+
+
+    <owl:Class rdf:about="cytochrome-p450-2c19"/>
+    
+
+
+    <!-- cytochrome-p450-isoenzyme-2c19&#45;&#45;cyp2c19&#45;&#45;substrate-disposition -->
+
+
+    <owl:Class rdf:about="cytochrome-p450-isoenzyme-2c19--cyp2c19--substrate-disposition"/>
+    
+
+
+    <!-- dahl-salt-resistant -->
+
+
+    <owl:Class rdf:about="dahl-salt-resistant">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- dahl-salt-sensitive -->
+
+
+    <owl:Class rdf:about="dahl-salt-sensitive">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- dark-agouti -->
+
+
+    <owl:Class rdf:about="dark-agouti">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- dermatologic-preparation -->
+
+
+    <owl:Class rdf:about="dermatologic-preparation"/>
+    
+
+
+    <!-- drug-allergen -->
+
+
+    <owl:Class rdf:about="drug-allergen"/>
+    
+
+
+    <!-- drug-liver-toxicity -->
+
+
+    <owl:Class rdf:about="drug-liver-toxicity"/>
+    
+
+
+    <!-- e3-sumo-protein-ligase-egr2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="e3-sumo-protein-ligase-egr2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="early-growth-response-protein-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- e3-ubiquitin-protein-ligase-siah1-isoform-1 -->
+
+
+    <owl:Class rdf:about="e3-ubiquitin-protein-ligase-siah1-isoform-1"/>
+    
+
+
+    <!-- e3-ubiquitin-protein-ligase-siah1-isoform-1-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="e3-ubiquitin-protein-ligase-siah1-isoform-1-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="e3-ubiquitin-protein-ligase-siah1-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ear-disease -->
+
+
+    <owl:Class rdf:about="ear-disease"/>
+    
+
+
+    <!-- early-growth-response-protein-2 -->
+
+
+    <owl:Class rdf:about="early-growth-response-protein-2"/>
+    
+
+
+    <!-- ectonucleotide-pyrophosphatasephosphodiesterase-family-member-3 -->
+
+
+    <owl:Class rdf:about="ectonucleotide-pyrophosphatasephosphodiesterase-family-member-3"/>
+    
+
+
+    <!-- ectonucleotide-pyrophosphatasephosphodiesterase-family-member-3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ectonucleotide-pyrophosphatasephosphodiesterase-family-member-3--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ectonucleotide-pyrophosphatasephosphodiesterase-family-member-3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- egr2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="egr2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- endothelial-transcription-factor-gata-2 -->
+
+
+    <owl:Class rdf:about="endothelial-transcription-factor-gata-2"/>
+    
+
+
+    <!-- endothelial-transcription-factor-gata-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="endothelial-transcription-factor-gata-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="endothelial-transcription-factor-gata-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- enpep&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="enpep--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- enpp3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="enpp3--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- epithelial-cell -->
+
+
+    <owl:Class rdf:about="epithelial-cell"/>
+    
+
+
+    <!-- erythroid-transcription-factor -->
+
+
+    <owl:Class rdf:about="erythroid-transcription-factor"/>
+    
+
+
+    <!-- erythroid-transcription-factor&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="erythroid-transcription-factor--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="erythroid-transcription-factor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- fcer1a&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="fcer1a--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fcgr2b&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="fcgr2b--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fenoprofen -->
+
+
+    <owl:Class rdf:about="fenoprofen">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="cyclooxygenase-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="fenoprofen"/>
+        <rdfs:subClassOf rdf:resource="monocarboxylic-acid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="organic-molecular-entity"/>
+        <rdfs:subClassOf rdf:resource="phenylpropionates"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-attribute"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="drug-liver-toxicity"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-attribute-value"/>
+                                <owl:someValuesFrom rdf:resource="most-dili-concern"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antipyretic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="cyclooxygenase-1-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="cyclooxygenase-2-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="drug-allergen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="non-narcotic-analgesic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="non-steroidal-anti-inflammatory-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fenoprofen-Concept -->
+
+
+    <owl:Class rdf:about="fenoprofen-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="fenoprofen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fenoprofen-oral-capsule -->
+
+
+    <owl:Class rdf:about="fenoprofen-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="fenoprofen"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fenoprofen-oral-tablet -->
+
+
+    <owl:Class rdf:about="fenoprofen-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="fenoprofen"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fibroblast-growth-factor-receptor-like-1-isoform-1 -->
+
+
+    <owl:Class rdf:about="fibroblast-growth-factor-receptor-like-1-isoform-1"/>
+    
+
+
+    <!-- fibroblast-growth-factor-receptor-like-1-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="fibroblast-growth-factor-receptor-like-1-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="fibroblast-growth-factor-receptor-like-1-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- fibroblast-growth-factor-receptor-like-1-isoform-2 -->
+
+
+    <owl:Class rdf:about="fibroblast-growth-factor-receptor-like-1-isoform-2"/>
+    
+
+
+    <!-- fibroblast-growth-factor-receptor-like-1-isoform-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="fibroblast-growth-factor-receptor-like-1-isoform-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="fibroblast-growth-factor-receptor-like-1-isoform-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- fischer-344 -->
+
+
+    <owl:Class rdf:about="fischer-344">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- fos&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="fos--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fucidin-leo -->
+
+
+    <owl:Class rdf:about="fucidin-leo">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="substance-related-to-drugs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="dermatologic-preparation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fundamental-metabolite -->
+
+
+    <owl:Class rdf:about="fundamental-metabolite"/>
+    
+
+
+    <!-- fut4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="fut4--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galectin-1 -->
+
+
+    <owl:Class rdf:about="galectin-1"/>
+    
+
+
+    <!-- galectin-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="galectin-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="galectin-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- gata1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="gata1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- gata2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="gata2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- geranylgeranyl-transferase-type-1-subunit-beta-isoform-1 -->
+
+
+    <owl:Class rdf:about="geranylgeranyl-transferase-type-1-subunit-beta-isoform-1"/>
+    
+
+
+    <!-- geranylgeranyl-transferase-type-1-subunit-beta-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="geranylgeranyl-transferase-type-1-subunit-beta-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="geranylgeranyl-transferase-type-1-subunit-beta-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- gfap&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="gfap--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- glial-fibrillary-acidic-protein -->
+
+
+    <owl:Class rdf:about="glial-fibrillary-acidic-protein"/>
+    
+
+
+    <!-- glial-fibrillary-acidic-protein&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="glial-fibrillary-acidic-protein--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="glial-fibrillary-acidic-protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- glutamyl-aminopeptidase -->
+
+
+    <owl:Class rdf:about="glutamyl-aminopeptidase"/>
+    
+
+
+    <!-- glutamyl-aminopeptidase&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="glutamyl-aminopeptidase--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="glutamyl-aminopeptidase"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- goserelinnilutamide -->
+
+
+    <owl:Class rdf:about="goserelinnilutamide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="nilutamide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- goto-kakizaki -->
+
+
+    <owl:Class rdf:about="goto-kakizaki">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- guanine-hypoxanthine -->
+
+
+    <owl:Class rdf:about="guanine-hypoxanthine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- heart-assist-devices -->
+
+
+    <owl:Class rdf:about="heart-assist-devices">
+        <rdfs:subClassOf rdf:resource="artificial-heart"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-disease -->
+
+
+    <owl:Class rdf:about="heart-disease"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-1-like -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-1-like"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-1-like&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-1-like--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-1-like"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-70-kda-protein-13 -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-13"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-13&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-13--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-13"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-70-kda-protein-14 -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-14"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-14&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-14--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-14"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-70-kda-protein-1a -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-1a"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-1a&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-1a--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-1a"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-70-kda-protein-1b -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-1b"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-1b&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-1b--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-1b"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-70-kda-protein-4 -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-4"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-4--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-4"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-70-kda-protein-4l -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-4l"/>
+    
+
+
+    <!-- heat-shock-70-kda-protein-4l&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-70-kda-protein-4l--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-70-kda-protein-4l"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-cognate-71-kda-protein -->
+
+
+    <owl:Class rdf:about="heat-shock-cognate-71-kda-protein"/>
+    
+
+
+    <!-- heat-shock-cognate-71-kda-protein&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-cognate-71-kda-protein--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-cognate-71-kda-protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-protein-105-kda -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-105-kda"/>
+    
+
+
+    <!-- heat-shock-protein-105-kda&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-105-kda--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-protein-105-kda"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-protein-75-kda-mitochondrial -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-75-kda-mitochondrial"/>
+    
+
+
+    <!-- heat-shock-protein-75-kda-mitochondrial&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-75-kda-mitochondrial--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-protein-75-kda-mitochondrial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-protein-hsp-90-alpha -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-hsp-90-alpha"/>
+    
+
+
+    <!-- heat-shock-protein-hsp-90-alpha&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-hsp-90-alpha--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-protein-hsp-90-alpha"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-protein-hsp-90-beta -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-hsp-90-beta"/>
+    
+
+
+    <!-- heat-shock-protein-hsp-90-beta&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-protein-hsp-90-beta--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-protein-hsp-90-beta"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heat-shock-related-70-kda-protein-2 -->
+
+
+    <owl:Class rdf:about="heat-shock-related-70-kda-protein-2"/>
+    
+
+
+    <!-- heat-shock-related-70-kda-protein-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="heat-shock-related-70-kda-protein-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heat-shock-related-70-kda-protein-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- hemiplegia -->
+
+
+    <owl:Class rdf:about="hemiplegia"/>
+    
+
+
+    <!-- high-affinity-immunoglobulin-epsilon-receptor-subunit-alpha -->
+
+
+    <owl:Class rdf:about="high-affinity-immunoglobulin-epsilon-receptor-subunit-alpha"/>
+    
+
+
+    <!-- high-affinity-immunoglobulin-epsilon-receptor-subunit-alpha&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="high-affinity-immunoglobulin-epsilon-receptor-subunit-alpha--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="high-affinity-immunoglobulin-epsilon-receptor-subunit-alpha"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- hsp70-binding-protein-1 -->
+
+
+    <owl:Class rdf:about="hsp70-binding-protein-1"/>
+    
+
+
+    <!-- hsp70-binding-protein-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="hsp70-binding-protein-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="hsp70-binding-protein-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- hypertrophic-scar -->
+
+
+    <owl:Class rdf:about="hypertrophic-scar">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="reactive-cutaneous-fibrous-lesion"/>
+        <rdfs:subClassOf rdf:resource="scarring"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine -->
+
+
+    <owl:Class rdf:about="hypoxanthine">
+        <rdfs:subClassOf rdf:resource="chemical-entity"/>
+        <rdfs:subClassOf rdf:resource="hypoxanthine"/>
+        <rdfs:subClassOf rdf:resource="hypoxanthines"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="nucleobase-analogue"/>
+        <rdfs:subClassOf rdf:resource="organic-cyclic-compound"/>
+        <rdfs:subClassOf rdf:resource="oxopurine"/>
+        <rdfs:subClassOf rdf:resource="poly--adp-ribose--polymerase-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="purine"/>
+        <rdfs:subClassOf rdf:resource="purine-nucleobase"/>
+        <rdfs:subClassOf rdf:resource="substance-with-fundamental-metabolite-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="adenine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="fundamental-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine&#45;&#45;-deoxy-ribose-1-phosphate&#45;&#45;-deoxy-inosine&#45;&#45;orthophosphate-np -->
+
+
+    <owl:Class rdf:about="hypoxanthine---deoxy-ribose-1-phosphate---deoxy-inosine--orthophosphate-np">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine&#45;&#45;h2o&#45;&#45;o2&#45;&#45;xanthine&#45;&#45;h2o2 -->
+
+
+    <owl:Class rdf:about="hypoxanthine--h2o--o2--xanthine--h2o2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-Concept -->
+
+
+    <owl:Class rdf:about="hypoxanthine-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-biosynthetic-process -->
+
+
+    <owl:Class rdf:about="hypoxanthine-biosynthetic-process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="biosynthetic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-primary-output"/>
+                        <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-catabolic-process -->
+
+
+    <owl:Class rdf:about="hypoxanthine-catabolic-process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="catabolic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-primary-input"/>
+                        <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-metabolic-process -->
+
+
+    <owl:Class rdf:about="hypoxanthine-metabolic-process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="metabolic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                        <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-oxidation -->
+
+
+    <owl:Class rdf:about="hypoxanthine-oxidation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="catabolic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="oxidation-reduction-process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="has-primary-input"/>
+                                        <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-salvage -->
+
+
+    <owl:Class rdf:about="hypoxanthine-salvage">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cellular-metabolic-compound-salvage"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-output"/>
+                        <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthine-transport -->
+
+
+    <owl:Class rdf:about="hypoxanthine-transport">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="transport"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                        <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypoxanthines -->
+
+
+    <owl:Class rdf:about="hypoxanthines"/>
+    
+
+
+    <!-- icos&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="icos--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- il1rl1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="il1rl1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- il2ra&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="il2ra--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- il2rb&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="il2rb--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- imidazolidines -->
+
+
+    <owl:Class rdf:about="imidazolidines"/>
+    
+
+
+    <!-- imidazolidinone -->
+
+
+    <owl:Class rdf:about="imidazolidinone"/>
+    
+
+
+    <!-- increased-amount -->
+
+
+    <owl:Class rdf:about="increased-amount"/>
+    
+
+
+    <!-- increased-urinary-hypoxanthine -->
+
+
+    <owl:Class rdf:about="increased-urinary-hypoxanthine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="hypoxanthine"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="urine"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- inducible-t-cell-costimulator -->
+
+
+    <owl:Class rdf:about="inducible-t-cell-costimulator"/>
+    
+
+
+    <!-- inducible-t-cell-costimulator&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="inducible-t-cell-costimulator--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="inducible-t-cell-costimulator"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- inosine -->
+
+
+    <owl:Class rdf:about="inosine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ins-1 -->
+
+
+    <owl:Class rdf:about="ins-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="cell-type"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="organism-part"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part-of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="cell-type"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="organism-part"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part_of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- interferon-regulatory-factor-5-isoform-2 -->
+
+
+    <owl:Class rdf:about="interferon-regulatory-factor-5-isoform-2"/>
+    
+
+
+    <!-- interferon-regulatory-factor-5-isoform-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="interferon-regulatory-factor-5-isoform-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="interferon-regulatory-factor-5-isoform-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- interleukin&#45;&#45;rattus-norvegicus- -->
+
+
+    <owl:Class rdf:about="interleukin--rattus-norvegicus-">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-1-beta&#45;&#45;rattus-norvegicus- -->
+
+
+    <owl:Class rdf:about="interleukin-1-beta--rattus-norvegicus-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-1-receptor-like-1 -->
+
+
+    <owl:Class rdf:about="interleukin-1-receptor-like-1"/>
+    
+
+
+    <!-- interleukin-1-receptor-like-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="interleukin-1-receptor-like-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="interleukin-1-receptor-like-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-2-receptor-subunit-alpha -->
+
+
+    <owl:Class rdf:about="interleukin-2-receptor-subunit-alpha"/>
+    
+
+
+    <!-- interleukin-2-receptor-subunit-alpha&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="interleukin-2-receptor-subunit-alpha--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="interleukin-2-receptor-subunit-alpha"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-2-receptor-subunit-beta -->
+
+
+    <owl:Class rdf:about="interleukin-2-receptor-subunit-beta"/>
+    
+
+
+    <!-- interleukin-2-receptor-subunit-beta&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="interleukin-2-receptor-subunit-beta--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="interleukin-2-receptor-subunit-beta"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-33&#45;&#45;rattus-norvegicus- -->
+
+
+    <owl:Class rdf:about="interleukin-33--rattus-norvegicus-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- intestinal-disease -->
+
+
+    <owl:Class rdf:about="intestinal-disease"/>
+    
+
+
+    <!-- iron-sulfur-protein -->
+
+
+    <owl:Class rdf:about="iron-sulfur-protein"/>
+    
+
+
+    <!-- iron-sulfur-proteins -->
+
+
+    <owl:Class rdf:about="iron-sulfur-proteins"/>
+    
+
+
+    <!-- kdr&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="kdr--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- killer-cell-lectin-like-receptor-subfamily-d-member-1 -->
+
+
+    <owl:Class rdf:about="killer-cell-lectin-like-receptor-subfamily-d-member-1"/>
+    
+
+
+    <!-- klrd1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="klrd1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- korean-hemorrhagic-fever -->
+
+
+    <owl:Class rdf:about="korean-hemorrhagic-fever">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transmitted-by"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- l-selectin -->
+
+
+    <owl:Class rdf:about="l-selectin"/>
+    
+
+
+    <!-- l-selectin&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="l-selectin--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="l-selectin"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- lacerated-wound -->
+
+
+    <owl:Class rdf:about="lacerated-wound"/>
+    
+
+
+    <!-- lactosylceramide-4-alpha-galactosyltransferase -->
+
+
+    <owl:Class rdf:about="lactosylceramide-4-alpha-galactosyltransferase"/>
+    
+
+
+    <!-- lactosylceramide-4-alpha-galactosyltransferase&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="lactosylceramide-4-alpha-galactosyltransferase--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="lactosylceramide-4-alpha-galactosyltransferase"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- late-embryonic-stage -->
+
+
+    <owl:Class rdf:about="late-embryonic-stage"/>
+    
+
+
+    <!-- lcn2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="lcn2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- leuprolidenilutamide -->
+
+
+    <owl:Class rdf:about="leuprolidenilutamide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="nilutamide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lewis -->
+
+
+    <owl:Class rdf:about="lewis">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- lgals1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="lgals1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ligand-binding-protein -->
+
+
+    <owl:Class rdf:about="ligand-binding-protein"/>
+    
+
+
+    <!-- ligands-of-slc29a2 -->
+
+
+    <owl:Class rdf:about="ligands-of-slc29a2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- liver -->
+
+
+    <owl:Class rdf:about="liver"/>
+    
+
+
+    <!-- low-affinity-immunoglobulin-gamma-fc-region-receptor-ii -->
+
+
+    <owl:Class rdf:about="low-affinity-immunoglobulin-gamma-fc-region-receptor-ii"/>
+    
+
+
+    <!-- low-affinity-immunoglobulin-gamma-fc-region-receptor-ii&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="low-affinity-immunoglobulin-gamma-fc-region-receptor-ii--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="low-affinity-immunoglobulin-gamma-fc-region-receptor-ii"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- macrophage-colony-stimulating-factor-1-receptor -->
+
+
+    <owl:Class rdf:about="macrophage-colony-stimulating-factor-1-receptor"/>
+    
+
+
+    <!-- macrophage-colony-stimulating-factor-1-receptor&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="macrophage-colony-stimulating-factor-1-receptor--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="macrophage-colony-stimulating-factor-1-receptor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- malignant-ascites -->
+
+
+    <owl:Class rdf:about="malignant-ascites"/>
+    
+
+
+    <!-- mammalian -->
+
+
+    <owl:Class rdf:about="mammalian"/>
+    
+
+
+    <!-- medical-procedure -->
+
+
+    <owl:Class rdf:about="medical-procedure"/>
+    
+
+
+    <!-- mertk&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="mertk--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mesotocin -->
+
+
+    <owl:Class rdf:about="mesotocin">
+        <rdfs:subClassOf rdf:resource="oligopeptide"/>
+        <rdfs:subClassOf rdf:resource="oxytocin"/>
+        <rdfs:subClassOf rdf:resource="peptide-hormone"/>
+        <rdfs:subClassOf rdf:resource="posterior-pituitary-hormone"/>
+    </owl:Class>
+    
+
+
+    <!-- metabolic-process -->
+
+
+    <owl:Class rdf:about="metabolic-process"/>
+    
+
+
+    <!-- methyl-cpg-binding-protein-2-isoform-1 -->
+
+
+    <owl:Class rdf:about="methyl-cpg-binding-protein-2-isoform-1"/>
+    
+
+
+    <!-- methyl-cpg-binding-protein-2-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="methyl-cpg-binding-protein-2-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="methyl-cpg-binding-protein-2-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- methyl-cpg-binding-protein-2-isoform-2 -->
+
+
+    <owl:Class rdf:about="methyl-cpg-binding-protein-2-isoform-2"/>
+    
+
+
+    <!-- methyl-cpg-binding-protein-2-isoform-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="methyl-cpg-binding-protein-2-isoform-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="methyl-cpg-binding-protein-2-isoform-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- mme&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="mme--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- monocarboxylic-acid -->
+
+
+    <owl:Class rdf:about="monocarboxylic-acid"/>
+    
+
+
+    <!-- monocyte-differentiation-antigen-cd14&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="monocyte-differentiation-antigen-cd14--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cd14-molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- monoplegia -->
+
+
+    <owl:Class rdf:about="monoplegia">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="hemiplegia"/>
+    </owl:Class>
+    
+
+
+    <!-- monoplegia-Concept -->
+
+
+    <owl:Class rdf:about="monoplegia-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="monoplegia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- most-dili-concern -->
+
+
+    <owl:Class rdf:about="most-dili-concern"/>
+    
+
+
+    <!-- murinae -->
+
+
+    <owl:Class rdf:about="murinae"/>
+    
+
+
+    <!-- nasal-continuous-positive-airway-pressure -->
+
+
+    <owl:Class rdf:about="nasal-continuous-positive-airway-pressure">
+        <rdfs:subClassOf rdf:resource="continuous-positive-airway-pressure"/>
+    </owl:Class>
+    
+
+
+    <!-- natural-cytotoxicity-triggering-receptor-1 -->
+
+
+    <owl:Class rdf:about="natural-cytotoxicity-triggering-receptor-1"/>
+    
+
+
+    <!-- natural-cytotoxicity-triggering-receptor-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="natural-cytotoxicity-triggering-receptor-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="natural-cytotoxicity-triggering-receptor-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- natural-killer-cell-receptor-2b4 -->
+
+
+    <owl:Class rdf:about="natural-killer-cell-receptor-2b4"/>
+    
+
+
+    <!-- natural-killer-cell-receptor-2b4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="natural-killer-cell-receptor-2b4--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="natural-killer-cell-receptor-2b4"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- natural-killer-cells-antigen-cd94&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="natural-killer-cells-antigen-cd94--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="killer-cell-lectin-like-receptor-subfamily-d-member-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ncam1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ncam1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ncr1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ncr1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- neprilysin -->
+
+
+    <owl:Class rdf:about="neprilysin"/>
+    
+
+
+    <!-- neprilysin&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="neprilysin--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="neprilysin"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- neural-cell-adhesion-molecule-1 -->
+
+
+    <owl:Class rdf:about="neural-cell-adhesion-molecule-1"/>
+    
+
+
+    <!-- neural-cell-adhesion-molecule-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="neural-cell-adhesion-molecule-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="neural-cell-adhesion-molecule-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- neutrophil-gelatinase-associated-lipocalin -->
+
+
+    <owl:Class rdf:about="neutrophil-gelatinase-associated-lipocalin"/>
+    
+
+
+    <!-- neutrophil-gelatinase-associated-lipocalin&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="neutrophil-gelatinase-associated-lipocalin--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="neutrophil-gelatinase-associated-lipocalin"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- nibrin-isoform-1 -->
+
+
+    <owl:Class rdf:about="nibrin-isoform-1"/>
+    
+
+
+    <!-- nibrin-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="nibrin-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="nibrin-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nilutamide -->
+
+
+    <owl:Class rdf:about="nilutamide">
+        <rdfs:subClassOf rdf:resource="androgen-receptor-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="c-nitro-compound"/>
+        <rdfs:subClassOf rdf:resource="imidazolidines"/>
+        <rdfs:subClassOf rdf:resource="imidazolidinone"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="organic-molecular-entity"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf rdf:resource="-trifluoromethyl-benzenes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemical_or_drug_is_metabolized_by_enzyme"/>
+                <owl:someValuesFrom rdf:resource="cytochrome-p450-2c19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-attribute"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="drug-liver-toxicity"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-attribute-value"/>
+                                <owl:someValuesFrom rdf:resource="most-dili-concern"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="androgen-antagonist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antineoplastic-agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-bearer-of"/>
+                <owl:someValuesFrom rdf:resource="cytochrome-p450-isoenzyme-2c19--cyp2c19--substrate-disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nilutamide-Concept -->
+
+
+    <owl:Class rdf:about="nilutamide-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="nilutamide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nilutamide-mitochondrial-disorder -->
+
+
+    <owl:Class rdf:about="nilutamide-mitochondrial-disorder">
+        <rdfs:subClassOf rdf:resource="nilutamide"/>
+    </owl:Class>
+    
+
+
+    <!-- nilutamide-oral-tablet -->
+
+
+    <owl:Class rdf:about="nilutamide-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nilutamide"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nilutamide-regimen -->
+
+
+    <owl:Class rdf:about="nilutamide-regimen">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="nilutamide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nilutamidetriptorelin -->
+
+
+    <owl:Class rdf:about="nilutamidetriptorelin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="nilutamide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- non-narcotic-analgesic -->
+
+
+    <owl:Class rdf:about="non-narcotic-analgesic"/>
+    
+
+
+    <!-- non-steroidal-anti-inflammatory-drug -->
+
+
+    <owl:Class rdf:about="non-steroidal-anti-inflammatory-drug"/>
+    
+
+
+    <!-- nt5e&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="nt5e--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nucleobase-analogue -->
+
+
+    <owl:Class rdf:about="nucleobase-analogue"/>
+    
+
+
+    <!-- ogilvies-syndrome -->
+
+
+    <owl:Class rdf:about="ogilvies-syndrome">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="intestinal-disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="colonic-pseudo-obstruction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- okamoto-aoki -->
+
+
+    <owl:Class rdf:about="okamoto-aoki">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- oligopeptide -->
+
+
+    <owl:Class rdf:about="oligopeptide"/>
+    
+
+
+    <!-- open-wound-of-auditory-canal -->
+
+
+    <owl:Class rdf:about="open-wound-of-auditory-canal">
+        <rdfs:subClassOf rdf:resource="open-wound-of-external-ear"/>
+    </owl:Class>
+    
+
+
+    <!-- open-wound-of-ear -->
+
+
+    <owl:Class rdf:about="open-wound-of-ear"/>
+    
+
+
+    <!-- open-wound-of-ear-auricle -->
+
+
+    <owl:Class rdf:about="open-wound-of-ear-auricle">
+        <rdfs:subClassOf rdf:resource="open-wound-of-external-ear"/>
+    </owl:Class>
+    
+
+
+    <!-- open-wound-of-external-ear -->
+
+
+    <owl:Class rdf:about="open-wound-of-external-ear">
+        <rdfs:subClassOf rdf:resource="ear-disease"/>
+        <rdfs:subClassOf rdf:resource="open-wound-of-ear"/>
+        <rdfs:subClassOf rdf:resource="wound"/>
+    </owl:Class>
+    
+
+
+    <!-- open-wound-of-external-ear-not-otherwise-specified -->
+
+
+    <owl:Class rdf:about="open-wound-of-external-ear-not-otherwise-specified">
+        <rdfs:subClassOf rdf:resource="open-wound-of-external-ear"/>
+    </owl:Class>
+    
+
+
+    <!-- open-wound-of-external-ear-unspecified -->
+
+
+    <owl:Class rdf:about="open-wound-of-external-ear-unspecified">
+        <rdfs:subClassOf rdf:resource="open-wound-of-external-ear"/>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organic-cyclic-compound -->
+
+
+    <owl:Class rdf:about="organic-cyclic-compound"/>
+    
+
+
+    <!-- organic-molecular-entity -->
+
+
+    <owl:Class rdf:about="organic-molecular-entity"/>
+    
+
+
+    <!-- organism -->
+
+
+    <owl:Class rdf:about="organism"/>
+    
+
+
+    <!-- organism-part -->
+
+
+    <owl:Class rdf:about="organism-part"/>
+    
+
+
+    <!-- organophosphorus-insecticide -->
+
+
+    <owl:Class rdf:about="organophosphorus-insecticide"/>
+    
+
+
+    <!-- organothiophosphates -->
+
+
+    <owl:Class rdf:about="organothiophosphates"/>
+    
+
+
+    <!-- osalmid -->
+
+
+    <owl:Class rdf:about="osalmid">
+        <rdfs:subClassOf rdf:resource="cholagogues-or-choleretic-agents"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="cholagogue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- other-open-wound-of-external-ear -->
+
+
+    <owl:Class rdf:about="other-open-wound-of-external-ear">
+        <rdfs:subClassOf rdf:resource="open-wound-of-external-ear"/>
+    </owl:Class>
+    
+
+
+    <!-- other-specified-anomalies-nos -->
+
+
+    <owl:Class rdf:about="other-specified-anomalies-nos"/>
+    
+
+
+    <!-- oxidation-reduction-process -->
+
+
+    <owl:Class rdf:about="oxidation-reduction-process"/>
+    
+
+
+    <!-- oxopurine -->
+
+
+    <owl:Class rdf:about="oxopurine"/>
+    
+
+
+    <!-- oxytocin -->
+
+
+    <owl:Class rdf:about="oxytocin"/>
+    
+
+
+    <!-- pc12 -->
+
+
+    <owl:Class rdf:about="pc12">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="cell-type"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="adrenal-medulla-chromaffin-cell"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part-of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="cell-type"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="adrenal-gland"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part_of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- peptide-hormone -->
+
+
+    <owl:Class rdf:about="peptide-hormone"/>
+    
+
+
+    <!-- perezone -->
+
+
+    <owl:Class rdf:about="perezone">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="sesquiterpenes"/>
+    </owl:Class>
+    
+
+
+    <!-- perfect-body-buried-artificial-heart -->
+
+
+    <owl:Class rdf:about="perfect-body-buried-artificial-heart">
+        <rdfs:subClassOf rdf:resource="artificial-heart"/>
+    </owl:Class>
+    
+
+
+    <!-- perforin-1 -->
+
+
+    <owl:Class rdf:about="perforin-1"/>
+    
+
+
+    <!-- perforin-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="perforin-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="perforin-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- phenylpropionates -->
+
+
+    <owl:Class rdf:about="phenylpropionates"/>
+    
+
+
+    <!-- phosphoribosyl-pyrophosphate-synthase-associated-protein-1-isoform-1 -->
+
+
+    <owl:Class rdf:about="phosphoribosyl-pyrophosphate-synthase-associated-protein-1-isoform-1"/>
+    
+
+
+    <!-- phosphoribosyl-pyrophosphate-synthase-associated-protein-1-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="phosphoribosyl-pyrophosphate-synthase-associated-protein-1-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="phosphoribosyl-pyrophosphate-synthase-associated-protein-1-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- phosphoribosyl-pyrophosphate-synthase-associated-protein-2-isoform-1 -->
+
+
+    <owl:Class rdf:about="phosphoribosyl-pyrophosphate-synthase-associated-protein-2-isoform-1"/>
+    
+
+
+    <!-- phosphoribosyl-pyrophosphate-synthase-associated-protein-2-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="phosphoribosyl-pyrophosphate-synthase-associated-protein-2-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="phosphoribosyl-pyrophosphate-synthase-associated-protein-2-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- plaur&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="plaur--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- poly&#45;&#45;adp-ribose&#45;&#45;polymerase-inhibitor -->
+
+
+    <owl:Class rdf:about="poly--adp-ribose--polymerase-inhibitor"/>
+    
+
+
+    <!-- positive-pressure-respiration -->
+
+
+    <owl:Class rdf:about="positive-pressure-respiration"/>
+    
+
+
+    <!-- posterior-pituitary-hormone -->
+
+
+    <owl:Class rdf:about="posterior-pituitary-hormone"/>
+    
+
+
+    <!-- pr-domain-zinc-finger-protein-1-isoform-1 -->
+
+
+    <owl:Class rdf:about="pr-domain-zinc-finger-protein-1-isoform-1"/>
+    
+
+
+    <!-- pr-domain-zinc-finger-protein-1-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="pr-domain-zinc-finger-protein-1-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="pr-domain-zinc-finger-protein-1-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- prf1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="prf1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prg2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="prg2--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- processed-material -->
+
+
+    <owl:Class rdf:about="processed-material"/>
+    
+
+
+    <!-- protein -->
+
+
+    <owl:Class rdf:about="protein"/>
+    
+
+
+    <!-- protein-farnesyltransferase-subunit-beta-isoform-1 -->
+
+
+    <owl:Class rdf:about="protein-farnesyltransferase-subunit-beta-isoform-1"/>
+    
+
+
+    <!-- protein-farnesyltransferase-subunit-beta-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="protein-farnesyltransferase-subunit-beta-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="protein-farnesyltransferase-subunit-beta-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- protein-farnesyltransferasegeranylgeranyltransferase-type-1-subunit-alpha-isoform-1 -->
+
+
+    <owl:Class rdf:about="protein-farnesyltransferasegeranylgeranyltransferase-type-1-subunit-alpha-isoform-1"/>
+    
+
+
+    <!-- protein-farnesyltransferasegeranylgeranyltransferase-type-1-subunit-alpha-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="protein-farnesyltransferasegeranylgeranyltransferase-type-1-subunit-alpha-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="protein-farnesyltransferasegeranylgeranyltransferase-type-1-subunit-alpha-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- proto-oncogene-c-fos -->
+
+
+    <owl:Class rdf:about="proto-oncogene-c-fos"/>
+    
+
+
+    <!-- proto-oncogene-c-fos&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="proto-oncogene-c-fos--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="proto-oncogene-c-fos"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ptprc&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ptprc--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- purine -->
+
+
+    <owl:Class rdf:about="purine"/>
+    
+
+
+    <!-- purine-nucleobase -->
+
+
+    <owl:Class rdf:about="purine-nucleobase"/>
+    
+
+
+    <!-- rat -->
+
+
+    <owl:Class rdf:about="rat">
+        <owl:equivalentClass rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- rat-protein -->
+
+
+    <owl:Class rdf:about="rat-protein">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_product_has_organism_source"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rattus -->
+
+
+    <owl:Class rdf:about="rattus"/>
+    
+
+
+    <!-- rattus-norvegicus -->
+
+
+    <owl:Class rdf:about="rattus-norvegicus">
+        <rdfs:subClassOf rdf:resource="mammalian"/>
+        <rdfs:subClassOf rdf:resource="murinae"/>
+        <rdfs:subClassOf rdf:resource="organism"/>
+        <rdfs:subClassOf rdf:resource="rat"/>
+        <rdfs:subClassOf rdf:resource="rattus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rattus-norvegicus-protein -->
+
+
+    <owl:Class rdf:about="rattus-norvegicus-protein">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- reactive-cutaneous-fibrous-lesion -->
+
+
+    <owl:Class rdf:about="reactive-cutaneous-fibrous-lesion"/>
+    
+
+
+    <!-- receptor-type-tyrosine-protein-phosphatase-c -->
+
+
+    <owl:Class rdf:about="receptor-type-tyrosine-protein-phosphatase-c"/>
+    
+
+
+    <!-- receptor-type-tyrosine-protein-phosphatase-c&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="receptor-type-tyrosine-protein-phosphatase-c--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="receptor-type-tyrosine-protein-phosphatase-c"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ribose-phosphate-pyrophosphokinase-1-isoform-1 -->
+
+
+    <owl:Class rdf:about="ribose-phosphate-pyrophosphokinase-1-isoform-1"/>
+    
+
+
+    <!-- ribose-phosphate-pyrophosphokinase-1-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ribose-phosphate-pyrophosphokinase-1-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ribose-phosphate-pyrophosphokinase-1-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ribose-phosphate-pyrophosphokinase-2-isoform-1 -->
+
+
+    <owl:Class rdf:about="ribose-phosphate-pyrophosphokinase-2-isoform-1"/>
+    
+
+
+    <!-- ribose-phosphate-pyrophosphokinase-2-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="ribose-phosphate-pyrophosphokinase-2-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ribose-phosphate-pyrophosphokinase-2-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- runt-related-transcription-factor-1 -->
+
+
+    <owl:Class rdf:about="runt-related-transcription-factor-1"/>
+    
+
+
+    <!-- runt-related-transcription-factor-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="runt-related-transcription-factor-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="runt-related-transcription-factor-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- runx1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="runx1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- salithion -->
+
+
+    <owl:Class rdf:about="salithion">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="organothiophosphates"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="organophosphorus-insecticide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- scarring -->
+
+
+    <owl:Class rdf:about="scarring"/>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- scn22 -->
+
+
+    <owl:Class rdf:about="scn22">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="cell-type"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="suprachiasmatic-nucleus"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part-of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="cell-type"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="suprachiasmatic-nucleus"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part_of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sdc1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="sdc1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sell&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="sell--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sesquiterpenes -->
+
+
+    <owl:Class rdf:about="sesquiterpenes"/>
+    
+
+
+    <!-- short-transient-receptor-potential-cation-channel-trpc3 -->
+
+
+    <owl:Class rdf:about="short-transient-receptor-potential-cation-channel-trpc3"/>
+    
+
+
+    <!-- short-transient-receptor-potential-channel-3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="short-transient-receptor-potential-channel-3--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="short-transient-receptor-potential-cation-channel-trpc3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- signal-transducer-cd24 -->
+
+
+    <owl:Class rdf:about="signal-transducer-cd24"/>
+    
+
+
+    <!-- signal-transducer-cd24&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="signal-transducer-cd24--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="signal-transducer-cd24"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- signal-transduction-receptor -->
+
+
+    <owl:Class rdf:about="signal-transduction-receptor"/>
+    
+
+
+    <!-- sirpa&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="sirpa--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sodium-fusidate -->
+
+
+    <owl:Class rdf:about="sodium-fusidate">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- spi1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="spi1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sprague-dawley -->
+
+
+    <owl:Class rdf:about="sprague-dawley">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- stress-70-protein-mitochondrial -->
+
+
+    <owl:Class rdf:about="stress-70-protein-mitochondrial"/>
+    
+
+
+    <!-- stress-70-protein-mitochondrial&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="stress-70-protein-mitochondrial--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="stress-70-protein-mitochondrial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- substance-related-to-drugs -->
+
+
+    <owl:Class rdf:about="substance-related-to-drugs"/>
+    
+
+
+    <!-- substance-with-fundamental-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-fundamental-metabolite-role"/>
+    
+
+
+    <!-- succinyl-coa-ligase-gdp-forming-subunit-alpha-mitochondrial -->
+
+
+    <owl:Class rdf:about="succinyl-coa-ligase-gdp-forming-subunit-alpha-mitochondrial"/>
+    
+
+
+    <!-- succinyl-coa-ligase-gdp-forming-subunit-alpha-mitochondrial&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="succinyl-coa-ligase-gdp-forming-subunit-alpha-mitochondrial--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="succinyl-coa-ligase-gdp-forming-subunit-alpha-mitochondrial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- succinyl-coa-ligase-gdp-forming-subunit-beta-mitochondrial -->
+
+
+    <owl:Class rdf:about="succinyl-coa-ligase-gdp-forming-subunit-beta-mitochondrial"/>
+    
+
+
+    <!-- succinyl-coa-ligase-gdp-forming-subunit-beta-mitochondrial&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="succinyl-coa-ligase-gdp-forming-subunit-beta-mitochondrial--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="succinyl-coa-ligase-gdp-forming-subunit-beta-mitochondrial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- suprachiasmatic-nucleus -->
+
+
+    <owl:Class rdf:about="suprachiasmatic-nucleus"/>
+    
+
+
+    <!-- syndecan-1 -->
+
+
+    <owl:Class rdf:about="syndecan-1"/>
+    
+
+
+    <!-- syndecan-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="syndecan-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="syndecan-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- syracuse-high-avoidance -->
+
+
+    <owl:Class rdf:about="syracuse-high-avoidance">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- syracuse-low-avoidance -->
+
+
+    <owl:Class rdf:about="syracuse-low-avoidance">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-specific-surface-glycoprotein-cd28 -->
+
+
+    <owl:Class rdf:about="t-cell-specific-surface-glycoprotein-cd28"/>
+    
+
+
+    <!-- t-cell-specific-surface-glycoprotein-cd28&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="t-cell-specific-surface-glycoprotein-cd28--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="t-cell-specific-surface-glycoprotein-cd28"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-surface-antigen-cd2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="t-cell-surface-antigen-cd2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cd2-molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd4&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd4--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="cd4-molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd5 -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd5"/>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd5--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="t-cell-surface-glycoprotein-cd5"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd8-alpha-chain -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd8-alpha-chain"/>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd8-alpha-chain&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd8-alpha-chain--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="t-cell-surface-glycoprotein-cd8-alpha-chain"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd8-beta-chain -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd8-beta-chain"/>
+    
+
+
+    <!-- t-cell-surface-glycoprotein-cd8-beta-chain&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="t-cell-surface-glycoprotein-cd8-beta-chain--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="t-cell-surface-glycoprotein-cd8-beta-chain"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- tartrate-resistant-acid-phosphatase-type-5 -->
+
+
+    <owl:Class rdf:about="tartrate-resistant-acid-phosphatase-type-5"/>
+    
+
+
+    <!-- tartrate-resistant-acid-phosphatase-type-5&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="tartrate-resistant-acid-phosphatase-type-5--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="tartrate-resistant-acid-phosphatase-type-5"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- tgf-beta-1-isoform-1-cleaved-1 -->
+
+
+    <owl:Class rdf:about="tgf-beta-1-isoform-1-cleaved-1"/>
+    
+
+
+    <!-- tgf-beta-1-isoform-1-cleaved-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="tgf-beta-1-isoform-1-cleaved-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="tgf-beta-1-isoform-1-cleaved-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- the-rat-brain-in-stereotaxic-coordinates-4th-edition -->
+
+
+    <owl:Class rdf:about="the-rat-brain-in-stereotaxic-coordinates-4th-edition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="isDefinedInTaxon"/>
+                <owl:allValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- the-rat-brain-in-stereotaxic-coordinates-6th-edition -->
+
+
+    <owl:Class rdf:about="the-rat-brain-in-stereotaxic-coordinates-6th-edition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="isDefinedInTaxon"/>
+                <owl:allValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- the-rat-brain-in-stereotaxic-coordinates-7th-edition -->
+
+
+    <owl:Class rdf:about="the-rat-brain-in-stereotaxic-coordinates-7th-edition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="isDefinedInTaxon"/>
+                <owl:allValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- therapeutic-procedure -->
+
+
+    <owl:Class rdf:about="therapeutic-procedure"/>
+    
+
+
+    <!-- thy-1-membrane-glycoprotein -->
+
+
+    <owl:Class rdf:about="thy-1-membrane-glycoprotein"/>
+    
+
+
+    <!-- thy-1-membrane-glycoprotein&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="thy-1-membrane-glycoprotein--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="thy-1-membrane-glycoprotein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- thy1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="thy1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tir-protein -->
+
+
+    <owl:Class rdf:about="tir-protein">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- tlr22 -->
+
+
+    <owl:Class rdf:about="tlr22">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- tmed1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="tmed1--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor -->
+
+
+    <owl:Class rdf:about="toll-like-receptor">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="ligand-binding-protein"/>
+        <rdfs:subClassOf rdf:resource="signal-transduction-receptor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="toll-like-receptors"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-1 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-1">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-10 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-10">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-2 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-2">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-3 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-3">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-4 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-4">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-5 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-5">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-6 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-6">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-7 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-7">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-8 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-8">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-8&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-8--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="toll-like-receptor-8"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-8-isoform-1 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-8-isoform-1"/>
+    
+
+
+    <!-- toll-like-receptor-8-isoform-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-8-isoform-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="toll-like-receptor-8-isoform-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptor-9 -->
+
+
+    <owl:Class rdf:about="toll-like-receptor-9">
+        <rdfs:subClassOf rdf:resource="toll-like-receptor"/>
+    </owl:Class>
+    
+
+
+    <!-- toll-like-receptors -->
+
+
+    <owl:Class rdf:about="toll-like-receptors"/>
+    
+
+
+    <!-- total-artificial-heart-with-swirling-flow-pump -->
+
+
+    <owl:Class rdf:about="total-artificial-heart-with-swirling-flow-pump">
+        <rdfs:subClassOf rdf:resource="artificial-heart"/>
+    </owl:Class>
+    
+
+
+    <!-- total-replacement-type-artificial-heart -->
+
+
+    <owl:Class rdf:about="total-replacement-type-artificial-heart">
+        <rdfs:subClassOf rdf:resource="artificial-heart"/>
+    </owl:Class>
+    
+
+
+    <!-- transcription-factor-pu1 -->
+
+
+    <owl:Class rdf:about="transcription-factor-pu1"/>
+    
+
+
+    <!-- transcription-factor-pu1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="transcription-factor-pu1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="transcription-factor-pu1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- transmembrane-emp24-domain-containing-protein-1 -->
+
+
+    <owl:Class rdf:about="transmembrane-emp24-domain-containing-protein-1"/>
+    
+
+
+    <!-- transmembrane-emp24-domain-containing-protein-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="transmembrane-emp24-domain-containing-protein-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="transmembrane-emp24-domain-containing-protein-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- transport -->
+
+
+    <owl:Class rdf:about="transport"/>
+    
+
+
+    <!-- trifunctional-enzyme-subunit-alpha-mitochondrial -->
+
+
+    <owl:Class rdf:about="trifunctional-enzyme-subunit-alpha-mitochondrial"/>
+    
+
+
+    <!-- trifunctional-enzyme-subunit-alpha-mitochondrial&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="trifunctional-enzyme-subunit-alpha-mitochondrial--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="trifunctional-enzyme-subunit-alpha-mitochondrial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- trifunctional-enzyme-subunit-beta-mitochondrial -->
+
+
+    <owl:Class rdf:about="trifunctional-enzyme-subunit-beta-mitochondrial"/>
+    
+
+
+    <!-- trifunctional-enzyme-subunit-beta-mitochondrial&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="trifunctional-enzyme-subunit-beta-mitochondrial--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="trifunctional-enzyme-subunit-beta-mitochondrial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- trpc3&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="trpc3--rat-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="only-in-taxon"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tumor -->
+
+
+    <owl:Class rdf:about="tumor"/>
+    
+
+
+    <!-- tumor-necrosis-factor-ligand-superfamily-member-5 -->
+
+
+    <owl:Class rdf:about="tumor-necrosis-factor-ligand-superfamily-member-5"/>
+    
+
+
+    <!-- tyrosine-protein-kinase-mer -->
+
+
+    <owl:Class rdf:about="tyrosine-protein-kinase-mer"/>
+    
+
+
+    <!-- tyrosine-protein-kinase-mer&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="tyrosine-protein-kinase-mer--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="tyrosine-protein-kinase-mer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- tyrosine-protein-phosphatase-non-receptor-type-substrate-1 -->
+
+
+    <owl:Class rdf:about="tyrosine-protein-phosphatase-non-receptor-type-substrate-1"/>
+    
+
+
+    <!-- tyrosine-protein-phosphatase-non-receptor-type-substrate-1&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="tyrosine-protein-phosphatase-non-receptor-type-substrate-1--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="tyrosine-protein-phosphatase-non-receptor-type-substrate-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- urine -->
+
+
+    <owl:Class rdf:about="urine"/>
+    
+
+
+    <!-- urokinase-plasminogen-activator-surface-receptor -->
+
+
+    <owl:Class rdf:about="urokinase-plasminogen-activator-surface-receptor"/>
+    
+
+
+    <!-- urokinase-plasminogen-activator-surface-receptor&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="urokinase-plasminogen-activator-surface-receptor--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="urokinase-plasminogen-activator-surface-receptor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- vascular-endothelial-growth-factor-receptor-2 -->
+
+
+    <owl:Class rdf:about="vascular-endothelial-growth-factor-receptor-2"/>
+    
+
+
+    <!-- vascular-endothelial-growth-factor-receptor-2&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="vascular-endothelial-growth-factor-receptor-2--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="vascular-endothelial-growth-factor-receptor-2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- ventricular-assist-artificial-heart -->
+
+
+    <owl:Class rdf:about="ventricular-assist-artificial-heart">
+        <rdfs:subClassOf rdf:resource="artificial-heart"/>
+    </owl:Class>
+    
+
+
+    <!-- waxholm-space-sprague-dawley-terminology-v2 -->
+
+
+    <owl:Class rdf:about="waxholm-space-sprague-dawley-terminology-v2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="isDefinedInTaxon"/>
+                <owl:allValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- wb-f344 -->
+
+
+    <owl:Class rdf:about="wb-f344">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="epithelial-cell"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="liver"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part-of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="derives_from"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="epithelial-cell"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="liver"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="part_of"/>
+                                                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- wistar -->
+
+
+    <owl:Class rdf:about="wistar">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- wistar-furth -->
+
+
+    <owl:Class rdf:about="wistar-furth">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- wistar-kyoto -->
+
+
+    <owl:Class rdf:about="wistar-kyoto">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- wky -->
+
+
+    <owl:Class rdf:about="wky">
+        <rdfs:subClassOf rdf:resource="rattus-norvegicus"/>
+    </owl:Class>
+    
+
+
+    <!-- wound -->
+
+
+    <owl:Class rdf:about="wound"/>
+    
+
+
+    <!-- -deoxy-inosine&#45;&#45;orthophosphate&#45;&#45;hypoxanthine&#45;&#45;-deoxy-ribose-1-phosphate-np -->
+
+
+    <owl:Class rdf:about="-deoxy-inosine--orthophosphate--hypoxanthine---deoxy-ribose-1-phosphate-np">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="hypoxanthine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- -trifluoromethyl-benzenes -->
+
+
+    <owl:Class rdf:about="-trifluoromethyl-benzenes"/>
+    
+
+
+    <!-- 5-nucleotidase -->
+
+
+    <owl:Class rdf:about="5-nucleotidase"/>
+    
+
+
+    <!-- 5-nucleotidase&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="5-nucleotidase--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="5-nucleotidase"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 78-kda-glucose-regulated-protein -->
+
+
+    <owl:Class rdf:about="78-kda-glucose-regulated-protein"/>
+    
+
+
+    <!-- 78-kda-glucose-regulated-protein&#45;&#45;rat- -->
+
+
+    <owl:Class rdf:about="78-kda-glucose-regulated-protein--rat-">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="78-kda-glucose-regulated-protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="late-embryonic-stage"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part-of"/>
+                <owl:someValuesFrom rdf:resource="rattus-norvegicus"/>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="preceded-by"/>
+                <owl:someValuesFrom rdf:resource="RnorDv_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

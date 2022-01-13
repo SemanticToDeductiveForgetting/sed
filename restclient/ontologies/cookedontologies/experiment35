@@ -1,0 +1,2928 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment35#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment35"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment35"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/anatomic_structure_is_physical_part_of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/anatomic_structure_is_physical_part_of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/chemical_or_drug_is_metabolized_by_enzyme -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/chemical_or_drug_is_metabolized_by_enzyme"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/disease_has_primary_anatomic_site -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/disease_has_primary_anatomic_site"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/has-pharmacological-action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/has-pharmacological-action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/has_role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/has_role"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/is_about -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment35/is_about"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/Drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/Drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/J21 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/J21"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/J8 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/J8"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/Teratogen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/aat -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/aat"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/abnormal-heart-beat -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/abnormal-heart-beat"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/abnormality-of-cardiovascular-system-electrophysiology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/abnormality-of-cardiovascular-system-electrophysiology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/abnormality-of-the-gastrointestinal-tract -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/abnormality-of-the-gastrointestinal-tract"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/acremonium-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/acremonium-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/analgesic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/analgesic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/analgesics-non-narcotic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/analgesics-non-narcotic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/analytical-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/analytical-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/anticonvulsants -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsants"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/antimanic-agents -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/antimanic-agents"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/arrhythmia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/arrhythmia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/arrhythmias -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/arrhythmias"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/arrhythmias-cardiac -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/arrhythmias-cardiac"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/atp-sensitive-atrial-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/atp-sensitive-atrial-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/atrial-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/atrial-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/atrioventricular-junctional-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/atrioventricular-junctional-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/av-nodal-reentrant-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/av-nodal-reentrant-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/av-nodal-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/av-nodal-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/av-reciprocating-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/av-reciprocating-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/azepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/azepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/benign-tumor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/benign-tumor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/biology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/biology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/blood-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/blood-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/bodily-secretions -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/bodily-secretions"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/body-region -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/body-region"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/caerulein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/caerulein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/carbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/carbamazepine-1011-dihydrodiol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine-1011-dihydrodiol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/carbamazepine-epoxide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine-epoxide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/cardiotonic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/cardiotonic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/cardiotoxin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/cardiotoxin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/chemical-modifier -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/chemical-modifier"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/clinical-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/clinical-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/computational-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/computational-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/cytochrome-p450-3a4 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/cytochrome-p450-3a4"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/developmental-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/developmental-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/diethylstilbestrol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/diethylstilbestrol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/drugagent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/drugagent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/duodenal-obstruction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/duodenal-obstruction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/ec -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/ec"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/ecotoxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/ecotoxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/effort-induced-polymorphic-ventricular-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/effort-induced-polymorphic-ventricular-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/embryofetus-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/embryofetus-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/environmental-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/environmental-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/enzymes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/enzymes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/fetal-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/fetal-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/fhr-deceleration -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/fhr-deceleration"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/forensic-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/forensic-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/functional-abnormality-of-the-gastrointestinal-tract -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/functional-abnormality-of-the-gastrointestinal-tract"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/genetic-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/genetic-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-dehydrogenase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-dehydrogenase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase&#45;&#45;436-459- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase--436-459-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-hemolytic-anemia-due-to-deficiency-of-in-red-cells -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-hemolytic-anemia-due-to-deficiency-of-in-red-cells"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-phe -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-phe"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-x7c-red-blood-cells -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-x7c-red-blood-cells"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/gr2-protein-plasmodium-falciparum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gr2-protein-plasmodium-falciparum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/heart-rhythm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/heart-rhythm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/immu -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/immu"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/in-vitro-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/in-vitro-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/inhalation-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/inhalation-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/intestinal-pseudo-obstruction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/intestinal-pseudo-obstruction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/intestinal-volvulus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/intestinal-volvulus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/joint-expert-committee-on-food-additives -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/joint-expert-committee-on-food-additives"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/junctional-ec -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/junctional-ec"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/kdrf-oxidoreductase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/kdrf-oxidoreductase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/krishabers-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/krishabers-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/life-science -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/life-science"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/long-qt-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/long-qt-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/macro-reentrant-atrial-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/macro-reentrant-atrial-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/meconium-ileus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/meconium-ileus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/microorganism-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/microorganism-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/microsporum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/microsporum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/microsporum-canis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/microsporum-canis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/miscellaneous-anticonvulsants -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/miscellaneous-anticonvulsants"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/molecular-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/molecular-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/multifocal-atrial-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/multifocal-atrial-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/nad-p-h-oxidoreductase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/nad-p-h-oxidoreductase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/neurotoxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/neurotoxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/nodal-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/nodal-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/osseous-metaplasia-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/osseous-metaplasia-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/ossification-abnormality -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/ossification-abnormality"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/oxcarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/oxcarbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/oxcarbazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/oxcarbazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/paroxysmal-supraventricular-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/paroxysmal-supraventricular-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/paroxysmal-ventricular-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/paroxysmal-ventricular-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pat -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pat"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pelvis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pelvis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pesticide-biological-effect -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pesticide-biological-effect"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pesticide-resistance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pesticide-resistance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pesticide-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pesticide-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pharmacology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pharmacology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/physical-chemical-interaction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/physical-chemical-interaction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/poison -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/poison"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/poisoning -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/poisoning"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/postural-tachycardia-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/postural-tachycardia-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/predictive-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/predictive-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/pulmonary-vein-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pulmonary-vein-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/rapid-heartbeat -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/rapid-heartbeat"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/reflex-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/reflex-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/reproductive-and-developmental-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/reproductive-and-developmental-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/reproductive-toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/reproductive-toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/response-to-carbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/response-to-carbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/role&#45;&#45;knapsack- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/role--knapsack-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/s-nitrosoglutathione-reductase-arabidopsis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/s-nitrosoglutathione-reductase-arabidopsis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/s-nitrosoglutathione-reductase-mouse -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/s-nitrosoglutathione-reductase-mouse"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/sacral-chordoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sacral-chordoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/sacral-vertebra -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sacral-vertebra"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/sacrum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/safety-sciences -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/safety-sciences"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/secretion&#45;&#45;secrete- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/secretion--secrete-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/signsymptom -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/signsymptom"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/skeletal-system-part -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/skeletal-system-part"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/skin-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/skin-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/spinal-chordoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/spinal-chordoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/spine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/spine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/stomach-volvulus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/stomach-volvulus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/study-of-poison -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/study-of-poison"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/sulfur-oxidoreductase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sulfur-oxidoreductase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/supraventricular-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/supraventricular-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-ec -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-ec"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-induced-cardiomyopathy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-induced-cardiomyopathy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-paroxysmal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-paroxysmal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-reciprocating -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-reciprocating"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-sinoatrial-nodal-reentry -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-sinoatrial-nodal-reentry"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-sinus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-sinus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-supraventricular -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-supraventricular"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardia-ventricular -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-ventricular"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tachycardial-atrial-fibrillation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardial-atrial-fibrillation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/teratogens -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/teratogens"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/tetramine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tetramine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/thalidomide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/thalidomide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxicology -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxicology-antidotestreatment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology-antidotestreatment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxicology-biologicals -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology-biologicals"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxicology-non-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology-non-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxicology-other -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology-other"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/toxins-and-targets -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxins-and-targets"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/txnrd3-protein-mouse -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/txnrd3-protein-mouse"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/uncommon-type-avnrt -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/uncommon-type-avnrt"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/venom -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/venom"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/venoms -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/ventricular-tachycardia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/ventricular-tachycardia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/vertebral-column -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/vertebral-column"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/10-bromocarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/10-bromocarbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/10-methoxycarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/10-methoxycarbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/10-monohydroxycarbazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/10-monohydroxycarbazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/1011-dihydro-10-hydroxycarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/1011-dihydro-10-hydroxycarbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/1011-dihydro-1011-dihydroxy-5h-dibenzazepine-5-carboxamide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/1011-dihydro-1011-dihydroxy-5h-dibenzazepine-5-carboxamide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/1011-dihydrocarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/1011-dihydrocarbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/2-hydroxycarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/2-hydroxycarbamazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment35/23-dihydroxycarbamazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment35/23-dihydroxycarbamazepine"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/J21"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/J8"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/inhalation-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sulfur-oxidoreductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/signsymptom"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/effort-induced-polymorphic-ventricular-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/abnormality-of-the-gastrointestinal-tract"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/av-nodal-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-dehydrogenase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/osseous-metaplasia-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/anatomic_structure_is_physical_part_of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/pelvis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/stomach-volvulus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/duodenal-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/microsporum-canis"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/paroxysmal-ventricular-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/pesticide-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/safety-sciences"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/drugagent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine-1011-dihydrodiol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/2-hydroxycarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/enzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/chemical_or_drug_is_metabolized_by_enzyme"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/cytochrome-p450-3a4"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/azepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/Drug"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/biology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/analytical-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/10-monohydroxycarbazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/atp-sensitive-atrial-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/microsporum"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/microsporum-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/spine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/molecular-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology-other"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/oxcarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/krishabers-disease"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/spinal-chordoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacral-chordoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/aat"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/reproductive-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/ventricular-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/joint-expert-committee-on-food-additives"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/supraventricular-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/ec"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/oxcarbazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-reciprocating"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/macro-reentrant-atrial-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/pulmonary-vein-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/atrial-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/life-science"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/caerulein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/vertebral-column"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/fetal-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/teratogens"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/microsporum-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/gr2-protein-plasmodium-falciparum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology-antidotestreatment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/atrioventricular-junctional-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-ec"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/paroxysmal-supraventricular-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/1011-dihydro-10-hydroxycarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/antimanic-agents"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/av-reciprocating-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/bodily-secretions"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/reproductive-and-developmental-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/poison"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/cardiotoxin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/10-bromocarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/response-to-carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/is_about"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/J8"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/venom"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/pharmacology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/uncommon-type-avnrt"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/multifocal-atrial-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/secretion--secrete-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/venoms"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tetramine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/environmental-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/analgesics-non-narcotic"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology-biologicals"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/long-qt-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/neurotoxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/blood-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/reflex-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxins-and-targets"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/poisoning"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/embryofetus-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/diethylstilbestrol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/functional-abnormality-of-the-gastrointestinal-tract"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/skeletal-system-part"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/abnormal-heart-beat"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/J21"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/acremonium-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/microsporum-canis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-phe"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase--436-459-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/nodal-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tetramine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/fhr-deceleration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sacral-chordoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/spinal-chordoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/disease_has_primary_anatomic_site"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/genetic-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/predictive-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/pesticide-biological-effect"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/arrhythmia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardial-atrial-fibrillation"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/ossification-abnormality"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacral-chordoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/disease_has_primary_anatomic_site"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/thalidomide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/arrhythmias-cardiac"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/rapid-heartbeat"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/intestinal-volvulus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacral-vertebra"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/anatomic_structure_is_physical_part_of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/chemical-modifier"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/developmental-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/1011-dihydro-1011-dihydroxy-5h-dibenzazepine-5-carboxamide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/role--knapsack-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/arrhythmias"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/miscellaneous-anticonvulsants"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/1011-dihydrocarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/23-dihydroxycarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/skin-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/av-nodal-reentrant-tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-x7c-red-blood-cells"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/heart-rhythm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/s-nitrosoglutathione-reductase-mouse"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/in-vitro-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-ventricular"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/s-nitrosoglutathione-reductase-arabidopsis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/nad-p-h-oxidoreductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/pat"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-supraventricular"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/ecotoxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/computational-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/clinical-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/benign-tumor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/osteoma-cutis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/analgesic"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/study-of-poison"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-induced-cardiomyopathy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has_role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsants"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/pesticide-resistance"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/junctional-ec"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/cardiotonic"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/cardiotoxin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/txnrd3-protein-mouse"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/microorganism-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/abnormality-of-cardiovascular-system-electrophysiology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase-hemolytic-anemia-due-to-deficiency-of-in-red-cells"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-sinus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/glutathione-reductase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/kdrf-oxidoreductase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/anticonvulsant-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/10-methoxycarbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tetramine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/intestinal-pseudo-obstruction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/physical-chemical-interaction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/gastrointestinal-obstruction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/meconium-ileus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine-epoxide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/carbamazepine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/postural-tachycardia-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-paroxysmal"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/immu"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/cardiotoxin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/forensic-toxicology"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/Teratogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/tachycardia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/tachycardia-sinoatrial-nodal-reentry"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/body-region"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment35/toxicology"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/toxicology-non-drug"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/sacrum"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/anatomic_structure_is_physical_part_of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment35/vertebral-column"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment144#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment144"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment144"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment144/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment144/has-role"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/J3 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/J3"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/acyltransferase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/acyltransferase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/biofortification -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/biofortification"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/brain-laceration -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/brain-laceration"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/brain-lacerations -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/brain-lacerations"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/buturon -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/buturon"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/cerebral-damage -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/cerebral-damage"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/eye-diagnosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/eye-diagnosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/lacerated-wound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/lacerated-wound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/lyase-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/lyase-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/malate-synthase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/malate-synthase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/metabolite -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/metabolite"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/modified-amino-acid-residue -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/modified-amino-acid-residue"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/nutrient-enrichment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/nutrient-enrichment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/o-acetyl-l-serine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/o-acetyl-l-serine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment144/schirmers-test -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment144/schirmers-test"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/J3"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/o-acetyl-l-serine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/metabolite"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/cerebral-damage"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/brain-laceration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/o-acetyl-l-serine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/schirmers-test"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/schirmers-test"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/modified-amino-acid-residue"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/o-acetyl-l-serine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/buturon"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/lyase-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/malate-synthase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/eye-diagnosis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/schirmers-test"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/J3"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/acyltransferase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/malate-synthase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/brain-laceration"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/brain-lacerations"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/lacerated-wound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/brain-laceration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/brain-laceration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment144/nutrient-enrichment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment144/biofortification"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

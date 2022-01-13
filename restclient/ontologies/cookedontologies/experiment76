@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment76#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment76"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment76"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/chemotherapy_regimen_has_component -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment76/chemotherapy_regimen_has_component"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment76/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/only-in-taxon -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment76/only-in-taxon"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/J2 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/J2"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/J484 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/J484"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/alloocimene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/alloocimene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/alpha-adrenergic-antagonist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/alpha-adrenergic-antagonist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/ambergris -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/ambergris"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/bioreductive-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/bioreductive-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/carbogen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/carbogenniacinamide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/carbogenniacinamide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/carbon-dioxide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/carbon-dioxide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/chlorobenzenes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/chlorobenzenes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/dicofol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/dicofol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/disability-leave -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/disability-leave"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/employment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/fats-and-oils-surfactants-and-soaps -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/fats-and-oils-surfactants-and-soaps"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/full-time-employment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/full-time-employment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/fumonisin-b3 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/fumonisin-b3"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/fumonisins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/fumonisins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/hourly-employment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/hourly-employment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/insecticide-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/insecticide-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/medical-devices -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/medical-devices"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/organism-substance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/organism-substance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/oxygen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/oxygen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/part-time-employment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/part-time-employment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/personal-attribute -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/personal-attribute"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/physeter -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/physeter"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/polyenes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/polyenes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/pseudogeusia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/pseudogeusia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/radiosensitizing-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/radiosensitizing-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/return-to-work -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/return-to-work"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/salaried-annual-employment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/salaried-annual-employment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/self-employed -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/self-employed"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/seventh-cranial-nerve-functions-and-dysfunctions -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/seventh-cranial-nerve-functions-and-dysfunctions"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/sick-leave -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/sick-leave"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/substance-related-to-drugs -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/substance-related-to-drugs"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/sympatholytic-agent-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/sympatholytic-agent-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/taste-disorder -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/taste-disorder"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/terms-related-to-personnel-management -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/terms-related-to-personnel-management"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/unemployment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/unemployment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment76/yohimbine-hydrochloride -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment76/yohimbine-hydrochloride"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/J2"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/J484"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/unemployment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogenniacinamide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/fumonisin-b3"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/organism-substance"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/ambergris"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/seventh-cranial-nerve-functions-and-dysfunctions"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/pseudogeusia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/fumonisins"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/fumonisin-b3"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/dicofol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/hourly-employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/substance-related-to-drugs"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/personal-attribute"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/ambergris"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/physeter"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/yohimbine-hydrochloride"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/return-to-work"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/self-employed"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/ambergris"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/ambergris"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/sympatholytic-agent-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/yohimbine-hydrochloride"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/insecticide-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/dicofol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/polyenes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/alloocimene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/chlorobenzenes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/dicofol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/oxygen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/disability-leave"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/alloocimene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/bioreductive-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/alpha-adrenergic-antagonist"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/yohimbine-hydrochloride"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/fats-and-oils-surfactants-and-soaps"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/ambergris"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/salaried-annual-employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/full-time-employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/sick-leave"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/J484"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/J2"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/taste-disorder"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/pseudogeusia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/part-time-employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/carbon-dioxide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/radiosensitizing-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/dicofol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/dicofol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/medical-devices"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/carbogen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment76/terms-related-to-personnel-management"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment76/employment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

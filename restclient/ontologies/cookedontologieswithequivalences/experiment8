@@ -1,0 +1,3647 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment8/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment8/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment8/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- confers_resistance_to_antibiotic -->
+
+
+    <owl:ObjectProperty rdf:about="confers_resistance_to_antibiotic"/>
+    
+
+
+    <!-- disease_has_abnormal_cell -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_abnormal_cell"/>
+    
+
+
+    <!-- disease_has_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_associated_disease"/>
+    
+
+
+    <!-- disease_has_finding -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_finding"/>
+    
+
+
+    <!-- disease_has_normal_cell_origin -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_normal_cell_origin"/>
+    
+
+
+    <!-- disease_may_have_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_associated_disease"/>
+    
+
+
+    <!-- disease_may_have_cytogenetic_abnormality -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_cytogenetic_abnormality"/>
+    
+
+
+    <!-- disease_may_have_finding -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_finding"/>
+    
+
+
+    <!-- disease_may_have_molecular_abnormality -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_molecular_abnormality"/>
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-pharmacological-action -->
+
+
+    <owl:ObjectProperty rdf:about="has-pharmacological-action"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- targeted_by_antibiotic -->
+
+
+    <owl:ObjectProperty rdf:about="targeted_by_antibiotic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- anti-bacterial-agents -->
+
+
+    <owl:Class rdf:about="anti-bacterial-agents"/>
+    
+
+
+    <!-- antibiotic-sensitive-16s-rrna -->
+
+
+    <owl:Class rdf:about="antibiotic-sensitive-16s-rrna">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="targeted_by_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- antifungal-agent -->
+
+
+    <owl:Class rdf:about="antifungal-agent"/>
+    
+
+
+    <!-- antifungal-agents -->
+
+
+    <owl:Class rdf:about="antifungal-agents"/>
+    
+
+
+    <!-- antifungal-drug -->
+
+
+    <owl:Class rdf:about="antifungal-drug"/>
+    
+
+
+    <!-- arachis-oil&#45;&#45;chlorobutanol&#45;&#45;dichlorobenzene-otic-solution -->
+
+
+    <owl:Class rdf:about="arachis-oil--chlorobutanol--dichlorobenzene-otic-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- autophagy -->
+
+
+    <owl:Class rdf:about="autophagy"/>
+    
+
+
+    <!-- autophagy-of-peroxisome -->
+
+
+    <owl:Class rdf:about="autophagy-of-peroxisome"/>
+    
+
+
+    <!-- benzalkonium&#45;&#45;tolnaftate-topical-cream -->
+
+
+    <owl:Class rdf:about="benzalkonium--tolnaftate-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- benzalkonium&#45;&#45;tolnaftate-topical-ointment -->
+
+
+    <owl:Class rdf:about="benzalkonium--tolnaftate-topical-ointment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- betamethasone&#45;&#45;gentamicin-sulfate&#45;&#45;usp&#45;&#45;-tolnaftate-topical-cream -->
+
+
+    <owl:Class rdf:about="betamethasone--gentamicin-sulfate--usp---tolnaftate-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- betamethasone-17-valerate-clioquinol-gentamicin-tolnaftate-drug-combination -->
+
+
+    <owl:Class rdf:about="betamethasone-17-valerate-clioquinol-gentamicin-tolnaftate-drug-combination">
+        <rdfs:subClassOf rdf:resource="tolnaftate"/>
+    </owl:Class>
+    
+
+
+    <!-- bone-disease -->
+
+
+    <owl:Class rdf:about="bone-disease"/>
+    
+
+
+    <!-- butanols -->
+
+
+    <owl:Class rdf:about="butanols"/>
+    
+
+
+    <!-- cartilage-disease -->
+
+
+    <owl:Class rdf:about="cartilage-disease"/>
+    
+
+
+    <!-- cdkn2a-gene-inactivation -->
+
+
+    <owl:Class rdf:about="cdkn2a-gene-inactivation"/>
+    
+
+
+    <!-- cerebriform-lymphocyte -->
+
+
+    <owl:Class rdf:about="cerebriform-lymphocyte"/>
+    
+
+
+    <!-- chlordiazepoxide&#45;&#45;pentaerythritol-oral-tablet -->
+
+
+    <owl:Class rdf:about="chlordiazepoxide--pentaerythritol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorhexidine&#45;&#45;chlorobutanol-mouthwash -->
+
+
+    <owl:Class rdf:about="chlorhexidine--chlorobutanol-mouthwash">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorhexidine&#45;&#45;tolnaftate-topical-powder -->
+
+
+    <owl:Class rdf:about="chlorhexidine--tolnaftate-topical-powder">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol -->
+
+
+    <owl:Class rdf:about="chlorobutanol">
+        <rdfs:subClassOf rdf:resource="butanols"/>
+        <rdfs:subClassOf rdf:resource="chlorobutanol"/>
+        <rdfs:subClassOf rdf:resource="industrial-aid"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="sedative-hypnotic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol&#45;&#45;dichlorobenzene&#45;&#45;peanut-oil-otic-solution -->
+
+
+    <owl:Class rdf:about="chlorobutanol--dichlorobenzene--peanut-oil-otic-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol&#45;&#45;posterior-pituitary-hormones-injectable-solution -->
+
+
+    <owl:Class rdf:about="chlorobutanol--posterior-pituitary-hormones-injectable-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol&#45;&#45;pyrogallol-topical-ointment -->
+
+
+    <owl:Class rdf:about="chlorobutanol--pyrogallol-topical-ointment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol&#45;&#45;tannic-acid-topical-solution -->
+
+
+    <owl:Class rdf:about="chlorobutanol--tannic-acid-topical-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol-Concept -->
+
+
+    <owl:Class rdf:about="chlorobutanol-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="chlorobutanol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlorobutanol-topical-gel -->
+
+
+    <owl:Class rdf:about="chlorobutanol-topical-gel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chlortetracycline&#45;&#45;demeclocycline&#45;&#45;tetracycline-oral-tablet -->
+
+
+    <owl:Class rdf:about="chlortetracycline--demeclocycline--tetracycline-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="demeclocycline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cholera-toxin -->
+
+
+    <owl:Class rdf:about="cholera-toxin">
+        <rdfs:subClassOf rdf:resource="cholera-toxin"/>
+        <rdfs:subClassOf rdf:resource="enterotoxin"/>
+        <rdfs:subClassOf rdf:resource="enterotoxins"/>
+        <rdfs:subClassOf rdf:resource="exotoxin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="cholera-toxin-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cholera-toxin-Concept -->
+
+
+    <owl:Class rdf:about="cholera-toxin-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- cholera-toxin-b -->
+
+
+    <owl:Class rdf:about="cholera-toxin-b">
+        <rdfs:subClassOf rdf:resource="cholera-toxin"/>
+    </owl:Class>
+    
+
+
+    <!-- cholera-toxin-b-subunit -->
+
+
+    <owl:Class rdf:about="cholera-toxin-b-subunit">
+        <rdfs:subClassOf rdf:resource="cholera-toxin"/>
+    </owl:Class>
+    
+
+
+    <!-- chronic-clinical-course -->
+
+
+    <owl:Class rdf:about="chronic-clinical-course"/>
+    
+
+
+    <!-- clinical-course-of-disease -->
+
+
+    <owl:Class rdf:about="clinical-course-of-disease"/>
+    
+
+
+    <!-- demeclocycline -->
+
+
+    <owl:Class rdf:about="demeclocycline">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="demeclocycline"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="tetracycline-antibiotic"/>
+        <rdfs:subClassOf rdf:resource="tetracyclines"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="anti-bacterial-agents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- demeclocycline-Concept -->
+
+
+    <owl:Class rdf:about="demeclocycline-Concept"/>
+    
+
+
+    <!-- demeclocycline-oral-capsule -->
+
+
+    <owl:Class rdf:about="demeclocycline-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="demeclocycline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- demeclocycline-oral-tablet -->
+
+
+    <owl:Class rdf:about="demeclocycline-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="demeclocycline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dermatologic-preparation -->
+
+
+    <owl:Class rdf:about="dermatologic-preparation"/>
+    
+
+
+    <!-- dermatopathic-lymphadenopathy -->
+
+
+    <owl:Class rdf:about="dermatopathic-lymphadenopathy"/>
+    
+
+
+    <!-- desmopressin-acetate-0004-mgml-injectable-solution-ddavp -->
+
+
+    <owl:Class rdf:about="desmopressin-acetate-0004-mgml-injectable-solution-ddavp">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- desmopressin-acetate-01-mgml-nasal-solution-ddavp -->
+
+
+    <owl:Class rdf:about="desmopressin-acetate-01-mgml-nasal-solution-ddavp">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- deteclo -->
+
+
+    <owl:Class rdf:about="deteclo">
+        <rdfs:subClassOf rdf:resource="demeclocycline"/>
+    </owl:Class>
+    
+
+
+    <!-- detoxication-mutated-form-cholera-toxin -->
+
+
+    <owl:Class rdf:about="detoxication-mutated-form-cholera-toxin">
+        <rdfs:subClassOf rdf:resource="cholera-toxin"/>
+    </owl:Class>
+    
+
+
+    <!-- dexamethasone-0001-mgmg&#45;&#45;tobramycin-0003-mgmg-ophthalmic-ointment-tobradex -->
+
+
+    <owl:Class rdf:about="dexamethasone-0001-mgmg--tobramycin-0003-mgmg-ophthalmic-ointment-tobradex">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dietary-supplement -->
+
+
+    <owl:Class rdf:about="dietary-supplement"/>
+    
+
+
+    <!-- diphenhydramine&#45;&#45;pentaerythritol-oral-tablet -->
+
+
+    <owl:Class rdf:about="diphenhydramine--pentaerythritol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- disease-and-symptom -->
+
+
+    <owl:Class rdf:about="disease-and-symptom"/>
+    
+
+
+    <!-- drug-delivery-system -->
+
+
+    <owl:Class rdf:about="drug-delivery-system"/>
+    
+
+
+    <!-- edible-fruit -->
+
+
+    <owl:Class rdf:about="edible-fruit"/>
+    
+
+
+    <!-- electron-staining -->
+
+
+    <owl:Class rdf:about="electron-staining"/>
+    
+
+
+    <!-- enterotoxin -->
+
+
+    <owl:Class rdf:about="enterotoxin"/>
+    
+
+
+    <!-- enterotoxins -->
+
+
+    <owl:Class rdf:about="enterotoxins"/>
+    
+
+
+    <!-- epidermotropic-lymphocytic-infiltrate -->
+
+
+    <owl:Class rdf:about="epidermotropic-lymphocytic-infiltrate"/>
+    
+
+
+    <!-- estradiol-10-mgml-injectable-solution-delestrogen -->
+
+
+    <owl:Class rdf:about="estradiol-10-mgml-injectable-solution-delestrogen">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- estradiol-5-mgml-injectable-solution-depo-estradiol -->
+
+
+    <owl:Class rdf:about="estradiol-5-mgml-injectable-solution-depo-estradiol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- excipient -->
+
+
+    <owl:Class rdf:about="excipient"/>
+    
+
+
+    <!-- exotoxin -->
+
+
+    <owl:Class rdf:about="exotoxin"/>
+    
+
+
+    <!-- female-contraceptive-device -->
+
+
+    <owl:Class rdf:about="female-contraceptive-device"/>
+    
+
+
+    <!-- folate-receptors-gpi-anchored -->
+
+
+    <owl:Class rdf:about="folate-receptors-gpi-anchored">
+        <rdfs:subClassOf rdf:resource="folic-acid-transporters"/>
+    </owl:Class>
+    
+
+
+    <!-- folic-acid-transporters -->
+
+
+    <owl:Class rdf:about="folic-acid-transporters">
+        <rdfs:subClassOf rdf:resource="folic-acid-transporters"/>
+        <rdfs:subClassOf rdf:resource="membrane-protein"/>
+        <rdfs:subClassOf rdf:resource="organic-anion-transporters"/>
+    </owl:Class>
+    
+
+
+    <!-- fursultiamine -->
+
+
+    <owl:Class rdf:about="fursultiamine">
+        <rdfs:subClassOf rdf:resource="dietary-supplement"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="substance-related-to-drugs"/>
+    </owl:Class>
+    
+
+
+    <!-- gain-of-chromosome-3 -->
+
+
+    <owl:Class rdf:about="gain-of-chromosome-3"/>
+    
+
+
+    <!-- gentamicin-sulfate&#45;&#45;usp&#45;&#45;0003-mgmg&#45;&#45;prednisolone-0006-mgmg-ophthalmic-ointment-pred-g -->
+
+
+    <owl:Class rdf:about="gentamicin-sulfate--usp--0003-mgmg--prednisolone-0006-mgmg-ophthalmic-ointment-pred-g">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- halobetasol-propionate-00005-mgmg-topical-ointment-ultravate -->
+
+
+    <owl:Class rdf:about="halobetasol-propionate-00005-mgmg-topical-ointment-ultravate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hydroxyzine&#45;&#45;pentaerythritol-oral-tablet -->
+
+
+    <owl:Class rdf:about="hydroxyzine--pentaerythritol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- indolent-non-hodgkin-lymphoma -->
+
+
+    <owl:Class rdf:about="indolent-non-hodgkin-lymphoma"/>
+    
+
+
+    <!-- industrial-aid -->
+
+
+    <owl:Class rdf:about="industrial-aid"/>
+    
+
+
+    <!-- inoperable-disease -->
+
+
+    <owl:Class rdf:about="inoperable-disease"/>
+    
+
+
+    <!-- intrauterine-device -->
+
+
+    <owl:Class rdf:about="intrauterine-device"/>
+    
+
+
+    <!-- juvenile-lesion -->
+
+
+    <owl:Class rdf:about="juvenile-lesion"/>
+    
+
+
+    <!-- juvenile-osteochondrosis -->
+
+
+    <owl:Class rdf:about="juvenile-osteochondrosis">
+        <rdfs:subClassOf rdf:resource="bone-disease"/>
+        <rdfs:subClassOf rdf:resource="cartilage-disease"/>
+        <rdfs:subClassOf rdf:resource="osteochondrosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease_has_finding"/>
+                <owl:someValuesFrom rdf:resource="juvenile-lesion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- juvenile-osteochondrosis-of-spine -->
+
+
+    <owl:Class rdf:about="juvenile-osteochondrosis-of-spine">
+        <rdfs:subClassOf rdf:resource="juvenile-osteochondrosis"/>
+    </owl:Class>
+    
+
+
+    <!-- ledermix -->
+
+
+    <owl:Class rdf:about="ledermix">
+        <rdfs:subClassOf rdf:resource="demeclocycline"/>
+    </owl:Class>
+    
+
+
+    <!-- levonorgestrel-releasing-intrauterine-system -->
+
+
+    <owl:Class rdf:about="levonorgestrel-releasing-intrauterine-system">
+        <rdfs:subClassOf rdf:resource="drug-delivery-system"/>
+        <rdfs:subClassOf rdf:resource="female-contraceptive-device"/>
+        <rdfs:subClassOf rdf:resource="intrauterine-device"/>
+    </owl:Class>
+    
+
+
+    <!-- loss-of-chromosome-y -->
+
+
+    <owl:Class rdf:about="loss-of-chromosome-y"/>
+    
+
+
+    <!-- malignant-peripheral-nerve-sheath-tumor -->
+
+
+    <owl:Class rdf:about="malignant-peripheral-nerve-sheath-tumor"/>
+    
+
+
+    <!-- membrane-protein -->
+
+
+    <owl:Class rdf:about="membrane-protein"/>
+    
+
+
+    <!-- meprobamate&#45;&#45;pentaerythritol-oral-tablet -->
+
+
+    <owl:Class rdf:about="meprobamate--pentaerythritol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- metastatic-malignant-peripheral-nerve-sheath-tumor -->
+
+
+    <owl:Class rdf:about="metastatic-malignant-peripheral-nerve-sheath-tumor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="malignant-peripheral-nerve-sheath-tumor"/>
+                    <rdf:Description rdf:about="metastatic-sarcoma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="progressive-disease"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                        <owl:someValuesFrom rdf:resource="neurofibromatosis-type-1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- metastatic-sarcoma -->
+
+
+    <owl:Class rdf:about="metastatic-sarcoma"/>
+    
+
+
+    <!-- migraine -->
+
+
+    <owl:Class rdf:about="migraine"/>
+    
+
+
+    <!-- mineral-oil-0425-mgmg&#45;&#45;petrolatum-white-0568-mgmg-ophthalmic-ointment-refresh-lacri-lube -->
+
+
+    <owl:Class rdf:about="mineral-oil-0425-mgmg--petrolatum-white-0568-mgmg-ophthalmic-ointment-refresh-lacri-lube">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mycosis-fungoides -->
+
+
+    <owl:Class rdf:about="mycosis-fungoides">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="indolent-non-hodgkin-lymphoma"/>
+                    <rdf:Description rdf:about="mycosis-fungoides-and-sezary-syndrome"/>
+                    <rdf:Description rdf:about="primary-cutaneous-t-cell-non-hodgkin-lymphoma"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="disease_has_finding"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="epidermotropic-lymphocytic-infiltrate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="pautrier-microabscess-present"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                <owl:someValuesFrom rdf:resource="single-cell-exocytosis"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="progressive-disease"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="disease_may_have_molecular_abnormality"/>
+                                                <owl:someValuesFrom rdf:resource="cdkn2a-gene-inactivation"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="progressive-disease"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="disease_may_have_molecular_abnormality"/>
+                                                <owl:someValuesFrom rdf:resource="pten-gene-inactivation"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_abnormal_cell"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="cerebriform-lymphocyte"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_normal_cell_origin"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="peripheral-epidermotropic-t-lymphocyte"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="chronic-clinical-course"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="dermatopathic-lymphadenopathy"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="scaly-skin-eruption"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                        <owl:someValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                    <rdf:Description rdf:about="skin-patch"/>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                        <owl:someValuesFrom rdf:resource="skin-plaque"/>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:intersectionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:someValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- mycosis-fungoides-and-sezary-syndrome -->
+
+
+    <owl:Class rdf:about="mycosis-fungoides-and-sezary-syndrome"/>
+    
+
+
+    <!-- negative-staining -->
+
+
+    <owl:Class rdf:about="negative-staining">
+        <rdfs:subClassOf rdf:resource="electron-staining"/>
+        <rdfs:subClassOf rdf:resource="negative-staining"/>
+        <rdfs:subClassOf rdf:resource="staining-and-labeling"/>
+    </owl:Class>
+    
+
+
+    <!-- neurofibromatosis-type-1 -->
+
+
+    <owl:Class rdf:about="neurofibromatosis-type-1"/>
+    
+
+
+    <!-- neurofibromatosis-type-1-with-inoperable-progressive-symptomatic-plexiform-neurofibromas -->
+
+
+    <owl:Class rdf:about="neurofibromatosis-type-1-with-inoperable-progressive-symptomatic-plexiform-neurofibromas">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="neurofibromatosis-type-1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_associated_disease"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="plexiform-neurofibroma"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="inoperable-disease"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                                                        <owl:someValuesFrom rdf:resource="progressive-disease"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- niacin&#45;&#45;pentaerythritol-oral-tablet -->
+
+
+    <owl:Class rdf:about="niacin--pentaerythritol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- non-hereditary-lesion -->
+
+
+    <owl:Class rdf:about="non-hereditary-lesion"/>
+    
+
+
+    <!-- nystatin&#45;&#45;tolnaftate-topical-cream -->
+
+
+    <owl:Class rdf:about="nystatin--tolnaftate-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- organic-anion-transporters -->
+
+
+    <owl:Class rdf:about="organic-anion-transporters"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- osgood-schlatters-disease -->
+
+
+    <owl:Class rdf:about="osgood-schlatters-disease">
+        <rdfs:subClassOf rdf:resource="juvenile-osteochondrosis"/>
+    </owl:Class>
+    
+
+
+    <!-- osteochondrosis -->
+
+
+    <owl:Class rdf:about="osteochondrosis"/>
+    
+
+
+    <!-- oxytocin-10-untml-injectable-solution-pitocin -->
+
+
+    <owl:Class rdf:about="oxytocin-10-untml-injectable-solution-pitocin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- papillary-renal-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="papillary-renal-cell-carcinoma"/>
+    
+
+
+    <!-- pautrier-microabscess-present -->
+
+
+    <owl:Class rdf:about="pautrier-microabscess-present"/>
+    
+
+
+    <!-- pentaerythritol -->
+
+
+    <owl:Class rdf:about="pentaerythritol">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf rdf:resource="propylene-glycols"/>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol&#45;&#45;phenobarbital-extended-release-oral-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol--phenobarbital-extended-release-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol&#45;&#45;phenobarbital-extended-release-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol--phenobarbital-extended-release-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol&#45;&#45;phenobarbital-oral-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol--phenobarbital-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol&#45;&#45;propranolol-oral-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol--propranolol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol-extended-release-capsule -->
+
+
+    <owl:Class rdf:about="pentaerythritol-extended-release-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol-extended-release-oral-capsule -->
+
+
+    <owl:Class rdf:about="pentaerythritol-extended-release-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol-extended-release-oral-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol-extended-release-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol-extended-release-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol-extended-release-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol-oral-capsule -->
+
+
+    <owl:Class rdf:about="pentaerythritol-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pentaerythritol-oral-tablet -->
+
+
+    <owl:Class rdf:about="pentaerythritol-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="pentaerythritol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- peripheral-epidermotropic-t-lymphocyte -->
+
+
+    <owl:Class rdf:about="peripheral-epidermotropic-t-lymphocyte"/>
+    
+
+
+    <!-- peroxisome -->
+
+
+    <owl:Class rdf:about="peroxisome"/>
+    
+
+
+    <!-- pexophagy -->
+
+
+    <owl:Class rdf:about="pexophagy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="selective-autophagy"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-input"/>
+                        <owl:someValuesFrom rdf:resource="peroxisome"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="autophagy"/>
+        <rdfs:subClassOf rdf:resource="autophagy-of-peroxisome"/>
+        <rdfs:subClassOf rdf:resource="selective-autophagy"/>
+    </owl:Class>
+    
+
+
+    <!-- piritetrate -->
+
+
+    <owl:Class rdf:about="piritetrate">
+        <rdfs:subClassOf rdf:resource="tolnaftate"/>
+    </owl:Class>
+    
+
+
+    <!-- plexiform-neurofibroma -->
+
+
+    <owl:Class rdf:about="plexiform-neurofibroma"/>
+    
+
+
+    <!-- primary-cutaneous-t-cell-non-hodgkin-lymphoma -->
+
+
+    <owl:Class rdf:about="primary-cutaneous-t-cell-non-hodgkin-lymphoma"/>
+    
+
+
+    <!-- procaine-10-mgml-injectable-solution-novocaine -->
+
+
+    <owl:Class rdf:about="procaine-10-mgml-injectable-solution-novocaine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- procaine-20-mgml-injectable-solution-novocaine -->
+
+
+    <owl:Class rdf:about="procaine-20-mgml-injectable-solution-novocaine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- processed-material -->
+
+
+    <owl:Class rdf:about="processed-material"/>
+    
+
+
+    <!-- progressive-cgvhd -->
+
+
+    <owl:Class rdf:about="progressive-cgvhd">
+        <rdfs:subClassOf rdf:resource="progressive-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- progressive-disease -->
+
+
+    <owl:Class rdf:about="progressive-disease">
+        <rdfs:subClassOf rdf:resource="clinical-course-of-disease"/>
+        <rdfs:subClassOf rdf:resource="disease-and-symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- progressive-neoplastic-disease -->
+
+
+    <owl:Class rdf:about="progressive-neoplastic-disease">
+        <rdfs:subClassOf rdf:resource="progressive-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- propylene-glycols -->
+
+
+    <owl:Class rdf:about="propylene-glycols"/>
+    
+
+
+    <!-- proton-coupled-folate-transporter -->
+
+
+    <owl:Class rdf:about="proton-coupled-folate-transporter">
+        <rdfs:subClassOf rdf:resource="folic-acid-transporters"/>
+    </owl:Class>
+    
+
+
+    <!-- pten-gene-inactivation -->
+
+
+    <owl:Class rdf:about="pten-gene-inactivation"/>
+    
+
+
+    <!-- quadriderm -->
+
+
+    <owl:Class rdf:about="quadriderm">
+        <rdfs:subClassOf rdf:resource="tolnaftate"/>
+    </owl:Class>
+    
+
+
+    <!-- reduced-folate-carrier-protein -->
+
+
+    <owl:Class rdf:about="reduced-folate-carrier-protein">
+        <rdfs:subClassOf rdf:resource="folic-acid-transporters"/>
+    </owl:Class>
+    
+
+
+    <!-- scaly-skin-eruption -->
+
+
+    <owl:Class rdf:about="scaly-skin-eruption"/>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- sedative-hypnotic -->
+
+
+    <owl:Class rdf:about="sedative-hypnotic"/>
+    
+
+
+    <!-- selective-autophagy -->
+
+
+    <owl:Class rdf:about="selective-autophagy"/>
+    
+
+
+    <!-- single-cell-exocytosis -->
+
+
+    <owl:Class rdf:about="single-cell-exocytosis"/>
+    
+
+
+    <!-- skin-patch -->
+
+
+    <owl:Class rdf:about="skin-patch"/>
+    
+
+
+    <!-- skin-plaque -->
+
+
+    <owl:Class rdf:about="skin-plaque"/>
+    
+
+
+    <!-- sporadic-papillary-renal-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="sporadic-papillary-renal-cell-carcinoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="papillary-renal-cell-carcinoma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="non-hereditary-lesion"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="trisomy-20"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="trisomy-12"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="trisomy-16"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="gain-of-chromosome-3"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                                                                                        <owl:someValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                    <rdf:Description rdf:about="loss-of-chromosome-y"/>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                                                                                                        <owl:someValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                    <rdf:Description rdf:about="trisomy-17"/>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_cytogenetic_abnormality"/>
+                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                    <rdf:Description rdf:about="tetrasomy-7"/>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                        <owl:someValuesFrom rdf:resource="progressive-disease"/>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:intersectionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:someValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:intersectionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:someValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- staining-and-labeling -->
+
+
+    <owl:Class rdf:about="staining-and-labeling"/>
+    
+
+
+    <!-- status-migrainosus -->
+
+
+    <owl:Class rdf:about="status-migrainosus">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="migraine"/>
+    </owl:Class>
+    
+
+
+    <!-- status-migrainosus-Concept -->
+
+
+    <owl:Class rdf:about="status-migrainosus-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="status-migrainosus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- substance-related-to-drugs -->
+
+
+    <owl:Class rdf:about="substance-related-to-drugs"/>
+    
+
+
+    <!-- testosterone-enanthate-200-mgml-injectable-solution-delatestryl -->
+
+
+    <owl:Class rdf:about="testosterone-enanthate-200-mgml-injectable-solution-delatestryl">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tet-44- -->
+
+
+    <owl:Class rdf:about="tet-44-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tet32 -->
+
+
+    <owl:Class rdf:about="tet32">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tet36 -->
+
+
+    <owl:Class rdf:about="tet36">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetb-p- -->
+
+
+    <owl:Class rdf:about="tetb-p-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetm -->
+
+
+    <owl:Class rdf:about="tetm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- teto -->
+
+
+    <owl:Class rdf:about="teto">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetq -->
+
+
+    <owl:Class rdf:about="tetq">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetracycline-antibiotic -->
+
+
+    <owl:Class rdf:about="tetracycline-antibiotic"/>
+    
+
+
+    <!-- tetracyclines -->
+
+
+    <owl:Class rdf:about="tetracyclines"/>
+    
+
+
+    <!-- tetrasomy-7 -->
+
+
+    <owl:Class rdf:about="tetrasomy-7"/>
+    
+
+
+    <!-- tets -->
+
+
+    <owl:Class rdf:about="tets">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tett -->
+
+
+    <owl:Class rdf:about="tett">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetw -->
+
+
+    <owl:Class rdf:about="tetw">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetx -->
+
+
+    <owl:Class rdf:about="tetx">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="confers_resistance_to_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="demeclocycline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tobramycin-0003-mgmg-ophthalmic-ointment-tobrex -->
+
+
+    <owl:Class rdf:about="tobramycin-0003-mgmg-ophthalmic-ointment-tobrex">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate -->
+
+
+    <owl:Class rdf:about="tolnaftate">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="antifungal-agent"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf rdf:resource="tolnaftate"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="antifungal-agents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antifungal-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="dermatologic-preparation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate&#45;&#45;triacetin-topical-cream -->
+
+
+    <owl:Class rdf:about="tolnaftate--triacetin-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate&#45;&#45;triclosan-topical-cream -->
+
+
+    <owl:Class rdf:about="tolnaftate--triclosan-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate&#45;&#45;triclosan-topical-spray -->
+
+
+    <owl:Class rdf:about="tolnaftate--triclosan-topical-spray">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-Concept -->
+
+
+    <owl:Class rdf:about="tolnaftate-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="tolnaftate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-medicated-bar-soap -->
+
+
+    <owl:Class rdf:about="tolnaftate-medicated-bar-soap">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-powder-spray -->
+
+
+    <owl:Class rdf:about="tolnaftate-powder-spray">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-cream -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-foam -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-foam">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-gel -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-gel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-lotion -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-lotion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-oil -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-oil">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-ointment -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-ointment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-powder -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-powder">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-solution -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tolnaftate-topical-spray -->
+
+
+    <owl:Class rdf:about="tolnaftate-topical-spray">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="tolnaftate"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- trisomy-12 -->
+
+
+    <owl:Class rdf:about="trisomy-12"/>
+    
+
+
+    <!-- trisomy-16 -->
+
+
+    <owl:Class rdf:about="trisomy-16"/>
+    
+
+
+    <!-- trisomy-17 -->
+
+
+    <owl:Class rdf:about="trisomy-17"/>
+    
+
+
+    <!-- trisomy-20 -->
+
+
+    <owl:Class rdf:about="trisomy-20"/>
+    
+
+
+    <!-- tritol -->
+
+
+    <owl:Class rdf:about="tritol">
+        <rdfs:subClassOf rdf:resource="tolnaftate"/>
+    </owl:Class>
+    
+
+
+    <!-- vaccinium -->
+
+
+    <owl:Class rdf:about="vaccinium"/>
+    
+
+
+    <!-- vaccinium-vitis-idaea -->
+
+
+    <owl:Class rdf:about="vaccinium-vitis-idaea">
+        <rdfs:subClassOf rdf:resource="edible-fruit"/>
+        <rdfs:subClassOf rdf:resource="vaccinium"/>
+        <rdfs:subClassOf rdf:resource="vaccinium-vitis-idaea"/>
+    </owl:Class>
+    
+
+
+    <!-- vasopressin&#45;&#45;usp&#45;&#45;20-untml-injectable-solution-pitressin -->
+
+
+    <owl:Class rdf:about="vasopressin--usp--20-untml-injectable-solution-pitressin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- vitamin-a-50000-untml-injectable-solution-aquasol-a -->
+
+
+    <owl:Class rdf:about="vitamin-a-50000-untml-injectable-solution-aquasol-a">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 015-ml-epinephrine-1-mgml-prefilled-syringe-adrenaclick -->
+
+
+    <owl:Class rdf:about="015-ml-epinephrine-1-mgml-prefilled-syringe-adrenaclick">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 03-ml-epinephrine-1-mgml-prefilled-syringe-adrenaclick -->
+
+
+    <owl:Class rdf:about="03-ml-epinephrine-1-mgml-prefilled-syringe-adrenaclick">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="chlorobutanol"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="excipient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 2-acetyl-2-decarboxamidodemeclocycline -->
+
+
+    <owl:Class rdf:about="2-acetyl-2-decarboxamidodemeclocycline">
+        <rdfs:subClassOf rdf:resource="demeclocycline"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

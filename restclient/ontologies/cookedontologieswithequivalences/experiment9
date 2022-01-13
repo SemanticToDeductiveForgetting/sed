@@ -1,0 +1,1535 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment9/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment9/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment9/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- disease-causing-germline-mutation-s&#45;&#45;in -->
+
+
+    <owl:ObjectProperty rdf:about="disease-causing-germline-mutation-s--in"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-pharmacological-action -->
+
+
+    <owl:ObjectProperty rdf:about="has-pharmacological-action"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- alkynes -->
+
+
+    <owl:Class rdf:about="alkynes"/>
+    
+
+
+    <!-- amyotrophic-lateral-sclerosis -->
+
+
+    <owl:Class rdf:about="amyotrophic-lateral-sclerosis"/>
+    
+
+
+    <!-- anomura -->
+
+
+    <owl:Class rdf:about="anomura"/>
+    
+
+
+    <!-- associative-learning -->
+
+
+    <owl:Class rdf:about="associative-learning"/>
+    
+
+
+    <!-- behavioral-quality-of-a-process -->
+
+
+    <owl:Class rdf:about="behavioral-quality-of-a-process"/>
+    
+
+
+    <!-- bspt-salt -->
+
+
+    <owl:Class rdf:about="bspt-salt">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- cefminox -->
+
+
+    <owl:Class rdf:about="cefminox">
+        <rdfs:subClassOf rdf:resource="cephalosporin-antibiotic"/>
+        <rdfs:subClassOf rdf:resource="cephamycins"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- cephalosporin-antibiotic -->
+
+
+    <owl:Class rdf:about="cephalosporin-antibiotic"/>
+    
+
+
+    <!-- cephamycins -->
+
+
+    <owl:Class rdf:about="cephamycins"/>
+    
+
+
+    <!-- child-health-promotion -->
+
+
+    <owl:Class rdf:about="child-health-promotion">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- conditioned-place-preference -->
+
+
+    <owl:Class rdf:about="conditioned-place-preference">
+        <rdfs:subClassOf rdf:resource="associative-learning"/>
+        <rdfs:subClassOf rdf:resource="palatability"/>
+    </owl:Class>
+    
+
+
+    <!-- conditioned-place-preference-behavioral-quality-of-a-process-abnormal -->
+
+
+    <owl:Class rdf:about="conditioned-place-preference-behavioral-quality-of-a-process-abnormal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="behavioral-quality-of-a-process"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="behavioral-quality-of-a-process"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- conditioned-place-preference-decreased-process-quality-abnormal -->
+
+
+    <owl:Class rdf:about="conditioned-place-preference-decreased-process-quality-abnormal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-process-quality"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-process-quality"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- conditioned-place-preference-increased-occurrence-abnormal -->
+
+
+    <owl:Class rdf:about="conditioned-place-preference-increased-occurrence-abnormal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-occurrence"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-occurrence"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- conditioned-place-preference-process-quality-abnormal -->
+
+
+    <owl:Class rdf:about="conditioned-place-preference-process-quality-abnormal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="process-quality"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="process-quality"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="conditioned-place-preference"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- corneal-ulcer -->
+
+
+    <owl:Class rdf:about="corneal-ulcer"/>
+    
+
+
+    <!-- counterweight-weight-management-programme -->
+
+
+    <owl:Class rdf:about="counterweight-weight-management-programme">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- crab&#45;&#45;animal- -->
+
+
+    <owl:Class rdf:about="crab--animal-"/>
+    
+
+
+    <!-- decreased-process-quality -->
+
+
+    <owl:Class rdf:about="decreased-process-quality"/>
+    
+
+
+    <!-- disease-and-symptom -->
+
+
+    <owl:Class rdf:about="disease-and-symptom"/>
+    
+
+
+    <!-- enzyme-inhibitor -->
+
+
+    <owl:Class rdf:about="enzyme-inhibitor"/>
+    
+
+
+    <!-- enzyme-inhibitors -->
+
+
+    <owl:Class rdf:about="enzyme-inhibitors"/>
+    
+
+
+    <!-- family-nurse-partnership-programme -->
+
+
+    <owl:Class rdf:about="family-nurse-partnership-programme">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia -->
+
+
+    <owl:Class rdf:about="gambusia">
+        <rdfs:subClassOf rdf:resource="poeciliidae"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-affinis -->
+
+
+    <owl:Class rdf:about="gambusia-affinis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-alvarezi -->
+
+
+    <owl:Class rdf:about="gambusia-alvarezi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-amistadensis -->
+
+
+    <owl:Class rdf:about="gambusia-amistadensis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-atrora -->
+
+
+    <owl:Class rdf:about="gambusia-atrora">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-aurata -->
+
+
+    <owl:Class rdf:about="gambusia-aurata">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-beebei -->
+
+
+    <owl:Class rdf:about="gambusia-beebei">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-bucheri -->
+
+
+    <owl:Class rdf:about="gambusia-bucheri">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-clarkhubbsi -->
+
+
+    <owl:Class rdf:about="gambusia-clarkhubbsi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-dominicensis -->
+
+
+    <owl:Class rdf:about="gambusia-dominicensis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-echeagarayi -->
+
+
+    <owl:Class rdf:about="gambusia-echeagarayi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-eurystoma -->
+
+
+    <owl:Class rdf:about="gambusia-eurystoma">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-gaigei -->
+
+
+    <owl:Class rdf:about="gambusia-gaigei">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-geiseri -->
+
+
+    <owl:Class rdf:about="gambusia-geiseri">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-georgei -->
+
+
+    <owl:Class rdf:about="gambusia-georgei">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-heterochir -->
+
+
+    <owl:Class rdf:about="gambusia-heterochir">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-hispaniolae -->
+
+
+    <owl:Class rdf:about="gambusia-hispaniolae">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-hurtadoi -->
+
+
+    <owl:Class rdf:about="gambusia-hurtadoi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-krumholzi -->
+
+
+    <owl:Class rdf:about="gambusia-krumholzi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-lemaitrei -->
+
+
+    <owl:Class rdf:about="gambusia-lemaitrei">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-longispinis -->
+
+
+    <owl:Class rdf:about="gambusia-longispinis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-luma -->
+
+
+    <owl:Class rdf:about="gambusia-luma">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-manni -->
+
+
+    <owl:Class rdf:about="gambusia-manni">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-marshi -->
+
+
+    <owl:Class rdf:about="gambusia-marshi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-melapleura -->
+
+
+    <owl:Class rdf:about="gambusia-melapleura">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-monticola -->
+
+
+    <owl:Class rdf:about="gambusia-monticola">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-myersi -->
+
+
+    <owl:Class rdf:about="gambusia-myersi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-nicaraguensis -->
+
+
+    <owl:Class rdf:about="gambusia-nicaraguensis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-nobilis -->
+
+
+    <owl:Class rdf:about="gambusia-nobilis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-panuco -->
+
+
+    <owl:Class rdf:about="gambusia-panuco">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-pseudopunctata -->
+
+
+    <owl:Class rdf:about="gambusia-pseudopunctata">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-punctata -->
+
+
+    <owl:Class rdf:about="gambusia-punctata">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-puncticulata -->
+
+
+    <owl:Class rdf:about="gambusia-puncticulata">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-rachovii -->
+
+
+    <owl:Class rdf:about="gambusia-rachovii">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-regani -->
+
+
+    <owl:Class rdf:about="gambusia-regani">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-rhizophorae -->
+
+
+    <owl:Class rdf:about="gambusia-rhizophorae">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-senilis -->
+
+
+    <owl:Class rdf:about="gambusia-senilis">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-sexradiata -->
+
+
+    <owl:Class rdf:about="gambusia-sexradiata">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-speciosa -->
+
+
+    <owl:Class rdf:about="gambusia-speciosa">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-vittata -->
+
+
+    <owl:Class rdf:about="gambusia-vittata">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-wrayi -->
+
+
+    <owl:Class rdf:about="gambusia-wrayi">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-xanthosoma -->
+
+
+    <owl:Class rdf:about="gambusia-xanthosoma">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gambusia-yucatana -->
+
+
+    <owl:Class rdf:about="gambusia-yucatana">
+        <rdfs:subClassOf rdf:resource="gambusia"/>
+    </owl:Class>
+    
+
+
+    <!-- gene-with-protein-product -->
+
+
+    <owl:Class rdf:about="gene-with-protein-product"/>
+    
+
+
+    <!-- gentiana -->
+
+
+    <owl:Class rdf:about="gentiana"/>
+    
+
+
+    <!-- gentiana-scabra -->
+
+
+    <owl:Class rdf:about="gentiana-scabra">
+        <rdfs:subClassOf rdf:resource="gentiana"/>
+    </owl:Class>
+    
+
+
+    <!-- giardia -->
+
+
+    <owl:Class rdf:about="giardia"/>
+    
+
+
+    <!-- giardia-lamblia -->
+
+
+    <owl:Class rdf:about="giardia-lamblia">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="giardia"/>
+        <rdfs:subClassOf rdf:resource="giardia-lamblia"/>
+    </owl:Class>
+    
+
+
+    <!-- giardia-lamblia-Concept -->
+
+
+    <owl:Class rdf:about="giardia-lamblia-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="giardia-lamblia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- health-care -->
+
+
+    <owl:Class rdf:about="health-care"/>
+    
+
+
+    <!-- health-promotion -->
+
+
+    <owl:Class rdf:about="health-promotion">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="health-care"/>
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+        <rdfs:subClassOf rdf:resource="lifestyle-and-disease-prevention"/>
+        <rdfs:subClassOf rdf:resource="preventive-procedures"/>
+    </owl:Class>
+    
+
+
+    <!-- health-promotion-Concept -->
+
+
+    <owl:Class rdf:about="health-promotion-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="health-promotion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- healthy-start-programme -->
+
+
+    <owl:Class rdf:about="healthy-start-programme">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- hla-dpb1 -->
+
+
+    <owl:Class rdf:about="hla-dpb1">
+        <rdfs:subClassOf rdf:resource="human-leucocyte-antigen"/>
+        <rdfs:subClassOf rdf:resource="mhc-class-ii-antigen"/>
+        <rdfs:subClassOf rdf:resource="protein-coding-gene-of-homo-sapiens"/>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- human-leucocyte-antigen -->
+
+
+    <owl:Class rdf:about="human-leucocyte-antigen"/>
+    
+
+
+    <!-- hydrocortisone -->
+
+
+    <owl:Class rdf:about="hydrocortisone"/>
+    
+
+
+    <!-- increased-occurrence -->
+
+
+    <owl:Class rdf:about="increased-occurrence"/>
+    
+
+
+    <!-- indicators-and-reagents -->
+
+
+    <owl:Class rdf:about="indicators-and-reagents"/>
+    
+
+
+    <!-- iodonitrotetrazolium -->
+
+
+    <owl:Class rdf:about="iodonitrotetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- keep-well-programme -->
+
+
+    <owl:Class rdf:about="keep-well-programme">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- keratitis -->
+
+
+    <owl:Class rdf:about="keratitis"/>
+    
+
+
+    <!-- leukocyte-disorder -->
+
+
+    <owl:Class rdf:about="leukocyte-disorder"/>
+    
+
+
+    <!-- lifestyle-and-disease-prevention -->
+
+
+    <owl:Class rdf:about="lifestyle-and-disease-prevention"/>
+    
+
+
+    <!-- mental-health-promotion -->
+
+
+    <owl:Class rdf:about="mental-health-promotion">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- mental-manifestation -->
+
+
+    <owl:Class rdf:about="mental-manifestation"/>
+    
+
+
+    <!-- mhc-class-ii-antigen -->
+
+
+    <owl:Class rdf:about="mhc-class-ii-antigen"/>
+    
+
+
+    <!-- minimal-residual-disease -->
+
+
+    <owl:Class rdf:about="minimal-residual-disease">
+        <rdfs:subClassOf rdf:resource="disease-and-symptom"/>
+        <rdfs:subClassOf rdf:resource="residual-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- mtt-formazan -->
+
+
+    <owl:Class rdf:about="mtt-formazan">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- neotetrazolium -->
+
+
+    <owl:Class rdf:about="neotetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- nhs-health-check-programme -->
+
+
+    <owl:Class rdf:about="nhs-health-check-programme">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nurse-health-promotion -->
+
+
+    <owl:Class rdf:about="nurse-health-promotion">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- oncocytosis -->
+
+
+    <owl:Class rdf:about="oncocytosis">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="leukocyte-disorder"/>
+        <rdfs:subClassOf rdf:resource="tumor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- other-psychosexual-disorders -->
+
+
+    <owl:Class rdf:about="other-psychosexual-disorders"/>
+    
+
+
+    <!-- palatability -->
+
+
+    <owl:Class rdf:about="palatability"/>
+    
+
+
+    <!-- paralithodes-brevipes -->
+
+
+    <owl:Class rdf:about="paralithodes-brevipes">
+        <rdfs:subClassOf rdf:resource="anomura"/>
+        <rdfs:subClassOf rdf:resource="crab--animal-"/>
+    </owl:Class>
+    
+
+
+    <!-- paraphilia-disorder -->
+
+
+    <owl:Class rdf:about="paraphilia-disorder"/>
+    
+
+
+    <!-- paraphilia-nos -->
+
+
+    <owl:Class rdf:about="paraphilia-nos"/>
+    
+
+
+    <!-- paraphilias -->
+
+
+    <owl:Class rdf:about="paraphilias"/>
+    
+
+
+    <!-- phenyltetrazolium -->
+
+
+    <owl:Class rdf:about="phenyltetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- phospholipase-a2-inhibitors -->
+
+
+    <owl:Class rdf:about="phospholipase-a2-inhibitors">
+        <rdfs:subClassOf rdf:resource="enzyme-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="enzyme-inhibitors"/>
+        <rdfs:subClassOf rdf:resource="phospholipase-a2-inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- poeciliidae -->
+
+
+    <owl:Class rdf:about="poeciliidae"/>
+    
+
+
+    <!-- preventive-procedures -->
+
+
+    <owl:Class rdf:about="preventive-procedures"/>
+    
+
+
+    <!-- process-quality -->
+
+
+    <owl:Class rdf:about="process-quality"/>
+    
+
+
+    <!-- propiolic-acid -->
+
+
+    <owl:Class rdf:about="propiolic-acid">
+        <rdfs:subClassOf rdf:resource="alkynes"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="propionates"/>
+    </owl:Class>
+    
+
+
+    <!-- propionates -->
+
+
+    <owl:Class rdf:about="propionates"/>
+    
+
+
+    <!-- protein-coding-gene-of-homo-sapiens -->
+
+
+    <owl:Class rdf:about="protein-coding-gene-of-homo-sapiens"/>
+    
+
+
+    <!-- residual-disease -->
+
+
+    <owl:Class rdf:about="residual-disease"/>
+    
+
+
+    <!-- ring-corneal-ulcer -->
+
+
+    <owl:Class rdf:about="ring-corneal-ulcer">
+        <rdfs:subClassOf rdf:resource="corneal-ulcer"/>
+        <rdfs:subClassOf rdf:resource="keratitis"/>
+    </owl:Class>
+    
+
+
+    <!-- sexual-and-gender-identity-disorders -->
+
+
+    <owl:Class rdf:about="sexual-and-gender-identity-disorders"/>
+    
+
+
+    <!-- styrylphenyltetrazolium -->
+
+
+    <owl:Class rdf:about="styrylphenyltetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- superoxide-dismutase -->
+
+
+    <owl:Class rdf:about="superoxide-dismutase"/>
+    
+
+
+    <!-- superoxide-dismutase-1 -->
+
+
+    <owl:Class rdf:about="superoxide-dismutase-1">
+        <rdfs:subClassOf rdf:resource="gene-with-protein-product"/>
+        <rdfs:subClassOf rdf:resource="superoxide-dismutase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease-causing-germline-mutation-s--in"/>
+                <owl:someValuesFrom rdf:resource="amyotrophic-lateral-sclerosis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sure-start-programme -->
+
+
+    <owl:Class rdf:about="sure-start-programme">
+        <rdfs:subClassOf rdf:resource="health-promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- tetranitrotetrazolium-blue -->
+
+
+    <owl:Class rdf:about="tetranitrotetrazolium-blue">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- tetrazolium-salts -->
+
+
+    <owl:Class rdf:about="tetrazolium-salts">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="indicators-and-reagents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tetrazolium-violet -->
+
+
+    <owl:Class rdf:about="tetrazolium-violet">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- thiazolyl-blue -->
+
+
+    <owl:Class rdf:about="thiazolyl-blue">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- triphenyltetrazolium -->
+
+
+    <owl:Class rdf:about="triphenyltetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- tumor -->
+
+
+    <owl:Class rdf:about="tumor"/>
+    
+
+
+    <!-- voyeurism -->
+
+
+    <owl:Class rdf:about="voyeurism">
+        <rdfs:subClassOf rdf:resource="mental-manifestation"/>
+        <rdfs:subClassOf rdf:resource="other-psychosexual-disorders"/>
+        <rdfs:subClassOf rdf:resource="paraphilia-disorder"/>
+        <rdfs:subClassOf rdf:resource="paraphilia-nos"/>
+        <rdfs:subClassOf rdf:resource="paraphilias"/>
+        <rdfs:subClassOf rdf:resource="sexual-and-gender-identity-disorders"/>
+        <rdfs:subClassOf rdf:resource="voyeurism"/>
+    </owl:Class>
+    
+
+
+    <!-- voyeurism-Concept -->
+
+
+    <owl:Class rdf:about="voyeurism-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="voyeurism"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 18-hydroxycortisol -->
+
+
+    <owl:Class rdf:about="18-hydroxycortisol">
+        <rdfs:subClassOf rdf:resource="hydrocortisone"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- 2&#45;&#45;2-methoxy-4-nitrophenyl&#45;&#45;3&#45;&#45;4-nitrophenyl&#45;&#45;5&#45;&#45;24-disulfophenyl&#45;&#45;2h-tetrazolium-monosodium-salt -->
+
+
+    <owl:Class rdf:about="2--2-methoxy-4-nitrophenyl--3--4-nitrophenyl--5--24-disulfophenyl--2h-tetrazolium-monosodium-salt">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 2&#45;&#45;4-iodophenyl&#45;&#45;3&#45;&#45;4-nitrophenyl&#45;&#45;5&#45;&#45;24-disulfophenyl&#45;&#45;2h-tetrazolium -->
+
+
+    <owl:Class rdf:about="2--4-iodophenyl--3--4-nitrophenyl--5--24-disulfophenyl--2h-tetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 22-di-4-nitrophenyl-55-diphenyl-33&#45;&#45;33-dimethoxy-44-diphenylene-ditetrazolium -->
+
+
+    <owl:Class rdf:about="22-di-4-nitrophenyl-55-diphenyl-33--33-dimethoxy-44-diphenylene-ditetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 23-bis&#45;&#45;2-methyloxy-4-nitro-5-sulfophenyl&#45;&#45;2h-tetrazolium-5-carboxanilide -->
+
+
+    <owl:Class rdf:about="23-bis--2-methyloxy-4-nitro-5-sulfophenyl--2h-tetrazolium-5-carboxanilide">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 23-bis-2-methoxy-4-nitro-5-sulfophenyl&#45;&#45;5&#45;&#45;-phenylamino-carbonyl&#45;&#45;2h-tetrazolium-hydroxide -->
+
+
+    <owl:Class rdf:about="23-bis-2-methoxy-4-nitro-5-sulfophenyl--5---phenylamino-carbonyl--2h-tetrazolium-hydroxide">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 23-di&#45;&#45;4-nitrophenyl&#45;&#45;5-phenyl-2h-tetrazolium -->
+
+
+    <owl:Class rdf:about="23-di--4-nitrophenyl--5-phenyl-2h-tetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 23-di&#45;&#45;4-nitrophenyl&#45;&#45;5-t-butyl-2h-tetrazolium -->
+
+
+    <owl:Class rdf:about="23-di--4-nitrophenyl--5-t-butyl-2h-tetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 23-diphenyl-5-thienyl&#45;&#45;2&#45;&#45;tetrazolium -->
+
+
+    <owl:Class rdf:about="23-diphenyl-5-thienyl--2--tetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 3&#45;&#45;45-dimethylthiazol-2-yl&#45;&#45;5&#45;&#45;3-carboxymethoxyphenyl&#45;&#45;2&#45;&#45;4-sulfophenyl&#45;&#45;2h-tetrazolium -->
+
+
+    <owl:Class rdf:about="3--45-dimethylthiazol-2-yl--5--3-carboxymethoxyphenyl--2--4-sulfophenyl--2h-tetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 4-anisyltetrazolium-blue -->
+
+
+    <owl:Class rdf:about="4-anisyltetrazolium-blue">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+    
+
+
+    <!-- 5-cyano-23-ditolyltetrazolium -->
+
+
+    <owl:Class rdf:about="5-cyano-23-ditolyltetrazolium">
+        <rdfs:subClassOf rdf:resource="tetrazolium-salts"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

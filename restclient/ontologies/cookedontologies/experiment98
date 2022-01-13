@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment98#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment98"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment98"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment98/has-role"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/amoxicillin-potassium-clavulanate-combination -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/amoxicillin-potassium-clavulanate-combination"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/beta-lactam-antibiotic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/beta-lactam-antibiotic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acids -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acids"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/connective-and-soft-tissue-neoplasm&#45;&#45;antiquated- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/connective-and-soft-tissue-neoplasm--antiquated-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/electrolyte-replacement-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/electrolyte-replacement-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/enzyme-inhibitor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/enzyme-inhibitor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/giant-cell-sarcoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/giant-cell-sarcoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/hydrazines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/hydrazines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/inorganic-compounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/inorganic-compounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/insect-growth-regulator -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/insect-growth-regulator"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/juvenile-hormones -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/juvenile-hormones"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/phosphates -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/phosphates"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/potassium-compounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/potassium-compounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/potassium-phosphate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/potassium-phosphate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/sarcoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/sarcoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment98/substance-related-to-pesticide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment98/substance-related-to-pesticide"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/enzyme-inhibitor"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/phosphates"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/potassium-phosphate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/amoxicillin-potassium-clavulanate-combination"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/sarcoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/giant-cell-sarcoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/connective-and-soft-tissue-neoplasm--antiquated-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/giant-cell-sarcoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/beta-lactam-antibiotic"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/potassium-compounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/potassium-phosphate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/juvenile-hormones"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/inorganic-compounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/potassium-phosphate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/electrolyte-replacement-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/potassium-phosphate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/insect-growth-regulator"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/clavulanic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/hydrazines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment98/substance-related-to-pesticide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment98/methoxyfenozide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

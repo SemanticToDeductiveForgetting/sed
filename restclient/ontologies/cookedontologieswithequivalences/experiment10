@@ -1,0 +1,945 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment10/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment10/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment10/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-material-basis-in -->
+
+
+    <owl:ObjectProperty rdf:about="has-material-basis-in"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- is_about -->
+
+
+    <owl:ObjectProperty rdf:about="is_about"/>
+    
+
+
+    <!-- is_bearer_of -->
+
+
+    <owl:ObjectProperty rdf:about="is_bearer_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- anesthetic-agent -->
+
+
+    <owl:Class rdf:about="anesthetic-agent"/>
+    
+
+
+    <!-- antitussive -->
+
+
+    <owl:Class rdf:about="antitussive"/>
+    
+
+
+    <!-- autosomal-dominant-disease -->
+
+
+    <owl:Class rdf:about="autosomal-dominant-disease"/>
+    
+
+
+    <!-- autosomal-dominant-inheritance -->
+
+
+    <owl:Class rdf:about="autosomal-dominant-inheritance"/>
+    
+
+
+    <!-- benign-pericardial-germ-cell-tumor -->
+
+
+    <owl:Class rdf:about="benign-pericardial-germ-cell-tumor"/>
+    
+
+
+    <!-- blinking -->
+
+
+    <owl:Class rdf:about="blinking">
+        <rdfs:subClassOf rdf:resource="blinking"/>
+        <rdfs:subClassOf rdf:resource="eyelid-movement"/>
+        <rdfs:subClassOf rdf:resource="reflex--physiology-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="blinking-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- blinking-Concept -->
+
+
+    <owl:Class rdf:about="blinking-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- blood-component-removal -->
+
+
+    <owl:Class rdf:about="blood-component-removal"/>
+    
+
+
+    <!-- blood-draw -->
+
+
+    <owl:Class rdf:about="blood-draw"/>
+    
+
+
+    <!-- calculus&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="calculus--disease-"/>
+    
+
+
+    <!-- carbamates -->
+
+
+    <owl:Class rdf:about="carbamates"/>
+    
+
+
+    <!-- cardiac-neoplasm -->
+
+
+    <owl:Class rdf:about="cardiac-neoplasm"/>
+    
+
+
+    <!-- classical-conditioning -->
+
+
+    <owl:Class rdf:about="classical-conditioning"/>
+    
+
+
+    <!-- corneal-disease -->
+
+
+    <owl:Class rdf:about="corneal-disease"/>
+    
+
+
+    <!-- corneal-dystrophy -->
+
+
+    <owl:Class rdf:about="corneal-dystrophy"/>
+    
+
+
+    <!-- dichlorprop -->
+
+
+    <owl:Class rdf:about="dichlorprop">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="24-dichlorophenoxyacetic-acid"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="phenoxy-herbicide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="plant-growth-regulator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- drug-of-abuse -->
+
+
+    <owl:Class rdf:about="drug-of-abuse"/>
+    
+
+
+    <!-- drug-of-abuse-role -->
+
+
+    <owl:Class rdf:about="drug-of-abuse-role"/>
+    
+
+
+    <!-- egl-3-proprotein-convertase-c-elegans -->
+
+
+    <owl:Class rdf:about="egl-3-proprotein-convertase-c-elegans">
+        <rdfs:subClassOf rdf:resource="proprotein-convertase-2"/>
+    </owl:Class>
+    
+
+
+    <!-- epithelial-stromal-tgfbi-dystrophy -->
+
+
+    <owl:Class rdf:about="epithelial-stromal-tgfbi-dystrophy"/>
+    
+
+
+    <!-- eye-blink-conditioning-behavior -->
+
+
+    <owl:Class rdf:about="eye-blink-conditioning-behavior">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="classical-conditioning"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="is_about"/>
+                        <owl:someValuesFrom rdf:resource="blinking"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is_about"/>
+                <owl:someValuesFrom rdf:resource="blinking"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- eyelid-movement -->
+
+
+    <owl:Class rdf:about="eyelid-movement"/>
+    
+
+
+    <!-- helenalin -->
+
+
+    <owl:Class rdf:about="helenalin">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="sesquiterpenes"/>
+    </owl:Class>
+    
+
+
+    <!-- helenalin-Concept -->
+
+
+    <owl:Class rdf:about="helenalin-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="helenalin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hereditary-corneal-dystrophies -->
+
+
+    <owl:Class rdf:about="hereditary-corneal-dystrophies"/>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- hydrochloride -->
+
+
+    <owl:Class rdf:about="hydrochloride"/>
+    
+
+
+    <!-- inorganic-compounds -->
+
+
+    <owl:Class rdf:about="inorganic-compounds"/>
+    
+
+
+    <!-- isolan -->
+
+
+    <owl:Class rdf:about="isolan">
+        <rdfs:subClassOf rdf:resource="carbamates"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- lattice-corneal-dystrophy -->
+
+
+    <owl:Class rdf:about="lattice-corneal-dystrophy">
+        <rdfs:subClassOf rdf:resource="autosomal-dominant-disease"/>
+        <rdfs:subClassOf rdf:resource="corneal-disease"/>
+        <rdfs:subClassOf rdf:resource="corneal-dystrophy"/>
+        <rdfs:subClassOf rdf:resource="epithelial-stromal-tgfbi-dystrophy"/>
+        <rdfs:subClassOf rdf:resource="hereditary-corneal-dystrophies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-material-basis-in"/>
+                <owl:someValuesFrom rdf:resource="autosomal-dominant-inheritance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- leukapheresis -->
+
+
+    <owl:Class rdf:about="leukapheresis">
+        <rdfs:subClassOf rdf:resource="blood-component-removal"/>
+        <rdfs:subClassOf rdf:resource="blood-draw"/>
+        <rdfs:subClassOf rdf:resource="leukapheresis"/>
+        <rdfs:subClassOf rdf:resource="pheresis"/>
+    </owl:Class>
+    
+
+
+    <!-- leukapheresis-Concept -->
+
+
+    <owl:Class rdf:about="leukapheresis-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="leukapheresis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- management-information-systems -->
+
+
+    <owl:Class rdf:about="management-information-systems"/>
+    
+
+
+    <!-- mature-pericardial-teratoma -->
+
+
+    <owl:Class rdf:about="mature-pericardial-teratoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="benign-pericardial-germ-cell-tumor"/>
+                    <rdf:Description rdf:about="mature-teratoma"/>
+                    <rdf:Description rdf:about="pericardial-teratoma"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- mature-teratoma -->
+
+
+    <owl:Class rdf:about="mature-teratoma"/>
+    
+
+
+    <!-- medical-information-processing-system -->
+
+
+    <owl:Class rdf:about="medical-information-processing-system"/>
+    
+
+
+    <!-- methionine-sulfoximine -->
+
+
+    <owl:Class rdf:about="methionine-sulfoximine">
+        <rdfs:subClassOf rdf:resource="sulfoximide"/>
+    </owl:Class>
+    
+
+
+    <!-- microlithiasis -->
+
+
+    <owl:Class rdf:about="microlithiasis">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="calculus--disease-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mrsa-infection -->
+
+
+    <owl:Class rdf:about="mrsa-infection"/>
+    
+
+
+    <!-- mu-opioid-receptor-agonist -->
+
+
+    <owl:Class rdf:about="mu-opioid-receptor-agonist"/>
+    
+
+
+    <!-- n-acetyl-l-methionine-sulfoximine -->
+
+
+    <owl:Class rdf:about="n-acetyl-l-methionine-sulfoximine">
+        <rdfs:subClassOf rdf:resource="sulfoximide"/>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- opioid -->
+
+
+    <owl:Class rdf:about="opioid"/>
+    
+
+
+    <!-- opioid-analgesic -->
+
+
+    <owl:Class rdf:about="opioid-analgesic"/>
+    
+
+
+    <!-- opioid-receptor-agonist -->
+
+
+    <owl:Class rdf:about="opioid-receptor-agonist"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organosulfur-compound -->
+
+
+    <owl:Class rdf:about="organosulfur-compound"/>
+    
+
+
+    <!-- oxycodone-1- -->
+
+
+    <owl:Class rdf:about="oxycodone-1-"/>
+    
+
+
+    <!-- oxycodone-hcl -->
+
+
+    <owl:Class rdf:about="oxycodone-hcl">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="oxycodone-hydrochloride"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- oxycodone-hydrochloride -->
+
+
+    <owl:Class rdf:about="oxycodone-hydrochloride">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="drug-of-abuse"/>
+        <rdfs:subClassOf rdf:resource="hydrochloride"/>
+        <rdfs:subClassOf rdf:resource="opioid"/>
+        <rdfs:subClassOf rdf:resource="opioid-receptor-agonist"/>
+        <rdfs:subClassOf rdf:resource="substance-related-to-drugs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom rdf:resource="oxycodone-1-"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antitussive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="mu-opioid-receptor-agonist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="opioid-analgesic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is_bearer_of"/>
+                <owl:someValuesFrom rdf:resource="drug-of-abuse-role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- panagrellus -->
+
+
+    <owl:Class rdf:about="panagrellus"/>
+    
+
+
+    <!-- panagrellus-redivivus -->
+
+
+    <owl:Class rdf:about="panagrellus-redivivus">
+        <rdfs:subClassOf rdf:resource="panagrellus"/>
+        <rdfs:subClassOf rdf:resource="rhabditida"/>
+    </owl:Class>
+    
+
+
+    <!-- pcsk2-protein-human -->
+
+
+    <owl:Class rdf:about="pcsk2-protein-human">
+        <rdfs:subClassOf rdf:resource="proprotein-convertase-2"/>
+    </owl:Class>
+    
+
+
+    <!-- pcsk2-protein-mouse -->
+
+
+    <owl:Class rdf:about="pcsk2-protein-mouse">
+        <rdfs:subClassOf rdf:resource="proprotein-convertase-2"/>
+    </owl:Class>
+    
+
+
+    <!-- penicillium -->
+
+
+    <owl:Class rdf:about="penicillium"/>
+    
+
+
+    <!-- penicillium-marneffei -->
+
+
+    <owl:Class rdf:about="penicillium-marneffei">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="penicillium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- peptide-bond-hydrolase -->
+
+
+    <owl:Class rdf:about="peptide-bond-hydrolase"/>
+    
+
+
+    <!-- pericardial-germ-cell-tumor -->
+
+
+    <owl:Class rdf:about="pericardial-germ-cell-tumor"/>
+    
+
+
+    <!-- pericardial-teratoma -->
+
+
+    <owl:Class rdf:about="pericardial-teratoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="pericardial-germ-cell-tumor"/>
+                    <rdf:Description rdf:about="teratoma"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="cardiac-neoplasm"/>
+        <rdfs:subClassOf rdf:resource="teratoma"/>
+    </owl:Class>
+    
+
+
+    <!-- personnel-staffing-and-scheduling-information-systems -->
+
+
+    <owl:Class rdf:about="personnel-staffing-and-scheduling-information-systems">
+        <rdfs:subClassOf rdf:resource="management-information-systems"/>
+        <rdfs:subClassOf rdf:resource="medical-information-processing-system"/>
+        <rdfs:subClassOf rdf:resource="personnel-staffing-and-scheduling-information-systems"/>
+    </owl:Class>
+    
+
+
+    <!-- phenoxy-herbicide -->
+
+
+    <owl:Class rdf:about="phenoxy-herbicide"/>
+    
+
+
+    <!-- pheresis -->
+
+
+    <owl:Class rdf:about="pheresis"/>
+    
+
+
+    <!-- piperidines -->
+
+
+    <owl:Class rdf:about="piperidines"/>
+    
+
+
+    <!-- piperocaine -->
+
+
+    <owl:Class rdf:about="piperocaine">
+        <rdfs:subClassOf rdf:resource="anesthetic-agent"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="piperidines"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+    </owl:Class>
+    
+
+
+    <!-- piperocaine-injectable-solution -->
+
+
+    <owl:Class rdf:about="piperocaine-injectable-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="piperocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pittosporaceae -->
+
+
+    <owl:Class rdf:about="pittosporaceae">
+        <rdfs:subClassOf rdf:resource="rosales"/>
+    </owl:Class>
+    
+
+
+    <!-- pittosporum-tobira -->
+
+
+    <owl:Class rdf:about="pittosporum-tobira">
+        <rdfs:subClassOf rdf:resource="pittosporaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- plant-growth-regulator -->
+
+
+    <owl:Class rdf:about="plant-growth-regulator"/>
+    
+
+
+    <!-- processed-material -->
+
+
+    <owl:Class rdf:about="processed-material"/>
+    
+
+
+    <!-- proprotein-convertase-2 -->
+
+
+    <owl:Class rdf:about="proprotein-convertase-2">
+        <rdfs:subClassOf rdf:resource="peptide-bond-hydrolase"/>
+        <rdfs:subClassOf rdf:resource="proprotein-convertase-2"/>
+    </owl:Class>
+    
+
+
+    <!-- reflex&#45;&#45;physiology- -->
+
+
+    <owl:Class rdf:about="reflex--physiology-"/>
+    
+
+
+    <!-- rhabditida -->
+
+
+    <owl:Class rdf:about="rhabditida"/>
+    
+
+
+    <!-- rosales -->
+
+
+    <owl:Class rdf:about="rosales"/>
+    
+
+
+    <!-- saving-pre-leukapheresis -->
+
+
+    <owl:Class rdf:about="saving-pre-leukapheresis">
+        <rdfs:subClassOf rdf:resource="leukapheresis"/>
+    </owl:Class>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- sepsis-mrsa -->
+
+
+    <owl:Class rdf:about="sepsis-mrsa">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="mrsa-infection"/>
+        <rdfs:subClassOf rdf:resource="septicemia"/>
+    </owl:Class>
+    
+
+
+    <!-- sepsis-mrsa-Concept -->
+
+
+    <owl:Class rdf:about="sepsis-mrsa-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="sepsis-mrsa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- septicemia -->
+
+
+    <owl:Class rdf:about="septicemia"/>
+    
+
+
+    <!-- sesquiterpenes -->
+
+
+    <owl:Class rdf:about="sesquiterpenes"/>
+    
+
+
+    <!-- substance-related-to-drugs -->
+
+
+    <owl:Class rdf:about="substance-related-to-drugs"/>
+    
+
+
+    <!-- sulfoximide -->
+
+
+    <owl:Class rdf:about="sulfoximide">
+        <rdfs:subClassOf rdf:resource="inorganic-compounds"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="organosulfur-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- teratoma -->
+
+
+    <owl:Class rdf:about="teratoma"/>
+    
+
+
+    <!-- 24-dichlorophenoxyacetic-acid -->
+
+
+    <owl:Class rdf:about="24-dichlorophenoxyacetic-acid"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

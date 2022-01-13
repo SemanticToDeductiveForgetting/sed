@@ -1,0 +1,2527 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment19/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment19/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment19/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- binds-molecular-entity -->
+
+
+    <owl:ObjectProperty rdf:about="binds-molecular-entity"/>
+    
+
+
+    <!-- biological_process_has_result_biological_process -->
+
+
+    <owl:ObjectProperty rdf:about="biological_process_has_result_biological_process"/>
+    
+
+
+    <!-- componentPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="componentPartOf"/>
+    
+
+
+    <!-- has-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-output"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_age_of_onset -->
+
+
+    <owl:ObjectProperty rdf:about="has_age_of_onset"/>
+    
+
+
+    <!-- has_inheritance -->
+
+
+    <owl:ObjectProperty rdf:about="has_inheritance"/>
+    
+
+
+    <!-- has_role -->
+
+
+    <owl:ObjectProperty rdf:about="has_role"/>
+    
+
+
+    <!-- is-participant-in -->
+
+
+    <owl:ObjectProperty rdf:about="is-participant-in"/>
+    
+
+
+    <!-- output-of -->
+
+
+    <owl:ObjectProperty rdf:about="output-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- targeted_by_antibiotic -->
+
+
+    <owl:ObjectProperty rdf:about="targeted_by_antibiotic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- acetyl-coa -->
+
+
+    <owl:Class rdf:about="acetyl-coa">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- acyl-coa -->
+
+
+    <owl:Class rdf:about="acyl-coa">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- adenoma-carcinoma-sequence -->
+
+
+    <owl:Class rdf:about="adenoma-carcinoma-sequence">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- adrenomedullin -->
+
+
+    <owl:Class rdf:about="adrenomedullin">
+        <rdfs:subClassOf rdf:resource="adrenomedullin"/>
+        <rdfs:subClassOf rdf:resource="bioactive-peptide"/>
+        <rdfs:subClassOf rdf:resource="peptide"/>
+        <rdfs:subClassOf rdf:resource="peptide-hormone"/>
+        <rdfs:subClassOf rdf:resource="peptide-hormones"/>
+        <rdfs:subClassOf rdf:resource="sequence_feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="gpcr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aequorivita -->
+
+
+    <owl:Class rdf:about="aequorivita">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- all-ages -->
+
+
+    <owl:Class rdf:about="all-ages"/>
+    
+
+
+    <!-- aminoguanidine -->
+
+
+    <owl:Class rdf:about="aminoguanidine">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="pimagedine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="enzyme-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- antidiarrheals -->
+
+
+    <owl:Class rdf:about="antidiarrheals">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="antidiarrheals"/>
+        <rdfs:subClassOf rdf:resource="drug-for-controlling-intestinal-function"/>
+        <rdfs:subClassOf rdf:resource="gastrointestinal-agents"/>
+    </owl:Class>
+    
+
+
+    <!-- antidiarrheals-Concept -->
+
+
+    <owl:Class rdf:about="antidiarrheals-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- assisted-reproductive-technology -->
+
+
+    <owl:Class rdf:about="assisted-reproductive-technology"/>
+    
+
+
+    <!-- bacterium -->
+
+
+    <owl:Class rdf:about="bacterium"/>
+    
+
+
+    <!-- bacteroidetes -->
+
+
+    <owl:Class rdf:about="bacteroidetes"/>
+    
+
+
+    <!-- berberine -->
+
+
+    <owl:Class rdf:about="berberine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- berberine-chloride -->
+
+
+    <owl:Class rdf:about="berberine-chloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bergeyella -->
+
+
+    <owl:Class rdf:about="bergeyella">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- beta-lactam-sensitive-penicillin-binding-protein -->
+
+
+    <owl:Class rdf:about="beta-lactam-sensitive-penicillin-binding-protein">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="targeted_by_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="ceftibuten"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bioactive-peptide -->
+
+
+    <owl:Class rdf:about="bioactive-peptide"/>
+    
+
+
+    <!-- biological-role -->
+
+
+    <owl:Class rdf:about="biological-role"/>
+    
+
+
+    <!-- biological-specimen-banks -->
+
+
+    <owl:Class rdf:about="biological-specimen-banks"/>
+    
+
+
+    <!-- biomolecule-synthesis -->
+
+
+    <owl:Class rdf:about="biomolecule-synthesis"/>
+    
+
+
+    <!-- biopterin -->
+
+
+    <owl:Class rdf:about="biopterin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- biospecimen-collection-method -->
+
+
+    <owl:Class rdf:about="biospecimen-collection-method"/>
+    
+
+
+    <!-- biotin -->
+
+
+    <owl:Class rdf:about="biotin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bismuth-subgallate -->
+
+
+    <owl:Class rdf:about="bismuth-subgallate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bungarotoxins -->
+
+
+    <owl:Class rdf:about="bungarotoxins">
+        <rdfs:subClassOf rdf:resource="elapid-venoms"/>
+    </owl:Class>
+    
+
+
+    <!-- cacao-product -->
+
+
+    <owl:Class rdf:about="cacao-product"/>
+    
+
+
+    <!-- calcitonin-receptor -->
+
+
+    <owl:Class rdf:about="calcitonin-receptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="adrenomedullin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- capnocytophaga -->
+
+
+    <owl:Class rdf:about="capnocytophaga">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinogen-effect-in-offspring -->
+
+
+    <owl:Class rdf:about="carcinogen-effect-in-offspring">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="biological_process_has_result_biological_process"/>
+                <owl:someValuesFrom rdf:resource="carcinogenesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- carcinogenesis -->
+
+
+    <owl:Class rdf:about="carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+        <rdfs:subClassOf rdf:resource="converting-cell-type"/>
+        <rdfs:subClassOf rdf:resource="neoplastic-process"/>
+        <rdfs:subClassOf rdf:resource="tumorigenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinogenesis-Concept -->
+
+
+    <owl:Class rdf:about="carcinogenesis-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="carcinogenesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- carcinogenesis-er-stress -->
+
+
+    <owl:Class rdf:about="carcinogenesis-er-stress">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinogenesis-ground-glass-appearance -->
+
+
+    <owl:Class rdf:about="carcinogenesis-ground-glass-appearance">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinogenesis-mechanism -->
+
+
+    <owl:Class rdf:about="carcinogenesis-mechanism">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinogenesis-phospholipidosis&#45;&#45;excessive-defense- -->
+
+
+    <owl:Class rdf:about="carcinogenesis-phospholipidosis--excessive-defense-">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- ceftibuten -->
+
+
+    <owl:Class rdf:about="ceftibuten">
+        <rdfs:subClassOf rdf:resource="cephalosporin"/>
+        <rdfs:subClassOf rdf:resource="cephalosporin-antibiotic"/>
+        <rdfs:subClassOf rdf:resource="cephalosporins"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- ceftibuten-Concept -->
+
+
+    <owl:Class rdf:about="ceftibuten-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="ceftibuten"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cellulophaga -->
+
+
+    <owl:Class rdf:about="cellulophaga">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- central-positional-nystagmus -->
+
+
+    <owl:Class rdf:about="central-positional-nystagmus">
+        <rdfs:subClassOf rdf:resource="vertigo-of-central-origin"/>
+    </owl:Class>
+    
+
+
+    <!-- cephalosporin -->
+
+
+    <owl:Class rdf:about="cephalosporin"/>
+    
+
+
+    <!-- cephalosporin-antibiotic -->
+
+
+    <owl:Class rdf:about="cephalosporin-antibiotic"/>
+    
+
+
+    <!-- cephalosporins -->
+
+
+    <owl:Class rdf:about="cephalosporins"/>
+    
+
+
+    <!-- chemical-carcinogenesis -->
+
+
+    <owl:Class rdf:about="chemical-carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- chemical-entity -->
+
+
+    <owl:Class rdf:about="chemical-entity"/>
+    
+
+
+    <!-- chemical-synthesis -->
+
+
+    <owl:Class rdf:about="chemical-synthesis"/>
+    
+
+
+    <!-- chryseobacterium -->
+
+
+    <owl:Class rdf:about="chryseobacterium">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- clioquinol -->
+
+
+    <owl:Class rdf:about="clioquinol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cobamamide -->
+
+
+    <owl:Class rdf:about="cobamamide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cobra-venoms -->
+
+
+    <owl:Class rdf:about="cobra-venoms">
+        <rdfs:subClassOf rdf:resource="elapid-venoms"/>
+    </owl:Class>
+    
+
+
+    <!-- cocarcinogenesis -->
+
+
+    <owl:Class rdf:about="cocarcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- cocoa-press-cake -->
+
+
+    <owl:Class rdf:about="cocoa-press-cake">
+        <rdfs:subClassOf rdf:resource="cacao-product"/>
+    </owl:Class>
+    
+
+
+    <!-- codeine -->
+
+
+    <owl:Class rdf:about="codeine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenyme-f420-2 -->
+
+
+    <owl:Class rdf:about="coenyme-f420-2">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme -->
+
+
+    <owl:Class rdf:about="coenzyme">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="biological-role"/>
+        <rdfs:subClassOf rdf:resource="cofactor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="coenzymes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-a -->
+
+
+    <owl:Class rdf:about="coenzyme-a">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="substrate"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-role"/>
+                        <owl:someValuesFrom rdf:resource="coenzyme"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-alpha-f420-3 -->
+
+
+    <owl:Class rdf:about="coenzyme-alpha-f420-3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-alpha-f420-3-5&#45;&#45; -->
+
+
+    <owl:Class rdf:about="coenzyme-alpha-f420-3-5--">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-b -->
+
+
+    <owl:Class rdf:about="coenzyme-b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-b12 -->
+
+
+    <owl:Class rdf:about="coenzyme-b12">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-f420-1 -->
+
+
+    <owl:Class rdf:about="coenzyme-f420-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-f420-1-3&#45;&#45; -->
+
+
+    <owl:Class rdf:about="coenzyme-f420-1-3--">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-gamma-f420-2 -->
+
+
+    <owl:Class rdf:about="coenzyme-gamma-f420-2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-gamma-f420-2-4&#45;&#45; -->
+
+
+    <owl:Class rdf:about="coenzyme-gamma-f420-2-4--">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-m -->
+
+
+    <owl:Class rdf:about="coenzyme-m">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzyme-q -->
+
+
+    <owl:Class rdf:about="coenzyme-q">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- coenzymes -->
+
+
+    <owl:Class rdf:about="coenzymes"/>
+    
+
+
+    <!-- cofactor -->
+
+
+    <owl:Class rdf:about="cofactor"/>
+    
+
+
+    <!-- colipase -->
+
+
+    <owl:Class rdf:about="colipase">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- colon-carcinogenesis -->
+
+
+    <owl:Class rdf:about="colon-carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- converting-cell-type -->
+
+
+    <owl:Class rdf:about="converting-cell-type"/>
+    
+
+
+    <!-- corticotropin-releasing-factor-receptor-1 -->
+
+
+    <owl:Class rdf:about="corticotropin-releasing-factor-receptor-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="adrenomedullin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- croceibacter -->
+
+
+    <owl:Class rdf:about="croceibacter">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- dead-box-protein-20 -->
+
+
+    <owl:Class rdf:about="dead-box-protein-20">
+        <rdfs:subClassOf rdf:resource="dead-box-rna-helicases"/>
+    </owl:Class>
+    
+
+
+    <!-- dead-box-rna-helicases -->
+
+
+    <owl:Class rdf:about="dead-box-rna-helicases">
+        <rdfs:subClassOf rdf:resource="dead-box-rna-helicases"/>
+        <rdfs:subClassOf rdf:resource="nucleotidyltransferase"/>
+        <rdfs:subClassOf rdf:resource="rna-helicases"/>
+    </owl:Class>
+    
+
+
+    <!-- deltamethrin -->
+
+
+    <owl:Class rdf:about="deltamethrin">
+        <rdfs:subClassOf rdf:resource="nitrile"/>
+        <rdfs:subClassOf rdf:resource="organobromine-compound"/>
+        <rdfs:subClassOf rdf:resource="pesticide"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="synthetic-pyrethrin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dihydrocodeine -->
+
+
+    <owl:Class rdf:about="dihydrocodeine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dihydrocodeine-phosphate -->
+
+
+    <owl:Class rdf:about="dihydrocodeine-phosphate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- diphenoxylate -->
+
+
+    <owl:Class rdf:about="diphenoxylate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- disease -->
+
+
+    <owl:Class rdf:about="disease"/>
+    
+
+
+    <!-- diseasespathologysymptoms&#45;&#45;knapsack- -->
+
+
+    <owl:Class rdf:about="diseasespathologysymptoms--knapsack-"/>
+    
+
+
+    <!-- dokdonia -->
+
+
+    <owl:Class rdf:about="dokdonia">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- dopamine-antagonist -->
+
+
+    <owl:Class rdf:about="dopamine-antagonist"/>
+    
+
+
+    <!-- drug-for-controlling-intestinal-function -->
+
+
+    <owl:Class rdf:about="drug-for-controlling-intestinal-function"/>
+    
+
+
+    <!-- elapid-venoms -->
+
+
+    <owl:Class rdf:about="elapid-venoms">
+        <rdfs:subClassOf rdf:resource="elapid-venoms"/>
+        <rdfs:subClassOf rdf:resource="snake-venom"/>
+        <rdfs:subClassOf rdf:resource="snake-venoms"/>
+    </owl:Class>
+    
+
+
+    <!-- elizabethkingia -->
+
+
+    <owl:Class rdf:about="elizabethkingia">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- empedobacter -->
+
+
+    <owl:Class rdf:about="empedobacter">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- endoscope -->
+
+
+    <owl:Class rdf:about="endoscope"/>
+    
+
+
+    <!-- enzyme-inhibitor -->
+
+
+    <owl:Class rdf:about="enzyme-inhibitor"/>
+    
+
+
+    <!-- field-cancerization -->
+
+
+    <owl:Class rdf:about="field-cancerization">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- flavobacteriaceae -->
+
+
+    <owl:Class rdf:about="flavobacteriaceae">
+        <rdfs:subClassOf rdf:resource="bacterium"/>
+        <rdfs:subClassOf rdf:resource="bacteroidetes"/>
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+        <rdfs:subClassOf rdf:resource="flavobacteriales"/>
+    </owl:Class>
+    
+
+
+    <!-- flavobacteriales -->
+
+
+    <owl:Class rdf:about="flavobacteriales"/>
+    
+
+
+    <!-- flavobacterium -->
+
+
+    <owl:Class rdf:about="flavobacterium">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- fmn -->
+
+
+    <owl:Class rdf:about="fmn">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fmn-3&#45;&#45; -->
+
+
+    <owl:Class rdf:about="fmn-3--">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- formosa -->
+
+
+    <owl:Class rdf:about="formosa">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- g-m2&#45;&#45;activator-protein -->
+
+
+    <owl:Class rdf:about="g-m2--activator-protein">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- gastrointestinal-agents -->
+
+
+    <owl:Class rdf:about="gastrointestinal-agents"/>
+    
+
+
+    <!-- gastroscopes -->
+
+
+    <owl:Class rdf:about="gastroscopes">
+        <rdfs:subClassOf rdf:resource="endoscope"/>
+        <rdfs:subClassOf rdf:resource="gastroscopes"/>
+    </owl:Class>
+    
+
+
+    <!-- glucose-syrup -->
+
+
+    <owl:Class rdf:about="glucose-syrup"/>
+    
+
+
+    <!-- gpcr -->
+
+
+    <owl:Class rdf:about="gpcr"/>
+    
+
+
+    <!-- gramella -->
+
+
+    <owl:Class rdf:about="gramella">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- group-transfer-coenzymes -->
+
+
+    <owl:Class rdf:about="group-transfer-coenzymes">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- health-facility -->
+
+
+    <owl:Class rdf:about="health-facility"/>
+    
+
+
+    <!-- hepatocarcinogenesis -->
+
+
+    <owl:Class rdf:about="hepatocarcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- imidazoles -->
+
+
+    <owl:Class rdf:about="imidazoles"/>
+    
+
+
+    <!-- indoles -->
+
+
+    <owl:Class rdf:about="indoles"/>
+    
+
+
+    <!-- inflammatory-carcinogenesis -->
+
+
+    <owl:Class rdf:about="inflammatory-carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- l-ascorbic-acid -->
+
+
+    <owl:Class rdf:about="l-ascorbic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- l-dehydroascorbic-acid -->
+
+
+    <owl:Class rdf:about="l-dehydroascorbic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- labyrinth-disease -->
+
+
+    <owl:Class rdf:about="labyrinth-disease"/>
+    
+
+
+    <!-- lacinutrix -->
+
+
+    <owl:Class rdf:about="lacinutrix">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- lactic-acid -->
+
+
+    <owl:Class rdf:about="lactic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lactose -->
+
+
+    <owl:Class rdf:about="lactose">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lead-poisoning -->
+
+
+    <owl:Class rdf:about="lead-poisoning">
+        <rdfs:subClassOf rdf:resource="disease"/>
+        <rdfs:subClassOf rdf:resource="diseasespathologysymptoms--knapsack-"/>
+        <rdfs:subClassOf rdf:resource="lead-poisoning"/>
+        <rdfs:subClassOf rdf:resource="poisoning"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="rare-intoxication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="lead-poisoning-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_age_of_onset"/>
+                <owl:someValuesFrom rdf:resource="all-ages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_inheritance"/>
+                <owl:someValuesFrom rdf:resource="not-genetically-inherited"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="rare-disorder-due-to-poisoning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lead-poisoning-Concept -->
+
+
+    <owl:Class rdf:about="lead-poisoning-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- lead-poisoning-nervous-system -->
+
+
+    <owl:Class rdf:about="lead-poisoning-nervous-system">
+        <rdfs:subClassOf rdf:resource="lead-poisoning"/>
+    </owl:Class>
+    
+
+
+    <!-- liver-carcinogenesis -->
+
+
+    <owl:Class rdf:about="liver-carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- loperamide -->
+
+
+    <owl:Class rdf:about="loperamide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- loperamide-hydrochloride -->
+
+
+    <owl:Class rdf:about="loperamide-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- loss-of-cervical-lordosis -->
+
+
+    <owl:Class rdf:about="loss-of-cervical-lordosis">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="spinal-curvature"/>
+    </owl:Class>
+    
+
+
+    <!-- loss-of-cervical-lordosis-Concept -->
+
+
+    <owl:Class rdf:about="loss-of-cervical-lordosis-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="loss-of-cervical-lordosis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- malignant-positional-vertigo -->
+
+
+    <owl:Class rdf:about="malignant-positional-vertigo">
+        <rdfs:subClassOf rdf:resource="vertigo-of-central-origin"/>
+    </owl:Class>
+    
+
+
+    <!-- maribacter -->
+
+
+    <owl:Class rdf:about="maribacter">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- mecobalamin -->
+
+
+    <owl:Class rdf:about="mecobalamin">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- meningitis-pneumococcal -->
+
+
+    <owl:Class rdf:about="meningitis-pneumococcal">
+        <rdfs:subClassOf rdf:resource="pneumococcal-infections"/>
+    </owl:Class>
+    
+
+
+    <!-- merrifield-method -->
+
+
+    <owl:Class rdf:about="merrifield-method">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- metabolic-drug -->
+
+
+    <owl:Class rdf:about="metabolic-drug"/>
+    
+
+
+    <!-- molecular-analysis -->
+
+
+    <owl:Class rdf:about="molecular-analysis"/>
+    
+
+
+    <!-- morphine -->
+
+
+    <owl:Class rdf:about="morphine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- morphine-hydrochloride -->
+
+
+    <owl:Class rdf:about="morphine-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- multicentricity -->
+
+
+    <owl:Class rdf:about="multicentricity">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- multistep-carcinogenesis -->
+
+
+    <owl:Class rdf:about="multistep-carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- muricauda -->
+
+
+    <owl:Class rdf:about="muricauda">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- myroides -->
+
+
+    <owl:Class rdf:about="myroides">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- nad-p- -->
+
+
+    <owl:Class rdf:about="nad-p-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nadph -->
+
+
+    <owl:Class rdf:about="nadph">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- native-chemical-ligation -->
+
+
+    <owl:Class rdf:about="native-chemical-ligation">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- neoplastic-process -->
+
+
+    <owl:Class rdf:about="neoplastic-process"/>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nitrile -->
+
+
+    <owl:Class rdf:about="nitrile"/>
+    
+
+
+    <!-- nonlabens -->
+
+
+    <owl:Class rdf:about="nonlabens">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- not-genetically-inherited -->
+
+
+    <owl:Class rdf:about="not-genetically-inherited"/>
+    
+
+
+    <!-- nucleotidyltransferase -->
+
+
+    <owl:Class rdf:about="nucleotidyltransferase"/>
+    
+
+
+    <!-- o-acyl-isopeptide-method -->
+
+
+    <owl:Class rdf:about="o-acyl-isopeptide-method">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- oligopeptide -->
+
+
+    <owl:Class rdf:about="oligopeptide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="output-of"/>
+                <owl:someValuesFrom rdf:resource="peptide-synthesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organobromine-compound -->
+
+
+    <owl:Class rdf:about="organobromine-compound"/>
+    
+
+
+    <!-- ornithobacterium -->
+
+
+    <owl:Class rdf:about="ornithobacterium">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- oxidised-coenzyme-f420&#45;&#45;gamma-glu-n-polyanion -->
+
+
+    <owl:Class rdf:about="oxidised-coenzyme-f420--gamma-glu-n-polyanion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pacif -->
+
+
+    <owl:Class rdf:about="pacif">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- peptide -->
+
+
+    <owl:Class rdf:about="peptide"/>
+    
+
+
+    <!-- peptide-biosynthesis -->
+
+
+    <owl:Class rdf:about="peptide-biosynthesis">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- peptide-biosynthesis-nucleic-acid-independent -->
+
+
+    <owl:Class rdf:about="peptide-biosynthesis-nucleic-acid-independent">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- peptide-hormone -->
+
+
+    <owl:Class rdf:about="peptide-hormone"/>
+    
+
+
+    <!-- peptide-hormones -->
+
+
+    <owl:Class rdf:about="peptide-hormones"/>
+    
+
+
+    <!-- peptide-synthesis -->
+
+
+    <owl:Class rdf:about="peptide-synthesis">
+        <rdfs:subClassOf rdf:resource="biomolecule-synthesis"/>
+        <rdfs:subClassOf rdf:resource="chemical-synthesis"/>
+        <rdfs:subClassOf rdf:resource="molecular-analysis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="oligopeptide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="peptide-synthesis-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- peptide-synthesis-Concept -->
+
+
+    <owl:Class rdf:about="peptide-synthesis-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- peptide-thioester -->
+
+
+    <owl:Class rdf:about="peptide-thioester">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-participant-in"/>
+                <owl:someValuesFrom rdf:resource="peptide-synthesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pesticide -->
+
+
+    <owl:Class rdf:about="pesticide"/>
+    
+
+
+    <!-- phosphoric-acid-codeine -->
+
+
+    <owl:Class rdf:about="phosphoric-acid-codeine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antidiarrheals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- photocarcinogenesis -->
+
+
+    <owl:Class rdf:about="photocarcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- pimagedine -->
+
+
+    <owl:Class rdf:about="pimagedine"/>
+    
+
+
+    <!-- pneumococcal-infection -->
+
+
+    <owl:Class rdf:about="pneumococcal-infection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="pneumococcal-infections"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pneumococcal-infections -->
+
+
+    <owl:Class rdf:about="pneumococcal-infections">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="pneumococcal-infections"/>
+        <rdfs:subClassOf rdf:resource="streptococcal-infection"/>
+        <rdfs:subClassOf rdf:resource="streptococcal-infections"/>
+    </owl:Class>
+    
+
+
+    <!-- pneumonia-pneumococcal -->
+
+
+    <owl:Class rdf:about="pneumonia-pneumococcal">
+        <rdfs:subClassOf rdf:resource="pneumococcal-infections"/>
+    </owl:Class>
+    
+
+
+    <!-- poisoning -->
+
+
+    <owl:Class rdf:about="poisoning"/>
+    
+
+
+    <!-- polaribacter -->
+
+
+    <owl:Class rdf:about="polaribacter">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- polyamine -->
+
+
+    <owl:Class rdf:about="polyamine"/>
+    
+
+
+    <!-- polyamine-compound -->
+
+
+    <owl:Class rdf:about="polyamine-compound"/>
+    
+
+
+    <!-- polyamines -->
+
+
+    <owl:Class rdf:about="polyamines"/>
+    
+
+
+    <!-- polypeptide -->
+
+
+    <owl:Class rdf:about="polypeptide">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="output-of"/>
+                <owl:someValuesFrom rdf:resource="peptide-synthesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prosthetic-group -->
+
+
+    <owl:Class rdf:about="prosthetic-group">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- psychotropic-drug -->
+
+
+    <owl:Class rdf:about="psychotropic-drug"/>
+    
+
+
+    <!-- psychroflexus -->
+
+
+    <owl:Class rdf:about="psychroflexus">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- pyridoxal-5-phosphate -->
+
+
+    <owl:Class rdf:about="pyridoxal-5-phosphate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- random-peptide-synthesis -->
+
+
+    <owl:Class rdf:about="random-peptide-synthesis">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- rare-disorder-due-to-poisoning -->
+
+
+    <owl:Class rdf:about="rare-disorder-due-to-poisoning"/>
+    
+
+
+    <!-- rare-intoxication -->
+
+
+    <owl:Class rdf:about="rare-intoxication"/>
+    
+
+
+    <!-- reproductive-techniques-assisted -->
+
+
+    <owl:Class rdf:about="reproductive-techniques-assisted"/>
+    
+
+
+    <!-- riemerella -->
+
+
+    <owl:Class rdf:about="riemerella">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-helicases -->
+
+
+    <owl:Class rdf:about="rna-helicases"/>
+    
+
+
+    <!-- robiginitalea -->
+
+
+    <owl:Class rdf:about="robiginitalea">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- s-adenosyl-l-methionine -->
+
+
+    <owl:Class rdf:about="s-adenosyl-l-methionine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- s-adenosyl-methionine -->
+
+
+    <owl:Class rdf:about="s-adenosyl-methionine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- saposins -->
+
+
+    <owl:Class rdf:about="saposins">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- sapropterin -->
+
+
+    <owl:Class rdf:about="sapropterin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- second-primary-cancer -->
+
+
+    <owl:Class rdf:about="second-primary-cancer">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence_feature -->
+
+
+    <owl:Class rdf:about="sequence_feature"/>
+    
+
+
+    <!-- serotonin-antagonist -->
+
+
+    <owl:Class rdf:about="serotonin-antagonist"/>
+    
+
+
+    <!-- sertindole -->
+
+
+    <owl:Class rdf:about="sertindole">
+        <rdfs:subClassOf rdf:resource="dopamine-antagonist"/>
+        <rdfs:subClassOf rdf:resource="imidazoles"/>
+        <rdfs:subClassOf rdf:resource="indoles"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="serotonin-antagonist"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="sertindole-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="psychotropic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sertindole-Concept -->
+
+
+    <owl:Class rdf:about="sertindole-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- sevelamer -->
+
+
+    <owl:Class rdf:about="sevelamer">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="polyamine"/>
+        <rdfs:subClassOf rdf:resource="polyamine-compound"/>
+        <rdfs:subClassOf rdf:resource="polyamines"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="metabolic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sevelamer-Concept -->
+
+
+    <owl:Class rdf:about="sevelamer-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="sevelamer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- shewanella -->
+
+
+    <owl:Class rdf:about="shewanella"/>
+    
+
+
+    <!-- shewanella-loihica -->
+
+
+    <owl:Class rdf:about="shewanella-loihica">
+        <rdfs:subClassOf rdf:resource="shewanella"/>
+        <rdfs:subClassOf rdf:resource="vibrionaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- shewanella-loihica-pv-4 -->
+
+
+    <owl:Class rdf:about="shewanella-loihica-pv-4">
+        <rdfs:subClassOf rdf:resource="shewanella-loihica"/>
+    </owl:Class>
+    
+
+
+    <!-- siansivirga -->
+
+
+    <owl:Class rdf:about="siansivirga">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- skin-carcinogenesis -->
+
+
+    <owl:Class rdf:about="skin-carcinogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- snake-venom -->
+
+
+    <owl:Class rdf:about="snake-venom"/>
+    
+
+
+    <!-- snake-venoms -->
+
+
+    <owl:Class rdf:about="snake-venoms"/>
+    
+
+
+    <!-- solid-phase-peptide-synthesis -->
+
+
+    <owl:Class rdf:about="solid-phase-peptide-synthesis">
+        <rdfs:subClassOf rdf:resource="peptide-synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- sperm-banks -->
+
+
+    <owl:Class rdf:about="sperm-banks">
+        <rdfs:subClassOf rdf:resource="biological-specimen-banks"/>
+        <rdfs:subClassOf rdf:resource="health-facility"/>
+        <rdfs:subClassOf rdf:resource="sperm-banks"/>
+    </owl:Class>
+    
+
+
+    <!-- sperm-banks-Concept -->
+
+
+    <owl:Class rdf:about="sperm-banks-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="sperm-banks"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sperm-retrieval -->
+
+
+    <owl:Class rdf:about="sperm-retrieval">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="assisted-reproductive-technology"/>
+        <rdfs:subClassOf rdf:resource="biospecimen-collection-method"/>
+        <rdfs:subClassOf rdf:resource="reproductive-techniques-assisted"/>
+        <rdfs:subClassOf rdf:resource="sperm-retrieval"/>
+    </owl:Class>
+    
+
+
+    <!-- sperm-retrieval-Concept -->
+
+
+    <owl:Class rdf:about="sperm-retrieval-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="sperm-retrieval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- sphingolipid-activator-proteins -->
+
+
+    <owl:Class rdf:about="sphingolipid-activator-proteins">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- spinal-curvature -->
+
+
+    <owl:Class rdf:about="spinal-curvature"/>
+    
+
+
+    <!-- starch-syrup -->
+
+
+    <owl:Class rdf:about="starch-syrup">
+        <rdfs:subClassOf rdf:resource="glucose-syrup"/>
+    </owl:Class>
+    
+
+
+    <!-- streptococcal-infection -->
+
+
+    <owl:Class rdf:about="streptococcal-infection"/>
+    
+
+
+    <!-- streptococcal-infections -->
+
+
+    <owl:Class rdf:about="streptococcal-infections"/>
+    
+
+
+    <!-- substance-with-coenzyme-role -->
+
+
+    <owl:Class rdf:about="substance-with-coenzyme-role">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="chemical-entity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-role"/>
+                        <owl:someValuesFrom rdf:resource="coenzyme"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- substrate -->
+
+
+    <owl:Class rdf:about="substrate"/>
+    
+
+
+    <!-- synthetic-pyrethrin -->
+
+
+    <owl:Class rdf:about="synthetic-pyrethrin"/>
+    
+
+
+    <!-- tenacibaculum -->
+
+
+    <owl:Class rdf:about="tenacibaculum">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- tumorigenesis -->
+
+
+    <owl:Class rdf:about="tumorigenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- ubiquinone -->
+
+
+    <owl:Class rdf:about="ubiquinone">
+        <rdfs:subClassOf rdf:resource="coenzyme"/>
+    </owl:Class>
+    
+
+
+    <!-- unclassified-flavobacteriaceae -->
+
+
+    <owl:Class rdf:about="unclassified-flavobacteriaceae">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- vertiginous-syndromes-other-disorders-of-vestibular-system -->
+
+
+    <owl:Class rdf:about="vertiginous-syndromes-other-disorders-of-vestibular-system"/>
+    
+
+
+    <!-- vertigo -->
+
+
+    <owl:Class rdf:about="vertigo"/>
+    
+
+
+    <!-- vertigo-of-central-origin -->
+
+
+    <owl:Class rdf:about="vertigo-of-central-origin">
+        <rdfs:subClassOf rdf:resource="labyrinth-disease"/>
+        <rdfs:subClassOf rdf:resource="vertiginous-syndromes-other-disorders-of-vestibular-system"/>
+        <rdfs:subClassOf rdf:resource="vertigo"/>
+    </owl:Class>
+    
+
+
+    <!-- vertigo-of-central-origin-nos -->
+
+
+    <owl:Class rdf:about="vertigo-of-central-origin-nos">
+        <rdfs:subClassOf rdf:resource="vertigo-of-central-origin"/>
+    </owl:Class>
+    
+
+
+    <!-- vibrionaceae -->
+
+
+    <owl:Class rdf:about="vibrionaceae"/>
+    
+
+
+    <!-- viral-cancerogenesis -->
+
+
+    <owl:Class rdf:about="viral-cancerogenesis">
+        <rdfs:subClassOf rdf:resource="carcinogenesis"/>
+    </owl:Class>
+    
+
+
+    <!-- wautersiella -->
+
+
+    <owl:Class rdf:about="wautersiella">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- weeksella -->
+
+
+    <owl:Class rdf:about="weeksella">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- winogradskyella -->
+
+
+    <owl:Class rdf:about="winogradskyella">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- zobellia -->
+
+
+    <owl:Class rdf:about="zobellia">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- zunongwangia -->
+
+
+    <owl:Class rdf:about="zunongwangia">
+        <rdfs:subClassOf rdf:resource="flavobacteriaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- 5678-tetrahydrobiopterin -->
+
+
+    <owl:Class rdf:about="5678-tetrahydrobiopterin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="coenzyme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,3746 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment6/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment6/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment6/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- binds-molecular-entity -->
+
+
+    <owl:ObjectProperty rdf:about="binds-molecular-entity"/>
+    
+
+
+    <!-- disease_may_have_finding -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_finding"/>
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- procedure_has_excised_anatomy -->
+
+
+    <owl:ObjectProperty rdf:about="procedure_has_excised_anatomy"/>
+    
+
+
+    <!-- targeted_by_antibiotic -->
+
+
+    <owl:ObjectProperty rdf:about="targeted_by_antibiotic"/>
+    
+
+
+    <!-- towards -->
+
+
+    <owl:ObjectProperty rdf:about="towards"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- RID16167 -->
+
+
+    <owl:Class rdf:about="RID16167"/>
+    
+
+
+    <!-- RID16173 -->
+
+
+    <owl:Class rdf:about="RID16173">
+        <rdfs:subClassOf rdf:resource="RID16167"/>
+    </owl:Class>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abdominal-pain -->
+
+
+    <owl:Class rdf:about="abdominal-pain"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- action -->
+
+
+    <owl:Class rdf:about="action"/>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- advanced-gastric-neuroendocrine-carcinoma -->
+
+
+    <owl:Class rdf:about="advanced-gastric-neuroendocrine-carcinoma"/>
+    
+
+
+    <!-- advanced-gastric-small-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="advanced-gastric-small-cell-carcinoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="advanced-gastric-neuroendocrine-carcinoma"/>
+                    <rdf:Description rdf:about="gastric-small-cell-carcinoma"/>
+                    <rdf:Description rdf:about="metastatic-small-cell-carcinoma"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- aggressive-clinical-course -->
+
+
+    <owl:Class rdf:about="aggressive-clinical-course"/>
+    
+
+
+    <!-- alpha-adrenergic-agonist -->
+
+
+    <owl:Class rdf:about="alpha-adrenergic-agonist"/>
+    
+
+
+    <!-- beta-lactam-sensitive-penicillin-binding-protein -->
+
+
+    <owl:Class rdf:about="beta-lactam-sensitive-penicillin-binding-protein">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="targeted_by_antibiotic"/>
+                <owl:someValuesFrom rdf:resource="ceftibuten"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bracket -->
+
+
+    <owl:Class rdf:about="bracket">
+        <rdfs:subClassOf rdf:resource="orthodontic-appliance"/>
+        <rdfs:subClassOf rdf:resource="shape"/>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="epiphysis"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-2nd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-2nd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="manual-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-2nd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-2nd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="pedal-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-3rd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-3rd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="manual-digit-3-phalanx"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-3rd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-3rd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="pedal-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-4th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-4th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="manual-digit-4"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-4th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-4th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="pedal-digit-4"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-5th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-5th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="manual-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-5th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-5th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="pedal-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-distal-phalanges-of-the-hand -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-distal-phalanges-of-the-hand">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-hallux -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-hallux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="pedal-digit-1-phalanx"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-middle-phalanges-of-the-hand -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-middle-phalanges-of-the-hand">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-phalanges-of-the-hand -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-phalanges-of-the-hand">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="epiphysis-of-phalanx-of-manus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-proximal-phalanges-of-the-hand -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-proximal-phalanges-of-the-hand">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-thumb -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-thumb">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="manual-digit-1"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphyses-of-the-toes -->
+
+
+    <owl:Class rdf:about="bracket-epiphyses-of-the-toes">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="phalanx-of-pes"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-1st-metacarpal -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-1st-metacarpal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="epiphysis-of-first-metacarpal-bone"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-1st-metatarsal -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-1st-metatarsal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="epiphysis-of-first-metatarsal-bone"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-2nd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-2nd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-manual-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-2nd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-2nd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-pedal-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-3rd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-3rd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-manual-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-3rd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-3rd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-pedal-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-4th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-4th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="distal-phalanx-of-manual-digit-5"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="epiphysis-of-phalanx-of-manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-4th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-4th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-pedal-digit-4"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-5th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-5th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-manual-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-5th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-5th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-pedal-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-hallux -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-hallux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-pedal-digit-1"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-distal-phalanx-of-the-thumb -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-distal-phalanx-of-the-thumb">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="distal-phalanx-of-manual-digit-1"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-2nd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-2nd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-manual-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-2nd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-2nd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-pedal-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-3rd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-3rd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-manual-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-3rd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-3rd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-pedal-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-4th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-4th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-manual-digit-4"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-4th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-4th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-pedal-digit-4"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-5th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-5th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-manual-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-middle-phalanx-of-the-5th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-middle-phalanx-of-the-5th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="middle-phalanx-of-pedal-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-2nd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-2nd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-manual-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-2nd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-2nd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-pedal-digit-2"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-3rd-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-3rd-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-manual-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-3rd-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-3rd-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-pedal-digit-3"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-4th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-4th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="proximal-phalanx-of-manual-digit-4"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="epiphysis-of-phalanx-of-manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-4th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-4th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-pedal-digit-4"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-5th-finger -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-5th-finger">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="proximal-phalanx-of-manual-digit-5"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="epiphysis-of-phalanx-of-manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-5th-toe -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-5th-toe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-pedal-digit-5"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-hallux -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-hallux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-pedal-digit-1"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bracket-epiphysis-of-the-proximal-phalanx-of-the-thumb -->
+
+
+    <owl:Class rdf:about="bracket-epiphysis-of-the-proximal-phalanx-of-the-thumb">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="bracket"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="epiphysis-of-phalanx-of-manus"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="proximal-phalanx-of-manual-digit-1"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- bupropion&#45;&#45;naltrexone-extended-release-oral-tablet -->
+
+
+    <owl:Class rdf:about="bupropion--naltrexone-extended-release-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cardiovascular-surgical-procedure -->
+
+
+    <owl:Class rdf:about="cardiovascular-surgical-procedure"/>
+    
+
+
+    <!-- carotid-endarterectomy -->
+
+
+    <owl:Class rdf:about="carotid-endarterectomy">
+        <rdfs:subClassOf rdf:resource="endarterectomy"/>
+    </owl:Class>
+    
+
+
+    <!-- ceftibuten -->
+
+
+    <owl:Class rdf:about="ceftibuten">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="cephalosporin"/>
+        <rdfs:subClassOf rdf:resource="cephalosporin-antibiotic"/>
+        <rdfs:subClassOf rdf:resource="cephalosporins"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="ceftibuten-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-bearer-of"/>
+                <owl:someValuesFrom rdf:resource="non-activating-competitive-beta-adrenergic-receptor-binding-disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ceftibuten-Concept -->
+
+
+    <owl:Class rdf:about="ceftibuten-Concept"/>
+    
+
+
+    <!-- ceftibuten-oral-capsule -->
+
+
+    <owl:Class rdf:about="ceftibuten-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="ceftibuten"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ceftibuten-oral-suspension -->
+
+
+    <owl:Class rdf:about="ceftibuten-oral-suspension">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="ceftibuten"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cephalosporin -->
+
+
+    <owl:Class rdf:about="cephalosporin"/>
+    
+
+
+    <!-- cephalosporin-antibiotic -->
+
+
+    <owl:Class rdf:about="cephalosporin-antibiotic"/>
+    
+
+
+    <!-- cephalosporins -->
+
+
+    <owl:Class rdf:about="cephalosporins"/>
+    
+
+
+    <!-- cetomacrogol -->
+
+
+    <owl:Class rdf:about="cetomacrogol">
+        <rdfs:subClassOf rdf:resource="cetomacrogol"/>
+        <rdfs:subClassOf rdf:resource="polyethylene-glycols"/>
+        <rdfs:subClassOf rdf:resource="polymeric-materials"/>
+    </owl:Class>
+    
+
+
+    <!-- cetomacrogol-Concept -->
+
+
+    <owl:Class rdf:about="cetomacrogol-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="cetomacrogol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cirazoline -->
+
+
+    <owl:Class rdf:about="cirazoline">
+        <rdfs:subClassOf rdf:resource="alpha-adrenergic-agonist"/>
+        <rdfs:subClassOf rdf:resource="imidazoles"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- common-periwinkle -->
+
+
+    <owl:Class rdf:about="common-periwinkle">
+        <rdfs:subClassOf rdf:resource="gastropoda"/>
+    </owl:Class>
+    
+
+
+    <!-- cyanogen-bromide -->
+
+
+    <owl:Class rdf:about="cyanogen-bromide">
+        <rdfs:subClassOf rdf:resource="cyanogen-bromide"/>
+        <rdfs:subClassOf rdf:resource="industrial-aid"/>
+        <rdfs:subClassOf rdf:resource="inorganic-compounds"/>
+    </owl:Class>
+    
+
+
+    <!-- digestive-system-small-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="digestive-system-small-cell-carcinoma"/>
+    
+
+
+    <!-- distal-phalanx-of-manual-digit-1 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-manual-digit-1"/>
+    
+
+
+    <!-- distal-phalanx-of-manual-digit-2 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-manual-digit-2"/>
+    
+
+
+    <!-- distal-phalanx-of-manual-digit-3 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-manual-digit-3"/>
+    
+
+
+    <!-- distal-phalanx-of-manual-digit-5 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-manual-digit-5"/>
+    
+
+
+    <!-- distal-phalanx-of-manus -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-manus"/>
+    
+
+
+    <!-- distal-phalanx-of-pedal-digit-1 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-pedal-digit-1"/>
+    
+
+
+    <!-- distal-phalanx-of-pedal-digit-2 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-pedal-digit-2"/>
+    
+
+
+    <!-- distal-phalanx-of-pedal-digit-3 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-pedal-digit-3"/>
+    
+
+
+    <!-- distal-phalanx-of-pedal-digit-4 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-pedal-digit-4"/>
+    
+
+
+    <!-- distal-phalanx-of-pedal-digit-5 -->
+
+
+    <owl:Class rdf:about="distal-phalanx-of-pedal-digit-5"/>
+    
+
+
+    <!-- dyspepsia -->
+
+
+    <owl:Class rdf:about="dyspepsia"/>
+    
+
+
+    <!-- endarterectomy -->
+
+
+    <owl:Class rdf:about="endarterectomy">
+        <rdfs:subClassOf rdf:resource="cardiovascular-surgical-procedure"/>
+        <rdfs:subClassOf rdf:resource="endarterectomy"/>
+        <rdfs:subClassOf rdf:resource="excision"/>
+        <rdfs:subClassOf rdf:resource="vascular-surgery"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="procedure_has_excised_anatomy"/>
+                <owl:someValuesFrom rdf:resource="tunica-intima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- endarterectomy-Concept -->
+
+
+    <owl:Class rdf:about="endarterectomy-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="endarterectomy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- epiphysis -->
+
+
+    <owl:Class rdf:about="epiphysis"/>
+    
+
+
+    <!-- epiphysis-of-first-metacarpal-bone -->
+
+
+    <owl:Class rdf:about="epiphysis-of-first-metacarpal-bone"/>
+    
+
+
+    <!-- epiphysis-of-first-metatarsal-bone -->
+
+
+    <owl:Class rdf:about="epiphysis-of-first-metatarsal-bone"/>
+    
+
+
+    <!-- epiphysis-of-phalanx-of-manus -->
+
+
+    <owl:Class rdf:about="epiphysis-of-phalanx-of-manus"/>
+    
+
+
+    <!-- excision -->
+
+
+    <owl:Class rdf:about="excision"/>
+    
+
+
+    <!-- function-inhibiting-delta-receptor-binding-disposition -->
+
+
+    <owl:Class rdf:about="function-inhibiting-delta-receptor-binding-disposition"/>
+    
+
+
+    <!-- function-inhibiting-kappa-receptor-binding-disposition -->
+
+
+    <owl:Class rdf:about="function-inhibiting-kappa-receptor-binding-disposition"/>
+    
+
+
+    <!-- function-inhibiting-mu-receptor-binding-disposition -->
+
+
+    <owl:Class rdf:about="function-inhibiting-mu-receptor-binding-disposition"/>
+    
+
+
+    <!-- gastric-hemorrhage -->
+
+
+    <owl:Class rdf:about="gastric-hemorrhage"/>
+    
+
+
+    <!-- gastric-neuroendocrine-carcinoma -->
+
+
+    <owl:Class rdf:about="gastric-neuroendocrine-carcinoma"/>
+    
+
+
+    <!-- gastric-small-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="gastric-small-cell-carcinoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="digestive-system-small-cell-carcinoma"/>
+                    <rdf:Description rdf:about="gastric-neuroendocrine-carcinoma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="abdominal-pain"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="dyspepsia"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="aggressive-clinical-course"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                        <owl:someValuesFrom rdf:resource="gastric-hemorrhage"/>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="gastric-tumor"/>
+        <rdfs:subClassOf rdf:resource="small-cell-carcinoma"/>
+        <rdfs:subClassOf rdf:resource="stomach-carcinoma"/>
+    </owl:Class>
+    
+
+
+    <!-- gastric-tumor -->
+
+
+    <owl:Class rdf:about="gastric-tumor"/>
+    
+
+
+    <!-- gastropoda -->
+
+
+    <owl:Class rdf:about="gastropoda"/>
+    
+
+
+    <!-- glucagon-like-peptide-2 -->
+
+
+    <owl:Class rdf:about="glucagon-like-peptide-2">
+        <rdfs:subClassOf rdf:resource="glucagon-like-peptide-2"/>
+        <rdfs:subClassOf rdf:resource="glucagon-like-peptides"/>
+        <rdfs:subClassOf rdf:resource="neuropeptide"/>
+        <rdfs:subClassOf rdf:resource="pancreatic-hormones"/>
+        <rdfs:subClassOf rdf:resource="peptide"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="gpcr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- glucagon-like-peptide-2-receptor -->
+
+
+    <owl:Class rdf:about="glucagon-like-peptide-2-receptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="glucagon-like-peptide-2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- glucagon-like-peptides -->
+
+
+    <owl:Class rdf:about="glucagon-like-peptides"/>
+    
+
+
+    <!-- gpcr -->
+
+
+    <owl:Class rdf:about="gpcr"/>
+    
+
+
+    <!-- health-care -->
+
+
+    <owl:Class rdf:about="health-care"/>
+    
+
+
+    <!-- heterotropia -->
+
+
+    <owl:Class rdf:about="heterotropia"/>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- imidazoles -->
+
+
+    <owl:Class rdf:about="imidazoles"/>
+    
+
+
+    <!-- industrial-aid -->
+
+
+    <owl:Class rdf:about="industrial-aid"/>
+    
+
+
+    <!-- infectious-skin-disease -->
+
+
+    <owl:Class rdf:about="infectious-skin-disease"/>
+    
+
+
+    <!-- inorganic-compounds -->
+
+
+    <owl:Class rdf:about="inorganic-compounds"/>
+    
+
+
+    <!-- lingual-bracket -->
+
+
+    <owl:Class rdf:about="lingual-bracket">
+        <rdfs:subClassOf rdf:resource="bracket"/>
+    </owl:Class>
+    
+
+
+    <!-- lonazolac -->
+
+
+    <owl:Class rdf:about="lonazolac">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="nonsteroidal-antiinflammatory-drug"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf rdf:resource="pyrazoles"/>
+    </owl:Class>
+    
+
+
+    <!-- lonazolac-oral-tablet -->
+
+
+    <owl:Class rdf:about="lonazolac-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="lonazolac"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lonazolac-rectal-suppository -->
+
+
+    <owl:Class rdf:about="lonazolac-rectal-suppository">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="lonazolac"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- manual-digit-1 -->
+
+
+    <owl:Class rdf:about="manual-digit-1"/>
+    
+
+
+    <!-- manual-digit-2 -->
+
+
+    <owl:Class rdf:about="manual-digit-2"/>
+    
+
+
+    <!-- manual-digit-3-phalanx -->
+
+
+    <owl:Class rdf:about="manual-digit-3-phalanx"/>
+    
+
+
+    <!-- manual-digit-4 -->
+
+
+    <owl:Class rdf:about="manual-digit-4"/>
+    
+
+
+    <!-- manual-digit-5 -->
+
+
+    <owl:Class rdf:about="manual-digit-5"/>
+    
+
+
+    <!-- metastatic-small-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="metastatic-small-cell-carcinoma"/>
+    
+
+
+    <!-- microtropia -->
+
+
+    <owl:Class rdf:about="microtropia">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="heterotropia"/>
+        <rdfs:subClassOf rdf:resource="other-and-unspecified-heterotropia"/>
+        <rdfs:subClassOf rdf:resource="strabismus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- microtropia-with-identity -->
+
+
+    <owl:Class rdf:about="microtropia-with-identity">
+        <rdfs:subClassOf rdf:resource="microtropia"/>
+    </owl:Class>
+    
+
+
+    <!-- microtropia-without-identity -->
+
+
+    <owl:Class rdf:about="microtropia-without-identity">
+        <rdfs:subClassOf rdf:resource="microtropia"/>
+    </owl:Class>
+    
+
+
+    <!-- middle-phalanx-of-manual-digit-2 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-manual-digit-2"/>
+    
+
+
+    <!-- middle-phalanx-of-manual-digit-3 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-manual-digit-3"/>
+    
+
+
+    <!-- middle-phalanx-of-manual-digit-4 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-manual-digit-4"/>
+    
+
+
+    <!-- middle-phalanx-of-manus -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-manus"/>
+    
+
+
+    <!-- middle-phalanx-of-pedal-digit-2 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-pedal-digit-2"/>
+    
+
+
+    <!-- middle-phalanx-of-pedal-digit-3 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-pedal-digit-3"/>
+    
+
+
+    <!-- middle-phalanx-of-pedal-digit-4 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-pedal-digit-4"/>
+    
+
+
+    <!-- middle-phalanx-of-pedal-digit-5 -->
+
+
+    <owl:Class rdf:about="middle-phalanx-of-pedal-digit-5"/>
+    
+
+
+    <!-- morphinane-alkaloid -->
+
+
+    <owl:Class rdf:about="morphinane-alkaloid"/>
+    
+
+
+    <!-- morphine&#45;&#45;naltrexone-extended-release-capsule -->
+
+
+    <owl:Class rdf:about="morphine--naltrexone-extended-release-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- morphine&#45;&#45;naltrexone-extended-release-oral-capsule -->
+
+
+    <owl:Class rdf:about="morphine--naltrexone-extended-release-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- multi-bracket-appliance -->
+
+
+    <owl:Class rdf:about="multi-bracket-appliance">
+        <rdfs:subClassOf rdf:resource="bracket"/>
+    </owl:Class>
+    
+
+
+    <!-- naloxone -->
+
+
+    <owl:Class rdf:about="naloxone"/>
+    
+
+
+    <!-- naltrexone -->
+
+
+    <owl:Class rdf:about="naltrexone">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="morphinane-alkaloid"/>
+        <rdfs:subClassOf rdf:resource="naloxone"/>
+        <rdfs:subClassOf rdf:resource="naltrexone"/>
+        <rdfs:subClassOf rdf:resource="opiate-antagonist"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="organic-heteropentacyclic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="naltrexone-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="narcotic-antagonists"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-bearer-of"/>
+                <owl:someValuesFrom rdf:resource="function-inhibiting-delta-receptor-binding-disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-bearer-of"/>
+                <owl:someValuesFrom rdf:resource="function-inhibiting-kappa-receptor-binding-disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-bearer-of"/>
+                <owl:someValuesFrom rdf:resource="function-inhibiting-mu-receptor-binding-disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- naltrexone&#45;&#45;oxycodone-extended-release-oral-capsule -->
+
+
+    <owl:Class rdf:about="naltrexone--oxycodone-extended-release-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- naltrexone-Concept -->
+
+
+    <owl:Class rdf:about="naltrexone-Concept"/>
+    
+
+
+    <!-- naltrexone-injectable-suspension -->
+
+
+    <owl:Class rdf:about="naltrexone-injectable-suspension">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- naltrexone-injection -->
+
+
+    <owl:Class rdf:about="naltrexone-injection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- naltrexone-oral-tablet -->
+
+
+    <owl:Class rdf:about="naltrexone-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="naltrexone"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- narcotic-antagonists -->
+
+
+    <owl:Class rdf:about="narcotic-antagonists"/>
+    
+
+
+    <!-- neuropeptide -->
+
+
+    <owl:Class rdf:about="neuropeptide"/>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- non-activating-competitive-beta-adrenergic-receptor-binding-disposition -->
+
+
+    <owl:Class rdf:about="non-activating-competitive-beta-adrenergic-receptor-binding-disposition"/>
+    
+
+
+    <!-- non-obesity -->
+
+
+    <owl:Class rdf:about="non-obesity">
+        <rdfs:subClassOf rdf:resource="physique"/>
+    </owl:Class>
+    
+
+
+    <!-- nonsteroidal-antiinflammatory-drug -->
+
+
+    <owl:Class rdf:about="nonsteroidal-antiinflammatory-drug"/>
+    
+
+
+    <!-- opiate-antagonist -->
+
+
+    <owl:Class rdf:about="opiate-antagonist"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organic-heteropentacyclic-compound -->
+
+
+    <owl:Class rdf:about="organic-heteropentacyclic-compound"/>
+    
+
+
+    <!-- orthodontic-appliance -->
+
+
+    <owl:Class rdf:about="orthodontic-appliance"/>
+    
+
+
+    <!-- other-and-unspecified-heterotropia -->
+
+
+    <owl:Class rdf:about="other-and-unspecified-heterotropia"/>
+    
+
+
+    <!-- pancreatic-hormones -->
+
+
+    <owl:Class rdf:about="pancreatic-hormones"/>
+    
+
+
+    <!-- pedal-digit-1-phalanx -->
+
+
+    <owl:Class rdf:about="pedal-digit-1-phalanx"/>
+    
+
+
+    <!-- pedal-digit-2 -->
+
+
+    <owl:Class rdf:about="pedal-digit-2"/>
+    
+
+
+    <!-- pedal-digit-3 -->
+
+
+    <owl:Class rdf:about="pedal-digit-3"/>
+    
+
+
+    <!-- pedal-digit-4 -->
+
+
+    <owl:Class rdf:about="pedal-digit-4"/>
+    
+
+
+    <!-- pedal-digit-5 -->
+
+
+    <owl:Class rdf:about="pedal-digit-5"/>
+    
+
+
+    <!-- peptide -->
+
+
+    <owl:Class rdf:about="peptide"/>
+    
+
+
+    <!-- phalanx-of-pes -->
+
+
+    <owl:Class rdf:about="phalanx-of-pes"/>
+    
+
+
+    <!-- physique -->
+
+
+    <owl:Class rdf:about="physique">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="property--life-science-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- polyethylene-glycols -->
+
+
+    <owl:Class rdf:about="polyethylene-glycols"/>
+    
+
+
+    <!-- polymeric-materials -->
+
+
+    <owl:Class rdf:about="polymeric-materials"/>
+    
+
+
+    <!-- processed-material -->
+
+
+    <owl:Class rdf:about="processed-material"/>
+    
+
+
+    <!-- property&#45;&#45;life-science- -->
+
+
+    <owl:Class rdf:about="property--life-science-"/>
+    
+
+
+    <!-- prostatic-secretory-proteins -->
+
+
+    <owl:Class rdf:about="prostatic-secretory-proteins">
+        <rdfs:subClassOf rdf:resource="seminal-plasma-proteins"/>
+    </owl:Class>
+    
+
+
+    <!-- proteins -->
+
+
+    <owl:Class rdf:about="proteins"/>
+    
+
+
+    <!-- proximal-phalanx-of-manual-digit-1 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-manual-digit-1"/>
+    
+
+
+    <!-- proximal-phalanx-of-manual-digit-2 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-manual-digit-2"/>
+    
+
+
+    <!-- proximal-phalanx-of-manual-digit-3 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-manual-digit-3"/>
+    
+
+
+    <!-- proximal-phalanx-of-manual-digit-4 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-manual-digit-4"/>
+    
+
+
+    <!-- proximal-phalanx-of-manual-digit-5 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-manual-digit-5"/>
+    
+
+
+    <!-- proximal-phalanx-of-manus -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-manus"/>
+    
+
+
+    <!-- proximal-phalanx-of-pedal-digit-1 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-pedal-digit-1"/>
+    
+
+
+    <!-- proximal-phalanx-of-pedal-digit-2 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-pedal-digit-2"/>
+    
+
+
+    <!-- proximal-phalanx-of-pedal-digit-3 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-pedal-digit-3"/>
+    
+
+
+    <!-- proximal-phalanx-of-pedal-digit-4 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-pedal-digit-4"/>
+    
+
+
+    <!-- proximal-phalanx-of-pedal-digit-5 -->
+
+
+    <owl:Class rdf:about="proximal-phalanx-of-pedal-digit-5"/>
+    
+
+
+    <!-- pyrazoles -->
+
+
+    <owl:Class rdf:about="pyrazoles"/>
+    
+
+
+    <!-- queensland-tick-typhus -->
+
+
+    <owl:Class rdf:about="queensland-tick-typhus">
+        <rdfs:subClassOf rdf:resource="infectious-skin-disease"/>
+        <rdfs:subClassOf rdf:resource="rickettsial-infection"/>
+        <rdfs:subClassOf rdf:resource="spotted-fever"/>
+        <rdfs:subClassOf rdf:resource="tick-borne-rickettsioses"/>
+    </owl:Class>
+    
+
+
+    <!-- rickettsial-infection -->
+
+
+    <owl:Class rdf:about="rickettsial-infection"/>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- self-care -->
+
+
+    <owl:Class rdf:about="self-care">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="action"/>
+        <rdfs:subClassOf rdf:resource="health-care"/>
+        <rdfs:subClassOf rdf:resource="self-care"/>
+        <rdfs:subClassOf rdf:resource="self-management--individual-"/>
+    </owl:Class>
+    
+
+
+    <!-- self-care-Concept -->
+
+
+    <owl:Class rdf:about="self-care-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="self-care"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- self-examination -->
+
+
+    <owl:Class rdf:about="self-examination">
+        <rdfs:subClassOf rdf:resource="self-care"/>
+    </owl:Class>
+    
+
+
+    <!-- self-management&#45;&#45;individual- -->
+
+
+    <owl:Class rdf:about="self-management--individual-"/>
+    
+
+
+    <!-- seminal-plasma-proteins -->
+
+
+    <owl:Class rdf:about="seminal-plasma-proteins">
+        <rdfs:subClassOf rdf:resource="proteins"/>
+        <rdfs:subClassOf rdf:resource="seminal-plasma-proteins"/>
+    </owl:Class>
+    
+
+
+    <!-- seminal-vesicle-secretory-proteins -->
+
+
+    <owl:Class rdf:about="seminal-vesicle-secretory-proteins">
+        <rdfs:subClassOf rdf:resource="seminal-plasma-proteins"/>
+    </owl:Class>
+    
+
+
+    <!-- shape -->
+
+
+    <owl:Class rdf:about="shape"/>
+    
+
+
+    <!-- small-cell-carcinoma -->
+
+
+    <owl:Class rdf:about="small-cell-carcinoma"/>
+    
+
+
+    <!-- spotted-fever -->
+
+
+    <owl:Class rdf:about="spotted-fever"/>
+    
+
+
+    <!-- stomach-carcinoma -->
+
+
+    <owl:Class rdf:about="stomach-carcinoma"/>
+    
+
+
+    <!-- strabismus -->
+
+
+    <owl:Class rdf:about="strabismus"/>
+    
+
+
+    <!-- tick-borne-rickettsioses -->
+
+
+    <owl:Class rdf:about="tick-borne-rickettsioses"/>
+    
+
+
+    <!-- tunica-intima -->
+
+
+    <owl:Class rdf:about="tunica-intima"/>
+    
+
+
+    <!-- vascular-surgery -->
+
+
+    <owl:Class rdf:about="vascular-surgery"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

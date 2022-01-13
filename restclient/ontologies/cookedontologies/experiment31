@@ -1,0 +1,2565 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment31#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment31"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment31"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/chemotherapy_regimen_has_component -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/chemotherapy_regimen_has_component"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gene_product_encoded_by_gene -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_associated_anatomy -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_associated_anatomy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_organism_source -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_organism_source"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gene_product_plays_role_in_biological_process -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/has-pharmacological-action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/has-pharmacological-action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment31/has-role"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/Interspecific-Interaction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Interspecific-Interaction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/J1 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/J1"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/Lichen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/Soredium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Soredium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/adcy9-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adcy9-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-toxin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-toxin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/anesthetic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/anesthetic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/anesthetic-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/anesthetic-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/anesthetics-dissociative -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/anesthetics-dissociative"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/anticonvulsant -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/anticonvulsant"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/anticonvulsants -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/anticonvulsants"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/atrophic-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/atrophic-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/bullous-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/bullous-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/calcium-mediated-signaling-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/calcium-mediated-signaling-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/chemotherapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/chemotherapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/dermatitis-lichen-planus-like -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dermatitis-lichen-planus-like"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/dermatitis-lichenoid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dermatitis-lichenoid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/dilated-cardiomyopathy-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dilated-cardiomyopathy-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/dioxoles -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dioxoles"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/dna-minor-groove-binding-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dna-minor-groove-binding-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/drug-eruption-lichen-planus-like -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/drug-eruption-lichen-planus-like"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/drug-therapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/drug-therapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/eczema-lichenificatum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/eczema-lichenificatum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/erythematous-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/erythematous-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/fixed-dilated-pupils -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/fixed-dilated-pupils"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gap-junction-assembly-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gap-junction-assembly-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gastric-acid-secretion-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gastric-acid-secretion-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/gonadotropin-releasing-hormone-signaling-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/gonadotropin-releasing-hormone-signaling-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/group-psychotherapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/group-psychotherapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/human -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/human"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/hypertrophic-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/hypertrophic-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/hyphomycetes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/hyphomycetes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/intracellular-signaling-peptides-and-proteins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/intracellular-signaling-peptides-and-proteins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/iris-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/iris-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/isodon -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/isodon"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/isodon-inflexus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/isodon-inflexus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/labiatae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/labiatae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-agrius -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-agrius"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-albus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-albus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-amyloidosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-amyloidosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-annularis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-annularis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-fibromucinoidosus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-fibromucinoidosus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-hemorrhagicus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-hemorrhagicus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-iris -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-iris"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-nitidus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-nitidus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-nuchae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-nuchae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-obtusus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-obtusus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-pilaris -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-pilaris"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-planopilaris -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-planopilaris"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-aggravated -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-aggravated"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-follicularis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-follicularis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-like-eruption -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-like-eruption"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-oral -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-oral"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-ruber-acuminatus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-ruber-acuminatus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-ruber-moniliformis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-ruber-moniliformis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-sclerosis-atrophicus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-sclerosis-atrophicus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-sclerosus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-sclerosus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-scrofulosorum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-scrofulosorum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-scrofulosorum-conjunctivae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-scrofulosorum-conjunctivae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-simplex -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-simplex"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-spinulosus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-spinulosus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-striatus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-striatus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-syphiliticus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-syphiliticus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-trichophyticus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-trichophyticus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichen-variegatus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichen-variegatus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichenification -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichenification"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichenoid-changes-mouth -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-changes-mouth"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichenoid-drug-eruption -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-drug-eruption"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichenoid-drug-reaction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-drug-reaction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lichenoid-myxedema -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-myxedema"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/linear-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/linear-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/localized-neurodermatitis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/localized-neurodermatitis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lyase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lyase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/lyase-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lyase-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/macular-lichen-amyloidosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/macular-lichen-amyloidosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/marital-therapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/marital-therapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/marriage-counseling -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/marriage-counseling"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/melanogenesis-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/melanogenesis-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/mucha-habermann-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/mucha-habermann-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/multiple-agent-systemic-chemotherapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/multiple-agent-systemic-chemotherapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/neuromuscular-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/neuromuscular-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/oocyte-meiosis-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/oocyte-meiosis-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/oral-erosive-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/oral-erosive-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/oral-nonerosive-lichen-planus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/oral-nonerosive-lichen-planus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/other-lichen-nec -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/other-lichen-nec"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/other-skin-and-subcutaneous-tissue-inflammatory-conditions -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/other-skin-and-subcutaneous-tissue-inflammatory-conditions"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/papule-red-lichenoid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/papule-red-lichenoid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/pharmacotherapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/pharmacotherapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/phosphorus-oxygen-lyase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/phosphorus-oxygen-lyase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/phosphorus-oxygen-lyases -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/phosphorus-oxygen-lyases"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/pityriasis-lichenoid-chronic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/pityriasis-lichenoid-chronic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/plasma-membrane -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/plasma-membrane"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/progesterone-mediated-oocyte-maturation-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/progesterone-mediated-oocyte-maturation-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/protein-family -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/protein-family"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/purine-metabolism-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/purine-metabolism-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor-gamma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor-gamma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptors -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptors"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia-solani -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia-solani"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/salivary-secretion-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/salivary-secretion-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/signal-transduction -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/signal-transduction"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/signaling-protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/signaling-protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/single-agent-systemic-chemotherapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/single-agent-systemic-chemotherapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/skin-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/skin-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/strophulus-pruriginous -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/strophulus-pruriginous"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/tetrahydroisoquinolines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/tetrahydroisoquinolines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/tiletamine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/tiletamine-zolazepam-drug-combination -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/tiletamine-zolazepam-drug-combination"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/trabectedin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/trabectedin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/trabectedin-regimen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/trabectedin-regimen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/vascular-smooth-muscle-contraction-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/vascular-smooth-muscle-contraction-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/vasopressin-regulated-water-reabsorption-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/vasopressin-regulated-water-reabsorption-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/vibrio-cholerae-infection-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/vibrio-cholerae-infection-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/vulval-lichen-sclerosis-et-atrophicus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/vulval-lichen-sclerosis-et-atrophicus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/vulvar-lichen-sclerosus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/vulvar-lichen-sclerosus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment31/wickhams-striae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment31/wickhams-striae"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/J1"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Soredium"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/iris-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/fixed-dilated-pupils"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dna-minor-groove-binding-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/trabectedin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-agrius"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-toxin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/marriage-counseling"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/marital-therapy"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/anticonvulsants"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/dioxoles"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/trabectedin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gonadotropin-releasing-hormone-signaling-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/drug-eruption-lichen-planus-like"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-iris"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine-zolazepam-drug-combination"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/oral-erosive-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/J1"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-scrofulosorum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/isodon"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/isodon"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/drug-therapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gap-junction-assembly-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-sclerosus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-drug-reaction"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/anesthetic"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/mucha-habermann-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/trabectedin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/multiple-agent-systemic-chemotherapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/linear-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-ruber-moniliformis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/tetrahydroisoquinolines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/trabectedin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/signal-transduction"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-nitidus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/fixed-dilated-pupils"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vibrio-cholerae-infection-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/pharmacotherapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-pilaris"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/anesthetic-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/bullous-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-planopilaris"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-scrofulosorum-conjunctivae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/phosphorus-oxygen-lyases"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-amyloidosis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-simplex"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_organism_source"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/human"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-albus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/macular-lichen-amyloidosis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/hyphomycetes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor-gamma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/anticonvulsant"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/erythematous-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-drug-eruption"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichenification"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-trichophyticus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/isodon"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/isodon-inflexus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/atrophic-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/anesthetics-dissociative"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-myxedema"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/marital-therapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/marital-therapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-fibromucinoidosus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptors"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor-gamma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/oocyte-meiosis-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/group-psychotherapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/marital-therapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor-gamma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/retinoid-x-receptor-gamma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/intracellular-signaling-peptides-and-proteins"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/labiatae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/isodon"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/wickhams-striae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Interspecific-Interaction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_associated_anatomy"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/plasma-membrane"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/phosphorus-oxygen-lyase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vulval-lichen-sclerosis-et-atrophicus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/other-skin-and-subcutaneous-tissue-inflammatory-conditions"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vulvar-lichen-sclerosus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-variegatus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-aggravated"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/dermatitis-lichenoid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-obtusus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-oral"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/chemotherapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/salivary-secretion-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-sclerosis-atrophicus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/signaling-protein"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_associated_anatomy"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/plasma-membrane"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/signal-transduction"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/papule-red-lichenoid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/purine-metabolism-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lyase-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/skin-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/signaling-protein"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-spinulosus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/fixed-dilated-pupils"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/systemic-chemotherapy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/single-agent-systemic-chemotherapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lyase"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-nos"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adcy9-gene"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/purine-metabolism-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/protein-family"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/dermatitis-lichen-planus-like"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/marital-therapy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-ruber-acuminatus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-striatus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/localized-neurodermatitis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/neuromuscular-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/fixed-dilated-pupils"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-hemorrhagicus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/strophulus-pruriginous"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-syphiliticus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/rhizoctonia-solani"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/calcium-mediated-signaling-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-nuchae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-follicularis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/progesterone-mediated-oocyte-maturation-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/lyase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-annularis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/hypertrophic-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/eczema-lichenificatum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gastric-acid-secretion-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichen-planus-like-eruption"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_organism_source"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/human"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lyase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_encoded_by_gene"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adcy9-gene"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_associated_anatomy"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/plasma-membrane"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_biochemical_function"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/signaling-protein"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_has_organism_source"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                    <owl:Class>
+                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/human"/>
+                                                                                                    </owl:Class>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                        <owl:allValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                    <owl:Class>
+                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/purine-metabolism-pathway"/>
+                                                                                                                    </owl:Class>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                        <owl:allValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                    <owl:Class>
+                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/calcium-mediated-signaling-pathway"/>
+                                                                                                                                    </owl:Class>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                    <owl:Class>
+                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vibrio-cholerae-infection-pathway"/>
+                                                                                                                                                    </owl:Class>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                            <owl:Class>
+                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/melanogenesis-pathway"/>
+                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/dilated-cardiomyopathy-pathway"/>
+                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/oocyte-meiosis-pathway"/>
+                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gap-junction-assembly-pathway"/>
+                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gonadotropin-releasing-hormone-signaling-pathway"/>
+                                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vasopressin-regulated-water-reabsorption-pathway"/>
+                                                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/progesterone-mediated-oocyte-maturation-pathway"/>
+                                                                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vascular-smooth-muscle-contraction-pathway"/>
+                                                                                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/salivary-secretion-pathway"/>
+                                                                                                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                                                                                                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                                                                                                    <owl:Class>
+                                                                                                                                                                                                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gastric-acid-secretion-pathway"/>
+                                                                                                                                                                                                                                                                                                                    </owl:Class>
+                                                                                                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_plays_role_in_biological_process"/>
+                                                                                                                                                                                                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/signal-transduction"/>
+                                                                                                                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                </owl:unionOf>
+                                                                                                                                                            </owl:Class>
+                                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:unionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:unionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:allValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:unionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:allValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:unionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/melanogenesis-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vascular-smooth-muscle-contraction-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/pityriasis-lichenoid-chronic"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/tiletamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/other-lichen-nec"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/lichenoid-changes-mouth"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment31/Lichen"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/oral-nonerosive-lichen-planus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/dilated-cardiomyopathy-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/adenylate-cyclase-type-9"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/vasopressin-regulated-water-reabsorption-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/trabectedin-regimen"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment31/trabectedin"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,4258 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment27/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment27/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment27/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- componentPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="componentPartOf"/>
+    
+
+
+    <!-- disease-arises-from-feature -->
+
+
+    <owl:ObjectProperty rdf:about="disease-arises-from-feature"/>
+    
+
+
+    <!-- exports -->
+
+
+    <owl:ObjectProperty rdf:about="exports"/>
+    
+
+
+    <!-- frequentSignOf -->
+
+
+    <owl:ObjectProperty rdf:about="frequentSignOf"/>
+    
+
+
+    <!-- geneOf -->
+
+
+    <owl:ObjectProperty rdf:about="geneOf"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-material-basis-in -->
+
+
+    <owl:ObjectProperty rdf:about="has-material-basis-in"/>
+    
+
+
+    <!-- has-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-output"/>
+    
+
+
+    <!-- has-participant -->
+
+
+    <owl:ObjectProperty rdf:about="has-participant"/>
+    
+
+
+    <!-- has-pharmacological-action -->
+
+
+    <owl:ObjectProperty rdf:about="has-pharmacological-action"/>
+    
+
+
+    <!-- has-primary-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input"/>
+    
+
+
+    <!-- has-primary-input-or-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input-or-output"/>
+    
+
+
+    <!-- has-primary-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-output"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_disease_location -->
+
+
+    <owl:ObjectProperty rdf:about="has_disease_location"/>
+    
+
+
+    <!-- has_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_part"/>
+    
+
+
+    <!-- imports -->
+
+
+    <owl:ObjectProperty rdf:about="imports"/>
+    
+
+
+    <!-- is_about -->
+
+
+    <owl:ObjectProperty rdf:about="is_about"/>
+    
+
+
+    <!-- located-in -->
+
+
+    <owl:ObjectProperty rdf:about="located-in"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- regulates-levels-of -->
+
+
+    <owl:ObjectProperty rdf:about="regulates-levels-of"/>
+    
+
+
+    <!-- transports-or-maintains-localization-of -->
+
+
+    <owl:ObjectProperty rdf:about="transports-or-maintains-localization-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- DeprecatedClass -->
+
+
+    <owl:Class rdf:about="DeprecatedClass"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abietane-diterpenoid -->
+
+
+    <owl:Class rdf:about="abietane-diterpenoid"/>
+    
+
+
+    <!-- abietate -->
+
+
+    <owl:Class rdf:about="abietate"/>
+    
+
+
+    <!-- abietic-acid -->
+
+
+    <owl:Class rdf:about="abietic-acid">
+        <rdfs:subClassOf rdf:resource="abietane-diterpenoid"/>
+        <rdfs:subClassOf rdf:resource="diterpenes-abietane"/>
+        <rdfs:subClassOf rdf:resource="monocarboxylic-acid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="substance-with-plant-metabolite-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="plant-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- abnormal-cardiac-pulsation -->
+
+
+    <owl:Class rdf:about="abnormal-cardiac-pulsation">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- abnormal-first-heart-sound -->
+
+
+    <owl:Class rdf:about="abnormal-first-heart-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- abnormal-fourth-heart-sound -->
+
+
+    <owl:Class rdf:about="abnormal-fourth-heart-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- abnormal-second-heart-sound -->
+
+
+    <owl:Class rdf:about="abnormal-second-heart-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- abnormal-third-heart-sound -->
+
+
+    <owl:Class rdf:about="abnormal-third-heart-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- abnormal-wall-motion -->
+
+
+    <owl:Class rdf:about="abnormal-wall-motion">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- abnormality&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="abnormality--disease-"/>
+    
+
+
+    <!-- acardia -->
+
+
+    <owl:Class rdf:about="acardia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- accidental-cardiac-murmur -->
+
+
+    <owl:Class rdf:about="accidental-cardiac-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- accretio-cordis -->
+
+
+    <owl:Class rdf:about="accretio-cordis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- adenosine-deaminase-rna-specific -->
+
+
+    <owl:Class rdf:about="adenosine-deaminase-rna-specific">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aequorin -->
+
+
+    <owl:Class rdf:about="aequorin">
+        <rdfs:subClassOf rdf:resource="aequorin"/>
+        <rdfs:subClassOf rdf:resource="proteins"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="luminescent-agents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ahd -->
+
+
+    <owl:Class rdf:about="ahd">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- aicardi-goutieres-syndrome -->
+
+
+    <owl:Class rdf:about="aicardi-goutieres-syndrome">
+        <rdfs:subClassOf rdf:resource="autoimmune-diseases-of-the-nervous-system"/>
+        <rdfs:subClassOf rdf:resource="autosomal-genetic-disease"/>
+        <rdfs:subClassOf rdf:resource="brain-disease"/>
+        <rdfs:subClassOf rdf:resource="chilblain"/>
+        <rdfs:subClassOf rdf:resource="disease"/>
+        <rdfs:subClassOf rdf:resource="hereditary-disease"/>
+        <rdfs:subClassOf rdf:resource="immunologic-disease"/>
+        <rdfs:subClassOf rdf:resource="nervous-system-malformations"/>
+        <rdfs:subClassOf rdf:resource="syndrome"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="leukodystrophy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="rare-genetic-intellectual-deficit-with-developmental-anomaly"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="rare-intellectual-deficit-with-developmental-anomaly"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="suckingswallowing-disorder-associated-with-basal-ganglia-anomalies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-material-basis-in"/>
+                <owl:someValuesFrom rdf:resource="autosomal-inheritance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- alagille-syndrome -->
+
+
+    <owl:Class rdf:about="alagille-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- amoxicillin-clavulanic-acid -->
+
+
+    <owl:Class rdf:about="amoxicillin-clavulanic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- anemia-heart -->
+
+
+    <owl:Class rdf:about="anemia-heart">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- angiocarditis -->
+
+
+    <owl:Class rdf:about="angiocarditis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- angiospastic-ophthalmo-auricular-syndrome -->
+
+
+    <owl:Class rdf:about="angiospastic-ophthalmo-auricular-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- anisosphygmia -->
+
+
+    <owl:Class rdf:about="anisosphygmia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ankyrin-b-related-cardiac-arrhythmia -->
+
+
+    <owl:Class rdf:about="ankyrin-b-related-cardiac-arrhythmia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- anti-bacterial-agents -->
+
+
+    <owl:Class rdf:about="anti-bacterial-agents"/>
+    
+
+
+    <!-- antiallergic-agent -->
+
+
+    <owl:Class rdf:about="antiallergic-agent"/>
+    
+
+
+    <!-- antiasthmatic-drug -->
+
+
+    <owl:Class rdf:about="antiasthmatic-drug"/>
+    
+
+
+    <!-- antibacterial-drug -->
+
+
+    <owl:Class rdf:about="antibacterial-drug"/>
+    
+
+
+    <!-- antiemetic -->
+
+
+    <owl:Class rdf:about="antiemetic"/>
+    
+
+
+    <!-- antiphlogistic -->
+
+
+    <owl:Class rdf:about="antiphlogistic"/>
+    
+
+
+    <!-- antipsychotic-agent -->
+
+
+    <owl:Class rdf:about="antipsychotic-agent"/>
+    
+
+
+    <!-- antirheumatic-drug -->
+
+
+    <owl:Class rdf:about="antirheumatic-drug"/>
+    
+
+
+    <!-- anxiolytic-drug -->
+
+
+    <owl:Class rdf:about="anxiolytic-drug"/>
+    
+
+
+    <!-- aortic-perivalvular-abscess -->
+
+
+    <owl:Class rdf:about="aortic-perivalvular-abscess">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- apoaequorin -->
+
+
+    <owl:Class rdf:about="apoaequorin">
+        <rdfs:subClassOf rdf:resource="aequorin"/>
+    </owl:Class>
+    
+
+
+    <!-- aromatic-ketone -->
+
+
+    <owl:Class rdf:about="aromatic-ketone"/>
+    
+
+
+    <!-- arrhythmia -->
+
+
+    <owl:Class rdf:about="arrhythmia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- artificial-valve-dysfunction -->
+
+
+    <owl:Class rdf:about="artificial-valve-dysfunction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- asialoglycoprotein-receptor -->
+
+
+    <owl:Class rdf:about="asialoglycoprotein-receptor">
+        <rdfs:subClassOf rdf:resource="asialoglycoprotein-receptor"/>
+        <rdfs:subClassOf rdf:resource="membrane-transport-receptor"/>
+        <rdfs:subClassOf rdf:resource="receptors-cell-surface"/>
+    </owl:Class>
+    
+
+
+    <!-- asthma-cardiale -->
+
+
+    <owl:Class rdf:about="asthma-cardiale">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- atrial-heart-septal-defect -->
+
+
+    <owl:Class rdf:about="atrial-heart-septal-defect">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heart-disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="located-in"/>
+                        <owl:someValuesFrom rdf:resource="interatrial-septum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- atrial-septal-aneurysm -->
+
+
+    <owl:Class rdf:about="atrial-septal-aneurysm">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- atrial-thrombosis -->
+
+
+    <owl:Class rdf:about="atrial-thrombosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- atrioventricular-septal-defect -->
+
+
+    <owl:Class rdf:about="atrioventricular-septal-defect">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heart-disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="located-in"/>
+                        <owl:someValuesFrom rdf:resource="atrioventricular-septum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- atrioventricular-septum -->
+
+
+    <owl:Class rdf:about="atrioventricular-septum"/>
+    
+
+
+    <!-- autoimmune-cardiomyopathy -->
+
+
+    <owl:Class rdf:about="autoimmune-cardiomyopathy">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- autoimmune-diseases-of-the-nervous-system -->
+
+
+    <owl:Class rdf:about="autoimmune-diseases-of-the-nervous-system"/>
+    
+
+
+    <!-- autosomal-genetic-disease -->
+
+
+    <owl:Class rdf:about="autosomal-genetic-disease"/>
+    
+
+
+    <!-- autosomal-inheritance -->
+
+
+    <owl:Class rdf:about="autosomal-inheritance"/>
+    
+
+
+    <!-- aztreonam-clavulanate -->
+
+
+    <owl:Class rdf:about="aztreonam-clavulanate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- bacterial-metabolite -->
+
+
+    <owl:Class rdf:about="bacterial-metabolite"/>
+    
+
+
+    <!-- bacterium -->
+
+
+    <owl:Class rdf:about="bacterium"/>
+    
+
+
+    <!-- basedowherz -->
+
+
+    <owl:Class rdf:about="basedowherz">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- bathycardia -->
+
+
+    <owl:Class rdf:about="bathycardia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- benign-hypertensive-heart-disease -->
+
+
+    <owl:Class rdf:about="benign-hypertensive-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- benzodioxoles -->
+
+
+    <owl:Class rdf:about="benzodioxoles"/>
+    
+
+
+    <!-- beta-lactam-antibiotic -->
+
+
+    <owl:Class rdf:about="beta-lactam-antibiotic"/>
+    
+
+
+    <!-- beta-lactamase-inhibitor -->
+
+
+    <owl:Class rdf:about="beta-lactamase-inhibitor"/>
+    
+
+
+    <!-- blunt-cardiac-injury -->
+
+
+    <owl:Class rdf:about="blunt-cardiac-injury">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- bosley-salih-alorainy-syndrome -->
+
+
+    <owl:Class rdf:about="bosley-salih-alorainy-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- brain-disease -->
+
+
+    <owl:Class rdf:about="brain-disease"/>
+    
+
+
+    <!-- brain-malformation&#45;&#45;-congenital-heart-disease&#45;&#45;-postaxial-polydactyly -->
+
+
+    <owl:Class rdf:about="brain-malformation---congenital-heart-disease---postaxial-polydactyly">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- bronchodilator -->
+
+
+    <owl:Class rdf:about="bronchodilator"/>
+    
+
+
+    <!-- burkholderiaceae -->
+
+
+    <owl:Class rdf:about="burkholderiaceae"/>
+    
+
+
+    <!-- carcinoid-heart-disease -->
+
+
+    <owl:Class rdf:about="carcinoid-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-amyloidosis -->
+
+
+    <owl:Class rdf:about="cardiac-amyloidosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-anomalies&#45;&#45;-heterotaxy -->
+
+
+    <owl:Class rdf:about="cardiac-anomalies---heterotaxy">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-anomalies-developmental-delay-facial-dysmorphism-syndrome -->
+
+
+    <owl:Class rdf:about="cardiac-anomalies-developmental-delay-facial-dysmorphism-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-arrhythmia -->
+
+
+    <owl:Class rdf:about="cardiac-arrhythmia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-callosity -->
+
+
+    <owl:Class rdf:about="cardiac-callosity">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-complications -->
+
+
+    <owl:Class rdf:about="cardiac-complications">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-contusion -->
+
+
+    <owl:Class rdf:about="cardiac-contusion">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-depression -->
+
+
+    <owl:Class rdf:about="cardiac-depression">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-disease-with-cataract -->
+
+
+    <owl:Class rdf:about="cardiac-disease-with-cataract">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-edema -->
+
+
+    <owl:Class rdf:about="cardiac-edema">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-embolism -->
+
+
+    <owl:Class rdf:about="cardiac-embolism">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-event -->
+
+
+    <owl:Class rdf:about="cardiac-event">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-fabry-disease -->
+
+
+    <owl:Class rdf:about="cardiac-fabry-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-failure -->
+
+
+    <owl:Class rdf:about="cardiac-failure">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-hemoptysis -->
+
+
+    <owl:Class rdf:about="cardiac-hemoptysis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-hypertrophy -->
+
+
+    <owl:Class rdf:about="cardiac-hypertrophy">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-index-decreased -->
+
+
+    <owl:Class rdf:about="cardiac-index-decreased">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-induced-edema -->
+
+
+    <owl:Class rdf:about="cardiac-induced-edema">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-insufficiency -->
+
+
+    <owl:Class rdf:about="cardiac-insufficiency">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-involvement -->
+
+
+    <owl:Class rdf:about="cardiac-involvement">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-neoplasm -->
+
+
+    <owl:Class rdf:about="cardiac-neoplasm">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-neurosis -->
+
+
+    <owl:Class rdf:about="cardiac-neurosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-output-decreased -->
+
+
+    <owl:Class rdf:about="cardiac-output-decreased">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-rhabdomyoma -->
+
+
+    <owl:Class rdf:about="cardiac-rhabdomyoma">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-rhythm-disease -->
+
+
+    <owl:Class rdf:about="cardiac-rhythm-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-sarcoidosis -->
+
+
+    <owl:Class rdf:about="cardiac-sarcoidosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-septum -->
+
+
+    <owl:Class rdf:about="cardiac-septum"/>
+    
+
+
+    <!-- cardiac-syncope -->
+
+
+    <owl:Class rdf:about="cardiac-syncope">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-tamponade -->
+
+
+    <owl:Class rdf:about="cardiac-tamponade">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-trauma -->
+
+
+    <owl:Class rdf:about="cardiac-trauma">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-troponin-i-measurement -->
+
+
+    <owl:Class rdf:about="cardiac-troponin-i-measurement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is_about"/>
+                <owl:someValuesFrom rdf:resource="heart-disease"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-tuberculosis -->
+
+
+    <owl:Class rdf:about="cardiac-tuberculosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-ventricle-disease -->
+
+
+    <owl:Class rdf:about="cardiac-ventricle-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-ventricular-thrombosis -->
+
+
+    <owl:Class rdf:about="cardiac-ventricular-thrombosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiac-vertigo -->
+
+
+    <owl:Class rdf:about="cardiac-vertigo">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardialgia -->
+
+
+    <owl:Class rdf:about="cardialgia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiasthenia -->
+
+
+    <owl:Class rdf:about="cardiasthenia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiataxia -->
+
+
+    <owl:Class rdf:about="cardiataxia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiomyopathy -->
+
+
+    <owl:Class rdf:about="cardiomyopathy">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiothyrotoxicosis -->
+
+
+    <owl:Class rdf:about="cardiothyrotoxicosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiotonic -->
+
+
+    <owl:Class rdf:about="cardiotonic"/>
+    
+
+
+    <!-- cardiotoxicity -->
+
+
+    <owl:Class rdf:about="cardiotoxicity">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cardiovascular-disease -->
+
+
+    <owl:Class rdf:about="cardiovascular-disease"/>
+    
+
+
+    <!-- cardiovascular-system-disease -->
+
+
+    <owl:Class rdf:about="cardiovascular-system-disease"/>
+    
+
+
+    <!-- carditis -->
+
+
+    <owl:Class rdf:about="carditis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- carphenazine -->
+
+
+    <owl:Class rdf:about="carphenazine">
+        <rdfs:subClassOf rdf:resource="antipsychotic-agent"/>
+        <rdfs:subClassOf rdf:resource="aromatic-ketone"/>
+        <rdfs:subClassOf rdf:resource="n-alkylpiperazine"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="phenothiazines"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antiemetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="dopaminergic-antagonist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="phenothiazine-antipsychotic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cefotaxime-clavulanic-acid -->
+
+
+    <owl:Class rdf:about="cefotaxime-clavulanic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cefoxitin-clavulanate -->
+
+
+    <owl:Class rdf:about="cefoxitin-clavulanate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ceftazidime-clavulanic-acid -->
+
+
+    <owl:Class rdf:about="ceftazidime-clavulanic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cerebrovascular-disorder -->
+
+
+    <owl:Class rdf:about="cerebrovascular-disorder"/>
+    
+
+
+    <!-- charge-syndrome -->
+
+
+    <owl:Class rdf:about="charge-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- chilblain -->
+
+
+    <owl:Class rdf:about="chilblain"/>
+    
+
+
+    <!-- chime-syndrome -->
+
+
+    <owl:Class rdf:about="chime-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- choc-en-dome -->
+
+
+    <owl:Class rdf:about="choc-en-dome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- chronic-cor-pulmonale -->
+
+
+    <owl:Class rdf:about="chronic-cor-pulmonale">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- chylopericardium -->
+
+
+    <owl:Class rdf:about="chylopericardium">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- clavulanate -->
+
+
+    <owl:Class rdf:about="clavulanate"/>
+    
+
+
+    <!-- clavulanic-acid -->
+
+
+    <owl:Class rdf:about="clavulanic-acid">
+        <rdfs:subClassOf rdf:resource="DeprecatedClass"/>
+        <rdfs:subClassOf rdf:resource="beta-lactam-antibiotic"/>
+        <rdfs:subClassOf rdf:resource="beta-lactamase-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="clavulanic-acid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="oxapenam"/>
+        <rdfs:subClassOf rdf:resource="substance-with-antibacterial-drug-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-anxiolytic-drug-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-bacterial-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-ec-3526--beta-lactamase--inhibitor-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="anti-bacterial-agents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="enzyme-inhibitors"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antibacterial-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anxiolytic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="bacterial-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="ec-3526--beta-lactamase--inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- clavulanic-acid-Concept -->
+
+
+    <owl:Class rdf:about="clavulanic-acid-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- clodinafop-propargyl -->
+
+
+    <owl:Class rdf:about="clodinafop-propargyl">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="propionates"/>
+        <rdfs:subClassOf rdf:resource="pyridines"/>
+    </owl:Class>
+    
+
+
+    <!-- coeur-en-sabot -->
+
+
+    <owl:Class rdf:about="coeur-en-sabot">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coeur-en-sabot-contour -->
+
+
+    <owl:Class rdf:about="coeur-en-sabot-contour">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cog1-cdg -->
+
+
+    <owl:Class rdf:about="cog1-cdg">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cog7-cdg -->
+
+
+    <owl:Class rdf:about="cog7-cdg">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coloboma-of-the-eyelid -->
+
+
+    <owl:Class rdf:about="coloboma-of-the-eyelid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- commotio-cordis -->
+
+
+    <owl:Class rdf:about="commotio-cordis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- congenital-heart-disease -->
+
+
+    <owl:Class rdf:about="congenital-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- congenital-vertebral-cardiac-renal-anomalies-syndrome -->
+
+
+    <owl:Class rdf:about="congenital-vertebral-cardiac-renal-anomalies-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- congestive-heart-failure -->
+
+
+    <owl:Class rdf:about="congestive-heart-failure">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- constrictio-cordis -->
+
+
+    <owl:Class rdf:about="constrictio-cordis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- contracted-pulse -->
+
+
+    <owl:Class rdf:about="contracted-pulse">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cor-mobile -->
+
+
+    <owl:Class rdf:about="cor-mobile">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coronary-artery-disease -->
+
+
+    <owl:Class rdf:about="coronary-artery-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coronary-artery-disease-aggravated -->
+
+
+    <owl:Class rdf:about="coronary-artery-disease-aggravated">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coronary-artery-reocclusion -->
+
+
+    <owl:Class rdf:about="coronary-artery-reocclusion">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coronary-heart-disease -->
+
+
+    <owl:Class rdf:about="coronary-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coronary-insufficiency -->
+
+
+    <owl:Class rdf:about="coronary-insufficiency">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- coronary-subclavian-steal-syndrome -->
+
+
+    <owl:Class rdf:about="coronary-subclavian-steal-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- corvisarts-face -->
+
+
+    <owl:Class rdf:about="corvisarts-face">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cyanosis-of-lip -->
+
+
+    <owl:Class rdf:about="cyanosis-of-lip">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cystic-echinococcosis -->
+
+
+    <owl:Class rdf:about="cystic-echinococcosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- cysticercosis -->
+
+
+    <owl:Class rdf:about="cysticercosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- decreased-cardiac-function -->
+
+
+    <owl:Class rdf:about="decreased-cardiac-function">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- defect-conduction-intraventricular -->
+
+
+    <owl:Class rdf:about="defect-conduction-intraventricular">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- delayed-cyanosis -->
+
+
+    <owl:Class rdf:about="delayed-cyanosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- diastolic-murmur -->
+
+
+    <owl:Class rdf:about="diastolic-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- diastolic-regurgitant-murmur -->
+
+
+    <owl:Class rdf:about="diastolic-regurgitant-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- diastolic-rumbling-murmur -->
+
+
+    <owl:Class rdf:about="diastolic-rumbling-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- diastolic-thrill -->
+
+
+    <owl:Class rdf:about="diastolic-thrill">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- digestive-system-neoplasm -->
+
+
+    <owl:Class rdf:about="digestive-system-neoplasm"/>
+    
+
+
+    <!-- diphyllin -->
+
+
+    <owl:Class rdf:about="diphyllin">
+        <rdfs:subClassOf rdf:resource="benzodioxoles"/>
+        <rdfs:subClassOf rdf:resource="lignans"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antiasthmatic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="bronchodilator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="cardiotonic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="diuretic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="muscle-relaxant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- discordant-alternans -->
+
+
+    <owl:Class rdf:about="discordant-alternans">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- disease -->
+
+
+    <owl:Class rdf:about="disease"/>
+    
+
+
+    <!-- disease-resistance -->
+
+
+    <owl:Class rdf:about="disease-resistance">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="disease-resistance"/>
+        <rdfs:subClassOf rdf:resource="plant-immunity"/>
+        <rdfs:subClassOf rdf:resource="resistance--endure-"/>
+    </owl:Class>
+    
+
+
+    <!-- diterpenes-abietane -->
+
+
+    <owl:Class rdf:about="diterpenes-abietane"/>
+    
+
+
+    <!-- diuretic -->
+
+
+    <owl:Class rdf:about="diuretic"/>
+    
+
+
+    <!-- dopaminergic-antagonist -->
+
+
+    <owl:Class rdf:about="dopaminergic-antagonist"/>
+    
+
+
+    <!-- dropped-beat-pulse -->
+
+
+    <owl:Class rdf:about="dropped-beat-pulse">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- dyspnea-on-exertion -->
+
+
+    <owl:Class rdf:about="dyspnea-on-exertion">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- dyspnea-paroxysmal-nocturnal -->
+
+
+    <owl:Class rdf:about="dyspnea-paroxysmal-nocturnal">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- dyspnoea-exacerbated -->
+
+
+    <owl:Class rdf:about="dyspnoea-exacerbated">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- dyssynchrony -->
+
+
+    <owl:Class rdf:about="dyssynchrony">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- early-diastolic-extrasound -->
+
+
+    <owl:Class rdf:about="early-diastolic-extrasound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ec-3526&#45;&#45;beta-lactamase&#45;&#45;inhibitor -->
+
+
+    <owl:Class rdf:about="ec-3526--beta-lactamase--inhibitor"/>
+    
+
+
+    <!-- ecg-abnormal-specific -->
+
+
+    <owl:Class rdf:about="ecg-abnormal-specific">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ecg-abnormalities-non-specific -->
+
+
+    <owl:Class rdf:about="ecg-abnormalities-non-specific">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- edema-cardiac -->
+
+
+    <owl:Class rdf:about="edema-cardiac">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- effusion-pericardial -->
+
+
+    <owl:Class rdf:about="effusion-pericardial">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ehlers-danlos-syndrome-cardiac-valvular-type -->
+
+
+    <owl:Class rdf:about="ehlers-danlos-syndrome-cardiac-valvular-type">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ehlers-danlos-syndrome-musculocontractural-type -->
+
+
+    <owl:Class rdf:about="ehlers-danlos-syndrome-musculocontractural-type">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- electrocardiogram-abnormality -->
+
+
+    <owl:Class rdf:about="electrocardiogram-abnormality">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ellis-van-creveld-syndrome -->
+
+
+    <owl:Class rdf:about="ellis-van-creveld-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- endocardial-fibrosis -->
+
+
+    <owl:Class rdf:about="endocardial-fibrosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- endocardial-ischaemia -->
+
+
+    <owl:Class rdf:about="endocardial-ischaemia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- endocardiosis -->
+
+
+    <owl:Class rdf:about="endocardiosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- endocarditis -->
+
+
+    <owl:Class rdf:about="endocarditis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- endocardium-disease -->
+
+
+    <owl:Class rdf:about="endocardium-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- endomyocardial-fibrosis -->
+
+
+    <owl:Class rdf:about="endomyocardial-fibrosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- enzyme-inhibitors -->
+
+
+    <owl:Class rdf:about="enzyme-inhibitors"/>
+    
+
+
+    <!-- epigenetic-repression -->
+
+
+    <owl:Class rdf:about="epigenetic-repression">
+        <rdfs:subClassOf rdf:resource="epigenetic-repression"/>
+        <rdfs:subClassOf rdf:resource="genetic-regulation"/>
+    </owl:Class>
+    
+
+
+    <!-- evans-and-lloyd-thomas-syndrome -->
+
+
+    <owl:Class rdf:about="evans-and-lloyd-thomas-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- familial-retinal-arterial-macroaneurysm -->
+
+
+    <owl:Class rdf:about="familial-retinal-arterial-macroaneurysm">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- fatty-heart -->
+
+
+    <owl:Class rdf:about="fatty-heart">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- fixed-split-second-heart-sound -->
+
+
+    <owl:Class rdf:about="fixed-split-second-heart-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- foetal-cardiac-disorder -->
+
+
+    <owl:Class rdf:about="foetal-cardiac-disorder">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- gallop-rhythm -->
+
+
+    <owl:Class rdf:about="gallop-rhythm">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-cardiac-malformation -->
+
+
+    <owl:Class rdf:about="genetic-cardiac-malformation">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-regulation -->
+
+
+    <owl:Class rdf:about="genetic-regulation"/>
+    
+
+
+    <!-- granulomatosis-with-polyangiitis -->
+
+
+    <owl:Class rdf:about="granulomatosis-with-polyangiitis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- haemopericardium -->
+
+
+    <owl:Class rdf:about="haemopericardium">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- haemorrhage-intrapericardial -->
+
+
+    <owl:Class rdf:about="haemorrhage-intrapericardial">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart -->
+
+
+    <owl:Class rdf:about="heart"/>
+    
+
+
+    <!-- heart-and-aorta-diseases -->
+
+
+    <owl:Class rdf:about="heart-and-aorta-diseases">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-aneurysm -->
+
+
+    <owl:Class rdf:about="heart-aneurysm">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-arrest -->
+
+
+    <owl:Class rdf:about="heart-arrest">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-cancer -->
+
+
+    <owl:Class rdf:about="heart-cancer">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-conduction-disease -->
+
+
+    <owl:Class rdf:about="heart-conduction-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-disease -->
+
+
+    <owl:Class rdf:about="heart-disease">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="located-in"/>
+                        <owl:someValuesFrom rdf:resource="heart"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="heart"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part_of"/>
+                                <owl:someValuesFrom rdf:resource="heart"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="cardiovascular-disease"/>
+        <rdfs:subClassOf rdf:resource="cardiovascular-system-disease"/>
+        <rdfs:subClassOf rdf:resource="thoracic-disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="heart-diseases"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="heart"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="part-of"/>
+                                <owl:someValuesFrom rdf:resource="heart"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- heart-diseases -->
+
+
+    <owl:Class rdf:about="heart-diseases"/>
+    
+
+
+    <!-- heart-failure -->
+
+
+    <owl:Class rdf:about="heart-failure">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-lipoma -->
+
+
+    <owl:Class rdf:about="heart-lipoma">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-neoplasm -->
+
+
+    <owl:Class rdf:about="heart-neoplasm">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-rupture -->
+
+
+    <owl:Class rdf:about="heart-rupture">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- heart-septal-defect -->
+
+
+    <owl:Class rdf:about="heart-septal-defect">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heart-disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="located-in"/>
+                        <owl:someValuesFrom rdf:resource="cardiac-septum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- heart-valve-disease -->
+
+
+    <owl:Class rdf:about="heart-valve-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hegglins-syndrome -->
+
+
+    <owl:Class rdf:about="hegglins-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hemiplegiadiplegiahemiparesialimb-palsy -->
+
+
+    <owl:Class rdf:about="hemiplegiadiplegiahemiparesialimb-palsy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hemopericardium -->
+
+
+    <owl:Class rdf:about="hemopericardium">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hereditary-disease -->
+
+
+    <owl:Class rdf:about="hereditary-disease"/>
+    
+
+
+    <!-- heterophyiasis -->
+
+
+    <owl:Class rdf:about="heterophyiasis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- holoprosencephalyarhinencephalyunique-lateral-ventricle -->
+
+
+    <owl:Class rdf:about="holoprosencephalyarhinencephalyunique-lateral-ventricle">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- hulls-triad -->
+
+
+    <owl:Class rdf:about="hulls-triad">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- humeral-head -->
+
+
+    <owl:Class rdf:about="humeral-head">
+        <rdfs:subClassOf rdf:resource="humeral-head"/>
+        <rdfs:subClassOf rdf:resource="humerus"/>
+    </owl:Class>
+    
+
+
+    <!-- humerus -->
+
+
+    <owl:Class rdf:about="humerus"/>
+    
+
+
+    <!-- hyperkinetic-heart-disease -->
+
+
+    <owl:Class rdf:about="hyperkinetic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hyperkinetic-heart-syndrome -->
+
+
+    <owl:Class rdf:about="hyperkinetic-heart-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hypertension -->
+
+
+    <owl:Class rdf:about="hypertension"/>
+    
+
+
+    <!-- hypertensive-heart-and-renal-disease-malignant -->
+
+
+    <owl:Class rdf:about="hypertensive-heart-and-renal-disease-malignant">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hypertensive-heart-disease -->
+
+
+    <owl:Class rdf:about="hypertensive-heart-disease">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heart-disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease-arises-from-feature"/>
+                        <owl:someValuesFrom rdf:resource="hypertension"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hypertensive-heart-disease-malignant -->
+
+
+    <owl:Class rdf:about="hypertensive-heart-disease-malignant">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hypertoniaspasticityrigiditystiffness -->
+
+
+    <owl:Class rdf:about="hypertoniaspasticityrigiditystiffness">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hypodynamia-cordis -->
+
+
+    <owl:Class rdf:about="hypodynamia-cordis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hysterosystole -->
+
+
+    <owl:Class rdf:about="hysterosystole">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- idiopathic-dilatation-of-pulmonary-artery -->
+
+
+    <owl:Class rdf:about="idiopathic-dilatation-of-pulmonary-artery">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- immunoassay -->
+
+
+    <owl:Class rdf:about="immunoassay"/>
+    
+
+
+    <!-- immunologic-disease -->
+
+
+    <owl:Class rdf:about="immunologic-disease"/>
+    
+
+
+    <!-- increased-collateral-vascular-flow -->
+
+
+    <owl:Class rdf:about="increased-collateral-vascular-flow">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- increased-intensity-first-heart-sound -->
+
+
+    <owl:Class rdf:about="increased-intensity-first-heart-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- increased-pulse-rate -->
+
+
+    <owl:Class rdf:about="increased-pulse-rate">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- inflammation-of-heart-layer -->
+
+
+    <owl:Class rdf:about="inflammation-of-heart-layer">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- intellectual-deficitmentalpsychomotor-retardationlearning-disability -->
+
+
+    <owl:Class rdf:about="intellectual-deficitmentalpsychomotor-retardationlearning-disability">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- interatrial-septum -->
+
+
+    <owl:Class rdf:about="interatrial-septum"/>
+    
+
+
+    <!-- interventricular-septum -->
+
+
+    <owl:Class rdf:about="interventricular-septum"/>
+    
+
+
+    <!-- intra-right-atrial-thrombus -->
+
+
+    <owl:Class rdf:about="intra-right-atrial-thrombus">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- kyphoscoliotic-heart-disease -->
+
+
+    <owl:Class rdf:about="kyphoscoliotic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- larsen-like-syndrome-b3gat3-type -->
+
+
+    <owl:Class rdf:about="larsen-like-syndrome-b3gat3-type">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- left-atrial-thrombosis -->
+
+
+    <owl:Class rdf:about="left-atrial-thrombosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- left-ventricular-diastolic-dysfunction -->
+
+
+    <owl:Class rdf:about="left-ventricular-diastolic-dysfunction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- left-ventricular-dyssynchrony -->
+
+
+    <owl:Class rdf:about="left-ventricular-dyssynchrony">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- left-ventricular-systolic-dysfunction -->
+
+
+    <owl:Class rdf:about="left-ventricular-systolic-dysfunction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- left-ventricular-thrombosis -->
+
+
+    <owl:Class rdf:about="left-ventricular-thrombosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- left-ventricular-wall-motion-abnormality -->
+
+
+    <owl:Class rdf:about="left-ventricular-wall-motion-abnormality">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- leukodystrophy -->
+
+
+    <owl:Class rdf:about="leukodystrophy"/>
+    
+
+
+    <!-- light-pulse -->
+
+
+    <owl:Class rdf:about="light-pulse">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- lignans -->
+
+
+    <owl:Class rdf:about="lignans"/>
+    
+
+
+    <!-- liver-neoplasms -->
+
+
+    <owl:Class rdf:about="liver-neoplasms"/>
+    
+
+
+    <!-- lmna-related-cardiocutaneous-progeria-syndrome -->
+
+
+    <owl:Class rdf:about="lmna-related-cardiocutaneous-progeria-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- low-cardiac-output-syndrome -->
+
+
+    <owl:Class rdf:about="low-cardiac-output-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- luetic-heart-disease -->
+
+
+    <owl:Class rdf:about="luetic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- luminescent-agents -->
+
+
+    <owl:Class rdf:about="luminescent-agents"/>
+    
+
+
+    <!-- malignant-mesenchymal-tumor -->
+
+
+    <owl:Class rdf:about="malignant-mesenchymal-tumor">
+        <rdfs:subClassOf rdf:resource="digestive-system-neoplasm"/>
+        <rdfs:subClassOf rdf:resource="liver-neoplasms"/>
+        <rdfs:subClassOf rdf:resource="mesenchymoma"/>
+    </owl:Class>
+    
+
+
+    <!-- massive-heart-failure -->
+
+
+    <owl:Class rdf:about="massive-heart-failure">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- mechanical-dyssynchrony -->
+
+
+    <owl:Class rdf:about="mechanical-dyssynchrony">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- membrane-transport-receptor -->
+
+
+    <owl:Class rdf:about="membrane-transport-receptor"/>
+    
+
+
+    <!-- mesenchymoma -->
+
+
+    <owl:Class rdf:about="mesenchymoma"/>
+    
+
+
+    <!-- mgat2-cdg -->
+
+
+    <owl:Class rdf:about="mgat2-cdg">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- microcardia -->
+
+
+    <owl:Class rdf:about="microcardia">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- microcephaly -->
+
+
+    <owl:Class rdf:about="microcephaly">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- microcephaly&#45;&#45;-cardiac-defect&#45;&#45;-lung-malsegmentation -->
+
+
+    <owl:Class rdf:about="microcephaly---cardiac-defect---lung-malsegmentation">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- microcephaly&#45;&#45;-facio-cardio-skeletal-syndrome-hadziselimovic-type -->
+
+
+    <owl:Class rdf:about="microcephaly---facio-cardio-skeletal-syndrome-hadziselimovic-type">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- mitral-valve-stenosis -->
+
+
+    <owl:Class rdf:about="mitral-valve-stenosis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- monocarboxylic-acid -->
+
+
+    <owl:Class rdf:about="monocarboxylic-acid"/>
+    
+
+
+    <!-- muscle-relaxant -->
+
+
+    <owl:Class rdf:about="muscle-relaxant"/>
+    
+
+
+    <!-- myocardial-disease -->
+
+
+    <owl:Class rdf:about="myocardial-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- myocardial-disorder -->
+
+
+    <owl:Class rdf:about="myocardial-disorder">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- myocardial-reperfusion-injury -->
+
+
+    <owl:Class rdf:about="myocardial-reperfusion-injury">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- myocarditis -->
+
+
+    <owl:Class rdf:about="myocarditis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- n-alkylpiperazine -->
+
+
+    <owl:Class rdf:about="n-alkylpiperazine"/>
+    
+
+
+    <!-- nervous-palpitation -->
+
+
+    <owl:Class rdf:about="nervous-palpitation">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- nervous-system-malformations -->
+
+
+    <owl:Class rdf:about="nervous-system-malformations"/>
+    
+
+
+    <!-- neurocardiogenic-syncope -->
+
+
+    <owl:Class rdf:about="neurocardiogenic-syncope">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nocturnal-dyspnoea -->
+
+
+    <owl:Class rdf:about="nocturnal-dyspnoea">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- nodal-escape -->
+
+
+    <owl:Class rdf:about="nodal-escape">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- non-ischemic-heart-disease -->
+
+
+    <owl:Class rdf:about="non-ischemic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organic-heart-disease -->
+
+
+    <owl:Class rdf:about="organic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- organic-murmur -->
+
+
+    <owl:Class rdf:about="organic-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- oxapenam -->
+
+
+    <owl:Class rdf:about="oxapenam"/>
+    
+
+
+    <!-- pacemaker-twiddlers-syndrome -->
+
+
+    <owl:Class rdf:about="pacemaker-twiddlers-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pacing-failure -->
+
+
+    <owl:Class rdf:about="pacing-failure">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- palpitations-aggravated -->
+
+
+    <owl:Class rdf:about="palpitations-aggravated">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pandiastolic-murmur -->
+
+
+    <owl:Class rdf:about="pandiastolic-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pandoraea -->
+
+
+    <owl:Class rdf:about="pandoraea">
+        <rdfs:subClassOf rdf:resource="bacterium"/>
+        <rdfs:subClassOf rdf:resource="burkholderiaceae"/>
+    </owl:Class>
+    
+
+
+    <!-- pandoraea-apista -->
+
+
+    <owl:Class rdf:about="pandoraea-apista">
+        <rdfs:subClassOf rdf:resource="pandoraea"/>
+    </owl:Class>
+    
+
+
+    <!-- pandoraea-pnomenusa -->
+
+
+    <owl:Class rdf:about="pandoraea-pnomenusa">
+        <rdfs:subClassOf rdf:resource="pandoraea"/>
+    </owl:Class>
+    
+
+
+    <!-- pandoraea-sputorum -->
+
+
+    <owl:Class rdf:about="pandoraea-sputorum">
+        <rdfs:subClassOf rdf:resource="pandoraea"/>
+    </owl:Class>
+    
+
+
+    <!-- paradoxical-cardiac-pulsations -->
+
+
+    <owl:Class rdf:about="paradoxical-cardiac-pulsations">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- paradoxical-systolic-bulging -->
+
+
+    <owl:Class rdf:about="paradoxical-systolic-bulging">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- patent-atrioventricular-communis -->
+
+
+    <owl:Class rdf:about="patent-atrioventricular-communis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- patent-ductus-arteriosus&#45;&#45;-bicuspid-aortic-valve&#45;&#45;-hand-anomalies -->
+
+
+    <owl:Class rdf:about="patent-ductus-arteriosus---bicuspid-aortic-valve---hand-anomalies">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pelecypoda -->
+
+
+    <owl:Class rdf:about="pelecypoda"/>
+    
+
+
+    <!-- pericardial-and-diaphragmatic-defect -->
+
+
+    <owl:Class rdf:about="pericardial-and-diaphragmatic-defect">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pericardial-bleeding -->
+
+
+    <owl:Class rdf:about="pericardial-bleeding">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pericardial-diverticle -->
+
+
+    <owl:Class rdf:about="pericardial-diverticle">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pericarditis -->
+
+
+    <owl:Class rdf:about="pericarditis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pericardium-disease -->
+
+
+    <owl:Class rdf:about="pericardium-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- peters-plus-syndrome -->
+
+
+    <owl:Class rdf:about="peters-plus-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- phace-syndrome -->
+
+
+    <owl:Class rdf:about="phace-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- phenothiazine-antipsychotic-drug -->
+
+
+    <owl:Class rdf:about="phenothiazine-antipsychotic-drug"/>
+    
+
+
+    <!-- phenothiazines -->
+
+
+    <owl:Class rdf:about="phenothiazines"/>
+    
+
+
+    <!-- plagiocephaly -->
+
+
+    <owl:Class rdf:about="plagiocephaly">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- plant-immunity -->
+
+
+    <owl:Class rdf:about="plant-immunity"/>
+    
+
+
+    <!-- plant-metabolite -->
+
+
+    <owl:Class rdf:about="plant-metabolite"/>
+    
+
+
+    <!-- pneumopericardium -->
+
+
+    <owl:Class rdf:about="pneumopericardium">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pneumopyopericardium -->
+
+
+    <owl:Class rdf:about="pneumopyopericardium">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- polyarteritis-nodosa -->
+
+
+    <owl:Class rdf:about="polyarteritis-nodosa">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- polyvalvular-heart-disease-syndrome -->
+
+
+    <owl:Class rdf:about="polyvalvular-heart-disease-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- porencephaly -->
+
+
+    <owl:Class rdf:about="porencephaly">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- post-cardiac-arrest-syndrome -->
+
+
+    <owl:Class rdf:about="post-cardiac-arrest-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- post-operative-atrial-fibrillation -->
+
+
+    <owl:Class rdf:about="post-operative-atrial-fibrillation">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- post-operative-myocardial-infarction -->
+
+
+    <owl:Class rdf:about="post-operative-myocardial-infarction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- postpericardiotomy-syndrome -->
+
+
+    <owl:Class rdf:about="postpericardiotomy-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- precordial-voussure -->
+
+
+    <owl:Class rdf:about="precordial-voussure">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- propionates -->
+
+
+    <owl:Class rdf:about="propionates"/>
+    
+
+
+    <!-- proteins -->
+
+
+    <owl:Class rdf:about="proteins"/>
+    
+
+
+    <!-- ptosis -->
+
+
+    <owl:Class rdf:about="ptosis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- puerperal-heart-disease -->
+
+
+    <owl:Class rdf:about="puerperal-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pulmonary-edema-cardiac-cause -->
+
+
+    <owl:Class rdf:about="pulmonary-edema-cardiac-cause">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pulmonary-heart-disease -->
+
+
+    <owl:Class rdf:about="pulmonary-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pulsus-inaequalis -->
+
+
+    <owl:Class rdf:about="pulsus-inaequalis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pulsus-inanis -->
+
+
+    <owl:Class rdf:about="pulsus-inanis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- pyridines -->
+
+
+    <owl:Class rdf:about="pyridines"/>
+    
+
+
+    <!-- radioimmunoassay -->
+
+
+    <owl:Class rdf:about="radioimmunoassay"/>
+    
+
+
+    <!-- radioimmunosorbent-test -->
+
+
+    <owl:Class rdf:about="radioimmunosorbent-test">
+        <rdfs:subClassOf rdf:resource="immunoassay"/>
+        <rdfs:subClassOf rdf:resource="radioimmunoassay"/>
+        <rdfs:subClassOf rdf:resource="radioimmunosorbent-test"/>
+    </owl:Class>
+    
+
+
+    <!-- rare-genetic-cardiac-disease -->
+
+
+    <owl:Class rdf:about="rare-genetic-cardiac-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- rare-genetic-intellectual-deficit-with-developmental-anomaly -->
+
+
+    <owl:Class rdf:about="rare-genetic-intellectual-deficit-with-developmental-anomaly"/>
+    
+
+
+    <!-- rare-intellectual-deficit-with-developmental-anomaly -->
+
+
+    <owl:Class rdf:about="rare-intellectual-deficit-with-developmental-anomaly"/>
+    
+
+
+    <!-- rare-syndrome-with-cardiac-malformations -->
+
+
+    <owl:Class rdf:about="rare-syndrome-with-cardiac-malformations">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- receptors-cell-surface -->
+
+
+    <owl:Class rdf:about="receptors-cell-surface"/>
+    
+
+
+    <!-- reduced-wall-motion -->
+
+
+    <owl:Class rdf:about="reduced-wall-motion">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- reflex-trigeminocardiac -->
+
+
+    <owl:Class rdf:about="reflex-trigeminocardiac">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- resistance&#45;&#45;endure- -->
+
+
+    <owl:Class rdf:about="resistance--endure-"/>
+    
+
+
+    <!-- resistance-to-disease -->
+
+
+    <owl:Class rdf:about="resistance-to-disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="disease-resistance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- retinal-vein -->
+
+
+    <owl:Class rdf:about="retinal-vein">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="retinal-vein"/>
+        <rdfs:subClassOf rdf:resource="retinal-vessel"/>
+        <rdfs:subClassOf rdf:resource="vein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- retinal-vessel -->
+
+
+    <owl:Class rdf:about="retinal-vessel"/>
+    
+
+
+    <!-- rheumatic-heart-disease -->
+
+
+    <owl:Class rdf:about="rheumatic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- rheumatic-nodule -->
+
+
+    <owl:Class rdf:about="rheumatic-nodule">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ribonuclease-h2-subunit-a -->
+
+
+    <owl:Class rdf:about="ribonuclease-h2-subunit-a">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ribonuclease-h2-subunit-b -->
+
+
+    <owl:Class rdf:about="ribonuclease-h2-subunit-b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ribonuclease-h2-subunit-c -->
+
+
+    <owl:Class rdf:about="ribonuclease-h2-subunit-c">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- right-heart-overload -->
+
+
+    <owl:Class rdf:about="right-heart-overload">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- right-to-left-intracardiac-shunt -->
+
+
+    <owl:Class rdf:about="right-to-left-intracardiac-shunt">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- roemhelds-syndrome -->
+
+
+    <owl:Class rdf:about="roemhelds-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- rotchs-sign -->
+
+
+    <owl:Class rdf:about="rotchs-sign">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ruditapes -->
+
+
+    <owl:Class rdf:about="ruditapes"/>
+    
+
+
+    <!-- ruditapes-philippinarum -->
+
+
+    <owl:Class rdf:about="ruditapes-philippinarum">
+        <rdfs:subClassOf rdf:resource="pelecypoda"/>
+        <rdfs:subClassOf rdf:resource="ruditapes"/>
+    </owl:Class>
+    
+
+
+    <!-- sam-domain-and-hd-domain-1 -->
+
+
+    <owl:Class rdf:about="sam-domain-and-hd-domain-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- schapiros-sign -->
+
+
+    <owl:Class rdf:about="schapiros-sign">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- seesaw-murmur -->
+
+
+    <owl:Class rdf:about="seesaw-murmur">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- seizuresepilepsyabsencesspasmsstatus-epilepticus -->
+
+
+    <owl:Class rdf:about="seizuresepilepsyabsencesspasmsstatus-epilepticus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="frequentSignOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- serous-pneumopericardium -->
+
+
+    <owl:Class rdf:about="serous-pneumopericardium">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- sigmoid-septum -->
+
+
+    <owl:Class rdf:about="sigmoid-septum">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- sinoatrial-dysfunction -->
+
+
+    <owl:Class rdf:about="sinoatrial-dysfunction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- sinus-pericranii -->
+
+
+    <owl:Class rdf:about="sinus-pericranii">
+        <rdfs:subClassOf rdf:resource="abnormality--disease-"/>
+        <rdfs:subClassOf rdf:resource="cerebrovascular-disorder"/>
+        <rdfs:subClassOf rdf:resource="sinus-pericranii"/>
+    </owl:Class>
+    
+
+
+    <!-- splitting-of-cardiac-sound -->
+
+
+    <owl:Class rdf:about="splitting-of-cardiac-sound">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- substance-with-antibacterial-drug-role -->
+
+
+    <owl:Class rdf:about="substance-with-antibacterial-drug-role"/>
+    
+
+
+    <!-- substance-with-anxiolytic-drug-role -->
+
+
+    <owl:Class rdf:about="substance-with-anxiolytic-drug-role"/>
+    
+
+
+    <!-- substance-with-bacterial-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-bacterial-metabolite-role"/>
+    
+
+
+    <!-- substance-with-ec-3526&#45;&#45;beta-lactamase&#45;&#45;inhibitor-role -->
+
+
+    <owl:Class rdf:about="substance-with-ec-3526--beta-lactamase--inhibitor-role"/>
+    
+
+
+    <!-- substance-with-plant-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-plant-metabolite-role"/>
+    
+
+
+    <!-- suckingswallowing-disorder-associated-with-basal-ganglia-anomalies -->
+
+
+    <owl:Class rdf:about="suckingswallowing-disorder-associated-with-basal-ganglia-anomalies"/>
+    
+
+
+    <!-- suspended-heart-syndrome -->
+
+
+    <owl:Class rdf:about="suspended-heart-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- syncope-aggravated -->
+
+
+    <owl:Class rdf:about="syncope-aggravated">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- syndrome -->
+
+
+    <owl:Class rdf:about="syndrome"/>
+    
+
+
+    <!-- tarp-syndrome -->
+
+
+    <owl:Class rdf:about="tarp-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- therapeutic-glucocorticoid -->
+
+
+    <owl:Class rdf:about="therapeutic-glucocorticoid"/>
+    
+
+
+    <!-- thomas-syndrome -->
+
+
+    <owl:Class rdf:about="thomas-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- thoracic-disease -->
+
+
+    <owl:Class rdf:about="thoracic-disease"/>
+    
+
+
+    <!-- three-prime-repair-exonuclease-1 -->
+
+
+    <owl:Class rdf:about="three-prime-repair-exonuclease-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="geneOf"/>
+                <owl:someValuesFrom rdf:resource="aicardi-goutieres-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- thyrotoxic-heart-disease -->
+
+
+    <owl:Class rdf:about="thyrotoxic-heart-disease">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ticarcillin-clavulanic-acid -->
+
+
+    <owl:Class rdf:about="ticarcillin-clavulanic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_part"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- toxocariasis -->
+
+
+    <owl:Class rdf:about="toxocariasis">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- triamcinolone -->
+
+
+    <owl:Class rdf:about="triamcinolone"/>
+    
+
+
+    <!-- triamcinolone-diacetate -->
+
+
+    <owl:Class rdf:about="triamcinolone-diacetate">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="therapeutic-glucocorticoid"/>
+        <rdfs:subClassOf rdf:resource="triamcinolone"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antiallergic-agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antiphlogistic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antirheumatic-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tuberculosis-cardiovascular -->
+
+
+    <owl:Class rdf:about="tuberculosis-cardiovascular">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- valve-formation-obstruction -->
+
+
+    <owl:Class rdf:about="valve-formation-obstruction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- valve-ring-abscess -->
+
+
+    <owl:Class rdf:about="valve-ring-abscess">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- valve-ring-enlargement -->
+
+
+    <owl:Class rdf:about="valve-ring-enlargement">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- vein -->
+
+
+    <owl:Class rdf:about="vein"/>
+    
+
+
+    <!-- ventricular-dysfunction -->
+
+
+    <owl:Class rdf:about="ventricular-dysfunction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ventricular-dyssynchrony -->
+
+
+    <owl:Class rdf:about="ventricular-dyssynchrony">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ventricular-fistula -->
+
+
+    <owl:Class rdf:about="ventricular-fistula">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ventricular-outflow-obstruction -->
+
+
+    <owl:Class rdf:about="ventricular-outflow-obstruction">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- ventricular-septal-defect -->
+
+
+    <owl:Class rdf:about="ventricular-septal-defect">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="heart-disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="located-in"/>
+                        <owl:someValuesFrom rdf:resource="interventricular-septum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- white-forelock-with-malformations -->
+
+
+    <owl:Class rdf:about="white-forelock-with-malformations">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- williams-syndrome -->
+
+
+    <owl:Class rdf:about="williams-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- wolff-parkinson-white-syndrome -->
+
+
+    <owl:Class rdf:about="wolff-parkinson-white-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- 22q112-deletion-syndrome -->
+
+
+    <owl:Class rdf:about="22q112-deletion-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- 8q243-microdeletion-syndrome -->
+
+
+    <owl:Class rdf:about="8q243-microdeletion-syndrome">
+        <rdfs:subClassOf rdf:resource="heart-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="abietate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="abietic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="clavulanate"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="clavulanic-acid"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

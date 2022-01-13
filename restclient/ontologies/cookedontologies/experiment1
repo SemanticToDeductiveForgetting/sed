@@ -1,0 +1,1708 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment1#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/OBI_0000316 -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment1/OBI_0000316"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/has-pharmacological-action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment1/has-pharmacological-action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment1/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment1/has-role"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/J10 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/J10"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/J3 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/J3"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/abnormality&#45;&#45;disease- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/abnormality--disease-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/acetylglycyrrhetinic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/acetylglycyrrhetinic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/acids-carbocyclic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/acids-carbocyclic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/alpha-carboxypenicillin-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/alpha-carboxypenicillin-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/aminoalcohol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/aminoalcohol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/anti-inflammatory-agents -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/anti-inflammatory-agents"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/antipruritic-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/antipruritic-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/apioglycyrrhizin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/apioglycyrrhizin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/araboglycyrrhizin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/araboglycyrrhizin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/ascorbic-acid-2&#45;&#45;11-oxoolean-12-en-29-oic-acid-ethyl-ester-3-yl-phosphate- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/ascorbic-acid-2--11-oxoolean-12-en-29-oic-acid-ethyl-ester-3-yl-phosphate-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/astringents -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/astringents"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/benzocaine-chlorhexidine-enoxolone-drug-combination -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/benzocaine-chlorhexidine-enoxolone-drug-combination"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/blount-barber-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/blount-barber-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/bone-and-joint-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/bone-and-joint-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/bunion-tailors -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/bunion-tailors"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/carbenicillin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/carfecillin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/carfecillin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/club-foot -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/club-foot"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/congenital-coxa-vara -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/congenital-coxa-vara"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/congenital-entropion -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/congenital-entropion"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/congenital-hallux-varus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/congenital-hallux-varus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/coxa-vara -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-adolescentium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-adolescentium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-congenita -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-congenita"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-luxans -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-luxans"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/curved-hand -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/curved-hand"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/deoxoglycyrrhetol-dihemiphthalate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/deoxoglycyrrhetol-dihemiphthalate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/dibutyl-phthalate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/dibutyl-phthalate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/diethylhexyl-phthalate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/diethylhexyl-phthalate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/digitus-varus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/digitus-varus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/drug-for-peptic-ulcer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/drug-for-peptic-ulcer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/elbow-inversion -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/elbow-inversion"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/enoxolone-hyaluronic-acid-levomenol-telmesteine-vitis-vinifera-drug-combination -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/enoxolone-hyaluronic-acid-levomenol-telmesteine-vitis-vinifera-drug-combination"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/entropion -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/extended-spectrum-penicillin-antibiotic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/extended-spectrum-penicillin-antibiotic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/fatty-acid-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/fatty-acid-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/genu-varum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/genu-varum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycols -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycols"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetic-acid-mono-glucuronide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetic-acid-mono-glucuronide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid-3-o-hemiphthalate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid-3-o-hemiphthalate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinyl-glycine-conjugate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinyl-glycine-conjugate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetyl-3-monoglucuronide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetyl-3-monoglucuronide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetyl-30-monoglucuronide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetyl-30-monoglucuronide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glycyrrhizin-sulfate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhizin-sulfate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/glyderinine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glyderinine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/granulocyte-macrophage-progenitor-cells -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/granulocyte-macrophage-progenitor-cells"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/hallux-varus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/hallux-varus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/hallux-varus&#45;&#45;acquired- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/hallux-varus--acquired-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/hema -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/hema"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/httpwww -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/httpwww"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/inversional-sprained-ankle -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/inversional-sprained-ankle"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/lauroylglycyrrhetinic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/lauroylglycyrrhetinic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/licorice-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/licorice-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/licorice-extract&#45;&#45;-magnesium-aluminometasilicate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/licorice-extract---magnesium-aluminometasilicate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/lipid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/lipid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/lpd-gingival-message-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/lpd-gingival-message-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/mas063dp -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/mas063dp"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/megakaryocyte-erythroid-progenitor-cells -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/megakaryocyte-erythroid-progenitor-cells"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/methyl-18-hydroxyglycyrrhetate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/methyl-18-hydroxyglycyrrhetate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-311-dioxo-18beta-olean-112-dien-30-oate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-311-dioxo-18beta-olean-112-dien-30-oate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-311-dioxooleana-112-dien-30-oate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-311-dioxooleana-112-dien-30-oate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-312-dioxooleana-1-12-dien-30-oate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-312-dioxooleana-1-12-dien-30-oate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/myeloid-progenitor-cells -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/myeloid-progenitor-cells"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/n&#45;&#45;2&#45;&#45;3&#45;&#45;35-bis-trifluoromethyl-phenyl-ureido-ethyl-glycyrrhetinamide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/n--2--3--35-bis-trifluoromethyl-phenyl-ureido-ethyl-glycyrrhetinamide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/non-steroidal-anti-inflammatory-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/non-steroidal-anti-inflammatory-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/numbness -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/numbness"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/o-phthalaldehyde -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/o-phthalaldehyde"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/olean-1113-18&#45;&#45;diene-330-diol-dihemiphthalate-disodium-salt -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/olean-1113-18--diene-330-diol-dihemiphthalate-disodium-salt"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/olean-9-11-12-diene-330-diol-3-o-hemisuccinate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/olean-9-11-12-diene-330-diol-3-o-hemisuccinate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/penicillin-g -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/penicillin-g"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/phthalic-anhydrides -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-anhydrides"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/phthalimides -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalimides"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/pigeon-toe -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/pigeon-toe"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/plant-preparation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/plant-preparation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/rachitic-coxa-vara -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/rachitic-coxa-vara"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/siegerts-sign -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/siegerts-sign"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/sphingosine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/stearyl-glycyrrhetinate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/stearyl-glycyrrhetinate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/stronger-neominophagen-c -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/stronger-neominophagen-c"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/tongue-disease -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/tongue-disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/uralenolide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/uralenolide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/18alpha-glycyrrhetinic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/18alpha-glycyrrhetinic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/18beta-glycyrrhetinic-acid-3-o-beta-d-glucuronide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/18beta-glycyrrhetinic-acid-3-o-beta-d-glucuronide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/18-dehydroglycyrrhetic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/18-dehydroglycyrrhetic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/18-olean-9-11-12-diene-330-diol-dihemiphthalate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/18-olean-9-11-12-diene-330-diol-dihemiphthalate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/23455a677a7b899a1011121313a1515a15b-eicosahydro-557a7b9a1215b-heptamethyl-315-dioxo-n-hydroxy-n-methyl-1h-chryseno-21-c-azepine-12-carboxylic-acid-amide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/23455a677a7b899a1011121313a1515a15b-eicosahydro-557a7b9a1215b-heptamethyl-315-dioxo-n-hydroxy-n-methyl-1h-chryseno-21-c-azepine-12-carboxylic-acid-amide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/27-hydroxyglycyrrhentic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/27-hydroxyglycyrrhentic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/3-alpha-hydroxyglycyrrhetic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/3-alpha-hydroxyglycyrrhetic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment1/67-dihydroxyglycyrrhentic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment1/67-dihydroxyglycyrrhentic-acid"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/J10"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/J3"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/hema"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-312-dioxooleana-1-12-dien-30-oate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/alpha-carboxypenicillin-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/blount-barber-disease"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/penicillin-g"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/18beta-glycyrrhetinic-acid-3-o-beta-d-glucuronide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetic-acid-mono-glucuronide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/pigeon-toe"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/olean-9-11-12-diene-330-diol-3-o-hemisuccinate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/diethylhexyl-phthalate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetyl-30-monoglucuronide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/myeloid-progenitor-cells"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/myeloid-progenitor-cells"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetyl-3-monoglucuronide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/23455a677a7b899a1011121313a1515a15b-eicosahydro-557a7b9a1215b-heptamethyl-315-dioxo-n-hydroxy-n-methyl-1h-chryseno-21-c-azepine-12-carboxylic-acid-amide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/inversional-sprained-ankle"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/uralenolide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/hallux-varus--acquired-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-311-dioxooleana-112-dien-30-oate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/hallux-varus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/67-dihydroxyglycyrrhentic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid-3-o-hemiphthalate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/congenital-hallux-varus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/n--2--3--35-bis-trifluoromethyl-phenyl-ureido-ethyl-glycyrrhetinamide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/drug-for-peptic-ulcer"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-adolescentium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycols"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/phthalimides"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/acetylglycyrrhetinic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/antipruritic-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/18-olean-9-11-12-diene-330-diol-dihemiphthalate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/stearyl-glycyrrhetinate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/myeloid-progenitor-cells"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/granulocyte-macrophage-progenitor-cells"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/stronger-neominophagen-c"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/ascorbic-acid-2--11-oxoolean-12-en-29-oic-acid-ethyl-ester-3-yl-phosphate-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/curved-hand"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glyderinine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/rachitic-coxa-vara"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-congenita"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/lauroylglycyrrhetinic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/apioglycyrrhizin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/congenital-coxa-vara"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/dibutyl-phthalate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/siegerts-sign"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/plant-preparation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/18-dehydroglycyrrhetic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/club-foot"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/benzocaine-chlorhexidine-enoxolone-drug-combination"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/bone-and-joint-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/lipid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/digitus-varus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/olean-1113-18--diene-330-diol-dihemiphthalate-disodium-salt"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/acids-carbocyclic"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/tongue-disease"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/abnormality--disease-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/httpwww"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/myeloid-progenitor-cells"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/megakaryocyte-erythroid-progenitor-cells"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-pharmacological-action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/anti-inflammatory-agents"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinyl-glycine-conjugate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/non-steroidal-anti-inflammatory-agent"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/18alpha-glycyrrhetinic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/astringents"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhizin-sulfate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/J10"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/elbow-inversion"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/bunion-tailors"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/genu-varum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carfecillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/OBI_0000316"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/httpwww"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/araboglycyrrhizin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/extended-spectrum-penicillin-antibiotic"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/carbenicillin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/o-phthalaldehyde"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/congenital-entropion"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/licorice-extract---magnesium-aluminometasilicate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/27-hydroxyglycyrrhentic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/deoxoglycyrrhetol-dihemiphthalate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/J3"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/enoxolone-hyaluronic-acid-levomenol-telmesteine-vitis-vinifera-drug-combination"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/3-alpha-hydroxyglycyrrhetic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/licorice-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/lpd-gingival-message-agent"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/fatty-acid-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/methyl-2-cyano-311-dioxo-18beta-olean-112-dien-30-oate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/methyl-18-hydroxyglycyrrhetate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/phthalic-acids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/phthalic-anhydrides"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/aminoalcohol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/sphingosine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/numbness"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/tingling-tongue"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/glycyrrhetinic-acid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/mas063dp"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment1/entropion"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment1/coxa-vara-luxans"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

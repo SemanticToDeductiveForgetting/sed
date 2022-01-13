@@ -1,0 +1,2538 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment16/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment16/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment16/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- contributes-to-condition -->
+
+
+    <owl:ObjectProperty rdf:about="contributes-to-condition"/>
+    
+
+
+    <!-- disease_has_associated_anatomic_site -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_associated_anatomic_site"/>
+    
+
+
+    <!-- disease_has_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_associated_disease"/>
+    
+
+
+    <!-- disease_has_finding -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_finding"/>
+    
+
+
+    <!-- disease_has_normal_tissue_origin -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_normal_tissue_origin"/>
+    
+
+
+    <!-- disease_has_primary_anatomic_site -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_primary_anatomic_site"/>
+    
+
+
+    <!-- disease_may_have_associated_disease -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_associated_disease"/>
+    
+
+
+    <!-- disease_may_have_finding -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_finding"/>
+    
+
+
+    <!-- gene_associated_with_disease -->
+
+
+    <owl:ObjectProperty rdf:about="gene_associated_with_disease"/>
+    
+
+
+    <!-- has-associated-disease-with-at-least-some-evidence-from-diseases -->
+
+
+    <owl:ObjectProperty rdf:about="has-associated-disease-with-at-least-some-evidence-from-diseases"/>
+    
+
+
+    <!-- has-associated-disease-with-at-least-weak-evidence-from-diseases -->
+
+
+    <owl:ObjectProperty rdf:about="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+    
+
+
+    <!-- has-associated-disease-with-strong-evidence-from-diseases -->
+
+
+    <owl:ObjectProperty rdf:about="has-associated-disease-with-strong-evidence-from-diseases"/>
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-pharmacological-action -->
+
+
+    <owl:ObjectProperty rdf:about="has-pharmacological-action"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- transmitted-by -->
+
+
+    <owl:ObjectProperty rdf:about="transmitted-by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- acquired-immunodeficiency-syndrome -->
+
+
+    <owl:Class rdf:about="acquired-immunodeficiency-syndrome">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+        <rdfs:subClassOf rdf:resource="hiv-infection"/>
+        <rdfs:subClassOf rdf:resource="hiv-infections"/>
+        <rdfs:subClassOf rdf:resource="human-immunodeficiency-virus-infectious-disease"/>
+        <rdfs:subClassOf rdf:resource="infectious-disorder-of-immune-system"/>
+        <rdfs:subClassOf rdf:resource="secondary-immune-deficiency-disorder"/>
+        <rdfs:subClassOf rdf:resource="slow-virus-diseases"/>
+        <rdfs:subClassOf rdf:resource="t-cell-immunodeficiency"/>
+        <rdfs:subClassOf rdf:resource="t-lymphocyte-immunodeficiency"/>
+        <rdfs:subClassOf rdf:resource="viral-infection-by-site"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transmitted-by"/>
+                <owl:someValuesFrom rdf:resource="congenital-transmission"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transmitted-by"/>
+                <owl:someValuesFrom rdf:resource="contact-transmission"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transmitted-by"/>
+                <owl:someValuesFrom rdf:resource="vehicle-borne-fomite-transmission"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transmitted-by"/>
+                <owl:someValuesFrom rdf:resource="vehicle-borne-ingestion-transmission"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- acquired-immunodeficiency-syndrome&#45;&#45;aids- -->
+
+
+    <owl:Class rdf:about="acquired-immunodeficiency-syndrome--aids-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- advanced-lower-rectal-cancer -->
+
+
+    <owl:Class rdf:about="advanced-lower-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- advanced-rectal-cancer -->
+
+
+    <owl:Class rdf:about="advanced-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-arteritis-central-nervous-system -->
+
+
+    <owl:Class rdf:about="aids-arteritis-central-nervous-system">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-associated-hemorrhagic-sarcoma -->
+
+
+    <owl:Class rdf:about="aids-associated-hemorrhagic-sarcoma">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-associated-nephropathy -->
+
+
+    <owl:Class rdf:about="aids-associated-nephropathy">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-enteropathy -->
+
+
+    <owl:Class rdf:about="aids-enteropathy">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-related-anal-cancer-recurrent -->
+
+
+    <owl:Class rdf:about="aids-related-anal-cancer-recurrent">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-related-complex -->
+
+
+    <owl:Class rdf:about="aids-related-complex">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-related-opportunistic-infections -->
+
+
+    <owl:Class rdf:about="aids-related-opportunistic-infections">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-retinopathy -->
+
+
+    <owl:Class rdf:about="aids-retinopathy">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- aids-serodiagnosis -->
+
+
+    <owl:Class rdf:about="aids-serodiagnosis">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- amino-acid-amide -->
+
+
+    <owl:Class rdf:about="amino-acid-amide"/>
+    
+
+
+    <!-- anal-canal-cancer-recurrent -->
+
+
+    <owl:Class rdf:about="anal-canal-cancer-recurrent">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- anal-cancer-metastatic -->
+
+
+    <owl:Class rdf:about="anal-cancer-metastatic">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- anal-carcinoma-in-situ -->
+
+
+    <owl:Class rdf:about="anal-carcinoma-in-situ">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- anal-margin-carcinoma -->
+
+
+    <owl:Class rdf:about="anal-margin-carcinoma">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- anal-neoplasm -->
+
+
+    <owl:Class rdf:about="anal-neoplasm">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- anemia -->
+
+
+    <owl:Class rdf:about="anemia"/>
+    
+
+
+    <!-- anesthetic-agent -->
+
+
+    <owl:Class rdf:about="anesthetic-agent"/>
+    
+
+
+    <!-- anesthetics-local -->
+
+
+    <owl:Class rdf:about="anesthetics-local"/>
+    
+
+
+    <!-- anogenital-dysplasia&#45;&#45;aids-related- -->
+
+
+    <owl:Class rdf:about="anogenital-dysplasia--aids-related-">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- anus-neoplasms -->
+
+
+    <owl:Class rdf:about="anus-neoplasms">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- apelin-receptor -->
+
+
+    <owl:Class rdf:about="apelin-receptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- basaloid-carcinoma-of-the-anus -->
+
+
+    <owl:Class rdf:about="basaloid-carcinoma-of-the-anus">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- basaloid-carcinoma-of-the-anus-recurrent -->
+
+
+    <owl:Class rdf:about="basaloid-carcinoma-of-the-anus-recurrent">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- benign-colorectal-neoplasm -->
+
+
+    <owl:Class rdf:about="benign-colorectal-neoplasm"/>
+    
+
+
+    <!-- benign-neoplasm-of-rectum -->
+
+
+    <owl:Class rdf:about="benign-neoplasm-of-rectum">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- benign-rectal-neoplasm -->
+
+
+    <owl:Class rdf:about="benign-rectal-neoplasm">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="benign-colorectal-neoplasm"/>
+                    <rdf:Description rdf:about="rectal-neoplasm"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_primary_anatomic_site"/>
+                        <owl:someValuesFrom rdf:resource="rectum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- benzodiazepines -->
+
+
+    <owl:Class rdf:about="benzodiazepines"/>
+    
+
+
+    <!-- brain-laceration -->
+
+
+    <owl:Class rdf:about="brain-laceration">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="cerebral-damage"/>
+        <rdfs:subClassOf rdf:resource="lacerated-wound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="brain-lacerations"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- brain-lacerations -->
+
+
+    <owl:Class rdf:about="brain-lacerations"/>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-2 -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-some-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-3 -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- c-c-chemokine-receptor-type-5 -->
+
+
+    <owl:Class rdf:about="c-c-chemokine-receptor-type-5">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-strong-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- c-x-c-chemokine-receptor-type-6 -->
+
+
+    <owl:Class rdf:about="c-x-c-chemokine-receptor-type-6">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cancer-of-the-anal-fistula -->
+
+
+    <owl:Class rdf:about="cancer-of-the-anal-fistula">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinoma-in-situ-of-anus -->
+
+
+    <owl:Class rdf:about="carcinoma-in-situ-of-anus">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinoma-in-situ-of-rectum -->
+
+
+    <owl:Class rdf:about="carcinoma-in-situ-of-rectum">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- carcinoma-of-rectum-and-anal-canal -->
+
+
+    <owl:Class rdf:about="carcinoma-of-rectum-and-anal-canal">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- castleman-disease -->
+
+
+    <owl:Class rdf:about="castleman-disease"/>
+    
+
+
+    <!-- cd209-gene -->
+
+
+    <owl:Class rdf:about="cd209-gene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_associated_with_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cerebral-damage -->
+
+
+    <owl:Class rdf:about="cerebral-damage"/>
+    
+
+
+    <!-- cloacogenic-carcinoma -->
+
+
+    <owl:Class rdf:about="cloacogenic-carcinoma">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-adenoma -->
+
+
+    <owl:Class rdf:about="colorectal-adenoma"/>
+    
+
+
+    <!-- colorectal-cancer -->
+
+
+    <owl:Class rdf:about="colorectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-cancer-dukes-a -->
+
+
+    <owl:Class rdf:about="colorectal-cancer-dukes-a">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-cancer-dukes-b1 -->
+
+
+    <owl:Class rdf:about="colorectal-cancer-dukes-b1">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-cancer-dukes-b2 -->
+
+
+    <owl:Class rdf:about="colorectal-cancer-dukes-b2">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-cancer-dukes-c -->
+
+
+    <owl:Class rdf:about="colorectal-cancer-dukes-c">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-cancer-dukes-d -->
+
+
+    <owl:Class rdf:about="colorectal-cancer-dukes-d">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- colorectal-neoplasm -->
+
+
+    <owl:Class rdf:about="colorectal-neoplasm"/>
+    
+
+
+    <!-- colorectal-neuroendocrine-neoplasm -->
+
+
+    <owl:Class rdf:about="colorectal-neuroendocrine-neoplasm"/>
+    
+
+
+    <!-- congenital-transmission -->
+
+
+    <owl:Class rdf:about="congenital-transmission"/>
+    
+
+
+    <!-- contact-transmission -->
+
+
+    <owl:Class rdf:about="contact-transmission"/>
+    
+
+
+    <!-- cx3cr1-gene -->
+
+
+    <owl:Class rdf:about="cx3cr1-gene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_associated_with_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cxcl12-gene -->
+
+
+    <owl:Class rdf:about="cxcl12-gene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_associated_with_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cxcr4-gene -->
+
+
+    <owl:Class rdf:about="cxcr4-gene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_associated_with_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cyclin-dependent-kinase-9 -->
+
+
+    <owl:Class rdf:about="cyclin-dependent-kinase-9">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- diffuse-infiltrative-lymphocytosis-syndrome -->
+
+
+    <owl:Class rdf:about="diffuse-infiltrative-lymphocytosis-syndrome">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease_has_associated_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- early-rectal-cancer -->
+
+
+    <owl:Class rdf:about="early-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- emla -->
+
+
+    <owl:Class rdf:about="emla">
+        <rdfs:subClassOf rdf:resource="prilocaine"/>
+    </owl:Class>
+    
+
+
+    <!-- endocrine-cell-carcinoma-of-rectum -->
+
+
+    <owl:Class rdf:about="endocrine-cell-carcinoma-of-rectum">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- enterocolitis-aids -->
+
+
+    <owl:Class rdf:about="enterocolitis-aids">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- ephrin-type-a-receptor-5 -->
+
+
+    <owl:Class rdf:about="ephrin-type-a-receptor-5">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- epinephrine&#45;&#45;prilocaine-cartridge -->
+
+
+    <owl:Class rdf:about="epinephrine--prilocaine-cartridge">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- epinephrine&#45;&#45;prilocaine-injectable-solution -->
+
+
+    <owl:Class rdf:about="epinephrine--prilocaine-injectable-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- epithelial-neoplasm-of-rectum -->
+
+
+    <owl:Class rdf:about="epithelial-neoplasm-of-rectum">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- eruption -->
+
+
+    <owl:Class rdf:about="eruption">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="eruptions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- eruptions -->
+
+
+    <owl:Class rdf:about="eruptions"/>
+    
+
+
+    <!-- exophytic-polypoid-lesion -->
+
+
+    <owl:Class rdf:about="exophytic-polypoid-lesion"/>
+    
+
+
+    <!-- felypressin&#45;&#45;prilocaine-injectable-solution -->
+
+
+    <owl:Class rdf:about="felypressin--prilocaine-injectable-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fever -->
+
+
+    <owl:Class rdf:about="fever"/>
+    
+
+
+    <!-- flap&#45;&#45;skin- -->
+
+
+    <owl:Class rdf:about="flap--skin-"/>
+    
+
+
+    <!-- flumezapine -->
+
+
+    <owl:Class rdf:about="flumezapine">
+        <rdfs:subClassOf rdf:resource="benzodiazepines"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- fracture&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="fracture--disease-"/>
+    
+
+
+    <!-- g-protein-coupled-receptor-15 -->
+
+
+    <owl:Class rdf:about="g-protein-coupled-receptor-15">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- germinal-centers-with-prominent-hyalinized-vessels-present -->
+
+
+    <owl:Class rdf:about="germinal-centers-with-prominent-hyalinized-vessels-present"/>
+    
+
+
+    <!-- hepatomegaly -->
+
+
+    <owl:Class rdf:about="hepatomegaly"/>
+    
+
+
+    <!-- hiv-aids -->
+
+
+    <owl:Class rdf:about="hiv-aids">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- hiv-encephalopathy -->
+
+
+    <owl:Class rdf:about="hiv-encephalopathy">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- hiv-infection -->
+
+
+    <owl:Class rdf:about="hiv-infection"/>
+    
+
+
+    <!-- hiv-infections -->
+
+
+    <owl:Class rdf:about="hiv-infections"/>
+    
+
+
+    <!-- hiv-lipodystrophy -->
+
+
+    <owl:Class rdf:about="hiv-lipodystrophy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="lipodystrophy"/>
+                    <rdf:Description rdf:about="lipomatosis"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_associated_disease"/>
+                        <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- human-immunodeficiency-virus-infectious-disease -->
+
+
+    <owl:Class rdf:about="human-immunodeficiency-virus-infectious-disease"/>
+    
+
+
+    <!-- human-papillomavirus-related-malignant-neoplasm -->
+
+
+    <owl:Class rdf:about="human-papillomavirus-related-malignant-neoplasm"/>
+    
+
+
+    <!-- human-papillomavirus-related-malignant-neoplasm-in-aids-patient -->
+
+
+    <owl:Class rdf:about="human-papillomavirus-related-malignant-neoplasm-in-aids-patient">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="human-papillomavirus-related-malignant-neoplasm"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_associated_disease"/>
+                        <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- hypergammaglobulinemia -->
+
+
+    <owl:Class rdf:about="hypergammaglobulinemia"/>
+    
+
+
+    <!-- il10-gene -->
+
+
+    <owl:Class rdf:about="il10-gene">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_associated_with_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- infection-in-patient-with-aids -->
+
+
+    <owl:Class rdf:about="infection-in-patient-with-aids">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- infectious-disorder-of-immune-system -->
+
+
+    <owl:Class rdf:about="infectious-disorder-of-immune-system"/>
+    
+
+
+    <!-- intestinal-benign-neoplasm -->
+
+
+    <owl:Class rdf:about="intestinal-benign-neoplasm"/>
+    
+
+
+    <!-- kaposi-sarcoma -->
+
+
+    <owl:Class rdf:about="kaposi-sarcoma"/>
+    
+
+
+    <!-- kaposis-sarcoma-aids-related -->
+
+
+    <owl:Class rdf:about="kaposis-sarcoma-aids-related">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- lacerated-wound -->
+
+
+    <owl:Class rdf:about="lacerated-wound"/>
+    
+
+
+    <!-- large-intestinal-wall-tissue -->
+
+
+    <owl:Class rdf:about="large-intestinal-wall-tissue"/>
+    
+
+
+    <!-- leptophos -->
+
+
+    <owl:Class rdf:about="leptophos">
+        <rdfs:subClassOf rdf:resource="leptophos"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf rdf:resource="organothiophosphonates"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="organophosphorus-insecticide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lidocaine&#45;&#45;prilocaine-medicated-patch -->
+
+
+    <owl:Class rdf:about="lidocaine--prilocaine-medicated-patch">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lidocaine&#45;&#45;prilocaine-mucous-membrane-topical-solution -->
+
+
+    <owl:Class rdf:about="lidocaine--prilocaine-mucous-membrane-topical-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lidocaine&#45;&#45;prilocaine-topical-cream -->
+
+
+    <owl:Class rdf:about="lidocaine--prilocaine-topical-cream">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lidocaine&#45;&#45;prilocaine-transdermal-patch -->
+
+
+    <owl:Class rdf:about="lidocaine--prilocaine-transdermal-patch">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lipodystrophy -->
+
+
+    <owl:Class rdf:about="lipodystrophy"/>
+    
+
+
+    <!-- lipomatosis -->
+
+
+    <owl:Class rdf:about="lipomatosis"/>
+    
+
+
+    <!-- locally-advanced-lower-rectal-cancer -->
+
+
+    <owl:Class rdf:about="locally-advanced-lower-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- locally-advanced-rectal-cancer -->
+
+
+    <owl:Class rdf:about="locally-advanced-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- lower-rectal-cancer -->
+
+
+    <owl:Class rdf:about="lower-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- lymphadenopathy -->
+
+
+    <owl:Class rdf:about="lymphadenopathy"/>
+    
+
+
+    <!-- lymphocytic-interstitial-pneumonia -->
+
+
+    <owl:Class rdf:about="lymphocytic-interstitial-pneumonia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lymphoid-polyp -->
+
+
+    <owl:Class rdf:about="lymphoid-polyp">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- malignant-colorectal-neoplasm -->
+
+
+    <owl:Class rdf:about="malignant-colorectal-neoplasm"/>
+    
+
+
+    <!-- malignant-melanoma-of-the-anus -->
+
+
+    <owl:Class rdf:about="malignant-melanoma-of-the-anus">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- malignant-neoplasm-of-anal-canal -->
+
+
+    <owl:Class rdf:about="malignant-neoplasm-of-anal-canal">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- malignant-neoplasm-of-rectum-recurrent -->
+
+
+    <owl:Class rdf:about="malignant-neoplasm-of-rectum-recurrent">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- malignant-rectal-neoplasm -->
+
+
+    <owl:Class rdf:about="malignant-rectal-neoplasm">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="malignant-colorectal-neoplasm"/>
+                    <rdf:Description rdf:about="rectal-neoplasm"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- malt-lymphoma-of-the-rectum -->
+
+
+    <owl:Class rdf:about="malt-lymphoma-of-the-rectum">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- metabotropic-glutamate-receptor-5 -->
+
+
+    <owl:Class rdf:about="metabotropic-glutamate-receptor-5">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- metabotropic-glutamate-receptor-8 -->
+
+
+    <owl:Class rdf:about="metabotropic-glutamate-receptor-8">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- metastatic-rectal-cancer -->
+
+
+    <owl:Class rdf:about="metastatic-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- microtubule-associated-serinethreonine-protein-kinase-4 -->
+
+
+    <owl:Class rdf:about="microtubule-associated-serinethreonine-protein-kinase-4">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mitogen-activated-protein-kinase-1 -->
+
+
+    <owl:Class rdf:about="mitogen-activated-protein-kinase-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- monocarboxylic-acid-amide -->
+
+
+    <owl:Class rdf:about="monocarboxylic-acid-amide"/>
+    
+
+
+    <!-- multicentric-castleman-disease -->
+
+
+    <owl:Class rdf:about="multicentric-castleman-disease">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="castleman-disease"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="fever"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="hypergammaglobulinemia"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="lymphadenopathy"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="systemic-disease"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="acquired-immunodeficiency-syndrome"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                                                                                        <owl:someValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                    <rdf:Description rdf:about="anemia"/>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                                                                                                        <owl:someValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                    <rdf:Description rdf:about="peripheral-motor-neuropathy"/>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_associated_disease"/>
+                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                    <rdf:Description rdf:about="kaposi-sarcoma"/>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                            <owl:Class>
+                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                    <rdf:Description rdf:about="hepatomegaly"/>
+                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                                    <rdf:Description rdf:about="pleural-effusion"/>
+                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                                                    <rdf:Description rdf:about="thrombocytopenia"/>
+                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                    <rdf:Description rdf:about="progressive-clinical-course"/>
+                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                                                                                    <rdf:Description rdf:about="germinal-centers-with-prominent-hyalinized-vessels-present"/>
+                                                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                                                                                                        <owl:someValuesFrom rdf:resource="sheets-of-interfollicular-plasma-cells-present"/>
+                                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                            </owl:Class>
+                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:intersectionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:someValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:intersectionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:someValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- neuroaids -->
+
+
+    <owl:Class rdf:about="neuroaids">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- orexin-receptor-type-2 -->
+
+
+    <owl:Class rdf:about="orexin-receptor-type-2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- organophosphorus-insecticide -->
+
+
+    <owl:Class rdf:about="organophosphorus-insecticide"/>
+    
+
+
+    <!-- organothiophosphonates -->
+
+
+    <owl:Class rdf:about="organothiophosphonates"/>
+    
+
+
+    <!-- pedicle-flap -->
+
+
+    <owl:Class rdf:about="pedicle-flap">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="flap--skin-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- peripheral-motor-neuropathy -->
+
+
+    <owl:Class rdf:about="peripheral-motor-neuropathy"/>
+    
+
+
+    <!-- persistent-generalised-lymphadenopathy -->
+
+
+    <owl:Class rdf:about="persistent-generalised-lymphadenopathy">
+        <rdfs:subClassOf rdf:resource="acquired-immunodeficiency-syndrome"/>
+    </owl:Class>
+    
+
+
+    <!-- pleural-effusion -->
+
+
+    <owl:Class rdf:about="pleural-effusion"/>
+    
+
+
+    <!-- polyp-of-rectum -->
+
+
+    <owl:Class rdf:about="polyp-of-rectum">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- prilocaine -->
+
+
+    <owl:Class rdf:about="prilocaine">
+        <rdfs:subClassOf rdf:resource="amino-acid-amide"/>
+        <rdfs:subClassOf rdf:resource="anesthetic-agent"/>
+        <rdfs:subClassOf rdf:resource="monocarboxylic-acid-amide"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="prilocaine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="anesthetics-local"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prilocaine-Concept -->
+
+
+    <owl:Class rdf:about="prilocaine-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="prilocaine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prilocaine-cartridge -->
+
+
+    <owl:Class rdf:about="prilocaine-cartridge">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prilocaine-injectable-solution -->
+
+
+    <owl:Class rdf:about="prilocaine-injectable-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="prilocaine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- progressive-clinical-course -->
+
+
+    <owl:Class rdf:about="progressive-clinical-course"/>
+    
+
+
+    <!-- rectal-adenocarcinoma-dukes-a -->
+
+
+    <owl:Class rdf:about="rectal-adenocarcinoma-dukes-a">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-adenocarcinoma-dukes-b1 -->
+
+
+    <owl:Class rdf:about="rectal-adenocarcinoma-dukes-b1">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-adenocarcinoma-dukes-b2 -->
+
+
+    <owl:Class rdf:about="rectal-adenocarcinoma-dukes-b2">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-adenocarcinoma-dukes-c -->
+
+
+    <owl:Class rdf:about="rectal-adenocarcinoma-dukes-c">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-adenocarcinoma-dukes-d -->
+
+
+    <owl:Class rdf:about="rectal-adenocarcinoma-dukes-d">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-adenoma -->
+
+
+    <owl:Class rdf:about="rectal-adenoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="colorectal-adenoma"/>
+                    <rdf:Description rdf:about="rectal-neoplasm"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_finding"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="exophytic-polypoid-lesion"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_primary_anatomic_site"/>
+                                        <owl:someValuesFrom rdf:resource="rectum"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- rectal-anal-malignant-melanoma -->
+
+
+    <owl:Class rdf:about="rectal-anal-malignant-melanoma">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-benign-neoplasm -->
+
+
+    <owl:Class rdf:about="rectal-benign-neoplasm">
+        <rdfs:subClassOf rdf:resource="intestinal-benign-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-cancer-dukes-a -->
+
+
+    <owl:Class rdf:about="rectal-cancer-dukes-a">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-cancer-dukes-b1 -->
+
+
+    <owl:Class rdf:about="rectal-cancer-dukes-b1">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-cancer-dukes-b2 -->
+
+
+    <owl:Class rdf:about="rectal-cancer-dukes-b2">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-cancer-dukes-c -->
+
+
+    <owl:Class rdf:about="rectal-cancer-dukes-c">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-cancer-dukes-d -->
+
+
+    <owl:Class rdf:about="rectal-cancer-dukes-d">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-carcinoid -->
+
+
+    <owl:Class rdf:about="rectal-carcinoid">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-disease -->
+
+
+    <owl:Class rdf:about="rectal-disease"/>
+    
+
+
+    <!-- rectal-gist -->
+
+
+    <owl:Class rdf:about="rectal-gist">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-neoplasm -->
+
+
+    <owl:Class rdf:about="rectal-neoplasm">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="colorectal-neoplasm"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_associated_anatomic_site"/>
+                        <owl:someValuesFrom rdf:resource="rectum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="colorectal-neoplasm"/>
+        <rdfs:subClassOf rdf:resource="intestinal-benign-neoplasm"/>
+        <rdfs:subClassOf rdf:resource="rectal-disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="rectal-neoplasms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- rectal-neoplasms -->
+
+
+    <owl:Class rdf:about="rectal-neoplasms"/>
+    
+
+
+    <!-- rectal-neuroendocrine-neoplasm -->
+
+
+    <owl:Class rdf:about="rectal-neuroendocrine-neoplasm">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="colorectal-neuroendocrine-neoplasm"/>
+                    <rdf:Description rdf:about="rectal-neoplasm"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_normal_tissue_origin"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="large-intestinal-wall-tissue"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_primary_anatomic_site"/>
+                                        <owl:someValuesFrom rdf:resource="rectum"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- rectal-neuroendocrine-tumor -->
+
+
+    <owl:Class rdf:about="rectal-neuroendocrine-tumor">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-submucosal-tumor -->
+
+
+    <owl:Class rdf:about="rectal-submucosal-tumor">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-villous-adenoma -->
+
+
+    <owl:Class rdf:about="rectal-villous-adenoma">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectal-villous-tumor -->
+
+
+    <owl:Class rdf:about="rectal-villous-tumor">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectosigmoid-cancer -->
+
+
+    <owl:Class rdf:about="rectosigmoid-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectosigmoid-cancer-dukes-a -->
+
+
+    <owl:Class rdf:about="rectosigmoid-cancer-dukes-a">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectosigmoid-cancer-dukes-b1 -->
+
+
+    <owl:Class rdf:about="rectosigmoid-cancer-dukes-b1">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectosigmoid-cancer-dukes-b2 -->
+
+
+    <owl:Class rdf:about="rectosigmoid-cancer-dukes-b2">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectosigmoid-cancer-dukes-c -->
+
+
+    <owl:Class rdf:about="rectosigmoid-cancer-dukes-c">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectosigmoid-cancer-dukes-d -->
+
+
+    <owl:Class rdf:about="rectosigmoid-cancer-dukes-d">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- rectum -->
+
+
+    <owl:Class rdf:about="rectum"/>
+    
+
+
+    <!-- rectum-cancer -->
+
+
+    <owl:Class rdf:about="rectum-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- recurrent-cloacogenic-carcinoma -->
+
+
+    <owl:Class rdf:about="recurrent-cloacogenic-carcinoma">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- retinoic-acid-receptor-rxr-gamma -->
+
+
+    <owl:Class rdf:about="retinoic-acid-receptor-rxr-gamma">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ryanodine-receptor-3 -->
+
+
+    <owl:Class rdf:about="ryanodine-receptor-3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- secondary-immune-deficiency-disorder -->
+
+
+    <owl:Class rdf:about="secondary-immune-deficiency-disorder"/>
+    
+
+
+    <!-- sheets-of-interfollicular-plasma-cells-present -->
+
+
+    <owl:Class rdf:about="sheets-of-interfollicular-plasma-cells-present"/>
+    
+
+
+    <!-- slow-virus-diseases -->
+
+
+    <owl:Class rdf:about="slow-virus-diseases"/>
+    
+
+
+    <!-- sq-cell-ca-anus -->
+
+
+    <owl:Class rdf:about="sq-cell-ca-anus">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- supracondylar-fracture-of-femur -->
+
+
+    <owl:Class rdf:about="supracondylar-fracture-of-femur">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="fracture--disease-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- susceptibility-to-human-immunodeficiency-virus-type-1 -->
+
+
+    <owl:Class rdf:about="susceptibility-to-human-immunodeficiency-virus-type-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="contributes-to-condition"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- symptom -->
+
+
+    <owl:Class rdf:about="symptom"/>
+    
+
+
+    <!-- systemic-disease -->
+
+
+    <owl:Class rdf:about="systemic-disease"/>
+    
+
+
+    <!-- t-cell-immunodeficiency -->
+
+
+    <owl:Class rdf:about="t-cell-immunodeficiency"/>
+    
+
+
+    <!-- t-lymphocyte-immunodeficiency -->
+
+
+    <owl:Class rdf:about="t-lymphocyte-immunodeficiency"/>
+    
+
+
+    <!-- taste-receptor-type-2-member-1 -->
+
+
+    <owl:Class rdf:about="taste-receptor-type-2-member-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="rectal-neoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- thrombocytopenia -->
+
+
+    <owl:Class rdf:about="thrombocytopenia"/>
+    
+
+
+    <!-- transitional-cloacogenic-carcinoma -->
+
+
+    <owl:Class rdf:about="transitional-cloacogenic-carcinoma">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- tyrosine-protein-kinase-hck -->
+
+
+    <owl:Class rdf:about="tyrosine-protein-kinase-hck">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tyrosine-protein-kinase-lck -->
+
+
+    <owl:Class rdf:about="tyrosine-protein-kinase-lck">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-associated-disease-with-at-least-weak-evidence-from-diseases"/>
+                <owl:someValuesFrom rdf:resource="acquired-immunodeficiency-syndrome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ultralow-rectal-cancer -->
+
+
+    <owl:Class rdf:about="ultralow-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- upper-rectal-cancer -->
+
+
+    <owl:Class rdf:about="upper-rectal-cancer">
+        <rdfs:subClassOf rdf:resource="rectal-neoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- vehicle-borne-fomite-transmission -->
+
+
+    <owl:Class rdf:about="vehicle-borne-fomite-transmission"/>
+    
+
+
+    <!-- vehicle-borne-ingestion-transmission -->
+
+
+    <owl:Class rdf:about="vehicle-borne-ingestion-transmission"/>
+    
+
+
+    <!-- viral-infection-by-site -->
+
+
+    <owl:Class rdf:about="viral-infection-by-site"/>
+    
+
+
+    <!-- voltage-gated-sodium-channel-beta-3-subunit -->
+
+
+    <owl:Class rdf:about="voltage-gated-sodium-channel-beta-3-subunit">
+        <rdfs:subClassOf rdf:resource="voltage-gated-sodium-channel-beta-3-subunit"/>
+        <rdfs:subClassOf rdf:resource="voltage-gated-sodium-channel-beta-subunits"/>
+    </owl:Class>
+    
+
+
+    <!-- voltage-gated-sodium-channel-beta-subunits -->
+
+
+    <owl:Class rdf:about="voltage-gated-sodium-channel-beta-subunits"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

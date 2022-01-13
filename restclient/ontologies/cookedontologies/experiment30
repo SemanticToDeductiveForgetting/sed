@@ -1,0 +1,1955 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment30#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment30"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment30"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_affects_gene_product -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_affects_gene_product"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_mechanism_of_action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_mechanism_of_action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_physiologic_effect -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_physiologic_effect"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/gene_product_encoded_by_gene -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/gene_product_has_organism_source -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/gene_product_has_organism_source"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/has-role"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/is-participant-in -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/is-participant-in"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/luminal-space-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/luminal-space-of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/only-in-taxon -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/only-in-taxon"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/part-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment30/part-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/Mantle -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/Specialised-Organ -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/Specialised-Organ"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/abnormal-blood-chemistry-and-hematology-test-result -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/abnormal-blood-chemistry-and-hematology-test-result"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/abnormal-blood-sodium-concentration -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/abnormal-blood-sodium-concentration"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/abnormality-of-sodium-homeostasis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/abnormality-of-sodium-homeostasis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/admixtures-auxiliaries-and-industrial-chemicals -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/admixtures-auxiliaries-and-industrial-chemicals"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/alcohol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/alcohol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/alkane -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/alkane"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/alpha-2-macroglobulin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/alpha-2-macroglobulin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/alpha-macroglobulins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/alpha-macroglobulins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/anatomical-space -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/anatomical-space"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/angiogenic-process -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/angiogenic-process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/antifoaming-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/antifoaming-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/antiviral-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/antiviral-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/application -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/application"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/aromatic-chlorine-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/aromatic-chlorine-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/aromatic-fluorine-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/aromatic-fluorine-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/bacteria -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/bacteria"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/benzodiazepine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/benzodiazepine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/benzodiazepine-antianxiety-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/benzodiazepine-antianxiety-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/benzodiazepines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/benzodiazepines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/beta-globulin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/beta-globulin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/biological-preparation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/biological-preparation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/bladder-cancer-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/bladder-cancer-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/carbamazepine-induced-hyponatremia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/carbamazepine-induced-hyponatremia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydia-trachomatis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydia-trachomatis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydiae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydiales -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiales"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydophila -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydophila"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/chlamydophila-psittaci -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydophila-psittaci"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/dilutional-hyponatremia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/dilutional-hyponatremia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/dna-strand-break -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/dna-strand-break"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/dna-synthesis-inhibition -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/dna-synthesis-inhibition"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/drug-metabolism-by-non-cyp450-enzymes-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/drug-metabolism-by-non-cyp450-enzymes-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/electrolyte-balance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/electrolyte-balance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/enzyme-inhibition -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/enzyme-inhibition"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/enzymes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/enzymes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/flutazolam -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/food-antifoaming-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/food-antifoaming-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/fumigant -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/fumigant"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/gamma-globulin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/gamma-globulin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/glial-cell-proliferation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/glial-cell-proliferation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/globulin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/globulin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/glycosyltransferase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/glycosyltransferase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/histamine-h1-receptor-blocker -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/histamine-h1-receptor-blocker"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/histomembrane -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/histomembrane"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/httpsbmi -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/httpsbmi"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/human -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/human"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/hydrocarbon-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hydrocarbon-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/hyponatraemia-aggravated -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatraemia-aggravated"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/hyponatraemic-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatraemic-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/hyponatremia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/idoxuridine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/immunosuppressant -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/immunosuppressant"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/insecticide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/insecticide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/lactam -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/lactam"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/macroglobulin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/mantle-cavity -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/mantle-cavity"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/mantle-muscle -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/mantle-muscle"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/metabolic-disorders-general -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/metabolic-disorders-general"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/mollusca -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/mollusca"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/mozavaptan-hydrochloride -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/mozavaptan-hydrochloride"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/muscle-organ -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/muscle-organ"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/neonatal-hyponatraemia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/neonatal-hyponatraemia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/neurotropin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/neurotropin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/nucleoside-analogue-incorporation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/nucleoside-analogue-incorporation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/nucleotide-metabolic-process -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/nucleotide-metabolic-process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/organism-subdivision -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/organism-subdivision"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/oxcarbazepine-induced-hyponatremia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/oxcarbazepine-induced-hyponatremia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/oxygen-heterocyclic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/oxygen-heterocyclic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pentane -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pentanes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pentanes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pentosyltransferase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pentosyltransferase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/polynuclear-aromatic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/polynuclear-aromatic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/polysaccharides -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/polysaccharides"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pregnancy-associated-alpha-2-macroglobulins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pregnancy-associated-alpha-2-macroglobulins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-antagonist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-antagonist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-metabolism-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-metabolism-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-phosphorylases -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-phosphorylases"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/salt-deficiency -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/salt-deficiency"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/salt-losing-nephropathy -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/salt-losing-nephropathy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/salt-losing-uremia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/salt-losing-uremia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/siadh -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/siadh"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/sodium-disorders -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/sodium-disorders"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/terms-related-to-surface-chemistry-and-colloid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/terms-related-to-surface-chemistry-and-colloid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/thiazide-induced-hyponatremia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thiazide-induced-hyponatremia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/thorns-syndrome -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thorns-syndrome"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase-x7c-dbs -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase-x7c-dbs"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase-x7c-white-blood-cells -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase-x7c-white-blood-cells"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/transferase-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/transferase-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/tymp-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/tymp-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment30/water-electrolyte-imbalance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment30/water-electrolyte-imbalance"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/antifoaming-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/food-antifoaming-agent"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/immunosuppressant"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/neurotropin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/siadh"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/oxcarbazepine-induced-hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thorns-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/transferase-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/tymp-gene"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/oxygen-heterocyclic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/histamine-h1-receptor-blocker"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/neurotropin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/neonatal-hyponatraemia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/salt-losing-nephropathy"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/biological-preparation"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/neurotropin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mozavaptan-hydrochloride"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/is-participant-in"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/application"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/antifoaming-agent"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/metabolic-disorders-general"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydia-trachomatis"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/dna-strand-break"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_mechanism_of_action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/enzyme-inhibition"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/polysaccharides"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/neurotropin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/aromatic-chlorine-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/httpsbmi"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/aromatic-fluorine-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mantle-cavity"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/luminal-space-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydophila"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-metabolism-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/electrolyte-balance"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hydrocarbon-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_affects_gene_product"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/globulin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/beta-globulin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/alpha-2-macroglobulin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/sodium-disorders"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/anatomical-space"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mantle-cavity"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/enzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/benzodiazepine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/abnormal-blood-chemistry-and-hematology-test-result"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/drug-metabolism-by-non-cyp450-enzymes-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/lactam"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_mechanism_of_action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/nucleoside-analogue-incorporation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/antiviral-agent"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-antagonist"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_affects_gene_product"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_mechanism_of_action"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/enzyme-inhibition"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_mechanism_of_action"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/nucleoside-analogue-incorporation"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_physiologic_effect"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/dna-strand-break"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_physiologic_effect"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/dna-synthesis-inhibition"/>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/salt-losing-uremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mantle-muscle"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/part-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/histomembrane"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/alkane"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/alpha-macroglobulins"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/glycosyltransferase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/admixtures-auxiliaries-and-industrial-chemicals"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/antifoaming-agent"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/abnormal-blood-sodium-concentration"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/benzodiazepines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/benzodiazepine-antianxiety-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pregnancy-associated-alpha-2-macroglobulins"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/nucleotide-metabolic-process"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/alcohol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/muscle-organ"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mantle-muscle"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/bladder-cancer-pathway"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/insecticide"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/polynuclear-aromatic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/flutazolam"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/macroglobulin"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gamma-globulin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_has_organism_source"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/human"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/glial-cell-proliferation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/water-electrolyte-imbalance"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/abnormality-of-sodium-homeostasis"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/bacteria"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/organism-subdivision"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/fumigant"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/mantle-cavity"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/anatomical-space"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/luminal-space-of"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-phosphorylases"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-antagonist"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatraemia-aggravated"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mantle-cavity"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/part-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pentosyltransferase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydophila-psittaci"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase-x7c-white-blood-cells"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/pentanes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pentane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/terms-related-to-surface-chemistry-and-colloid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/antifoaming-agent"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/dna-synthesis-inhibition"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thiazide-induced-hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/salt-deficiency"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/dilutional-hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase-x7c-dbs"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/chlamydiae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/chlamydiaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/angiogenic-process"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/mollusca"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/thymidine-phosphorylase"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/glycosyltransferase"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_encoded_by_gene"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/tymp-gene"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_has_organism_source"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/human"/>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+                                                        <owl:allValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                    <owl:Class>
+                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/pyrimidine-metabolism-pathway"/>
+                                                                    </owl:Class>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+                                                                        <owl:allValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <owl:Class>
+                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/drug-metabolism-by-non-cyp450-enzymes-pathway"/>
+                                                                                    </owl:Class>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_is_element_in_pathway"/>
+                                                                                        <owl:allValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                    <owl:Class>
+                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/bladder-cancer-pathway"/>
+                                                                                                    </owl:Class>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+                                                                                                        <owl:allValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                    <owl:Class>
+                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/angiogenic-process"/>
+                                                                                                                    </owl:Class>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+                                                                                                                        <owl:allValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                                                    <owl:Class>
+                                                                                                                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/nucleotide-metabolic-process"/>
+                                                                                                                                    </owl:Class>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/gene_product_plays_role_in_biological_process"/>
+                                                                                                                                        <owl:allValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/glial-cell-proliferation"/>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:allValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:unionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:allValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:unionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:allValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:unionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:allValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:allValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:unionOf>
+                                                            </owl:Class>
+                                                        </owl:allValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/hyponatraemic-syndrome"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/Specialised-Organ"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/hyponatremia"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/carbamazepine-induced-hyponatremia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/antiviral-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/idoxuridine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment30/mantle-muscle"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/muscle-organ"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/part-of"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment30/Mantle"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

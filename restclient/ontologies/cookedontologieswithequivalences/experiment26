@@ -1,0 +1,4647 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment26/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment26/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment26/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- binds-molecular-entity -->
+
+
+    <owl:ObjectProperty rdf:about="binds-molecular-entity"/>
+    
+
+
+    <!-- exports -->
+
+
+    <owl:ObjectProperty rdf:about="exports"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-output"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-participant -->
+
+
+    <owl:ObjectProperty rdf:about="has-participant"/>
+    
+
+
+    <!-- has-phenotype -->
+
+
+    <owl:ObjectProperty rdf:about="has-phenotype"/>
+    
+
+
+    <!-- has-primary-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input"/>
+    
+
+
+    <!-- has-primary-input-or-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-input-or-output"/>
+    
+
+
+    <!-- has-primary-output -->
+
+
+    <owl:ObjectProperty rdf:about="has-primary-output"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- imports -->
+
+
+    <owl:ObjectProperty rdf:about="imports"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- inheres-in-part-of -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in-part-of"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- precedes -->
+
+
+    <owl:ObjectProperty rdf:about="precedes"/>
+    
+
+
+    <!-- regulates-levels-of -->
+
+
+    <owl:ObjectProperty rdf:about="regulates-levels-of"/>
+    
+
+
+    <!-- succeeds -->
+
+
+    <owl:ObjectProperty rdf:about="succeeds"/>
+    
+
+
+    <!-- transports-or-maintains-localization-of -->
+
+
+    <owl:ObjectProperty rdf:about="transports-or-maintains-localization-of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- abnormal-bone-structure -->
+
+
+    <owl:Class rdf:about="abnormal-bone-structure"/>
+    
+
+
+    <!-- aclacinomycin -->
+
+
+    <owl:Class rdf:about="aclacinomycin">
+        <rdfs:subClassOf rdf:resource="anthracycline-antibiotics"/>
+    </owl:Class>
+    
+
+
+    <!-- aclarubicin -->
+
+
+    <owl:Class rdf:about="aclarubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aclarubicin-hydrochlride -->
+
+
+    <owl:Class rdf:about="aclarubicin-hydrochlride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- adriamycin -->
+
+
+    <owl:Class rdf:about="adriamycin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- aflp -->
+
+
+    <owl:Class rdf:about="aflp">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- amrubicin -->
+
+
+    <owl:Class rdf:about="amrubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- andrology -->
+
+
+    <owl:Class rdf:about="andrology">
+        <rdfs:subClassOf rdf:resource="andrology"/>
+        <rdfs:subClassOf rdf:resource="medical-science"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="andrology-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- andrology-Concept -->
+
+
+    <owl:Class rdf:about="andrology-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- anthracycline -->
+
+
+    <owl:Class rdf:about="anthracycline">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- anthracycline-antibiotics -->
+
+
+    <owl:Class rdf:about="anthracycline-antibiotics">
+        <rdfs:subClassOf rdf:resource="antibiotics-antineoplastic"/>
+        <rdfs:subClassOf rdf:resource="topoisomerase-ii-inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- antibiotics-antineoplastic -->
+
+
+    <owl:Class rdf:about="antibiotics-antineoplastic"/>
+    
+
+
+    <!-- aortic-insufficiency -->
+
+
+    <owl:Class rdf:about="aortic-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- aortic-valve-insufficiency -->
+
+
+    <owl:Class rdf:about="aortic-valve-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- bimolecular-fluorescent-complementation-method -->
+
+
+    <owl:Class rdf:about="bimolecular-fluorescent-complementation-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- biosynthetic-process -->
+
+
+    <owl:Class rdf:about="biosynthetic-process"/>
+    
+
+
+    <!-- blood-plasma -->
+
+
+    <owl:Class rdf:about="blood-plasma"/>
+    
+
+
+    <!-- bone-disease -->
+
+
+    <owl:Class rdf:about="bone-disease"/>
+    
+
+
+    <!-- bone-resorption -->
+
+
+    <owl:Class rdf:about="bone-resorption">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="precedes"/>
+                <owl:someValuesFrom rdf:resource="osteolysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- catabolic-process -->
+
+
+    <owl:Class rdf:about="catabolic-process"/>
+    
+
+
+    <!-- cell-surface-display-techniques -->
+
+
+    <owl:Class rdf:about="cell-surface-display-techniques">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- cellular-reprogramming-techniques -->
+
+
+    <owl:Class rdf:about="cellular-reprogramming-techniques">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- chalcone -->
+
+
+    <owl:Class rdf:about="chalcone"/>
+    
+
+
+    <!-- chemical-entity -->
+
+
+    <owl:Class rdf:about="chemical-entity"/>
+    
+
+
+    <!-- chemistry-techniques-analytical -->
+
+
+    <owl:Class rdf:about="chemistry-techniques-analytical"/>
+    
+
+
+    <!-- chromosome-banding -->
+
+
+    <owl:Class rdf:about="chromosome-banding">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- chromosome-rearrangement-detection -->
+
+
+    <owl:Class rdf:about="chromosome-rearrangement-detection">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- chromosome-transfer -->
+
+
+    <owl:Class rdf:about="chromosome-transfer">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- chromosome-walking -->
+
+
+    <owl:Class rdf:about="chromosome-walking">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- chronic-hepatitis -->
+
+
+    <owl:Class rdf:about="chronic-hepatitis"/>
+    
+
+
+    <!-- chronic-hepatitis-c -->
+
+
+    <owl:Class rdf:about="chronic-hepatitis-c">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="chronic-hepatitis"/>
+        <rdfs:subClassOf rdf:resource="hepatitis-c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- chronic-hepatitis-c-with-high-viral-load-of-hcv-genotype-1 -->
+
+
+    <owl:Class rdf:about="chronic-hepatitis-c-with-high-viral-load-of-hcv-genotype-1">
+        <rdfs:subClassOf rdf:resource="chronic-hepatitis-c"/>
+    </owl:Class>
+    
+
+
+    <!-- codon-optimization -->
+
+
+    <owl:Class rdf:about="codon-optimization">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- complementation-test -->
+
+
+    <owl:Class rdf:about="complementation-test">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- comprehensive-gene-analysis -->
+
+
+    <owl:Class rdf:about="comprehensive-gene-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- comprehensive-genomic-analysis -->
+
+
+    <owl:Class rdf:about="comprehensive-genomic-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- cytogenetic-analysis -->
+
+
+    <owl:Class rdf:about="cytogenetic-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dart -->
+
+
+    <owl:Class rdf:about="dart">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- daunorubicin -->
+
+
+    <owl:Class rdf:about="daunorubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- daunorubicin-hydrochloride -->
+
+
+    <owl:Class rdf:about="daunorubicin-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- decreased-rate -->
+
+
+    <owl:Class rdf:about="decreased-rate"/>
+    
+
+
+    <!-- dianhydrogalactitol -->
+
+
+    <owl:Class rdf:about="dianhydrogalactitol">
+        <rdfs:subClassOf rdf:resource="galactitol"/>
+    </owl:Class>
+    
+
+
+    <!-- digitag2-assay -->
+
+
+    <owl:Class rdf:about="digitag2-assay">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- direct-reprogramming -->
+
+
+    <owl:Class rdf:about="direct-reprogramming">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- direct-sequencing-method -->
+
+
+    <owl:Class rdf:about="direct-sequencing-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- directed-molecular-evolution -->
+
+
+    <owl:Class rdf:about="directed-molecular-evolution">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-amplification -->
+
+
+    <owl:Class rdf:about="dna-amplification">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-microarray -->
+
+
+    <owl:Class rdf:about="dna-microarray">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-mutational-analysis -->
+
+
+    <owl:Class rdf:about="dna-mutational-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-nanoball -->
+
+
+    <owl:Class rdf:about="dna-nanoball">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-origami -->
+
+
+    <owl:Class rdf:about="dna-origami">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-typing -->
+
+
+    <owl:Class rdf:about="dna-typing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- doxorubicin -->
+
+
+    <owl:Class rdf:about="doxorubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- embryo-rescue -->
+
+
+    <owl:Class rdf:about="embryo-rescue">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- enucleation -->
+
+
+    <owl:Class rdf:about="enucleation">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- enzyme-inhibitor -->
+
+
+    <owl:Class rdf:about="enzyme-inhibitor"/>
+    
+
+
+    <!-- epigenome-analysis -->
+
+
+    <owl:Class rdf:about="epigenome-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- epirubicin -->
+
+
+    <owl:Class rdf:about="epirubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- erapansy -->
+
+
+    <owl:Class rdf:about="erapansy">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- erythrocyte -->
+
+
+    <owl:Class rdf:about="erythrocyte"/>
+    
+
+
+    <!-- escherichia-coli-metabolite -->
+
+
+    <owl:Class rdf:about="escherichia-coli-metabolite"/>
+    
+
+
+    <!-- exome&#45;&#45;analysis -->
+
+
+    <owl:Class rdf:about="exome--analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- fine-mapping -->
+
+
+    <owl:Class rdf:about="fine-mapping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- fisetin -->
+
+
+    <owl:Class rdf:about="fisetin">
+        <rdfs:subClassOf rdf:resource="chemical-entity"/>
+        <rdfs:subClassOf rdf:resource="flavonoids"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="enzyme-inhibitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- flavonoids -->
+
+
+    <owl:Class rdf:about="flavonoids"/>
+    
+
+
+    <!-- fucose -->
+
+
+    <owl:Class rdf:about="fucose"/>
+    
+
+
+    <!-- galactitol -->
+
+
+    <owl:Class rdf:about="galactitol">
+        <rdfs:subClassOf rdf:resource="galactitol"/>
+        <rdfs:subClassOf rdf:resource="hexitol"/>
+        <rdfs:subClassOf rdf:resource="monosaccharide"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="substance-with-escherichia-coli-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-human-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="substance-with-mouse-metabolite-role"/>
+        <rdfs:subClassOf rdf:resource="sugar-alcohols"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="escherichia-coli-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="human-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="mouse-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galactitol-biosynthetic-process -->
+
+
+    <owl:Class rdf:about="galactitol-biosynthetic-process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="biosynthetic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-primary-output"/>
+                        <owl:someValuesFrom rdf:resource="galactitol"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="galactitol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galactitol-catabolic-process -->
+
+
+    <owl:Class rdf:about="galactitol-catabolic-process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="catabolic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-primary-input"/>
+                        <owl:someValuesFrom rdf:resource="galactitol"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="galactitol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galactitol-metabolic-process -->
+
+
+    <owl:Class rdf:about="galactitol-metabolic-process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="metabolic-process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                        <owl:someValuesFrom rdf:resource="galactitol"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="galactitol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galactitol-transmembrane-transporter-activity -->
+
+
+    <owl:Class rdf:about="galactitol-transmembrane-transporter-activity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="transmembrane-transporter-activity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                        <owl:someValuesFrom rdf:resource="galactitol"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="galactitol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galactitol-transport -->
+
+
+    <owl:Class rdf:about="galactitol-transport">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="transport"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                        <owl:someValuesFrom rdf:resource="galactitol"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="galactitol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- galactopyranose-3-sulfate -->
+
+
+    <owl:Class rdf:about="galactopyranose-3-sulfate"/>
+    
+
+
+    <!-- galactosamine -->
+
+
+    <owl:Class rdf:about="galactosamine"/>
+    
+
+
+    <!-- galactose -->
+
+
+    <owl:Class rdf:about="galactose"/>
+    
+
+
+    <!-- galacturonic-acid -->
+
+
+    <owl:Class rdf:about="galacturonic-acid"/>
+    
+
+
+    <!-- gene-manipulation -->
+
+
+    <owl:Class rdf:about="gene-manipulation">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- gene-mapping -->
+
+
+    <owl:Class rdf:about="gene-mapping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- gene-mutation-analysis -->
+
+
+    <owl:Class rdf:about="gene-mutation-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- gene-trap-method -->
+
+
+    <owl:Class rdf:about="gene-trap-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- gene-typing -->
+
+
+    <owl:Class rdf:about="gene-typing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-association-studies -->
+
+
+    <owl:Class rdf:about="genetic-association-studies">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-code-analysis -->
+
+
+    <owl:Class rdf:about="genetic-code-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-polymorphism-analysis -->
+
+
+    <owl:Class rdf:about="genetic-polymorphism-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-screening -->
+
+
+    <owl:Class rdf:about="genetic-screening">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genetic-technique -->
+
+
+    <owl:Class rdf:about="genetic-technique">
+        <rdfs:subClassOf rdf:resource="research-technique"/>
+        <rdfs:subClassOf rdf:resource="technology"/>
+    </owl:Class>
+    
+
+
+    <!-- genome-assembly -->
+
+
+    <owl:Class rdf:about="genome-assembly">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genome-mining -->
+
+
+    <owl:Class rdf:about="genome-mining">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genome-wide-analysis -->
+
+
+    <owl:Class rdf:about="genome-wide-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genome-wide-association-study -->
+
+
+    <owl:Class rdf:about="genome-wide-association-study">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genomic-selex-method -->
+
+
+    <owl:Class rdf:about="genomic-selex-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genotyping -->
+
+
+    <owl:Class rdf:about="genotyping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- genotyping-techniques -->
+
+
+    <owl:Class rdf:about="genotyping-techniques">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- glucitol -->
+
+
+    <owl:Class rdf:about="glucitol"/>
+    
+
+
+    <!-- glucosamine -->
+
+
+    <owl:Class rdf:about="glucosamine"/>
+    
+
+
+    <!-- glucose -->
+
+
+    <owl:Class rdf:about="glucose"/>
+    
+
+
+    <!-- glucuronic-acid -->
+
+
+    <owl:Class rdf:about="glucuronic-acid"/>
+    
+
+
+    <!-- gorhams-disease -->
+
+
+    <owl:Class rdf:about="gorhams-disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-phenotype"/>
+                <owl:someValuesFrom rdf:resource="osteolysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- gpcr -->
+
+
+    <owl:Class rdf:about="gpcr"/>
+    
+
+
+    <!-- heart-valve-disease -->
+
+
+    <owl:Class rdf:about="heart-valve-disease"/>
+    
+
+
+    <!-- hemiptera -->
+
+
+    <owl:Class rdf:about="hemiptera"/>
+    
+
+
+    <!-- hepatitis-c -->
+
+
+    <owl:Class rdf:about="hepatitis-c"/>
+    
+
+
+    <!-- hexitol -->
+
+
+    <owl:Class rdf:about="hexitol"/>
+    
+
+
+    <!-- hicep-method -->
+
+
+    <owl:Class rdf:about="hicep-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- high-throughput-nucleotide-sequencing -->
+
+
+    <owl:Class rdf:about="high-throughput-nucleotide-sequencing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- hockey -->
+
+
+    <owl:Class rdf:about="hockey">
+        <rdfs:subClassOf rdf:resource="hockey"/>
+        <rdfs:subClassOf rdf:resource="sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="hockey-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hockey-Concept -->
+
+
+    <owl:Class rdf:about="hockey-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- homology-search -->
+
+
+    <owl:Class rdf:about="homology-search">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- homozygosity-mapping -->
+
+
+    <owl:Class rdf:about="homozygosity-mapping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- human-metabolite -->
+
+
+    <owl:Class rdf:about="human-metabolite"/>
+    
+
+
+    <!-- hybrid-capture-method -->
+
+
+    <owl:Class rdf:about="hybrid-capture-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- idarubicin -->
+
+
+    <owl:Class rdf:about="idarubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- idarubicin-hydrochloride -->
+
+
+    <owl:Class rdf:about="idarubicin-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- in-vitro-virus-method -->
+
+
+    <owl:Class rdf:about="in-vitro-virus-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- increased-amount -->
+
+
+    <owl:Class rdf:about="increased-amount"/>
+    
+
+
+    <!-- increased-bone-resorption -->
+
+
+    <owl:Class rdf:about="increased-bone-resorption">
+        <owl:equivalentClass rdf:resource="osteolysis"/>
+    </owl:Class>
+    
+
+
+    <!-- increased-level-of-galactitol-in-plasma -->
+
+
+    <owl:Class rdf:about="increased-level-of-galactitol-in-plasma">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="galactitol"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="blood-plasma"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- increased-level-of-galactitol-in-red-blood-cells -->
+
+
+    <owl:Class rdf:about="increased-level-of-galactitol-in-red-blood-cells">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="galactitol"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="erythrocyte"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- increased-level-of-galactitol-in-urine -->
+
+
+    <owl:Class rdf:about="increased-level-of-galactitol-in-urine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-amount"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="galactitol"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="part-of"/>
+                                                                <owl:someValuesFrom rdf:resource="urine"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- invader-assay -->
+
+
+    <owl:Class rdf:about="invader-assay">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- is-printing-system -->
+
+
+    <owl:Class rdf:about="is-printing-system">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- karyotyping -->
+
+
+    <owl:Class rdf:about="karyotyping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- lamp-method -->
+
+
+    <owl:Class rdf:about="lamp-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- ligase-chain-reaction -->
+
+
+    <owl:Class rdf:about="ligase-chain-reaction">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- lignans -->
+
+
+    <owl:Class rdf:about="lignans"/>
+    
+
+
+    <!-- lipid -->
+
+
+    <owl:Class rdf:about="lipid"/>
+    
+
+
+    <!-- liposomal-doxorubicin -->
+
+
+    <owl:Class rdf:about="liposomal-doxorubicin">
+        <rdfs:subClassOf rdf:resource="anthracycline-antibiotics"/>
+    </owl:Class>
+    
+
+
+    <!-- macroarray -->
+
+
+    <owl:Class rdf:about="macroarray">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- mannose -->
+
+
+    <owl:Class rdf:about="mannose"/>
+    
+
+
+    <!-- medical-science -->
+
+
+    <owl:Class rdf:about="medical-science"/>
+    
+
+
+    <!-- melting-curve-analysis -->
+
+
+    <owl:Class rdf:about="melting-curve-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- menogaril -->
+
+
+    <owl:Class rdf:about="menogaril">
+        <rdfs:subClassOf rdf:resource="anthracycline-antibiotics"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- metabolic-process -->
+
+
+    <owl:Class rdf:about="metabolic-process"/>
+    
+
+
+    <!-- metabolite -->
+
+
+    <owl:Class rdf:about="metabolite"/>
+    
+
+
+    <!-- metatarsal-bone -->
+
+
+    <owl:Class rdf:about="metatarsal-bone"/>
+    
+
+
+    <!-- metatarsal-osteolysis -->
+
+
+    <owl:Class rdf:about="metatarsal-osteolysis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="osteolysis"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in-part-of"/>
+                                                <owl:someValuesFrom rdf:resource="metatarsal-bone"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- mirna-microarray -->
+
+
+    <owl:Class rdf:about="mirna-microarray">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- mitolactol -->
+
+
+    <owl:Class rdf:about="mitolactol">
+        <rdfs:subClassOf rdf:resource="galactitol"/>
+    </owl:Class>
+    
+
+
+    <!-- mitotic-index -->
+
+
+    <owl:Class rdf:about="mitotic-index">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- mitoxantrone -->
+
+
+    <owl:Class rdf:about="mitoxantrone">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mitozantrone -->
+
+
+    <owl:Class rdf:about="mitozantrone">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- mitral-insufficiency -->
+
+
+    <owl:Class rdf:about="mitral-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- mitral-valve-insufficiency -->
+
+
+    <owl:Class rdf:about="mitral-valve-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- mlpa-method -->
+
+
+    <owl:Class rdf:about="mlpa-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- mlva-method -->
+
+
+    <owl:Class rdf:about="mlva-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-display -->
+
+
+    <owl:Class rdf:about="molecular-display">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-epidemiological-analysis -->
+
+
+    <owl:Class rdf:about="molecular-epidemiological-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-genetic-technique -->
+
+
+    <owl:Class rdf:about="molecular-genetic-technique">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-hybridization -->
+
+
+    <owl:Class rdf:about="molecular-hybridization">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-imprinting -->
+
+
+    <owl:Class rdf:about="molecular-imprinting">
+        <rdfs:subClassOf rdf:resource="chemistry-techniques-analytical"/>
+        <rdfs:subClassOf rdf:resource="molecular-imprinting"/>
+        <rdfs:subClassOf rdf:resource="molecular-recognition"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-karyotyping -->
+
+
+    <owl:Class rdf:about="molecular-karyotyping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-probe-techniques -->
+
+
+    <owl:Class rdf:about="molecular-probe-techniques">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-recognition -->
+
+
+    <owl:Class rdf:about="molecular-recognition"/>
+    
+
+
+    <!-- molecular-sequence-annotation -->
+
+
+    <owl:Class rdf:about="molecular-sequence-annotation">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- molecular-typing -->
+
+
+    <owl:Class rdf:about="molecular-typing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- monosaccharide -->
+
+
+    <owl:Class rdf:about="monosaccharide"/>
+    
+
+
+    <!-- mouse-metabolite -->
+
+
+    <owl:Class rdf:about="mouse-metabolite"/>
+    
+
+
+    <!-- multifactor-dimensionality-reduction -->
+
+
+    <owl:Class rdf:about="multifactor-dimensionality-reduction">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- multilocus-sequence-typing -->
+
+
+    <owl:Class rdf:about="multilocus-sequence-typing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- musculoskeletal-finding -->
+
+
+    <owl:Class rdf:about="musculoskeletal-finding"/>
+    
+
+
+    <!-- mutagenesis-insertional -->
+
+
+    <owl:Class rdf:about="mutagenesis-insertional">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- mutagenicity-tests -->
+
+
+    <owl:Class rdf:about="mutagenicity-tests">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- myo-inositol -->
+
+
+    <owl:Class rdf:about="myo-inositol"/>
+    
+
+
+    <!-- myosin -->
+
+
+    <owl:Class rdf:about="myosin"/>
+    
+
+
+    <!-- myosin-type-i -->
+
+
+    <owl:Class rdf:about="myosin-type-i">
+        <rdfs:subClassOf rdf:resource="myosin"/>
+        <rdfs:subClassOf rdf:resource="myosin-type-i"/>
+        <rdfs:subClassOf rdf:resource="myosins"/>
+    </owl:Class>
+    
+
+
+    <!-- myosins -->
+
+
+    <owl:Class rdf:about="myosins"/>
+    
+
+
+    <!-- n-acetylgalactosamine -->
+
+
+    <owl:Class rdf:about="n-acetylgalactosamine"/>
+    
+
+
+    <!-- n-acetylglucosamine -->
+
+
+    <owl:Class rdf:about="n-acetylglucosamine"/>
+    
+
+
+    <!-- n-acetylneuraminic-acid -->
+
+
+    <owl:Class rdf:about="n-acetylneuraminic-acid"/>
+    
+
+
+    <!-- n-glycoloylneuraminic-acid -->
+
+
+    <owl:Class rdf:about="n-glycoloylneuraminic-acid"/>
+    
+
+
+    <!-- neighbor-joining-method -->
+
+
+    <owl:Class rdf:about="neighbor-joining-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- nick-translation -->
+
+
+    <owl:Class rdf:about="nick-translation">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nogalamycin -->
+
+
+    <owl:Class rdf:about="nogalamycin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- non-natural-amino-acid-incorporation -->
+
+
+    <owl:Class rdf:about="non-natural-amino-acid-incorporation">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- nsc-180024 -->
+
+
+    <owl:Class rdf:about="nsc-180024">
+        <rdfs:subClassOf rdf:resource="anthracycline-antibiotics"/>
+    </owl:Class>
+    
+
+
+    <!-- nuclear-transplantation -->
+
+
+    <owl:Class rdf:about="nuclear-transplantation">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- nuclease-protection-assays -->
+
+
+    <owl:Class rdf:about="nuclease-protection-assays">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- nucleic-acid-amplification-techniques -->
+
+
+    <owl:Class rdf:about="nucleic-acid-amplification-techniques">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- nucleotide-sequencing -->
+
+
+    <owl:Class rdf:about="nucleotide-sequencing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- oligonucleotide-array-sequence-analysis -->
+
+
+    <owl:Class rdf:about="oligonucleotide-array-sequence-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- olivomycin -->
+
+
+    <owl:Class rdf:about="olivomycin">
+        <rdfs:subClassOf rdf:resource="anthracycline-antibiotics"/>
+    </owl:Class>
+    
+
+
+    <!-- optical-restriction-mapping -->
+
+
+    <owl:Class rdf:about="optical-restriction-mapping">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- optogenetics -->
+
+
+    <owl:Class rdf:about="optogenetics">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- osteolysis -->
+
+
+    <owl:Class rdf:about="osteolysis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="bone-resorption"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="abnormal-bone-structure"/>
+        <rdfs:subClassOf rdf:resource="bone-disease"/>
+        <rdfs:subClassOf rdf:resource="bone-resorption"/>
+        <rdfs:subClassOf rdf:resource="musculoskeletal-finding"/>
+        <rdfs:subClassOf rdf:resource="osteolysis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="succeeds"/>
+                <owl:someValuesFrom rdf:resource="bone-resorption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- osteolysis-Concept -->
+
+
+    <owl:Class rdf:about="osteolysis-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="osteolysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- osteolysis-involving-bones-of-the-feet -->
+
+
+    <owl:Class rdf:about="osteolysis-involving-bones-of-the-feet">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="osteolysis"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in-part-of"/>
+                                                <owl:someValuesFrom rdf:resource="skeleton-of-pes"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- osteolysis-involving-bones-of-the-lower-limbs -->
+
+
+    <owl:Class rdf:about="osteolysis-involving-bones-of-the-lower-limbs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="osteolysis"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in-part-of"/>
+                                                <owl:someValuesFrom rdf:resource="skeleton-of-pelvic-complex"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="osteolysis"/>
+    </owl:Class>
+    
+
+
+    <!-- osteolysis-involving-bones-of-the-upper-limbs -->
+
+
+    <owl:Class rdf:about="osteolysis-involving-bones-of-the-upper-limbs">
+        <rdfs:subClassOf rdf:resource="osteolysis"/>
+    </owl:Class>
+    
+
+
+    <!-- osteolytic-defects-of-the-hand-bones -->
+
+
+    <owl:Class rdf:about="osteolytic-defects-of-the-hand-bones">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="osteolysis"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in-part-of"/>
+                                                <owl:someValuesFrom rdf:resource="skeleton-of-manus"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- patchy-reduction-of-bone-mineral-density -->
+
+
+    <owl:Class rdf:about="patchy-reduction-of-bone-mineral-density">
+        <rdfs:subClassOf rdf:resource="osteolysis"/>
+    </owl:Class>
+    
+
+
+    <!-- pegylated-liposomal-doxorubicin -->
+
+
+    <owl:Class rdf:about="pegylated-liposomal-doxorubicin">
+        <rdfs:subClassOf rdf:resource="anthracycline-antibiotics"/>
+    </owl:Class>
+    
+
+
+    <!-- pgd2-is-dehydrated-to-pgj2 -->
+
+
+    <owl:Class rdf:about="pgd2-is-dehydrated-to-pgj2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pgj2-is-isomerised-to-delta12-pgj2 -->
+
+
+    <owl:Class rdf:about="pgj2-is-isomerised-to-delta12-pgj2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- phage-display -->
+
+
+    <owl:Class rdf:about="phage-display">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- phage-display-method -->
+
+
+    <owl:Class rdf:about="phage-display-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- pharmorubicin -->
+
+
+    <owl:Class rdf:about="pharmorubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pirarubicin -->
+
+
+    <owl:Class rdf:about="pirarubicin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pirarubicin-hydrochloride -->
+
+
+    <owl:Class rdf:about="pirarubicin-hydrochloride">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- planococcus-insect -->
+
+
+    <owl:Class rdf:about="planococcus-insect">
+        <rdfs:subClassOf rdf:resource="hemiptera"/>
+        <rdfs:subClassOf rdf:resource="planococcus-insect"/>
+        <rdfs:subClassOf rdf:resource="pseudococcidae"/>
+    </owl:Class>
+    
+
+
+    <!-- polymerase-chain-reaction -->
+
+
+    <owl:Class rdf:about="polymerase-chain-reaction">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- position-specific-scoring-matrices -->
+
+
+    <owl:Class rdf:about="position-specific-scoring-matrices">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- pot-method -->
+
+
+    <owl:Class rdf:about="pot-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- potelligent-technique -->
+
+
+    <owl:Class rdf:about="potelligent-technique">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- progressive-clavicular-acroosteolysis -->
+
+
+    <owl:Class rdf:about="progressive-clavicular-acroosteolysis">
+        <rdfs:subClassOf rdf:resource="osteolysis"/>
+    </owl:Class>
+    
+
+
+    <!-- promoter-analysis -->
+
+
+    <owl:Class rdf:about="promoter-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- prostaglandin-d2-receptor -->
+
+
+    <owl:Class rdf:about="prostaglandin-d2-receptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prostaglandin-d2-receptor-2 -->
+
+
+    <owl:Class rdf:about="prostaglandin-d2-receptor-2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prostaglandin-j2 -->
+
+
+    <owl:Class rdf:about="prostaglandin-j2">
+        <rdfs:subClassOf rdf:resource="lipid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="prostaglandins-j"/>
+        <rdfs:subClassOf rdf:resource="substance-with-human-metabolite-role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="binds-molecular-entity"/>
+                <owl:someValuesFrom rdf:resource="gpcr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="human-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- prostaglandin-j2-1&#45;&#45; -->
+
+
+    <owl:Class rdf:about="prostaglandin-j2-1--"/>
+    
+
+
+    <!-- prostaglandins-j -->
+
+
+    <owl:Class rdf:about="prostaglandins-j"/>
+    
+
+
+    <!-- protein-transduction -->
+
+
+    <owl:Class rdf:about="protein-transduction">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- pseudoalteromonas -->
+
+
+    <owl:Class rdf:about="pseudoalteromonas"/>
+    
+
+
+    <!-- pseudoalteromonas-haloplanktis -->
+
+
+    <owl:Class rdf:about="pseudoalteromonas-haloplanktis">
+        <rdfs:subClassOf rdf:resource="pseudoalteromonas"/>
+    </owl:Class>
+    
+
+
+    <!-- pseudococcidae -->
+
+
+    <owl:Class rdf:about="pseudococcidae"/>
+    
+
+
+    <!-- pulmonary-valvular-insufficiency -->
+
+
+    <owl:Class rdf:about="pulmonary-valvular-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- pyrosequencing -->
+
+
+    <owl:Class rdf:about="pyrosequencing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- random-mutagenesis -->
+
+
+    <owl:Class rdf:about="random-mutagenesis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rapd -->
+
+
+    <owl:Class rdf:about="rapd">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rca-method -->
+
+
+    <owl:Class rdf:about="rca-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rda-method -->
+
+
+    <owl:Class rdf:about="rda-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rdv-method -->
+
+
+    <owl:Class rdf:about="rdv-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- refractory-chronic-hepatitis-c -->
+
+
+    <owl:Class rdf:about="refractory-chronic-hepatitis-c">
+        <rdfs:subClassOf rdf:resource="chronic-hepatitis-c"/>
+    </owl:Class>
+    
+
+
+    <!-- reporter-assay -->
+
+
+    <owl:Class rdf:about="reporter-assay">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- research-technique -->
+
+
+    <owl:Class rdf:about="research-technique"/>
+    
+
+
+    <!-- reverse-genetics-method -->
+
+
+    <owl:Class rdf:about="reverse-genetics-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rflp -->
+
+
+    <owl:Class rdf:about="rflp">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rhamnose -->
+
+
+    <owl:Class rdf:about="rhamnose"/>
+    
+
+
+    <!-- ribosome-display -->
+
+
+    <owl:Class rdf:about="ribosome-display">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rlgs-method -->
+
+
+    <owl:Class rdf:about="rlgs-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-interference-method -->
+
+
+    <owl:Class rdf:about="rna-interference-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-microarray -->
+
+
+    <owl:Class rdf:about="rna-microarray">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-sequencing -->
+
+
+    <owl:Class rdf:about="rna-sequencing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sage-method -->
+
+
+    <owl:Class rdf:about="sage-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- satellite-analysis -->
+
+
+    <owl:Class rdf:about="satellite-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- savinin -->
+
+
+    <owl:Class rdf:about="savinin">
+        <rdfs:subClassOf rdf:resource="lignans"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- selex-method -->
+
+
+    <owl:Class rdf:about="selex-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- self-sustained-sequence-replication -->
+
+
+    <owl:Class rdf:about="self-sustained-sequence-replication">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-alignment -->
+
+
+    <owl:Class rdf:about="sequence-alignment">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-analysis -->
+
+
+    <owl:Class rdf:about="sequence-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-analysis-dna -->
+
+
+    <owl:Class rdf:about="sequence-analysis-dna">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-analysis-protein -->
+
+
+    <owl:Class rdf:about="sequence-analysis-protein">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-analysis-rna -->
+
+
+    <owl:Class rdf:about="sequence-analysis-rna">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-based-typing -->
+
+
+    <owl:Class rdf:about="sequence-based-typing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sequence-specific-thermal-elution-chromatography -->
+
+
+    <owl:Class rdf:about="sequence-specific-thermal-elution-chromatography">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- skeleton-of-manus -->
+
+
+    <owl:Class rdf:about="skeleton-of-manus"/>
+    
+
+
+    <!-- skeleton-of-pelvic-complex -->
+
+
+    <owl:Class rdf:about="skeleton-of-pelvic-complex"/>
+    
+
+
+    <!-- skeleton-of-pes -->
+
+
+    <owl:Class rdf:about="skeleton-of-pes"/>
+    
+
+
+    <!-- sm-5887 -->
+
+
+    <owl:Class rdf:about="sm-5887">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="anthracycline-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- smartamp-method -->
+
+
+    <owl:Class rdf:about="smartamp-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- snp-analysis -->
+
+
+    <owl:Class rdf:about="snp-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- somatic-cell-genetics -->
+
+
+    <owl:Class rdf:about="somatic-cell-genetics">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- spa-typing -->
+
+
+    <owl:Class rdf:about="spa-typing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- sports -->
+
+
+    <owl:Class rdf:about="sports"/>
+    
+
+
+    <!-- strand-displacement-amplification -->
+
+
+    <owl:Class rdf:about="strand-displacement-amplification">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- substance-with-escherichia-coli-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-escherichia-coli-metabolite-role"/>
+    
+
+
+    <!-- substance-with-human-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-human-metabolite-role"/>
+    
+
+
+    <!-- substance-with-mouse-metabolite-role -->
+
+
+    <owl:Class rdf:about="substance-with-mouse-metabolite-role"/>
+    
+
+
+    <!-- sugar-alcohols -->
+
+
+    <owl:Class rdf:about="sugar-alcohols"/>
+    
+
+
+    <!-- super-high-resolution-single-molecule-sequence-based-typing-method -->
+
+
+    <owl:Class rdf:about="super-high-resolution-single-molecule-sequence-based-typing-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- t7-phage-display-method -->
+
+
+    <owl:Class rdf:about="t7-phage-display-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- technology -->
+
+
+    <owl:Class rdf:about="technology"/>
+    
+
+
+    <!-- tetrad-analysis -->
+
+
+    <owl:Class rdf:about="tetrad-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- tilling-method -->
+
+
+    <owl:Class rdf:about="tilling-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- tissue-array-analysis -->
+
+
+    <owl:Class rdf:about="tissue-array-analysis">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- tma-method -->
+
+
+    <owl:Class rdf:about="tma-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- topoisomerase-ii-inhibitors -->
+
+
+    <owl:Class rdf:about="topoisomerase-ii-inhibitors"/>
+    
+
+
+    <!-- transcriptome-assay -->
+
+
+    <owl:Class rdf:about="transcriptome-assay">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- transmembrane-transporter-activity -->
+
+
+    <owl:Class rdf:about="transmembrane-transporter-activity"/>
+    
+
+
+    <!-- transport -->
+
+
+    <owl:Class rdf:about="transport"/>
+    
+
+
+    <!-- trc-method -->
+
+
+    <owl:Class rdf:about="trc-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- treck-method -->
+
+
+    <owl:Class rdf:about="treck-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- tricuspid-insufficiency -->
+
+
+    <owl:Class rdf:about="tricuspid-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- tricuspid-valve-insufficiency -->
+
+
+    <owl:Class rdf:about="tricuspid-valve-insufficiency">
+        <rdfs:subClassOf rdf:resource="valvular-insufficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- two-hybrid-method -->
+
+
+    <owl:Class rdf:about="two-hybrid-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- type-c-chronic-hepatitis -->
+
+
+    <owl:Class rdf:about="type-c-chronic-hepatitis">
+        <rdfs:subClassOf rdf:resource="chronic-hepatitis-c"/>
+    </owl:Class>
+    
+
+
+    <!-- urine -->
+
+
+    <owl:Class rdf:about="urine"/>
+    
+
+
+    <!-- valvular-heart-disorder -->
+
+
+    <owl:Class rdf:about="valvular-heart-disorder"/>
+    
+
+
+    <!-- valvular-insufficiency -->
+
+
+    <owl:Class rdf:about="valvular-insufficiency">
+        <rdfs:subClassOf rdf:resource="heart-valve-disease"/>
+        <rdfs:subClassOf rdf:resource="valvular-heart-disorder"/>
+    </owl:Class>
+    
+
+
+    <!-- whole-genome-amplification -->
+
+
+    <owl:Class rdf:about="whole-genome-amplification">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- winchester-syndrome -->
+
+
+    <owl:Class rdf:about="winchester-syndrome">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-phenotype"/>
+                <owl:someValuesFrom rdf:resource="osteolysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- xylose -->
+
+
+    <owl:Class rdf:about="xylose"/>
+    
+
+
+    <!-- yeast-two-hybrid-method -->
+
+
+    <owl:Class rdf:about="yeast-two-hybrid-method">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- 16s-rdna-sequencing -->
+
+
+    <owl:Class rdf:about="16s-rdna-sequencing">
+        <rdfs:subClassOf rdf:resource="genetic-technique"/>
+    </owl:Class>
+    
+
+
+    <!-- 4-hydroxyderricin -->
+
+
+    <owl:Class rdf:about="4-hydroxyderricin">
+        <rdfs:subClassOf rdf:resource="chalcone"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- 4-o-methylgalactose -->
+
+
+    <owl:Class rdf:about="4-o-methylgalactose"/>
+    
+
+
+    <!-- 59-no-diacetylneuraminic-acid -->
+
+
+    <owl:Class rdf:about="59-no-diacetylneuraminic-acid"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="exports"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exports"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-input"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-input"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-output"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-output"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-participant"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-participant"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-input-or-output"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="has-primary-output"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-primary-output"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="imports"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="imports"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="regulates-levels-of"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="regulates-levels-of"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+        <owl:someValuesFrom rdf:resource="prostaglandin-j2"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="transports-or-maintains-localization-of"/>
+                <owl:someValuesFrom rdf:resource="prostaglandin-j2-1--"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Restriction>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="galactitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="galactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="galactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="galacturonic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="glucitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="fucose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="galactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="galactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="galacturonic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="glucitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactitol"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="galactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="galactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="galacturonic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="glucitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactopyranose-3-sulfate"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="galactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="galacturonic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="glucitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactosamine"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="galacturonic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="glucitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galactose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="glucitol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="galacturonic-acid"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="glucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucitol"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="glucose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucosamine"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="glucuronic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="mannose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="glucuronic-acid"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="myo-inositol"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="mannose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="myo-inositol"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylgalactosamine"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylglucosamine"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-acetylneuraminic-acid"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+            <rdf:Description rdf:about="rhamnose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="n-glycoloylneuraminic-acid"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="rhamnose"/>
+            <rdf:Description rdf:about="xylose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="rhamnose"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="rhamnose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="xylose"/>
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="xylose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="4-o-methylgalactose"/>
+            <rdf:Description rdf:about="59-no-diacetylneuraminic-acid"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

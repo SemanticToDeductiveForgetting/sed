@@ -1,0 +1,1526 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment13/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment13/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment13/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- componentPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="componentPartOf"/>
+    
+
+
+    <!-- has-functional-parent -->
+
+
+    <owl:ObjectProperty rdf:about="has-functional-parent"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_disease_location -->
+
+
+    <owl:ObjectProperty rdf:about="has_disease_location"/>
+    
+
+
+    <!-- has_inheritance -->
+
+
+    <owl:ObjectProperty rdf:about="has_inheritance"/>
+    
+
+
+    <!-- has_role -->
+
+
+    <owl:ObjectProperty rdf:about="has_role"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- is-conjugate-acid-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-conjugate-acid-of"/>
+    
+
+
+    <!-- is-conjugate-base-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-conjugate-base-of"/>
+    
+
+
+    <!-- is-part-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-part-of"/>
+    
+
+
+    <!-- is_about -->
+
+
+    <owl:ObjectProperty rdf:about="is_about"/>
+    
+
+
+    <!-- located_in -->
+
+
+    <owl:ObjectProperty rdf:about="located_in"/>
+    
+
+
+    <!-- part-of -->
+
+
+    <owl:ObjectProperty rdf:about="part-of"/>
+    
+
+
+    <!-- part_of -->
+
+
+    <owl:ObjectProperty rdf:about="part_of"/>
+    
+
+
+    <!-- towards -->
+
+
+    <owl:ObjectProperty rdf:about="towards"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CARO_0010004 -->
+
+
+    <owl:Class rdf:about="CARO_0010004"/>
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- abnormality&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="abnormality--disease-"/>
+    
+
+
+    <!-- acid -->
+
+
+    <owl:Class rdf:about="acid"/>
+    
+
+
+    <!-- acid-dyspepsia -->
+
+
+    <owl:Class rdf:about="acid-dyspepsia">
+        <rdfs:subClassOf rdf:resource="hyperacidity"/>
+    </owl:Class>
+    
+
+
+    <!-- alditol -->
+
+
+    <owl:Class rdf:about="alditol"/>
+    
+
+
+    <!-- amino-cyclitol-glycoside -->
+
+
+    <owl:Class rdf:about="amino-cyclitol-glycoside"/>
+    
+
+
+    <!-- amino-sugar -->
+
+
+    <owl:Class rdf:about="amino-sugar"/>
+    
+
+
+    <!-- aminoglycoside-antibiotics -->
+
+
+    <owl:Class rdf:about="aminoglycoside-antibiotics"/>
+    
+
+
+    <!-- amphenone-b -->
+
+
+    <owl:Class rdf:about="amphenone-b">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+    </owl:Class>
+    
+
+
+    <!-- antibacterial-agent -->
+
+
+    <owl:Class rdf:about="antibacterial-agent"/>
+    
+
+
+    <!-- antibacterial-drug -->
+
+
+    <owl:Class rdf:about="antibacterial-drug"/>
+    
+
+
+    <!-- antimicrobial-agent -->
+
+
+    <owl:Class rdf:about="antimicrobial-agent"/>
+    
+
+
+    <!-- antispasmodic -->
+
+
+    <owl:Class rdf:about="antispasmodic"/>
+    
+
+
+    <!-- antitussive-drug -->
+
+
+    <owl:Class rdf:about="antitussive-drug"/>
+    
+
+
+    <!-- anus-disease -->
+
+
+    <owl:Class rdf:about="anus-disease"/>
+    
+
+
+    <!-- apocynaceae -->
+
+
+    <owl:Class rdf:about="apocynaceae">
+        <rdfs:subClassOf rdf:resource="gentianales"/>
+    </owl:Class>
+    
+
+
+    <!-- asclepiadaceae -->
+
+
+    <owl:Class rdf:about="asclepiadaceae">
+        <rdfs:subClassOf rdf:resource="gentianales"/>
+    </owl:Class>
+    
+
+
+    <!-- bacterium -->
+
+
+    <owl:Class rdf:about="bacterium"/>
+    
+
+
+    <!-- bile-acid -->
+
+
+    <owl:Class rdf:about="bile-acid"/>
+    
+
+
+    <!-- bisphenol-a -->
+
+
+    <owl:Class rdf:about="bisphenol-a">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="chemical-entity"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- bisphenol-a-Concept -->
+
+
+    <owl:Class rdf:about="bisphenol-a-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="bisphenol-a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- brain -->
+
+
+    <owl:Class rdf:about="brain"/>
+    
+
+
+    <!-- bronchial-epithelial-cell -->
+
+
+    <owl:Class rdf:about="bronchial-epithelial-cell">
+        <rdfs:subClassOf rdf:resource="epithelial-cell"/>
+    </owl:Class>
+    
+
+
+    <!-- c24-steroid -->
+
+
+    <owl:Class rdf:about="c24-steroid"/>
+    
+
+
+    <!-- ca1 -->
+
+
+    <owl:Class rdf:about="ca1">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- ca1-region-hippocampal -->
+
+
+    <owl:Class rdf:about="ca1-region-hippocampal">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- ca2-field-of-hippocampus -->
+
+
+    <owl:Class rdf:about="ca2-field-of-hippocampus">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- ca2-region-hippocampal -->
+
+
+    <owl:Class rdf:about="ca2-region-hippocampal">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- ca3 -->
+
+
+    <owl:Class rdf:about="ca3">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- ca3-region-hippocampal -->
+
+
+    <owl:Class rdf:about="ca3-region-hippocampal">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- ca4-field-of-hippocampus -->
+
+
+    <owl:Class rdf:about="ca4-field-of-hippocampus">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- casein-kinase -->
+
+
+    <owl:Class rdf:about="casein-kinase"/>
+    
+
+
+    <!-- casein-kinase-ialpha -->
+
+
+    <owl:Class rdf:about="casein-kinase-ialpha">
+        <rdfs:subClassOf rdf:resource="casein-kinase"/>
+    </owl:Class>
+    
+
+
+    <!-- cefamandole -->
+
+
+    <owl:Class rdf:about="cefamandole">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="cefamandole-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cefamandole-Concept -->
+
+
+    <owl:Class rdf:about="cefamandole-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- central-nervous-system-drug -->
+
+
+    <owl:Class rdf:about="central-nervous-system-drug"/>
+    
+
+
+    <!-- cerebrolysin -->
+
+
+    <owl:Class rdf:about="cerebrolysin">
+        <rdfs:subClassOf rdf:resource="neuroprotective-agents"/>
+    </owl:Class>
+    
+
+
+    <!-- chemical-entity -->
+
+
+    <owl:Class rdf:about="chemical-entity"/>
+    
+
+
+    <!-- cholate -->
+
+
+    <owl:Class rdf:about="cholate">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-base-of"/>
+                <owl:someValuesFrom rdf:resource="cholic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cholic-acid -->
+
+
+    <owl:Class rdf:about="cholic-acid">
+        <rdfs:subClassOf rdf:resource="acid"/>
+        <rdfs:subClassOf rdf:resource="bile-acid"/>
+        <rdfs:subClassOf rdf:resource="c24-steroid"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="trihydroxy-5beta-cholanic-acid"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="cholic-acid-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="human-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="mouse-metabolite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-acid-of"/>
+                <owl:someValuesFrom rdf:resource="cholate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cholic-acid-Concept -->
+
+
+    <owl:Class rdf:about="cholic-acid-Concept">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- chronic-anal-fissure -->
+
+
+    <owl:Class rdf:about="chronic-anal-fissure">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="anus-disease"/>
+        <rdfs:subClassOf rdf:resource="lacerated-wound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cimaterol -->
+
+
+    <owl:Class rdf:about="cimaterol">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+    
+
+
+    <!-- congenital-heart-disease -->
+
+
+    <owl:Class rdf:about="congenital-heart-disease"/>
+    
+
+
+    <!-- decreased-resistance-to -->
+
+
+    <owl:Class rdf:about="decreased-resistance-to"/>
+    
+
+
+    <!-- dentate-gyrus -->
+
+
+    <owl:Class rdf:about="dentate-gyrus">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- deoxysugar -->
+
+
+    <owl:Class rdf:about="deoxysugar"/>
+    
+
+
+    <!-- disease -->
+
+
+    <owl:Class rdf:about="disease"/>
+    
+
+
+    <!-- documentation&#45;&#45;life-science- -->
+
+
+    <owl:Class rdf:about="documentation--life-science-"/>
+    
+
+
+    <!-- donor-card -->
+
+
+    <owl:Class rdf:about="donor-card">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="documentation--life-science-"/>
+        <rdfs:subClassOf rdf:resource="terms-related-to-documentation-and-information-science"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- dorsal-hippocampus -->
+
+
+    <owl:Class rdf:about="dorsal-hippocampus">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- drug -->
+
+
+    <owl:Class rdf:about="drug"/>
+    
+
+
+    <!-- epithelial-cell -->
+
+
+    <owl:Class rdf:about="epithelial-cell"/>
+    
+
+
+    <!-- forebrain -->
+
+
+    <owl:Class rdf:about="forebrain"/>
+    
+
+
+    <!-- gallbladder -->
+
+
+    <owl:Class rdf:about="gallbladder"/>
+    
+
+
+    <!-- gallbladder-disease -->
+
+
+    <owl:Class rdf:about="gallbladder-disease"/>
+    
+
+
+    <!-- gamopetalae -->
+
+
+    <owl:Class rdf:about="gamopetalae"/>
+    
+
+
+    <!-- gastrochronorrhea -->
+
+
+    <owl:Class rdf:about="gastrochronorrhea">
+        <rdfs:subClassOf rdf:resource="hyperacidity"/>
+    </owl:Class>
+    
+
+
+    <!-- gatekeeper -->
+
+
+    <owl:Class rdf:about="gatekeeper">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="terms-related-to-social-and-cultural-sciences"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- gentianaceae -->
+
+
+    <owl:Class rdf:about="gentianaceae">
+        <rdfs:subClassOf rdf:resource="gentianales"/>
+    </owl:Class>
+    
+
+
+    <!-- gentianales -->
+
+
+    <owl:Class rdf:about="gentianales">
+        <rdfs:subClassOf rdf:resource="gamopetalae"/>
+    </owl:Class>
+    
+
+
+    <!-- geobacillus-kaustophilus -->
+
+
+    <owl:Class rdf:about="geobacillus-kaustophilus">
+        <rdfs:subClassOf rdf:resource="bacterium"/>
+    </owl:Class>
+    
+
+
+    <!-- glucoside -->
+
+
+    <owl:Class rdf:about="glucoside"/>
+    
+
+
+    <!-- glycocholic-acid -->
+
+
+    <owl:Class rdf:about="glycocholic-acid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="cholic-acid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hippocampal-atrophy -->
+
+
+    <owl:Class rdf:about="hippocampal-atrophy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_disease_location"/>
+                <owl:someValuesFrom rdf:resource="hippocampus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hippocampal-neuron -->
+
+
+    <owl:Class rdf:about="hippocampal-neuron">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="located_in"/>
+                <owl:someValuesFrom rdf:resource="hippocampus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hippocampal-volume -->
+
+
+    <owl:Class rdf:about="hippocampal-volume">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is_about"/>
+                <owl:someValuesFrom rdf:resource="hippocampus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hippocampus -->
+
+
+    <owl:Class rdf:about="hippocampus">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part-of"/>
+                <owl:someValuesFrom rdf:resource="hippocampus"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="brain"/>
+        <rdfs:subClassOf rdf:resource="limbic-system"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom rdf:resource="pyramidal-cells"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part-of"/>
+                <owl:someValuesFrom rdf:resource="forebrain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- human-metabolite -->
+
+
+    <owl:Class rdf:about="human-metabolite"/>
+    
+
+
+    <!-- hyperacidity -->
+
+
+    <owl:Class rdf:about="hyperacidity">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="stomach-disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- increased-resistance-to -->
+
+
+    <owl:Class rdf:about="increased-resistance-to"/>
+    
+
+
+    <!-- infantilism -->
+
+
+    <owl:Class rdf:about="infantilism">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="mental-disorder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- isoaminile -->
+
+
+    <owl:Class rdf:about="isoaminile">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="isoaminile-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antitussive-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- isoaminile-Concept -->
+
+
+    <owl:Class rdf:about="isoaminile-Concept"/>
+    
+
+
+    <!-- kanamycin-b -->
+
+
+    <owl:Class rdf:about="kanamycin-b"/>
+    
+
+
+    <!-- lacerated-wound -->
+
+
+    <owl:Class rdf:about="lacerated-wound"/>
+    
+
+
+    <!-- left-sided-gallbladder -->
+
+
+    <owl:Class rdf:about="left-sided-gallbladder">
+        <rdfs:subClassOf rdf:resource="abnormality--disease-"/>
+        <rdfs:subClassOf rdf:resource="gallbladder"/>
+        <rdfs:subClassOf rdf:resource="gallbladder-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- limbic-system -->
+
+
+    <owl:Class rdf:about="limbic-system"/>
+    
+
+
+    <!-- loganiaceae -->
+
+
+    <owl:Class rdf:about="loganiaceae">
+        <rdfs:subClassOf rdf:resource="gentianales"/>
+    </owl:Class>
+    
+
+
+    <!-- memantine -->
+
+
+    <owl:Class rdf:about="memantine">
+        <rdfs:subClassOf rdf:resource="neuroprotective-agents"/>
+    </owl:Class>
+    
+
+
+    <!-- mental-disorder -->
+
+
+    <owl:Class rdf:about="mental-disorder"/>
+    
+
+
+    <!-- mouse-metabolite -->
+
+
+    <owl:Class rdf:about="mouse-metabolite"/>
+    
+
+
+    <!-- nasal-glial-heterotopia -->
+
+
+    <owl:Class rdf:about="nasal-glial-heterotopia">
+        <rdfs:subClassOf rdf:resource="disease"/>
+        <rdfs:subClassOf rdf:resource="nose-disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="nose-and-cavum-anomaly"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="componentPartOf"/>
+                <owl:someValuesFrom rdf:resource="rare-otorhinolaryngologic-tumor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_inheritance"/>
+                <owl:someValuesFrom rdf:resource="not-genetically-inherited"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="nose-and-cavum-anomaly"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="part_of"/>
+                <owl:someValuesFrom rdf:resource="rare-otorhinolaryngologic-tumor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- neuroprotective-agents -->
+
+
+    <owl:Class rdf:about="neuroprotective-agents">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="central-nervous-system-drug"/>
+        <rdfs:subClassOf rdf:resource="protective-agents"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="neuroprotective-agents-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- neuroprotective-agents-Concept -->
+
+
+    <owl:Class rdf:about="neuroprotective-agents-Concept"/>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nose-and-cavum-anomaly -->
+
+
+    <owl:Class rdf:about="nose-and-cavum-anomaly"/>
+    
+
+
+    <!-- nose-disease -->
+
+
+    <owl:Class rdf:about="nose-disease"/>
+    
+
+
+    <!-- not-genetically-inherited -->
+
+
+    <owl:Class rdf:about="not-genetically-inherited"/>
+    
+
+
+    <!-- ophthalmic-remedy -->
+
+
+    <owl:Class rdf:about="ophthalmic-remedy"/>
+    
+
+
+    <!-- organic-compound -->
+
+
+    <owl:Class rdf:about="organic-compound"/>
+    
+
+
+    <!-- patent-ductus-venosus -->
+
+
+    <owl:Class rdf:about="patent-ductus-venosus">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="congenital-heart-disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- piracetam -->
+
+
+    <owl:Class rdf:about="piracetam">
+        <rdfs:subClassOf rdf:resource="neuroprotective-agents"/>
+    </owl:Class>
+    
+
+
+    <!-- primary-amine -->
+
+
+    <owl:Class rdf:about="primary-amine"/>
+    
+
+
+    <!-- protective-agents -->
+
+
+    <owl:Class rdf:about="protective-agents"/>
+    
+
+
+    <!-- pyramidal-cells -->
+
+
+    <owl:Class rdf:about="pyramidal-cells">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-part-of"/>
+                <owl:someValuesFrom rdf:resource="hippocampus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- pyranoside -->
+
+
+    <owl:Class rdf:about="pyranoside"/>
+    
+
+
+    <!-- rare-otorhinolaryngologic-tumor -->
+
+
+    <owl:Class rdf:about="rare-otorhinolaryngologic-tumor"/>
+    
+
+
+    <!-- resistance-to-tobramycin -->
+
+
+    <owl:Class rdf:about="resistance-to-tobramycin">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-resistance-to"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="CARO_0010004"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="tobramycin"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-resistance-to"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="CARO_0010004"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="tobramycin"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- riluzole -->
+
+
+    <owl:Class rdf:about="riluzole">
+        <rdfs:subClassOf rdf:resource="neuroprotective-agents"/>
+    </owl:Class>
+    
+
+
+    <!-- rivastigmine -->
+
+
+    <owl:Class rdf:about="rivastigmine">
+        <rdfs:subClassOf rdf:resource="neuroprotective-agents"/>
+    </owl:Class>
+    
+
+
+    <!-- sensitive-to-tobramycin -->
+
+
+    <owl:Class rdf:about="sensitive-to-tobramycin">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-resistance-to"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="CARO_0010004"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="tobramycin"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="decreased-resistance-to"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="CARO_0010004"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="towards"/>
+                                                                <owl:someValuesFrom rdf:resource="tobramycin"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- stomach-disease -->
+
+
+    <owl:Class rdf:about="stomach-disease"/>
+    
+
+
+    <!-- terms-related-to-documentation-and-information-science -->
+
+
+    <owl:Class rdf:about="terms-related-to-documentation-and-information-science"/>
+    
+
+
+    <!-- terms-related-to-social-and-cultural-sciences -->
+
+
+    <owl:Class rdf:about="terms-related-to-social-and-cultural-sciences"/>
+    
+
+
+    <!-- tiropramide -->
+
+
+    <owl:Class rdf:about="tiropramide">
+        <rdfs:subClassOf rdf:resource="organic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antispasmodic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="urologic-active-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tobramycin -->
+
+
+    <owl:Class rdf:about="tobramycin">
+        <rdfs:subClassOf rdf:resource="alditol"/>
+        <rdfs:subClassOf rdf:resource="amino-cyclitol-glycoside"/>
+        <rdfs:subClassOf rdf:resource="amino-sugar"/>
+        <rdfs:subClassOf rdf:resource="deoxysugar"/>
+        <rdfs:subClassOf rdf:resource="drug"/>
+        <rdfs:subClassOf rdf:resource="glucoside"/>
+        <rdfs:subClassOf rdf:resource="primary-amine"/>
+        <rdfs:subClassOf rdf:resource="pyranoside"/>
+        <rdfs:subClassOf rdf:resource="trisaccharide"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-functional-parent"/>
+                <owl:someValuesFrom rdf:resource="kanamycin-b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="aminoglycoside-antibiotics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="antibacterial-agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="ophthalmic-remedy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="toxin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_role"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="antimicrobial-agent"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has_role"/>
+                                <owl:someValuesFrom rdf:resource="antibacterial-drug"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-base-of"/>
+                <owl:someValuesFrom rdf:resource="tobramycin-5-"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tobramycin-5- -->
+
+
+    <owl:Class rdf:about="tobramycin-5-">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="is-conjugate-acid-of"/>
+                <owl:someValuesFrom rdf:resource="tobramycin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tobramycin-Concept -->
+
+
+    <owl:Class rdf:about="tobramycin-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="tobramycin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- toxin -->
+
+
+    <owl:Class rdf:about="toxin"/>
+    
+
+
+    <!-- trihydroxy-5beta-cholanic-acid -->
+
+
+    <owl:Class rdf:about="trihydroxy-5beta-cholanic-acid"/>
+    
+
+
+    <!-- trisaccharide -->
+
+
+    <owl:Class rdf:about="trisaccharide"/>
+    
+
+
+    <!-- urologic-active-drug -->
+
+
+    <owl:Class rdf:about="urologic-active-drug"/>
+    
+
+
+    <!-- ventral-hippocampus -->
+
+
+    <owl:Class rdf:about="ventral-hippocampus">
+        <rdfs:subClassOf rdf:resource="hippocampus"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

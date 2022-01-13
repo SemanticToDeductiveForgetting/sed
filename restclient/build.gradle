@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'forget'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    compile group: 'net.sourceforge.owlapi', name: 'owlapi-distribution', version: '5.1.11'
+    compile group: 'com.hermit-reasoner', name: 'org.semanticweb.hermit', version: '1.3.8.4'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.1'
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.29.1'
+    compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.29.1'
+    compile group: 'javax.activation', name: 'activation', version: '1.1.1'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.9'
+    //compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9.3'
+    compile group: 'org.json', name: 'json', version: '20190722'
+    //compile group: 'com.google.guava', name: 'guava', version: '23.0'
+    implementation name: 'trove-3.0.0'
+    implementation name: 'lethe_2.11-0.026'
+    compile project(':input')
+    compile project(':interfaces')
+    compile project(':logic')
+    compile project(':app')
+    compile project(':output')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile project(':objectmodel')
+}
+
+//create a single Jar with all dependencies
+task allJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'All jar',
+                'Implementation-Version': version,
+                'Main-Class': 'uk.ac.man.Main'
+    }
+    baseName = project.name + '-dep'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

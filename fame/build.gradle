@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+version '1.0'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    implementation name: 'UI_Fame4ALC'
+    implementation group: 'net.sourceforge.owlapi', name: 'owlapi-distribution', version: '3.5.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+    implementation 'com.hermit-reasoner:org.semanticweb.hermit:1.3.8.4'
+    implementation group: 'org.json', name: 'json', version: '20210307'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+//create a single Jar with all dependencies
+task fameJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'fame jar',
+                'Implementation-Version': archiveVersion,
+                'Main-Class': 'uk.ac.man.Main'
+    }
+    archiveBaseName = project.name + '-dep'
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

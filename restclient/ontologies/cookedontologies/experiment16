@@ -1,0 +1,2513 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment16#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment16"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/chemical_or_drug_affects_gene_product -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/chemical_or_drug_affects_gene_product"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/chemical_or_drug_is_metabolized_by_enzyme -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/chemical_or_drug_is_metabolized_by_enzyme"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_encoded_by_gene -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_expressed_in_tissue -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_expressed_in_tissue"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_abnormality -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_abnormality"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_associated_anatomy -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_associated_anatomy"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_biochemical_function -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_biochemical_function"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_chemical_classification -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_chemical_classification"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_organism_source -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_organism_source"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_structural_domain_or_motif -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_structural_domain_or_motif"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_biomarker_of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_biomarker_of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_biomarker_type -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_biomarker_type"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_element_in_pathway -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_element_in_pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_physical_part_of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_physical_part_of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_malfunction_associated_with_disease -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_malfunction_associated_with_disease"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_plays_role_in_biological_process -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene_product_variant_of_gene_product -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene_product_variant_of_gene_product"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/has_participant -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment16/has_participant"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/J36 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/J36"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/abnormal-cell -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/abnormal-cell"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/acceleration -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/acidothermus-cellulolyticus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/acidothermus-cellulolyticus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actihaemyl -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actihaemyl"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actinobacteria -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinobacteria"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actinomyces -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomyces"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actinomycetaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actinomycetales -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actinomycetes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/actinoplanaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinoplanaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/activity -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/activity"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/alkaloids -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/alkaloids"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/anatomic-structure-system-or-substance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/anatomic-structure-system-or-substance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/bacteria -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/bacteria"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/benzyl-compounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/benzyl-compounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/bilirubin-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/bilirubin-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/biochemical-pathway -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/biochemical-pathway"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/biological-process -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/biological-process"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/biopolymer -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/biopolymer"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/brevibacterium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/brevibacterium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/cellulomonas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/cellulomonas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/chemotherapy-regimen-or-agent-combination -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/chemotherapy-regimen-or-agent-combination"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/conceptual-entity -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/conceptual-entity"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/coprostanol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/coprostanol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/corynebacterium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/corynebacterium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/coupling-factor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/coupling-factor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/diagnostic-or-prognostic-factor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/diagnostic-or-prognostic-factor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/dietzia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/dietzia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/dioxolanes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/dioxolanes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/disease-disorder-or-finding -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/disease-disorder-or-finding"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/drug-food-chemical-or-biomedical-material -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/drug-food-chemical-or-biomedical-material"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/experimental-organism-anatomical-concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/experimental-organism-anatomical-concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/experimental-organism-diagnosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/experimental-organism-diagnosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/frankia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/frankia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/frankiaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/frankiaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene-product -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gene-product&#45;&#45;knapsack- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product--knapsack-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gordonia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gordonia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gordonia-alkanivorans -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gordonia-alkanivorans"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/gordonia-bacterium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gordonia-bacterium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/hnrna -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/hnrna"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/leifsonia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/leifsonia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/lycopodine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/lycopodine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/manufactured-object -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/manufactured-object"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/messenger-rna -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/messenger-rna"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/micrococcaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/micrococcaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/micromonosporaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/micromonosporaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/molecular-abnormality -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/molecular-abnormality"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/multidrug-resistant-streptococcus-pneumoniae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/multidrug-resistant-streptococcus-pneumoniae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/mycobacteriaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/mycobacteriaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/mycobacterium -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/mycobacterium"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/myristicin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/myristicin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/nocardiaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/nocardiaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/nonomuraea -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/nonomuraea"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/nucleic-acid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/nucleic-acid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/organism -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/organism"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/penicillin-resistant-streptococcus-pneumoniae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/penicillin-resistant-streptococcus-pneumoniae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/penicillin-sensitive-streptococcus-pneumoniae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/penicillin-sensitive-streptococcus-pneumoniae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/pisp -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/pisp"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/pneumococcal-infection -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/pneumococcal-infection"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/precursor-mrna -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/precursor-mrna"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/property-or-attribute -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/property-or-attribute"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/propionibacteriaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/propionibacteriaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/protein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/protein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/protein-fragment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/protein-fragment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/protein-or-riboprotein-complex -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/protein-or-riboprotein-complex"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/proteins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/proteins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/pseudonocardia-autotrophica -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/pseudonocardia-autotrophica"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/pyrogallol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/pyrogallol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/quinolizidine-alkaloid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/quinolizidine-alkaloid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/quinolizines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/quinolizines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/renibacterium-salmoninarum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/renibacterium-salmoninarum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/retired-concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/retired-concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/saccharopolyspora -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/saccharopolyspora"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/salinispora-arenicola -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/salinispora-arenicola"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/sterol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/sterol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-bacteria -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-bacteria"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-capsular-polysaccharide-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-capsular-polysaccharide-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-1 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-1"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-10a-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-10a-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-11a-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-11a-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-12f-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-12f-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-14 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-14"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-15b-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-15b-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-16f-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-16f-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-17f-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-17f-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-18c-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-18c-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-18f-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-18f-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19a -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19a"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19b-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19b-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19f -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19f"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-2 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-2"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-20a-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-20a-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-22f-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-22f-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-23a-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-23a-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-23f -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-23f"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-3 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-3"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-33f-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-33f-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-4 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-4"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-5 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-5"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6a-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6a-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6a6b -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6a6b"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6b-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6b-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-7a-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-7a-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-7f-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-7f-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-8-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-8-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-9n-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-9n-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-9v-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-9v-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-11a11d-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-11a11d-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-12a12f4446-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-12a12f4446-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-15a15f-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-15a15f-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-18a18b18c18f-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-18a18b18c18f-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-22a22f-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-22a22f-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-33a33f37-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-33a33f37-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-6a6b6c6d-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-6a6b6c6d-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-6c6d-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-6c6d-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-7a7f-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-7a7f-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-9a9v-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-9a9v-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-gryb-gene-x7c-positive-blood-culture -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-gryb-gene-x7c-positive-blood-culture"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-lyta-gene-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-lyta-gene-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-nana-gene -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-nana-gene"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-serotype-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-serotype-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-bld-ser-plas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-bld-ser-plas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-cerebral-spinal-fluid -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-cerebral-spinal-fluid"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-isolate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-isolate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-positive-blood-culture -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-positive-blood-culture"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-sputum -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-sputum"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-urine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-urine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-xxx -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-xxx"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptococcus-sp -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-sp"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptomyces -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptomyces"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/streptomycetaceae -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptomycetaceae"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/terms-related-to-physics-in-general-and-classical-mechanics -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/terms-related-to-physics-in-general-and-classical-mechanics"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/thermobifida-fusca -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/thermobifida-fusca"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/tissue-extract -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/tissue-extract"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/tropheryma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/tropheryma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment16/untranslated-rna -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment16/untranslated-rna"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/J36"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/abnormal-cell"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/activity"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/anatomic-structure-system-or-substance"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/biochemical-pathway"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/biological-process"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/chemotherapy-regimen-or-agent-combination"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/conceptual-entity"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/diagnostic-or-prognostic-factor"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/disease-disorder-or-finding"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/drug-food-chemical-or-biomedical-material"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/experimental-organism-anatomical-concept"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/experimental-organism-diagnosis"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/manufactured-object"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/molecular-abnormality"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/organism"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/property-or-attribute"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/retired-concept"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-7f-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-33a33f37-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/corynebacterium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6a6b"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-7a-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-bacteria"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19b-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-6c6d-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-14"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/penicillin-resistant-streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_expressed_in_tissue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19a"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/myristicin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/messenger-rna"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/dietzia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gordonia-alkanivorans"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/quinolizines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/lycopodine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/pneumococcal-infection"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/has_participant"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-5"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/salinispora-arenicola"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-2"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/chemical_or_drug_affects_gene_product"/>
+                <owl:allValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-23f"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_plays_role_in_biological_process"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6b-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_malfunction_associated_with_disease"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-18f-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-4"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/mycobacterium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/tissue-extract"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actihaemyl"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-8-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-urine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/penicillin-sensitive-streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-17f-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/bacteria"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/nonomuraea"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/terms-related-to-physics-in-general-and-classical-mechanics"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-20a-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/multidrug-resistant-streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_biomarker_type"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/pseudonocardia-autotrophica"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/bilirubin-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/coprostanol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/quinolizidine-alkaloid"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/lycopodine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/cellulomonas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/biopolymer"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinobacteria"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/propionibacteriaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-1"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinomycetaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-3"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_chemical_classification"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/precursor-mrna"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/chemical_or_drug_is_metabolized_by_enzyme"/>
+                <owl:allValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-sputum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/benzyl-compounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/myristicin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-capsular-polysaccharide-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-15b-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/brevibacterium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/protein-or-riboprotein-complex"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/frankia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/bacteria"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinomyces"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-isolate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/coupling-factor"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product--knapsack-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_biomarker_of"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptomyces"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/hnrna"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-sp"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-12f-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-6a-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/protein-fragment"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-18c-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_chemical_classification"/>
+                <owl:allValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-gryb-gene-x7c-positive-blood-culture"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-23a-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/J36"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/leifsonia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-9n-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_structural_domain_or_motif"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptomycetaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/thermobifida-fusca"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-12a12f4446-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/micromonosporaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-positive-blood-culture"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/nucleic-acid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinoplanaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/frankiaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/untranslated-rna"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-19f"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/protein"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_biochemical_function"/>
+                <owl:allValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-33f-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-nana-gene"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_physical_part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-11a-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/dioxolanes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/myristicin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/micrococcaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/alkaloids"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/lycopodine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gordonia"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-7a7f-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_biochemical_function"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_element_in_pathway"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-22f-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actihaemyl"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actihaemyl"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/mycobacteriaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gordonia-bacterium"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/renibacterium-salmoninarum"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/saccharopolyspora"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_is_physical_part_of"/>
+                <owl:allValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/sterol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/coprostanol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_associated_anatomy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-lyta-gene-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-6a6b6c6d-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/nocardiaceae"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-9a9v-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/pyrogallol"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/myristicin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-10a-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_organism_source"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-16f-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_has_abnormality"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-x7c-cerebral-spinal-fluid"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-11a11d-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/pisp"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-serotype-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-15a15f-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/tropheryma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/proteins"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotype-9v-x7c-bld-ser-plas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-22a22f-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene_product_variant_of_gene_product"/>
+                <owl:allValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/gene-product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/actinomycetales"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/acidothermus-cellulolyticus"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/streptococcus-pneumoniae-danish-serotypes-18a18b18c18f-x7c-xxx"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment16/acceleration"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

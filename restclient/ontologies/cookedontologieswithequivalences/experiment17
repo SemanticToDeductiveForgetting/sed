@@ -1,0 +1,2601 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/mostafa/Projects/forget/data/experiment17/Theory.owl#"
+     xml:base="file:/Users/mostafa/Projects/forget/data/experiment17/Theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/Users/mostafa/Projects/forget/data/experiment17/Theory.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- chemical_or_drug_affects_gene_product -->
+
+
+    <owl:ObjectProperty rdf:about="chemical_or_drug_affects_gene_product"/>
+    
+
+
+    <!-- chemical_or_drug_has_mechanism_of_action -->
+
+
+    <owl:ObjectProperty rdf:about="chemical_or_drug_has_mechanism_of_action"/>
+    
+
+
+    <!-- chemical_or_drug_has_physiologic_effect -->
+
+
+    <owl:ObjectProperty rdf:about="chemical_or_drug_has_physiologic_effect"/>
+    
+
+
+    <!-- chemotherapy_regimen_has_component -->
+
+
+    <owl:ObjectProperty rdf:about="chemotherapy_regimen_has_component"/>
+    
+
+
+    <!-- disease_has_normal_tissue_origin -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_normal_tissue_origin"/>
+    
+
+
+    <!-- disease_has_primary_anatomic_site -->
+
+
+    <owl:ObjectProperty rdf:about="disease_has_primary_anatomic_site"/>
+    
+
+
+    <!-- disease_may_have_finding -->
+
+
+    <owl:ObjectProperty rdf:about="disease_may_have_finding"/>
+    
+
+
+    <!-- gene_product_encoded_by_gene -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_encoded_by_gene"/>
+    
+
+
+    <!-- gene_product_has_associated_anatomy -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_has_associated_anatomy"/>
+    
+
+
+    <!-- gene_product_has_biochemical_function -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_has_biochemical_function"/>
+    
+
+
+    <!-- gene_product_has_structural_domain_or_motif -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_has_structural_domain_or_motif"/>
+    
+
+
+    <!-- gene_product_is_element_in_pathway -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_is_element_in_pathway"/>
+    
+
+
+    <!-- gene_product_is_physical_part_of -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_is_physical_part_of"/>
+    
+
+
+    <!-- gene_product_plays_role_in_biological_process -->
+
+
+    <owl:ObjectProperty rdf:about="gene_product_plays_role_in_biological_process"/>
+    
+
+
+    <!-- has-granular-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-granular-part"/>
+    
+
+
+    <!-- has-input -->
+
+
+    <owl:ObjectProperty rdf:about="has-input"/>
+    
+
+
+    <!-- has-modifier -->
+
+
+    <owl:ObjectProperty rdf:about="has-modifier"/>
+    
+
+
+    <!-- has-part -->
+
+
+    <owl:ObjectProperty rdf:about="has-part"/>
+    
+
+
+    <!-- has-pharmacological-action -->
+
+
+    <owl:ObjectProperty rdf:about="has-pharmacological-action"/>
+    
+
+
+    <!-- has-phenotype-affecting -->
+
+
+    <owl:ObjectProperty rdf:about="has-phenotype-affecting"/>
+    
+
+
+    <!-- has-related-match -->
+
+
+    <owl:ObjectProperty rdf:about="has-related-match"/>
+    
+
+
+    <!-- has-role -->
+
+
+    <owl:ObjectProperty rdf:about="has-role"/>
+    
+
+
+    <!-- has_proper_part -->
+
+
+    <owl:ObjectProperty rdf:about="has_proper_part"/>
+    
+
+
+    <!-- inheres-in -->
+
+
+    <owl:ObjectProperty rdf:about="inheres-in"/>
+    
+
+
+    <!-- is-bearer-of -->
+
+
+    <owl:ObjectProperty rdf:about="is-bearer-of"/>
+    
+
+
+    <!-- occurs-in -->
+
+
+    <owl:ObjectProperty rdf:about="occurs-in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- CHV_Concept -->
+
+
+    <owl:Class rdf:about="CHV_Concept"/>
+    
+
+
+    <!-- UMLS_Concept -->
+
+
+    <owl:Class rdf:about="UMLS_Concept"/>
+    
+
+
+    <!-- abdominal-pain -->
+
+
+    <owl:Class rdf:about="abdominal-pain"/>
+    
+
+
+    <!-- abnormal -->
+
+
+    <owl:Class rdf:about="abnormal"/>
+    
+
+
+    <!-- abnormality-of-movement -->
+
+
+    <owl:Class rdf:about="abnormality-of-movement"/>
+    
+
+
+    <!-- action-and-operation&#45;&#45;life-science- -->
+
+
+    <owl:Class rdf:about="action-and-operation--life-science-"/>
+    
+
+
+    <!-- active-ingredient -->
+
+
+    <owl:Class rdf:about="active-ingredient"/>
+    
+
+
+    <!-- adrenal-gland -->
+
+
+    <owl:Class rdf:about="adrenal-gland"/>
+    
+
+
+    <!-- adrenal-gland-pheochromocytoma -->
+
+
+    <owl:Class rdf:about="adrenal-gland-pheochromocytoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="adrenal-medulla-neoplasm"/>
+                    <rdf:Description rdf:about="sympathetic-paraganglioma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="disease_has_normal_tissue_origin"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="adrenal-medulla"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="disease_has_primary_anatomic_site"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="adrenal-gland"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="abdominal-pain"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="fever"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="hypertension"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                        <owl:someValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                    <rdf:Description rdf:about="headache"/>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                        <owl:someValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                    <rdf:Description rdf:about="palpitation"/>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                    <rdf:Description rdf:about="tremor"/>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="disease_may_have_finding"/>
+                                                                                                                                                        <owl:someValuesFrom rdf:resource="chest-pain"/>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:intersectionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:someValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:intersectionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:someValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- adrenal-medulla -->
+
+
+    <owl:Class rdf:about="adrenal-medulla"/>
+    
+
+
+    <!-- adrenal-medulla-neoplasm -->
+
+
+    <owl:Class rdf:about="adrenal-medulla-neoplasm"/>
+    
+
+
+    <!-- alcohol -->
+
+
+    <owl:Class rdf:about="alcohol"/>
+    
+
+
+    <!-- alpha-adrenergic-antagonist -->
+
+
+    <owl:Class rdf:about="alpha-adrenergic-antagonist"/>
+    
+
+
+    <!-- anatomical-entity -->
+
+
+    <owl:Class rdf:about="anatomical-entity"/>
+    
+
+
+    <!-- anthropogenic-environmental-process -->
+
+
+    <owl:Class rdf:about="anthropogenic-environmental-process"/>
+    
+
+
+    <!-- arthralgia -->
+
+
+    <owl:Class rdf:about="arthralgia"/>
+    
+
+
+    <!-- asterixis -->
+
+
+    <owl:Class rdf:about="asterixis">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- atp-hydrolysis -->
+
+
+    <owl:Class rdf:about="atp-hydrolysis"/>
+    
+
+
+    <!-- atpase -->
+
+
+    <owl:Class rdf:about="atpase"/>
+    
+
+
+    <!-- bard1-signaling-pathway -->
+
+
+    <owl:Class rdf:about="bard1-signaling-pathway"/>
+    
+
+
+    <!-- bieluzon-s -->
+
+
+    <owl:Class rdf:about="bieluzon-s">
+        <rdfs:subClassOf rdf:resource="alcohol"/>
+        <rdfs:subClassOf rdf:resource="carboxylate--ester-"/>
+        <rdfs:subClassOf rdf:resource="ergot-alkaloid"/>
+        <rdfs:subClassOf rdf:resource="ether"/>
+        <rdfs:subClassOf rdf:resource="nitrogen-heterocyclic-compound"/>
+        <rdfs:subClassOf rdf:resource="organobromine-compound"/>
+        <rdfs:subClassOf rdf:resource="polynuclear-aromatic-compound"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="cerebral-ameliorator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-role"/>
+                <owl:someValuesFrom rdf:resource="hypotensive-drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- biological-oxygen-demand-analysis -->
+
+
+    <owl:Class rdf:about="biological-oxygen-demand-analysis">
+        <rdfs:subClassOf rdf:resource="environmental-monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- biological-rhythm -->
+
+
+    <owl:Class rdf:about="biological-rhythm"/>
+    
+
+
+    <!-- biomonitoring -->
+
+
+    <owl:Class rdf:about="biomonitoring">
+        <rdfs:subClassOf rdf:resource="environmental-monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- bochdalek-hernia -->
+
+
+    <owl:Class rdf:about="bochdalek-hernia">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="congenital-disease"/>
+        <rdfs:subClassOf rdf:resource="diaphragmatic-hernia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- carboxylate&#45;&#45;ester- -->
+
+
+    <owl:Class rdf:about="carboxylate--ester-"/>
+    
+
+
+    <!-- cd3-complex -->
+
+
+    <owl:Class rdf:about="cd3-complex"/>
+    
+
+
+    <!-- cellular-stress-response -->
+
+
+    <owl:Class rdf:about="cellular-stress-response"/>
+    
+
+
+    <!-- cerebral-ameliorator -->
+
+
+    <owl:Class rdf:about="cerebral-ameliorator"/>
+    
+
+
+    <!-- chest-pain -->
+
+
+    <owl:Class rdf:about="chest-pain"/>
+    
+
+
+    <!-- choroidal-detachment -->
+
+
+    <owl:Class rdf:about="choroidal-detachment"/>
+    
+
+
+    <!-- congenital-disease -->
+
+
+    <owl:Class rdf:about="congenital-disease"/>
+    
+
+
+    <!-- coregulation-pathway-for-androgen-receptor-activity -->
+
+
+    <owl:Class rdf:about="coregulation-pathway-for-androgen-receptor-activity"/>
+    
+
+
+    <!-- cyclin-dependent-kinase-inhibitor-p18 -->
+
+
+    <owl:Class rdf:about="cyclin-dependent-kinase-inhibitor-p18">
+        <rdfs:subClassOf rdf:resource="cyclin-dependent-kinase-inhibitor-p18"/>
+        <rdfs:subClassOf rdf:resource="cyclin-dependent-kinase-inhibitor-proteins"/>
+        <rdfs:subClassOf rdf:resource="tumor-suppressor-protein"/>
+    </owl:Class>
+    
+
+
+    <!-- cyclin-dependent-kinase-inhibitor-proteins -->
+
+
+    <owl:Class rdf:about="cyclin-dependent-kinase-inhibitor-proteins"/>
+    
+
+
+    <!-- cyclophosphamideinterleukin-2monoclonal-antibody-okt3 -->
+
+
+    <owl:Class rdf:about="cyclophosphamideinterleukin-2monoclonal-antibody-okt3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cyclophosphamideinterleukin-2monoclonal-antibody-okt3tumor-necrosis-factor -->
+
+
+    <owl:Class rdf:about="cyclophosphamideinterleukin-2monoclonal-antibody-okt3tumor-necrosis-factor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cyclosporinefilgrastimmethylprednisolonemonoclonal-antibody-okt3 -->
+
+
+    <owl:Class rdf:about="cyclosporinefilgrastimmethylprednisolonemonoclonal-antibody-okt3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- cysteine-dioxygenase -->
+
+
+    <owl:Class rdf:about="cysteine-dioxygenase">
+        <rdfs:subClassOf rdf:resource="cysteine-dioxygenase"/>
+        <rdfs:subClassOf rdf:resource="dioxygenases"/>
+    </owl:Class>
+    
+
+
+    <!-- diaphragmatic-hernia -->
+
+
+    <owl:Class rdf:about="diaphragmatic-hernia"/>
+    
+
+
+    <!-- dioxygenases -->
+
+
+    <owl:Class rdf:about="dioxygenases"/>
+    
+
+
+    <!-- diseasespathologysymptoms&#45;&#45;knapsack- -->
+
+
+    <owl:Class rdf:about="diseasespathologysymptoms--knapsack-"/>
+    
+
+
+    <!-- dna-binding -->
+
+
+    <owl:Class rdf:about="dna-binding"/>
+    
+
+
+    <!-- dna-helicase -->
+
+
+    <owl:Class rdf:about="dna-helicase">
+        <rdfs:subClassOf rdf:resource="helicase"/>
+    </owl:Class>
+    
+
+
+    <!-- dna-maintenance-process -->
+
+
+    <owl:Class rdf:about="dna-maintenance-process"/>
+    
+
+
+    <!-- dna-repair-and-recombination-protein-rad54b -->
+
+
+    <owl:Class rdf:about="dna-repair-and-recombination-protein-rad54b">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="dna-repair-protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="rad54b-gene"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="gene_product_has_biochemical_function"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="helicase"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="homologous-recombination-pathway"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="dna-binding"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="mitotic-recombination"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                        <owl:someValuesFrom rdf:resource="meiotic-recombination"/>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- dna-repair-protein -->
+
+
+    <owl:Class rdf:about="dna-repair-protein"/>
+    
+
+
+    <!-- dyskinesia -->
+
+
+    <owl:Class rdf:about="dyskinesia"/>
+    
+
+
+    <!-- dyskinetic-syndrome -->
+
+
+    <owl:Class rdf:about="dyskinetic-syndrome"/>
+    
+
+
+    <!-- environmental-monitoring -->
+
+
+    <owl:Class rdf:about="environmental-monitoring">
+        <rdfs:subClassOf rdf:resource="action-and-operation--life-science-"/>
+        <rdfs:subClassOf rdf:resource="anthropogenic-environmental-process"/>
+        <rdfs:subClassOf rdf:resource="environmental-monitoring"/>
+        <rdfs:subClassOf rdf:resource="planned-process"/>
+        <rdfs:subClassOf rdf:resource="public-health-practice"/>
+    </owl:Class>
+    
+
+
+    <!-- environmental-monitoring-Concept -->
+
+
+    <owl:Class rdf:about="environmental-monitoring-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="environmental-monitoring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- environmental-pollution -->
+
+
+    <owl:Class rdf:about="environmental-pollution"/>
+    
+
+
+    <!-- enzyme -->
+
+
+    <owl:Class rdf:about="enzyme"/>
+    
+
+
+    <!-- enzyme-inhibition -->
+
+
+    <owl:Class rdf:about="enzyme-inhibition"/>
+    
+
+
+    <!-- ergolines -->
+
+
+    <owl:Class rdf:about="ergolines"/>
+    
+
+
+    <!-- ergot-alkaloid -->
+
+
+    <owl:Class rdf:about="ergot-alkaloid"/>
+    
+
+
+    <!-- ether -->
+
+
+    <owl:Class rdf:about="ether"/>
+    
+
+
+    <!-- exfoliation&#45;&#45;life-science- -->
+
+
+    <owl:Class rdf:about="exfoliation--life-science-"/>
+    
+
+
+    <!-- fever -->
+
+
+    <owl:Class rdf:about="fever"/>
+    
+
+
+    <!-- flunarizine&#45;&#45;nicergoline-oral-tablet -->
+
+
+    <owl:Class rdf:about="flunarizine--nicergoline-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nicergoline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fluphenazine -->
+
+
+    <owl:Class rdf:about="fluphenazine"/>
+    
+
+
+    <!-- foot-joint-pain -->
+
+
+    <owl:Class rdf:about="foot-joint-pain">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="arthralgia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- fragile-x-tremor-ataxia-syndrome -->
+
+
+    <owl:Class rdf:about="fragile-x-tremor-ataxia-syndrome">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- general-symptom -->
+
+
+    <owl:Class rdf:about="general-symptom"/>
+    
+
+
+    <!-- geniospasm -->
+
+
+    <owl:Class rdf:about="geniospasm">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- haemorrhagic-choroidal-detachment -->
+
+
+    <owl:Class rdf:about="haemorrhagic-choroidal-detachment">
+        <rdfs:subClassOf rdf:resource="choroidal-detachment"/>
+        <rdfs:subClassOf rdf:resource="exfoliation--life-science-"/>
+        <rdfs:subClassOf rdf:resource="hemorrhage"/>
+        <rdfs:subClassOf rdf:resource="uveal-disease"/>
+    </owl:Class>
+    
+
+
+    <!-- hamstring-tendon -->
+
+
+    <owl:Class rdf:about="hamstring-tendon">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="tendons"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- hand-tremor -->
+
+
+    <owl:Class rdf:about="hand-tremor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="tremor"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="occurs-in"/>
+                                                                <owl:someValuesFrom rdf:resource="manus"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- hdac-class-iii-signaling-pathway -->
+
+
+    <owl:Class rdf:about="hdac-class-iii-signaling-pathway"/>
+    
+
+
+    <!-- head -->
+
+
+    <owl:Class rdf:about="head"/>
+    
+
+
+    <!-- head-tremor -->
+
+
+    <owl:Class rdf:about="head-tremor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="tremor"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="occurs-in"/>
+                                                                <owl:someValuesFrom rdf:resource="head"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- headache -->
+
+
+    <owl:Class rdf:about="headache"/>
+    
+
+
+    <!-- helicase -->
+
+
+    <owl:Class rdf:about="helicase">
+        <rdfs:subClassOf rdf:resource="enzyme"/>
+        <rdfs:subClassOf rdf:resource="hydrolase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_product_encoded_by_gene"/>
+                <owl:someValuesFrom rdf:resource="helicase-gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_product_has_biochemical_function"/>
+                <owl:someValuesFrom rdf:resource="atpase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                <owl:someValuesFrom rdf:resource="atp-hydrolysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                <owl:someValuesFrom rdf:resource="nucleic-acid-binding"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- helicase-Concept -->
+
+
+    <owl:Class rdf:about="helicase-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="helicase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- helicase-gene -->
+
+
+    <owl:Class rdf:about="helicase-gene"/>
+    
+
+
+    <!-- hemorrhage -->
+
+
+    <owl:Class rdf:about="hemorrhage"/>
+    
+
+
+    <!-- hokt3-gamma4 -->
+
+
+    <owl:Class rdf:about="hokt3-gamma4">
+        <rdfs:subClassOf rdf:resource="muromonab-cd3"/>
+    </owl:Class>
+    
+
+
+    <!-- homologous-recombination-pathway -->
+
+
+    <owl:Class rdf:about="homologous-recombination-pathway"/>
+    
+
+
+    <!-- httpsbmi -->
+
+
+    <owl:Class rdf:about="httpsbmi"/>
+    
+
+
+    <!-- hydrolase -->
+
+
+    <owl:Class rdf:about="hydrolase"/>
+    
+
+
+    <!-- hypertension -->
+
+
+    <owl:Class rdf:about="hypertension"/>
+    
+
+
+    <!-- hypotensive-drug -->
+
+
+    <owl:Class rdf:about="hypotensive-drug"/>
+    
+
+
+    <!-- immunoglobulin-g -->
+
+
+    <owl:Class rdf:about="immunoglobulin-g"/>
+    
+
+
+    <!-- immunologic-factors -->
+
+
+    <owl:Class rdf:about="immunologic-factors"/>
+    
+
+
+    <!-- immunosuppressant -->
+
+
+    <owl:Class rdf:about="immunosuppressant"/>
+    
+
+
+    <!-- immunosuppressive-agents -->
+
+
+    <owl:Class rdf:about="immunosuppressive-agents"/>
+    
+
+
+    <!-- immunosuppressive-effect -->
+
+
+    <owl:Class rdf:about="immunosuppressive-effect"/>
+    
+
+
+    <!-- increased-rate -->
+
+
+    <owl:Class rdf:about="increased-rate"/>
+    
+
+
+    <!-- intention-tremor -->
+
+
+    <owl:Class rdf:about="intention-tremor">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-2monoclonal-antibody-okt3 -->
+
+
+    <owl:Class rdf:about="interleukin-2monoclonal-antibody-okt3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-2monoclonal-antibody-okt3pentoxifylline -->
+
+
+    <owl:Class rdf:about="interleukin-2monoclonal-antibody-okt3pentoxifylline">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- interleukin-2monoclonal-antibody-okt3tumor-necrosis-factor -->
+
+
+    <owl:Class rdf:about="interleukin-2monoclonal-antibody-okt3tumor-necrosis-factor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- involuntary-movement-behavior-phenotype -->
+
+
+    <owl:Class rdf:about="involuntary-movement-behavior-phenotype"/>
+    
+
+
+    <!-- involuntary-movements -->
+
+
+    <owl:Class rdf:about="involuntary-movements"/>
+    
+
+
+    <!-- ku-protein -->
+
+
+    <owl:Class rdf:about="ku-protein">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="gene_product_has_biochemical_function"/>
+                <owl:someValuesFrom rdf:resource="helicase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- lavendomycin -->
+
+
+    <owl:Class rdf:about="lavendomycin">
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+        <rdfs:subClassOf rdf:resource="peptides"/>
+    </owl:Class>
+    
+
+
+    <!-- lip -->
+
+
+    <owl:Class rdf:about="lip"/>
+    
+
+
+    <!-- lip-tremor -->
+
+
+    <owl:Class rdf:about="lip-tremor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="tremor"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="occurs-in"/>
+                                                                <owl:someValuesFrom rdf:resource="lip"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- localizing -->
+
+
+    <owl:Class rdf:about="localizing"/>
+    
+
+
+    <!-- mange -->
+
+
+    <owl:Class rdf:about="mange">
+        <rdfs:subClassOf rdf:resource="diseasespathologysymptoms--knapsack-"/>
+    </owl:Class>
+    
+
+
+    <!-- mange-Concept -->
+
+
+    <owl:Class rdf:about="mange-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="mange"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- manus -->
+
+
+    <owl:Class rdf:about="manus"/>
+    
+
+
+    <!-- meiotic-recombination -->
+
+
+    <owl:Class rdf:about="meiotic-recombination"/>
+    
+
+
+    <!-- mental-manifestation -->
+
+
+    <owl:Class rdf:about="mental-manifestation"/>
+    
+
+
+    <!-- mitotic-recombination -->
+
+
+    <owl:Class rdf:about="mitotic-recombination"/>
+    
+
+
+    <!-- molecular-targeting-drug -->
+
+
+    <owl:Class rdf:about="molecular-targeting-drug"/>
+    
+
+
+    <!-- monoclonal-antibody -->
+
+
+    <owl:Class rdf:about="monoclonal-antibody"/>
+    
+
+
+    <!-- monoclonal-antibody-huokt3-ala-ala- -->
+
+
+    <owl:Class rdf:about="monoclonal-antibody-huokt3-ala-ala-">
+        <rdfs:subClassOf rdf:resource="muromonab-cd3"/>
+    </owl:Class>
+    
+
+
+    <!-- motor-manifestations -->
+
+
+    <owl:Class rdf:about="motor-manifestations"/>
+    
+
+
+    <!-- muromonab-cd3 -->
+
+
+    <owl:Class rdf:about="muromonab-cd3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="immunosuppressant"/>
+                    <rdf:Description rdf:about="monoclonal-antibody"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="chemical_or_drug_affects_gene_product"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="cd3-complex"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="chemical_or_drug_has_mechanism_of_action"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="negative-regulation-of-receptor-activation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="chemical_or_drug_has_physiologic_effect"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="enzyme-inhibition"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="chemical_or_drug_has_physiologic_effect"/>
+                                                                        <owl:someValuesFrom rdf:resource="immunosuppressive-effect"/>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="immunoglobulin-g"/>
+        <rdfs:subClassOf rdf:resource="monoclonal-antibody"/>
+        <rdfs:subClassOf rdf:resource="muromonab-cd3"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="immunologic-factors"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-pharmacological-action"/>
+                <owl:someValuesFrom rdf:resource="immunosuppressive-agents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- muromonab-cd3-Concept -->
+
+
+    <owl:Class rdf:about="muromonab-cd3-Concept">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="muromonab-cd3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- muromonab-cd3-injectable-solution -->
+
+
+    <owl:Class rdf:about="muromonab-cd3-injectable-solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="muromonab-cd3"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- negative-regulation-of-receptor-activation -->
+
+
+    <owl:Class rdf:about="negative-regulation-of-receptor-activation"/>
+    
+
+
+    <!-- nicergoline -->
+
+
+    <owl:Class rdf:about="nicergoline">
+        <rdfs:subClassOf rdf:resource="CHV_Concept"/>
+        <rdfs:subClassOf rdf:resource="alpha-adrenergic-antagonist"/>
+        <rdfs:subClassOf rdf:resource="ergolines"/>
+        <rdfs:subClassOf rdf:resource="nicergoline"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+    </owl:Class>
+    
+
+
+    <!-- nicergoline-Concept -->
+
+
+    <owl:Class rdf:about="nicergoline-Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="nicergoline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nicergoline-extended-release-capsule -->
+
+
+    <owl:Class rdf:about="nicergoline-extended-release-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nicergoline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nicergoline-lozenge -->
+
+
+    <owl:Class rdf:about="nicergoline-lozenge">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nicergoline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nicergoline-oral-capsule -->
+
+
+    <owl:Class rdf:about="nicergoline-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nicergoline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nicergoline-oral-lozenge -->
+
+
+    <owl:Class rdf:about="nicergoline-oral-lozenge">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nicergoline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nicergoline-oral-tablet -->
+
+
+    <owl:Class rdf:about="nicergoline-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="nicergoline"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- nikkajicompounds -->
+
+
+    <owl:Class rdf:about="nikkajicompounds"/>
+    
+
+
+    <!-- nitrogen-heterocyclic-compound -->
+
+
+    <owl:Class rdf:about="nitrogen-heterocyclic-compound"/>
+    
+
+
+    <!-- non-homologous-end-joining-pathway -->
+
+
+    <owl:Class rdf:about="non-homologous-end-joining-pathway"/>
+    
+
+
+    <!-- nonhomologous-dna-end-joining -->
+
+
+    <owl:Class rdf:about="nonhomologous-dna-end-joining"/>
+    
+
+
+    <!-- nuclear-localization-signal -->
+
+
+    <owl:Class rdf:about="nuclear-localization-signal"/>
+    
+
+
+    <!-- nucleic-acid-binding -->
+
+
+    <owl:Class rdf:about="nucleic-acid-binding"/>
+    
+
+
+    <!-- nucleolus -->
+
+
+    <owl:Class rdf:about="nucleolus"/>
+    
+
+
+    <!-- olaparib -->
+
+
+    <owl:Class rdf:about="olaparib">
+        <rdfs:subClassOf rdf:resource="molecular-targeting-drug"/>
+        <rdfs:subClassOf rdf:resource="poly--adp-ribose--polymerase-inhibitor"/>
+        <rdfs:subClassOf rdf:resource="processed-material"/>
+    </owl:Class>
+    
+
+
+    <!-- olaparib-oral-capsule -->
+
+
+    <owl:Class rdf:about="olaparib-oral-capsule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="olaparib"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- olaparib-oral-tablet -->
+
+
+    <owl:Class rdf:about="olaparib-oral-tablet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="scattered-molecular-aggregate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-granular-part"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="olaparib"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="is-bearer-of"/>
+                                                <owl:someValuesFrom rdf:resource="active-ingredient"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- olaparib-regimen -->
+
+
+    <owl:Class rdf:about="olaparib-regimen">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="chemotherapy_regimen_has_component"/>
+                <owl:someValuesFrom rdf:resource="olaparib"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- organobromine-compound -->
+
+
+    <owl:Class rdf:about="organobromine-compound"/>
+    
+
+
+    <!-- palpitation -->
+
+
+    <owl:Class rdf:about="palpitation"/>
+    
+
+
+    <!-- patient-positioning -->
+
+
+    <owl:Class rdf:about="patient-positioning">
+        <rdfs:subClassOf rdf:resource="positioning"/>
+    </owl:Class>
+    
+
+
+    <!-- peptides -->
+
+
+    <owl:Class rdf:about="peptides"/>
+    
+
+
+    <!-- planned-process -->
+
+
+    <owl:Class rdf:about="planned-process"/>
+    
+
+
+    <!-- pollution-monitoring -->
+
+
+    <owl:Class rdf:about="pollution-monitoring">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="environmental-monitoring"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="has-input"/>
+                        <owl:someValuesFrom rdf:resource="environmental-pollution"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="environmental-monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- poly&#45;&#45;adp-ribose&#45;&#45;polymerase-inhibitor -->
+
+
+    <owl:Class rdf:about="poly--adp-ribose--polymerase-inhibitor"/>
+    
+
+
+    <!-- polynuclear-aromatic-compound -->
+
+
+    <owl:Class rdf:about="polynuclear-aromatic-compound"/>
+    
+
+
+    <!-- positioning -->
+
+
+    <owl:Class rdf:about="positioning">
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="localizing"/>
+        <rdfs:subClassOf rdf:resource="terms-related-to-action-and-operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="httpsbmi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- primary-orthostatic-tremor -->
+
+
+    <owl:Class rdf:about="primary-orthostatic-tremor">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- probable-helicase-senataxin -->
+
+
+    <owl:Class rdf:about="probable-helicase-senataxin">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="helicase"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="setx-gene"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="gene_product_has_associated_anatomy"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="nucleolus"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="gene_product_has_associated_anatomy"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="telomere"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="gene_product_has_structural_domain_or_motif"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="nuclear-localization-signal"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="biological-rhythm"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                        <owl:someValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                    <rdf:Description rdf:about="rna-processing"/>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                                        <owl:someValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                    <rdf:Description rdf:about="cellular-stress-response"/>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                                                        <owl:someValuesFrom rdf:resource="dna-maintenance-process"/>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:intersectionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:someValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:intersectionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:someValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- processed-material -->
+
+
+    <owl:Class rdf:about="processed-material"/>
+    
+
+
+    <!-- psychogenic-tremor -->
+
+
+    <owl:Class rdf:about="psychogenic-tremor">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- public-health-practice -->
+
+
+    <owl:Class rdf:about="public-health-practice"/>
+    
+
+
+    <!-- rad54b-gene -->
+
+
+    <owl:Class rdf:about="rad54b-gene"/>
+    
+
+
+    <!-- radiation-monitoring -->
+
+
+    <owl:Class rdf:about="radiation-monitoring">
+        <rdfs:subClassOf rdf:resource="environmental-monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-helicase -->
+
+
+    <owl:Class rdf:about="rna-helicase">
+        <rdfs:subClassOf rdf:resource="helicase"/>
+    </owl:Class>
+    
+
+
+    <!-- rna-processing -->
+
+
+    <owl:Class rdf:about="rna-processing"/>
+    
+
+
+    <!-- scattered-molecular-aggregate -->
+
+
+    <owl:Class rdf:about="scattered-molecular-aggregate"/>
+    
+
+
+    <!-- setx-gene -->
+
+
+    <owl:Class rdf:about="setx-gene"/>
+    
+
+
+    <!-- soil-monitoring -->
+
+
+    <owl:Class rdf:about="soil-monitoring">
+        <rdfs:subClassOf rdf:resource="environmental-monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- sympathetic-paraganglioma -->
+
+
+    <owl:Class rdf:about="sympathetic-paraganglioma"/>
+    
+
+
+    <!-- telomerase-regulation-pathway -->
+
+
+    <owl:Class rdf:about="telomerase-regulation-pathway"/>
+    
+
+
+    <!-- telomere -->
+
+
+    <owl:Class rdf:about="telomere"/>
+    
+
+
+    <!-- telomere-maintenance -->
+
+
+    <owl:Class rdf:about="telomere-maintenance"/>
+    
+
+
+    <!-- telomere-pathway -->
+
+
+    <owl:Class rdf:about="telomere-pathway"/>
+    
+
+
+    <!-- tendons -->
+
+
+    <owl:Class rdf:about="tendons"/>
+    
+
+
+    <!-- terms-related-to-action-and-operation -->
+
+
+    <owl:Class rdf:about="terms-related-to-action-and-operation"/>
+    
+
+
+    <!-- tongue -->
+
+
+    <owl:Class rdf:about="tongue"/>
+    
+
+
+    <!-- tongue-tremor -->
+
+
+    <owl:Class rdf:about="tongue-tremor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="tremor"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="occurs-in"/>
+                                                                <owl:someValuesFrom rdf:resource="tongue"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- tremor -->
+
+
+    <owl:Class rdf:about="tremor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom rdf:resource="tremor"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="UMLS_Concept"/>
+        <rdfs:subClassOf rdf:resource="abnormality-of-movement"/>
+        <rdfs:subClassOf rdf:resource="dyskinesia"/>
+        <rdfs:subClassOf rdf:resource="dyskinetic-syndrome"/>
+        <rdfs:subClassOf rdf:resource="general-symptom"/>
+        <rdfs:subClassOf rdf:resource="involuntary-movement-behavior-phenotype"/>
+        <rdfs:subClassOf rdf:resource="involuntary-movements"/>
+        <rdfs:subClassOf rdf:resource="mental-manifestation"/>
+        <rdfs:subClassOf rdf:resource="motor-manifestations"/>
+        <rdfs:subClassOf rdf:resource="tremor"/>
+        <rdfs:subClassOf rdf:resource="tremor--disease-"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-related-match"/>
+                <owl:someValuesFrom rdf:resource="tremor-Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- tremor&#45;&#45;disease- -->
+
+
+    <owl:Class rdf:about="tremor--disease-"/>
+    
+
+
+    <!-- tremor-Concept -->
+
+
+    <owl:Class rdf:about="tremor-Concept"/>
+    
+
+
+    <!-- tremor-by-anatomical-site -->
+
+
+    <owl:Class rdf:about="tremor-by-anatomical-site">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="increased-rate"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="has-modifier"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="abnormal"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="inheres-in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="tremor"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="occurs-in"/>
+                                                                <owl:someValuesFrom rdf:resource="anatomical-entity"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- tremor-hereditary-essential-2 -->
+
+
+    <owl:Class rdf:about="tremor-hereditary-essential-2">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- tremor-of-intention-ataxia-and-lipofuscinosis -->
+
+
+    <owl:Class rdf:about="tremor-of-intention-ataxia-and-lipofuscinosis">
+        <rdfs:subClassOf rdf:resource="tremor"/>
+    </owl:Class>
+    
+
+
+    <!-- tremor-phenotype -->
+
+
+    <owl:Class rdf:about="tremor-phenotype">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="has-phenotype-affecting"/>
+                <owl:someValuesFrom rdf:resource="tremor"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- tumor-suppressor-protein -->
+
+
+    <owl:Class rdf:about="tumor-suppressor-protein"/>
+    
+
+
+    <!-- uveal-disease -->
+
+
+    <owl:Class rdf:about="uveal-disease"/>
+    
+
+
+    <!-- v-d-j-recombination -->
+
+
+    <owl:Class rdf:about="v-d-j-recombination"/>
+    
+
+
+    <!-- x-ray-repair-cross-complementing-protein-6 -->
+
+
+    <owl:Class rdf:about="x-ray-repair-cross-complementing-protein-6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="dna-repair-protein"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="gene_product_encoded_by_gene"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="xrcc6-gene"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="gene_product_has_biochemical_function"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="helicase"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="telomere-pathway"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="non-homologous-end-joining-pathway"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="bard1-signaling-pathway"/>
+                                                                                                    <owl:Restriction>
+                                                                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                                                                        <owl:someValuesFrom>
+                                                                                                            <owl:Class>
+                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                    <rdf:Description rdf:about="coregulation-pathway-for-androgen-receptor-activity"/>
+                                                                                                                    <owl:Restriction>
+                                                                                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                                                                                        <owl:someValuesFrom>
+                                                                                                                            <owl:Class>
+                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                    <rdf:Description rdf:about="telomerase-regulation-pathway"/>
+                                                                                                                                    <owl:Restriction>
+                                                                                                                                        <owl:onProperty rdf:resource="gene_product_is_element_in_pathway"/>
+                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                            <owl:Class>
+                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                    <rdf:Description rdf:about="hdac-class-iii-signaling-pathway"/>
+                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                        <owl:onProperty rdf:resource="gene_product_is_physical_part_of"/>
+                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                            <owl:Class>
+                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                    <rdf:Description rdf:about="ku-protein"/>
+                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                                    <rdf:Description rdf:about="telomere-maintenance"/>
+                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                                                                                                        <owl:someValuesFrom>
+                                                                                                                                                                                            <owl:Class>
+                                                                                                                                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                                                                                                                    <rdf:Description rdf:about="nonhomologous-dna-end-joining"/>
+                                                                                                                                                                                                    <owl:Restriction>
+                                                                                                                                                                                                        <owl:onProperty rdf:resource="gene_product_plays_role_in_biological_process"/>
+                                                                                                                                                                                                        <owl:someValuesFrom rdf:resource="v-d-j-recombination"/>
+                                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                                            </owl:Class>
+                                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                                            </owl:Class>
+                                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                                    </owl:Restriction>
+                                                                                                                                                </owl:intersectionOf>
+                                                                                                                                            </owl:Class>
+                                                                                                                                        </owl:someValuesFrom>
+                                                                                                                                    </owl:Restriction>
+                                                                                                                                </owl:intersectionOf>
+                                                                                                                            </owl:Class>
+                                                                                                                        </owl:someValuesFrom>
+                                                                                                                    </owl:Restriction>
+                                                                                                                </owl:intersectionOf>
+                                                                                                            </owl:Class>
+                                                                                                        </owl:someValuesFrom>
+                                                                                                    </owl:Restriction>
+                                                                                                </owl:intersectionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- xrcc6-gene -->
+
+
+    <owl:Class rdf:about="xrcc6-gene"/>
+    
+
+
+    <!-- 7-hydroxyfluphenazine -->
+
+
+    <owl:Class rdf:about="7-hydroxyfluphenazine">
+        <rdfs:subClassOf rdf:resource="fluphenazine"/>
+        <rdfs:subClassOf rdf:resource="nikkajicompounds"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) https://github.com/owlcs/owlapi/ -->
+
+

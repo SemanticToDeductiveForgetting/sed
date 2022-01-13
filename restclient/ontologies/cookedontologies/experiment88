@@ -1,0 +1,1185 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment88#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment88"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment88"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_affects_gene_product -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_affects_gene_product"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_mechanism_of_action -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_mechanism_of_action"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/contributes-to-morphology-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/contributes-to-morphology-of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/only-in-taxon -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/only-in-taxon"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/part-of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/posterior_to -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment88/posterior_to"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/J246 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/J246"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/ace -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/ace"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/adrenergic-agonist -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/adrenergic-agonist"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/amino-acid-motifs -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/amino-acid-motifs"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/anti-ulcer-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/anti-ulcer-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/antianxiety-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/antianxiety-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/beard -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/beard"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/biogenic-substance -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/biogenic-substance"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/capecitabinedocetaxeltipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/capecitabinedocetaxeltipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/capecitabinetipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/capecitabinetipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/cheek -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/cheek"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/cisplatingemcitabinetipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/cisplatingemcitabinetipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/coenzymes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/coenzymes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/craniata-chordata -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/craniata-chordata"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/cyclophosphamidedoxorubicintipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/cyclophosphamidedoxorubicintipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/cytochromes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/cytochromes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/enzyme-inhibition -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzyme-inhibition"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/enzyme-precursors -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzyme-precursors"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/enzymes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/enzymesubject -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymesubject"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/face -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/face"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/face&#45;&#45;body-region- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/face--body-region-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/farnesyl-protein-transferase -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/farnesyl-protein-transferase"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/farnesyl-transferase-inhibitor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/farnesyl-transferase-inhibitor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/farnesylation-inhibition -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/farnesylation-inhibition"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/fluxofenim -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/fluxofenim"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/gemcitabiner115777 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/gemcitabiner115777"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/gemcitabinetipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/gemcitabinetipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/gnathostomata-vertebrate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/gnathostomata-vertebrate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/herpes-simplex-virus-vaccines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/herpes-simplex-virus-vaccines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/herpesvirus-vaccines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/herpesvirus-vaccines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/inhibition-of-cell-proliferation -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/inhibition-of-cell-proliferation"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/letrozoletipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/letrozoletipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/loxiglumide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/loxiglumide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/metaraminol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/metaraminol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/midface -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/molecular-targeting-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/molecular-targeting-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/negative-regulation-of-angiogenesis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/negative-regulation-of-angiogenesis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/nikkajicompounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/nikkajicompounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/nose -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/nose"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/oximes -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/oximes"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/p-hydroxynorephedrine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/p-hydroxynorephedrine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/positive-regulation-of-apoptosis -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/positive-regulation-of-apoptosis"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/proglumide -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/proglumide"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/propanolamines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/propanolamines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/proteins -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/proteins"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/quinolones -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/quinolones"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/r115777 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/r115777"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/r115777trastuzumab -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/r115777trastuzumab"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/secondary-structure -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/secondary-structure"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/signal-transduction-inhibition -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/signal-transduction-inhibition"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/snout -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/snout"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/subdivision-of-head -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/subdivision-of-head"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/tamoxifentipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/tamoxifentipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/tipifarnib -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/tipifarnibtrastuzumab -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/tipifarnibtrastuzumab"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/upper-jaw-region -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/upper-jaw-region"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment88/virus-vaccine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment88/virus-vaccine"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/J246"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/ace"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/proteins"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/propanolamines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/letrozoletipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/herpes-simplex-virus-vaccines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/herpes-simplex-virus-vaccines"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/virus-vaccine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/herpes-simplex-virus-vaccines"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/face--body-region-"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/capecitabinedocetaxeltipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/cisplatingemcitabinetipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/farnesyl-transferase-inhibitor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_mechanism_of_action"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzyme-inhibition"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/nose"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/gnathostomata-vertebrate"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+                                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/herpesvirus-vaccines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/herpes-simplex-virus-vaccines"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/cheek"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/proglumide"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/loxiglumide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/amino-acid-motifs"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_affects_gene_product"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/farnesyl-protein-transferase"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/coenzymes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/signal-transduction-inhibition"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/quinolones"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/inhibition-of-cell-proliferation"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/craniata-chordata"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/fluxofenim"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/negative-regulation-of-angiogenesis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/contributes-to-morphology-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/face"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/positive-regulation-of-apoptosis"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/snout"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/antianxiety-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/loxiglumide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/p-hydroxynorephedrine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/r115777"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/molecular-targeting-drug"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/cytochromes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/capecitabinetipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/subdivision-of-head"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/gemcitabinetipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/J246"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/cyclophosphamidedoxorubicintipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/secondary-structure"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/proline-rich-protein-domains"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/oximes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/fluxofenim"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymesubject"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemical_or_drug_has_physiologic_effect"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/farnesylation-inhibition"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/gemcitabiner115777"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/beard"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/posterior_to"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/face"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnibtrastuzumab"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/nikkajicompounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/loxiglumide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/anti-ulcer-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/loxiglumide"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/r115777trastuzumab"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/metaraminol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/biogenic-substance"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/upper-jaw-region"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/part-of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/midface"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzymes"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/adrenergic-agonist"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/phenylpropanolamine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tamoxifentipifarnib"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment88/enzymes-and-coenzymes"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/enzyme-precursors"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment88/tipifarnib"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+

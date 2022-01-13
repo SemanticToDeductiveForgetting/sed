@@ -1,0 +1,1516 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/c:/ccviews/forget/restclient/ontologies/experiment22#"
+     xml:base="file:/c:/ccviews/forget/restclient/ontologies/experiment22"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/c:/ccviews/forget/restclient/ontologies/experiment22"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/bearer_of -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/bearer_of"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/chemotherapy_regimen_has_component -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/chemotherapy_regimen_has_component"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/develops-from -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/develops-from"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/disease_has_finding -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/disease_has_finding"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/disease_may_have_finding -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/disease_may_have_finding"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/has-related-match -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/has-related-match"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/has-role -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/has-role"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/only-in-taxon -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/ccviews/forget/experiment/experiment22/only-in-taxon"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/CHV_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/CHV_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/UMLS_Concept -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/UMLS_Concept"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/anti-adrenal -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/anti-adrenal"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/antianxiety-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/antianxiety-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/anticonvulsant-agent -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/anticonvulsant-agent"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/antineoplastic-agent-nos -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/antineoplastic-agent-nos"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/antitumor-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/antitumor-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/appendiceal-mucinous-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/appendiceal-mucinous-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/aromatic-chlorine-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/aromatic-chlorine-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/benzodiazepine-antianxiety-drug -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/benzodiazepine-antianxiety-drug"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/benzodiazepinones -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/benzodiazepinones"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/biliary-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/biliary-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/bioassay -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/bioassay"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/bottled-water -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/bottled-water"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/bretazenil -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/bretazenil"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cisplatinmitotane -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cisplatinmitotane"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cocaine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cocaine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-mucinous -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-mucinous"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-papillary -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-papillary"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-serous -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-serous"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cystic-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystic-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/cysts-containing-proteinaceous-fluid-present -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cysts-containing-proteinaceous-fluid-present"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/doxorubicine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/doxorubicine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/drinking-water -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/drinking-water&#45;&#45;purified- -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water--purified-"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/drinking-water-containing-carbohydrate -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water-containing-carbohydrate"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/drug-screening-assays-antitumor -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drug-screening-assays-antitumor"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/fresh-water -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/fresh-water"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/glandular-epithelial-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/glandular-epithelial-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/hcc0060 -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/hcc0060"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/hepatic-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/hepatic-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/hydrocarbons-chlorinated -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/hydrocarbons-chlorinated"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/ligament-of-liver -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ligament-of-liver"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/liver -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/liver"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/local-anesthetic -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/local-anesthetic"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mammalia -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mammalia"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mitotane -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mitotane-regimen -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mitotane-regimen"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mixed-endodermmesoderm-derived-structure -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mixed-endodermmesoderm-derived-structure"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mixed-medullary-and-follicular-carcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mixed-medullary-and-follicular-carcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mucinous-adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mucinous-adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma-of-pancreas -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma-of-pancreas"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/neoplasms-cystic-mucinous-and-serous -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/neoplasms-cystic-mucinous-and-serous"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/norcocaine -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/norcocaine"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/organic-compound -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organic-compound"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/organoselenium-compounds -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organoselenium-compounds"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/ovarian-adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ovarian-adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/ovarian-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ovarian-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/pancreatic-adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/pancreatic-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/papillary-adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/papillary-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/papillary-cystic-neoplasm -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystic-neoplasm"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/papillary-pattern -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-pattern"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/papillary-serous-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-serous-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/pesticide-metabolite -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/pesticide-metabolite"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/piperidines -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/piperidines"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/pseudomucinous-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/pseudomucinous-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/ribonucleosides -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ribonucleosides"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-uterus -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-uterus"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/selenazofurin -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/selenazofurin"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/serous-adenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/serous-adenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma-ovary -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma-ovary"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/slow-growing-mass -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/slow-growing-mass"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/terms-related-to-water-works-sewage-works-and-water-treatment -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/terms-related-to-water-works-sewage-works-and-water-treatment"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/transformed-vein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/transformed-vein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/tumor-stem-cell-assay -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/tumor-stem-cell-assay"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/umbilical-vein -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/umbilical-vein"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/vesamicol -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/vesamicol"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/water -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/water"/>
+    
+
+
+    <!-- file:/C:/ccviews/forget/experiment/experiment22/water-consumption -->
+
+    <owl:Class rdf:about="file:/C:/ccviews/forget/experiment/experiment22/water-consumption"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-uterus"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane-regimen"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bretazenil"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/antineoplastic-agent-nos"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/CHV_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/fresh-water"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mucinous-adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma-of-pancreas"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water-containing-carbohydrate"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/transformed-vein"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ligament-of-liver"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cocaine"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/norcocaine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/disease_has_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cysts-containing-proteinaceous-fluid-present"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/doxorubicine"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water--purified-"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/water"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/serous-adenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/disease_has_finding"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cysts-containing-proteinaceous-fluid-present"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-adenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/disease_may_have_finding"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-pattern"/>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/disease_may_have_finding"/>
+                                        <owl:allValuesFrom>
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/slow-growing-mass"/>
+                                            </owl:Class>
+                                        </owl:allValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/ovarian-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/antitumor-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cisplatinmitotane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/chemotherapy_regimen_has_component"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystic-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/hydrocarbons-chlorinated"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/anti-adrenal"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ribonucleosides"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/selenazofurin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/antianxiety-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bretazenil"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-adenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ovarian-adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/ovarian-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/serous-adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mixed-medullary-and-follicular-carcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/tumor-stem-cell-assay"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/tumor-stem-cell-assay"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/anticonvulsant-agent"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bretazenil"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/serous-adenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/liver"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/appendiceal-mucinous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-adenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystic-neoplasm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/norcocaine"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystic-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/vesamicol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/adenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystic-neoplasm"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/biliary-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/hepatic-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bottled-water"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-pattern"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/hcc0060"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bearer_of"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/glandular-epithelial-neoplasm"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/piperidines"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/vesamicol"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/pseudomucinous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bretazenil"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/benzodiazepine-antianxiety-drug"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/only-in-taxon"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mammalia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/papillary-serous-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/neoplasms-cystic-mucinous-and-serous"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/adenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/develops-from"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/umbilical-vein"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mucinous-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mucinous-adenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organic-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/selenazofurin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/benzodiazepinones"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/bretazenil"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/ovarian-cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/ovarian-adenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/pesticide-metabolite"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/organoselenium-compounds"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/selenazofurin"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/UMLS_Concept"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/aromatic-chlorine-compound"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/mitotane"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-mucinous"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/norcocaine"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-role"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/local-anesthetic"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/bioassay"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/tumor-stem-cell-assay"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-papillary"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/drug-screening-assays-antitumor"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/tumor-stem-cell-assay"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/pancreatic-cystadenocarcinoma"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/has-related-match"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/water-consumption"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma-serous"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/terms-related-to-water-works-sewage-works-and-water-treatment"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/drinking-water"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/salivary-gland-cystadenocarcinoma"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/disease_may_have_finding"/>
+                        <owl:someValuesFrom rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/slow-growing-mass"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/cystadenocarcinoma"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/serous-cystadenocarcinoma-ovary"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="file:/C:/ccviews/forget/experiment/experiment22/mixed-endodermmesoderm-derived-structure"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="file:/C:/ccviews/forget/experiment/experiment22/round-ligament-of-liver"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.0) http://owlapi.sourceforge.net -->
+
